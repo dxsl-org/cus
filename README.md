@@ -105,6 +105,8 @@ Toàn bộ lệnh, kể cả pipeline dữ liệu và crawler: [docs/ingest-runb
 
 Mỗi phase lab (15–19) có một nhật ký đầy đủ trong [docs/lab/journal/](docs/lab/journal/): mục tiêu, cách làm, tiêu chí thành công, và Deviation Log ghi theo ngày mọi quyết định, sự cố, kết quả âm và chi phí. Mục đích: người sau biết công thức nào đã thử, thắng hay thua bao nhiêu, tốn bao nhiêu, để khỏi phải chạy lại.
 
+Số đo thô của cả 55 run nằm trên Hugging Face: [DXSL/cus-lab-runs](https://huggingface.co/datasets/DXSL/cus-lab-runs). Gồm config, log train từng bước, bpb từng đoạn held-out để so cặp, kết quả ngữ cảnh dài, điểm eval từng câu theo id (không có đề), và tokenizer `lab-vi-32k`. Không có trọng số. Đồng bộ lại bằng `python -m lab.publish_runs`.
+
 ## License
 
 Mã nguồn và tài liệu: [Apache License 2.0](LICENSE). Dữ liệu từ bên thứ ba giữ license gốc của từng nguồn, ghi trong `manifests/sources.yaml`.
