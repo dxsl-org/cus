@@ -1,0 +1,30 @@
+{
+ "name": "mmlu",
+ "repo": "cais/mmlu",
+ "revision": "c30699e8356da336a370243923dbaf21066bb9fe",
+ "downloaded_at": "2026-11-19T14:09:21+00:00",
+ "local_dir": "eval/mmlu",
+ "bytes": 51503402,
+ "files": [
+  {
+   "path": "all/auxiliary_train-00000-of-00001.parquet",
+   "size": 47513731,
+   "sha256": "5126bb35f06c8ab7ac54be3c60ab02cf33adf8b93a79dcfeb071f53cac74efde"
+  },
+  {
+   "path": "all/dev-00000-of-00001.parquet",
+   "size": 76504,
+   "sha256": "2b19bde1ed8ca6b482fb283abc90e8e0d9d228947029c0b91795d64b28b3bc3f"
+  },
+  {
+   "path": "all/test-00000-of-00001.parquet",
+   "size": 3504718,
+   "sha256": "74a41822ce7d3def56e1682f958469c04642a5336a5ce912fa375fdb90fb25d7"
+  },
+  {
+   "path": "all/validation-00000-of-00001.parquet",
+   "size": 408449,
+   "sha256": "66cdf0b090ccb657d18d13cd81e31fdc55c3467da9642ffb178653268a97c8ef"
+  }
+ ]
+}

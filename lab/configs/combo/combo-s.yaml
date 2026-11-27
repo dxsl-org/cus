@@ -1,0 +1,24 @@
+# Phase 17 combo-S: the S-size winners together, to check that their gains add up before an M run.
+# Token mixer of H3/H4 (Gated DeltaNet 3:1 with gated attention) + FFN of A3 (32 fine-grained experts, top-4,
+# 1 shared, bias balancing) + MTP of H4. Baselines at the same 0.5B tokens and lr 3e-3: dense-S 0.8245,
+# A3 0.7913, H4 0.8076. Additive gains (−0.0332 − 0.0169) would land near 0.774.
+# Gated DeltaNet on H100 needs Triton >= 3.7.1 (fla #640): torch 2.12.1, as pinned in pyproject.toml.
+model:
+  d_model: 512
+  n_layers: 8
+  n_heads: 8
+  n_kv_heads: 4
+  gdn: {attention_every: 4}
+  attn_gate: true
+  mtp: {weight: 0.3}
+  moe: {n_experts: 32, top_k: 4, n_shared: 1, expert_hidden: 280, balance: bias, bias_rate: 1.0e-3}
+train:
+  name: combo-s
+  mix: {fineweb2_vie: 0.6, culturax_vi: 0.2, news: 0.08, law: 0.04, reference: 0.02, forum: 0.02,
+        literature: 0.02, health: 0.01, culture_history: 0.005, education: 0.005}
+  total_tokens: 5.0e8
+  batch_tokens: 262144
+  micro_batch: 8  # local 4070; Modal runs override with --micro-batch 32
+  lr: 3.0e-3
+  warmup_steps: 100
+  eval_every: 250

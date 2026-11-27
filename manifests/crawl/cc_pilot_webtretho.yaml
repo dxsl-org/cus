@@ -1,0 +1,8 @@
+source_id: cc_pilot_webtretho
+# Pilot of the Common Crawl adapter on the dead webtretho forum.
+adapter: commoncrawl
+rps: 1.0
+max_attempts: 6        # index.commoncrawl.org returns intermittent 504s under load
+params:
+  url_pattern: "webtretho.com/forum/*"
+  crawls: ["CC-MAIN-2022-49"]

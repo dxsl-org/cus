@@ -1,0 +1,9 @@
+name: hf_legal_th1nhng0
+repo: th1nhng0/vietnamese-legal-documents
+revision: 8977887f17be2defae4c5171d55562e1cde7d695
+allow_patterns: ["data/*.parquet", "README.md"]
+purpose: pretrain
+wave: 2
+license: vn-not-protected
+usage_scope: train_ok
+notes: 170.824 văn bản pháp luật VN kèm metadata và relationships hiệu lực. Export qua pipeline.ingest.legal_open_export.

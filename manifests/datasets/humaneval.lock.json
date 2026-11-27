@@ -1,0 +1,20 @@
+{
+ "name": "humaneval",
+ "repo": "openai/openai_humaneval",
+ "revision": "7dce6050a7d6d172f3cc5c32aa97f52fa1a2e544",
+ "downloaded_at": "2026-11-19T14:09:21+00:00",
+ "local_dir": "eval/humaneval",
+ "bytes": 90443,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 6523,
+   "sha256": null
+  },
+  {
+   "path": "openai_humaneval/test-00000-of-00001.parquet",
+   "size": 83920,
+   "sha256": "2f2871a15fbc95b6c683043359f4ed8e144c5a1c4f24f25f66bc51f598dfcfb6"
+  }
+ ]
+}

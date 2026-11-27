@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>LLM Data Studio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>LLM Data Studio</h1>
+  <nav>
+    <button data-tab="sources">Nguồn &amp; nhập</button>
+    <button data-tab="compose">Soạn</button>
+    <button data-tab="review" class="active">Duyệt</button>
+    <button data-tab="corpus">Corpus</button>
+    <button data-tab="stats">Thống kê</button>
+    <button data-tab="export">Xuất</button>
+  </nav>
+  <span id="job-status"></span>
+  <label style="font-size:12px;color:#c9d4df">Người duyệt <input id="user-name" type="text"></label>
+</header>
+
+<main>
+  <section id="tab-sources" class="tab">
+    <div class="cols">
+      <div>
+        <div class="panel"><h2>Nguồn câu hỏi</h2><table id="source-list"></table>
+          <h3>Thêm / sửa nguồn</h3><form id="source-form" class="grid"></form></div>
+      </div>
+      <div>
+        <div class="panel"><h2>Nhập file JSONL / CSV</h2>
+          <p class="muted">JSONL: mỗi dòng <code>{"kind", "content", "id"?}</code>. CSV có tiêu đề: <code>kind, question,
+            answer</code>, tuỳ chọn <code>system, domain, lang, difficulty, skills</code>. Mục nhập vào ở trạng thái chờ duyệt;
+            nhập lại không bị trùng.</p>
+          <form id="import-form" class="filters"></form></div>
+        <div class="panel"><h2>Nhập bộ eval công khai</h2>
+          <p class="muted">Đọc dataset đã tải bằng <code>hf_snapshot</code>; chỉ thêm mục còn thiếu.</p>
+          <form id="eval-form" class="filters"></form></div>
+        <div class="panel"><h2>Việc nền</h2><table id="job-list"></table></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tab-compose" class="tab"><div id="compose"></div></section>
+
+  <section id="tab-review" class="tab active">
+    <form id="filters" class="filters"></form>
+    <div id="review-summary"></div>
+    <div id="item-list"></div>
+    <div id="pager"></div>
+    <p class="keys"><b>Phím:</b> Enter duyệt &amp; sang mục sau · 1–9 chọn đáp án (trắc nghiệm) · Ctrl+D bỏ ·
+      Ctrl+R về chờ duyệt · Ctrl+E cần sửa · Ctrl+T (hoặc Alt+T) chạy verifier · Alt+H lịch sử · Alt+↑/↓ mục trước/sau</p>
+  </section>
+
+  <section id="tab-corpus" class="tab"><div id="corpus"></div></section>
+
+  <section id="tab-stats" class="tab"><div id="stats"></div></section>
+
+  <section id="tab-export" class="tab"><div id="export"></div></section>
+</main>
+
+<div id="toast"></div>
+<script src="app.js"></script>
+<script src="render.js"></script>
+<script src="sources.js"></script>
+<script src="compose.js"></script>
+<script src="review.js"></script>
+<script src="corpus.js"></script>
+<script src="stats.js"></script>
+<script src="export.js"></script>
+</body>
+</html>

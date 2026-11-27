@@ -1,0 +1,14 @@
+# Domain of every source the lab trains on, for the per-domain bpb lens (phase 15–17).
+# Keys follow taskset/taxonomy.yaml where one exists; literature, news, forum, reference, web are lab-only.
+# data_prep refuses a source missing here, so a new source is always classified on purpose.
+law: [vbpl_vn, vbpq_org_vn, toaan_gov_vn, tapchitoaan_vn, lsvn_vn, plo_vn]
+health: [alobacsi_com, suckhoedoisong_vn, tamanhhospital_vn, vinmec_com, tapchiyhocvietnam_vn]
+culture_history: [nghiencuulichsu_com, hoidisanvanhoa_vn, baovanhoa_vn, didau_com, vnphoto_net, nghiencuuquocte_org]
+education: [hocmai_vn, loigiaihay_com, vietjack_com, giaoducthoidai_vn, lazi_vn, vjol_info_vn]
+literature: [owner_books, caphesach_wordpress_com]
+news: [tuoitre_vn, cuoituan_tuoitre_vn, thanhnien_vn, sggp_org_vn, vneconomy_vn, nhandan_vn, baochinhphu_vn,
+       cafef_vn, genk_vn, doanhnhansaigon_vn, thesaigontimes_vn, nguoidothi_net_vn, phunuonline_com_vn, tgs_vn,
+       tapchicongsan_org_vn, tiasang_com_vn, vnexpress_net, chinhsachonline_vn, vsqi_gov_vn]
+forum: [tinhte_vn, voz_vn, otofun_net, dembuon_vn, kenhsinhvien_vn, noron_vn, x_twitter, spiderum_com, viblo_asia]
+reference: [vi_wikipedia_org]
+web: [fineweb2_vie, culturax_vi]

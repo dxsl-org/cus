@@ -1,0 +1,14 @@
+# Phase 15, size M (~100M params incl. 32k embedding): the baseline phase 16–17 must beat at equal FLOPs.
+# lr 2e-3: on the full S run 3e-3 beat 1.5e-3 (0.8245 vs 0.8383 bpb) although the 0.1B sweep ranked them the other way;
+# M is 1.5x wider, so scale down ~1/1.5 (optimal Adam LR falls roughly with width).
+model: {d_model: 768, n_layers: 12, n_heads: 12, n_kv_heads: 4}
+train:
+  name: dense-m
+  mix: {fineweb2_vie: 0.6, culturax_vi: 0.2, news: 0.08, law: 0.04, reference: 0.02, forum: 0.02,
+        literature: 0.02, health: 0.01, culture_history: 0.005, education: 0.005}
+  total_tokens: 2.0e9
+  batch_tokens: 524288
+  micro_batch: 8
+  lr: 2.0e-3
+  warmup_steps: 200
+  eval_every: 250

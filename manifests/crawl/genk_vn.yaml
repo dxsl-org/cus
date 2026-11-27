@@ -1,0 +1,6 @@
+source_id: genk_vn
+adapter: sitemap
+rps: 1.0
+params:
+  sitemaps: ["https://genk.vn/sitemap.xml"]
+  include: 'genk\.vn/[^/?#]+-\d{15,}\.chn$'

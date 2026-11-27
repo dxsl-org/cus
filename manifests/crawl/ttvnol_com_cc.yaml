@@ -1,0 +1,11 @@
+source_id: ttvnol_com_cc
+# TTVN Online captures in Common Crawl (index showed captures in 2013-2018 crawls).
+adapter: commoncrawl
+rps: 1.0
+max_attempts: 10       # index.commoncrawl.org is intermittently 502/504
+params:
+  url_pattern: "*.ttvnol.com"
+  crawls: ["CC-MAIN-2008-2009", "CC-MAIN-2009-2010", "CC-MAIN-2012", "CC-MAIN-2013-20", "CC-MAIN-2013-48",
+           "CC-MAIN-2014-10", "CC-MAIN-2014-23", "CC-MAIN-2015-11", "CC-MAIN-2015-32", "CC-MAIN-2016-07",
+           "CC-MAIN-2016-30", "CC-MAIN-2017-04", "CC-MAIN-2018-05", "CC-MAIN-2019-04", "CC-MAIN-2020-05",
+           "CC-MAIN-2021-04", "CC-MAIN-2022-05"]

@@ -1,0 +1,9 @@
+name: viquad2
+repo: taidng/UIT-ViQuAD2.0
+revision: 406f09a45cc106a8f7b7fd0c25078883fe58cb1f
+allow_patterns: ["data/*.parquet", "README.md"]
+purpose: eval
+wave: 1
+license: unknown (bản mirror cộng đồng của UIT-ViQuAD 2.0)
+usage_scope: blocked
+notes: Đọc hiểu tiếng Việt. Chỉ dùng để đánh giá; đưa vào danh sách khử nhiễm.

@@ -1,0 +1,26 @@
+import sys
+import json
+from scrapers import loigiaihay
+
+sys.stdout.reconfigure(encoding='utf-8')
+
+if __name__ == "__main__":
+    print("--- Starting Loigiaihay.com ---")
+    
+    with open("scraping_config.json", "r", encoding="utf-8") as f:
+        config = json.load(f)
+        
+    global_settings = config.get("global_settings", {})
+    source_settings = None
+    
+    for src in config.get("sources", []):
+        if src.get("id") == "loigiaihay_com":
+            source_settings = src
+            break
+            
+    if not source_settings:
+        print("Error: Configuration for loigiaihay_com not found.")
+        sys.exit(1)
+        
+    loigiaihay.process(source_settings, global_settings)
+    print("--- Finished Loigiaihay.com ---")

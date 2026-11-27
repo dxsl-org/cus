@@ -1,0 +1,12 @@
+name: opc_fineweb_code
+repo: OpenCoder-LLM/opc-fineweb-code-corpus
+revision: 9e8e48e666c226294d6f9e6c2e13f2c84c1c06f3
+allow_patterns: ["data/train-000[0-9][0-9]-of-00510.parquet"]
+purpose: pretrain
+wave: 2
+license: mit
+usage_scope: train_ok
+notes: "Văn bản web về lập trình và khoa học máy tính (tutorial, giải thích thuật toán, lý thuyết), lọc từ FineWeb. Lấy 100/510 file (khoảng 27 GB); phần còn lại chờ ổ 20 TB."
+# `dump` is a CC snapshot name (CC-MAIN-YYYY-WW), not a timestamp; the corpus was released 2024-11.
+default_crawl_time: "2024-11-01T00:00:00"
+fields: {text: text, url: url, meta: [dump, tag, file_path]}

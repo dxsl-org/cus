@@ -1,0 +1,10 @@
+name: finemath_3plus
+repo: HuggingFaceTB/finemath
+revision: e92b25a616738fe95dc186b64dfb19f9c8525594
+allow_patterns: ["finemath-3plus/*", "README.md"]
+purpose: pretrain
+wave: 2
+license: odc-by
+usage_scope: train_ok
+notes: "Toán từ Common Crawl, điểm chất lượng toán >= 3 (khoảng 34B token, 60,6 GB). Gồm cả finemath-4plus (lọc int_score >= 4 khi cần tập tinh)."
+fields: {text: text, url: url, crawl_time: fetch_time, meta: [score, int_score, crawl, token_count]}

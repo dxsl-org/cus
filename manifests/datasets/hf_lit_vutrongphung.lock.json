@@ -1,0 +1,20 @@
+{
+ "name": "hf_lit_vutrongphung",
+ "repo": "trieunh/Vietnamese_literature_VuTrongPhung",
+ "revision": "c7f5df1844f19072ab49e7b1593ae8f11a62e29a",
+ "downloaded_at": "2026-11-20T01:21:11+00:00",
+ "local_dir": "raw/open_datasets/hf_lit_vutrongphung",
+ "bytes": 500621,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 1656,
+   "sha256": null
+  },
+  {
+   "path": "collections_chunked.parquet",
+   "size": 498965,
+   "sha256": "4d183308a016d1d072ac0d144dcbd050f15c99653d6fa9ab5c4cf9577d122822"
+  }
+ ]
+}

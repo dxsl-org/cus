@@ -1,0 +1,595 @@
+{
+ "name": "proofpile2_algebraic_stack",
+ "repo": "EleutherAI/proof-pile-2",
+ "revision": "901a9273a770e9d4138c5ddd91802f9c5c6cdc4b",
+ "downloaded_at": "2026-11-22T05:11:18+00:00",
+ "local_dir": "raw/open_datasets/proofpile2_algebraic_stack",
+ "bytes": 7656096711,
+ "files": [
+  {
+   "path": "algebraic-stack/test/agda-test.jsonl.zst",
+   "size": 122777,
+   "sha256": "860b284b392a7dbfc1c16de7e0cb8a5f42dc73637d118b43cfddf1b6190f1711"
+  },
+  {
+   "path": "algebraic-stack/test/c-test.jsonl.zst",
+   "size": 76031,
+   "sha256": "cb6b7a091291f0c01e85a24ab2212672acf211a867539551871e9151d9405b41"
+  },
+  {
+   "path": "algebraic-stack/test/cpp-test.jsonl.zst",
+   "size": 2888416,
+   "sha256": "969feb0ae6f35601f6d0671b0687fa1514fb2bff5838fe4d1ad5b3e027628cab"
+  },
+  {
+   "path": "algebraic-stack/test/fortran-test.jsonl.zst",
+   "size": 2563133,
+   "sha256": "83c71c769a86c1ab7bffb78ff882f1778bf3ee248c7c2c3f091c3001f2e3eda5"
+  },
+  {
+   "path": "algebraic-stack/test/gap-test.jsonl.zst",
+   "size": 6750,
+   "sha256": "17b807593b5b079b9401237432f70ac759ce241012f7b00e3f32a14504e1e44a"
+  },
+  {
+   "path": "algebraic-stack/test/github-MATLAB-test-0000.jsonl.zst",
+   "size": 875065,
+   "sha256": "8b902af1820b0d558988a795d10fede8d537e8217e63e662d25f4ca4eac04c94"
+  },
+  {
+   "path": "algebraic-stack/test/github-coq-test-0000.jsonl.zst",
+   "size": 1613207,
+   "sha256": "33d903b82a48afbefbf9d911b54bf9aa49b9e94290ea2b0b9b86ce4947f805f3"
+  },
+  {
+   "path": "algebraic-stack/test/github-isabelle-test-0000.jsonl.zst",
+   "size": 562278,
+   "sha256": "62a2392b25d052775d543d9f1f17e41b3c9cc22e1d66cbf16bd8960cc129c000"
+  },
+  {
+   "path": "algebraic-stack/test/github-lean-test-0000.jsonl.zst",
+   "size": 559164,
+   "sha256": "315351d8e7cf8747a18fec85b10380b6dbd76357a7503c4b020b109cb00fe4be"
+  },
+  {
+   "path": "algebraic-stack/test/haskell-test.jsonl.zst",
+   "size": 41722,
+   "sha256": "78a613e5adaec95fd8671b39f0ca0a551403b327e6f28f89900ae994c55a03ea"
+  },
+  {
+   "path": "algebraic-stack/test/idris-test.jsonl.zst",
+   "size": 36022,
+   "sha256": "97506761e4be0341f4af0c66b1f585c708bdadba66341f48a576c190cf7a7acb"
+  },
+  {
+   "path": "algebraic-stack/test/isa_proofsteps.jsonl.zst",
+   "size": 487029,
+   "sha256": "f395c445570d7de8be03380025cd006d4d8de29c112e20a910d02f7cd7243ccf"
+  },
+  {
+   "path": "algebraic-stack/test/julia-test.jsonl.zst",
+   "size": 1979607,
+   "sha256": "62c5c59abdabf90d96d07aaf50f515ce5b73f8f63c347d2cc665bfcf116c7f09"
+  },
+  {
+   "path": "algebraic-stack/test/jupyter-notebook-test.jsonl.zst",
+   "size": 635818,
+   "sha256": "9d537e2ab0344305da5c58ecf7772f56cd1bc99292921b0a2647845227fa755d"
+  },
+  {
+   "path": "algebraic-stack/test/lean_proofsteps.jsonl.zst",
+   "size": 30290,
+   "sha256": "231beaec25d23dcc6ae904b15f1cbbf288503fc745bf6d30eb30a8ea47ebc90d"
+  },
+  {
+   "path": "algebraic-stack/test/maple-test.jsonl.zst",
+   "size": 4084,
+   "sha256": "ba389c57726e3cb111e7d008d2fa59bdb519d717c30b7f8026ed2214414ee7a3"
+  },
+  {
+   "path": "algebraic-stack/test/python-test.jsonl.zst",
+   "size": 24696497,
+   "sha256": "36782516b278752a02275dfcfe9ba122be6411945f40d91654fd646345aedf8d"
+  },
+  {
+   "path": "algebraic-stack/test/r-test.jsonl.zst",
+   "size": 243127,
+   "sha256": "177766ea96fb9bea65c7a5f7c6271a071c786787aae7013a3726ee61ea879ea9"
+  },
+  {
+   "path": "algebraic-stack/test/tex-test.jsonl.zst",
+   "size": 2518784,
+   "sha256": "2e2885622586a1db559d65396f331cba923ca7a12a458ec5db4b7998837ddb2d"
+  },
+  {
+   "path": "algebraic-stack/train/agda0000.jsonl.zst",
+   "size": 23489609,
+   "sha256": "f91684112df7423acad33fdd0d1d478a4ca6b9c2bb09c473cbf51318fd1885d3"
+  },
+  {
+   "path": "algebraic-stack/train/c0000.jsonl.zst",
+   "size": 14341007,
+   "sha256": "5a9308b6b2a0ef74e0fecc449a3836e4f03141eb07eaaa81a17daa4aa98a5d11"
+  },
+  {
+   "path": "algebraic-stack/train/cpp0000.jsonl.zst",
+   "size": 114405443,
+   "sha256": "13e8c73c8131504d7231eb4e4451177f9bcb4bc495db56b073ef4d598b2ab3db"
+  },
+  {
+   "path": "algebraic-stack/train/cpp0001.jsonl.zst",
+   "size": 114859103,
+   "sha256": "0408bce350a0cbd2f696ded74cbc9e5524751623522e2634e36b508fdbe83684"
+  },
+  {
+   "path": "algebraic-stack/train/cpp0002.jsonl.zst",
+   "size": 115305750,
+   "sha256": "cbdea87ed40005d3ae6540700939c1ee3816a763148c87285e3d72dccdab725e"
+  },
+  {
+   "path": "algebraic-stack/train/cpp0003.jsonl.zst",
+   "size": 115756492,
+   "sha256": "d41e7364eb04c539b63f2aa679fc6d0e0d0f14370c3367be8ce7d86cb887743b"
+  },
+  {
+   "path": "algebraic-stack/train/cpp0004.jsonl.zst",
+   "size": 72236888,
+   "sha256": "2aa6794434847e9c7aa0202c32a112fcaf13ae392cafba7a354eb67ffc54e937"
+  },
+  {
+   "path": "algebraic-stack/train/fortran0000.jsonl.zst",
+   "size": 128540926,
+   "sha256": "03dd9d1253097ec0f7e3af349f1024882d23a670a6d0b0a620c45b1594c3ac1e"
+  },
+  {
+   "path": "algebraic-stack/train/fortran0001.jsonl.zst",
+   "size": 126790953,
+   "sha256": "f982772c330da2f5a0ca4fd0784f01721131ecdc393713730abd09fed1c0ee8a"
+  },
+  {
+   "path": "algebraic-stack/train/fortran0002.jsonl.zst",
+   "size": 126345876,
+   "sha256": "b6f9f9e84542ff150a0ce31d5a60f25e1c50cc287c60cc953e84fb3d93892efe"
+  },
+  {
+   "path": "algebraic-stack/train/fortran0003.jsonl.zst",
+   "size": 30281852,
+   "sha256": "979639da4cba68a14c58f2ed7d2a03783b596760747237051a7a15e7c71aa2ac"
+  },
+  {
+   "path": "algebraic-stack/train/gap0000.jsonl.zst",
+   "size": 1936287,
+   "sha256": "81c6a0755f53d87d5eb80822e2f23b561194b22b471067b84e27ba045c4a0b44"
+  },
+  {
+   "path": "algebraic-stack/train/github-MATLAB-train-0000.jsonl.zst",
+   "size": 50744800,
+   "sha256": "c145ec2dee708f7574c29fd95a0580101948f5f15af1e0b177e8e477185fc2a9"
+  },
+  {
+   "path": "algebraic-stack/train/github-MATLAB-train-0001.jsonl.zst",
+   "size": 13,
+   "sha256": "f96deff1816083fdff8bc3e46c3fe6ca46a6bb49f4d5a00627616c13237a512c"
+  },
+  {
+   "path": "algebraic-stack/train/github-MATLAB-train-0002.jsonl.zst",
+   "size": 13,
+   "sha256": "f96deff1816083fdff8bc3e46c3fe6ca46a6bb49f4d5a00627616c13237a512c"
+  },
+  {
+   "path": "algebraic-stack/train/github-MATLAB-train-0003.jsonl.zst",
+   "size": 13,
+   "sha256": "f96deff1816083fdff8bc3e46c3fe6ca46a6bb49f4d5a00627616c13237a512c"
+  },
+  {
+   "path": "algebraic-stack/train/github-coq-train-0000.jsonl.zst",
+   "size": 159963702,
+   "sha256": "bdd6af156f42b7ef4413a9e156021b6121bd852efa096ce2f342d2ef562027ab"
+  },
+  {
+   "path": "algebraic-stack/train/github-coq-train-0001.jsonl.zst",
+   "size": 13,
+   "sha256": "f96deff1816083fdff8bc3e46c3fe6ca46a6bb49f4d5a00627616c13237a512c"
+  },
+  {
+   "path": "algebraic-stack/train/github-coq-train-0002.jsonl.zst",
+   "size": 13,
+   "sha256": "f96deff1816083fdff8bc3e46c3fe6ca46a6bb49f4d5a00627616c13237a512c"
+  },
+  {
+   "path": "algebraic-stack/train/github-isabelle-train-0000.jsonl.zst",
+   "size": 149951674,
+   "sha256": "fdf127052418af397b28c37019176f34982568932bdf26be17fdb429aa370826"
+  },
+  {
+   "path": "algebraic-stack/train/github-lean-train-0000.jsonl.zst",
+   "size": 102809256,
+   "sha256": "d06545086563cc9d98d4b3bead1831fff3edbbf53de893b335bfa576ef3b8523"
+  },
+  {
+   "path": "algebraic-stack/train/haskell0000.jsonl.zst",
+   "size": 7342825,
+   "sha256": "45270fa8c651a300ad1290e14af2864d92afc3708cbe180a98659e836bad4738"
+  },
+  {
+   "path": "algebraic-stack/train/idris0000.jsonl.zst",
+   "size": 8656552,
+   "sha256": "8bb4f12ecf2a7502cb0ac3146ed688dc92d672b2254441fefbffef86f50f9aa4"
+  },
+  {
+   "path": "algebraic-stack/train/isa_proofsteps.jsonl.zst",
+   "size": 93217201,
+   "sha256": "e6ce9d5dc9b4ee2ffa01a416538a0fd5fd4d9bfe022589228d0b203514a25af9"
+  },
+  {
+   "path": "algebraic-stack/train/julia0000.jsonl.zst",
+   "size": 69439299,
+   "sha256": "a0707aa88a1c6e702c95eb28e8f0713c35d341a2b5e82f18a9f6add364dd29e8"
+  },
+  {
+   "path": "algebraic-stack/train/julia0001.jsonl.zst",
+   "size": 69502849,
+   "sha256": "ef8d84a7d0dc5b218c673e974989d53719cda688ede3f9859c49110576ba6492"
+  },
+  {
+   "path": "algebraic-stack/train/julia0002.jsonl.zst",
+   "size": 69390517,
+   "sha256": "d61145a27f1a0cc0a92d0ce15b14b7475eac8131e12e5537430ea865f4b17d7e"
+  },
+  {
+   "path": "algebraic-stack/train/julia0003.jsonl.zst",
+   "size": 69351307,
+   "sha256": "57e9ef306d471580418e36ba9c2e7d56f371b4c8c5fcb5c8465ef5959f711549"
+  },
+  {
+   "path": "algebraic-stack/train/julia0004.jsonl.zst",
+   "size": 69935988,
+   "sha256": "698cccf7db990fd2019b547873051509c7c8ae4eee17b60b6782a22177c75825"
+  },
+  {
+   "path": "algebraic-stack/train/julia0005.jsonl.zst",
+   "size": 58960848,
+   "sha256": "7bf06ffdc7b8b68f51fe9cf60627876f47d01febe2d1f07c13e27182615d92e3"
+  },
+  {
+   "path": "algebraic-stack/train/jupyter-notebook0000.jsonl.zst",
+   "size": 133207663,
+   "sha256": "1017dbd56edd1861aa9cc05e9d8d6b81908a56913689f2ad385e81a0bc09c0ff"
+  },
+  {
+   "path": "algebraic-stack/train/lean_proofsteps.jsonl.zst",
+   "size": 12699102,
+   "sha256": "c4550cd6b0e57aeefd4be80219c42ebe3bdb3760a874bfd20c5b3565a3a20dc2"
+  },
+  {
+   "path": "algebraic-stack/train/maple0000.jsonl.zst",
+   "size": 1274918,
+   "sha256": "e77dd977c7aa528dfb39ddd9ce56aba2f6db9e3b56590336781d8fd45b6b1c13"
+  },
+  {
+   "path": "algebraic-stack/train/python0000.jsonl.zst",
+   "size": 115687724,
+   "sha256": "bd510ecf99bdee4076993fc8f38d2462b59322d9f1e9733fd9bb3868b551e9cc"
+  },
+  {
+   "path": "algebraic-stack/train/python0001.jsonl.zst",
+   "size": 116481606,
+   "sha256": "13a6746efe4400f6199c2f28acdf505d435f9f963718ee3baa86aedeafa9da09"
+  },
+  {
+   "path": "algebraic-stack/train/python0002.jsonl.zst",
+   "size": 116791862,
+   "sha256": "bf108512a02e2d60d82937e52003ccb2cb4ddd68bbbc5e4114131c46f044aefc"
+  },
+  {
+   "path": "algebraic-stack/train/python0003.jsonl.zst",
+   "size": 115869253,
+   "sha256": "e4f45764ff20eab4065968e0a658bd79889c157ff46efe5e1b16a6b5fda32f8a"
+  },
+  {
+   "path": "algebraic-stack/train/python0004.jsonl.zst",
+   "size": 117278131,
+   "sha256": "c37b98341cc7211f0ae2bdaf3bcc011e08e7e846c4c2ed07a17a257fe1632273"
+  },
+  {
+   "path": "algebraic-stack/train/python0005.jsonl.zst",
+   "size": 116621387,
+   "sha256": "a2d0507309af87f982a87d5532d3350ce9126b2229a17f33262d61386f55ecd6"
+  },
+  {
+   "path": "algebraic-stack/train/python0006.jsonl.zst",
+   "size": 115902730,
+   "sha256": "06d1ec995f05bca5afef21a1d3e959b29159f89029776e250c523077bc266627"
+  },
+  {
+   "path": "algebraic-stack/train/python0007.jsonl.zst",
+   "size": 115749540,
+   "sha256": "0fd9710b81c2bda157515500754c15215d6be57cd4d6319ae594ad1898166baf"
+  },
+  {
+   "path": "algebraic-stack/train/python0008.jsonl.zst",
+   "size": 117073377,
+   "sha256": "84c468b9684b0af921f5f659d096c4a612be5c041777b6bacd6d9cd25337a660"
+  },
+  {
+   "path": "algebraic-stack/train/python0009.jsonl.zst",
+   "size": 116195162,
+   "sha256": "9a0eb962d3301b7e02cbb51b09e4592eec7c985270807f308ef60b827de56e1f"
+  },
+  {
+   "path": "algebraic-stack/train/python0010.jsonl.zst",
+   "size": 114488699,
+   "sha256": "7dc71ae2dac0244aedc49df19ae387b25ff2e06383c0b69bd97401efc4ba647e"
+  },
+  {
+   "path": "algebraic-stack/train/python0011.jsonl.zst",
+   "size": 117154720,
+   "sha256": "0f54591e7b433e7e92aa6f919c126b6b17eeefa68cee06ccd8b9a715e7037f57"
+  },
+  {
+   "path": "algebraic-stack/train/python0012.jsonl.zst",
+   "size": 115592974,
+   "sha256": "8cb3d5ede819f7482648e65d7abbef4658bad8335f3a211b9cf28a2a1d5035eb"
+  },
+  {
+   "path": "algebraic-stack/train/python0013.jsonl.zst",
+   "size": 117121791,
+   "sha256": "0f5e764ad13a7f411553116d396077dac7ce46c971223b7c9af9c2d3ea0cb8b5"
+  },
+  {
+   "path": "algebraic-stack/train/python0014.jsonl.zst",
+   "size": 115128591,
+   "sha256": "1935d89dbe89e3b9362d01c929d0facc0df03532d6d1d3472a38ef73e4678be1"
+  },
+  {
+   "path": "algebraic-stack/train/python0015.jsonl.zst",
+   "size": 115595341,
+   "sha256": "43a3abff3840d433d18347869dddee9e2e49a1585235065713bcd9ec09e303c2"
+  },
+  {
+   "path": "algebraic-stack/train/python0016.jsonl.zst",
+   "size": 115203021,
+   "sha256": "3f079e64f7a0803cf968fd55d0c9b35cab455e07f6431aa6f75d27f906da9138"
+  },
+  {
+   "path": "algebraic-stack/train/python0017.jsonl.zst",
+   "size": 115219282,
+   "sha256": "797c8fd322048855af27e40a0023fba051df31fe9eaa2ba3a428079d3eaa274f"
+  },
+  {
+   "path": "algebraic-stack/train/python0018.jsonl.zst",
+   "size": 117918253,
+   "sha256": "b38225cd7ec7e2cc1b9c85ab172e51218ab235fafd0cf7eb5d24b20122b1226f"
+  },
+  {
+   "path": "algebraic-stack/train/python0019.jsonl.zst",
+   "size": 115913338,
+   "sha256": "5645007954f6188081c974bca4e90fd8c5ae41ba310d7cc398949e68a02de1cf"
+  },
+  {
+   "path": "algebraic-stack/train/python0020.jsonl.zst",
+   "size": 115227963,
+   "sha256": "e69d802bee3215cd28c81def589c83b0f4124ee4c21431d64e088c9661232759"
+  },
+  {
+   "path": "algebraic-stack/train/python0021.jsonl.zst",
+   "size": 116377833,
+   "sha256": "d26d5a4707ab9166b7cfefbdefc7e58a87987f03b656f47bf20be5b190711e91"
+  },
+  {
+   "path": "algebraic-stack/train/python0022.jsonl.zst",
+   "size": 116648552,
+   "sha256": "71c9b53bec9e6cc3784c23817fe5d27a0a1f0d5cc781aac903d4b8ae9097bd16"
+  },
+  {
+   "path": "algebraic-stack/train/python0023.jsonl.zst",
+   "size": 116693254,
+   "sha256": "c7e79813273cb089e846d0aacc7bb4b6d40d770e6430bfdcb6a50c3356512187"
+  },
+  {
+   "path": "algebraic-stack/train/python0024.jsonl.zst",
+   "size": 116461839,
+   "sha256": "b58e186916b38f6d3316bbd0a9fe372f318d74931f1b73721b420cb7775f65da"
+  },
+  {
+   "path": "algebraic-stack/train/python0025.jsonl.zst",
+   "size": 114584517,
+   "sha256": "a3a6d65845e64ef9dc4aacde4be7ff196256d2c2518fc7c1c3812b084ecd0e9a"
+  },
+  {
+   "path": "algebraic-stack/train/python0026.jsonl.zst",
+   "size": 115724199,
+   "sha256": "94a5fdbb2530e10188fd34e25beb9cef3702f9fa9b682ea0fff3cbc0d08fda5f"
+  },
+  {
+   "path": "algebraic-stack/train/python0027.jsonl.zst",
+   "size": 115920315,
+   "sha256": "ef010a663e98b39cf2fc912c9377422c7a99aad6e22c0a58f6c553b77d83a609"
+  },
+  {
+   "path": "algebraic-stack/train/python0028.jsonl.zst",
+   "size": 117212721,
+   "sha256": "2792aa4aaaa054ac3e367a159f44f25b4362ea7772c894c39fee03312e3694a2"
+  },
+  {
+   "path": "algebraic-stack/train/python0029.jsonl.zst",
+   "size": 117046041,
+   "sha256": "73492f7c7d741094c4608489de8786eefc3d86cf4a6d3e955684b9e5d9d13ceb"
+  },
+  {
+   "path": "algebraic-stack/train/python0030.jsonl.zst",
+   "size": 114584214,
+   "sha256": "a118db13fed9fcbba09941a7b644ada5f10d4e8179aa833b18fa46ff44391b9a"
+  },
+  {
+   "path": "algebraic-stack/train/python0031.jsonl.zst",
+   "size": 115718582,
+   "sha256": "8cbd936ed453241164fe7313565a0951c9ac477201d5f50b364337204b1c0fcc"
+  },
+  {
+   "path": "algebraic-stack/train/python0032.jsonl.zst",
+   "size": 118636018,
+   "sha256": "d4a68186193d55829378abf2b6902e50fc5b82f95d38b61317d04da2192bc774"
+  },
+  {
+   "path": "algebraic-stack/train/python0033.jsonl.zst",
+   "size": 115715122,
+   "sha256": "4434d1bd8cfa14e091d7b6884cac931f12b0e742056ec81ee806b928398d32fe"
+  },
+  {
+   "path": "algebraic-stack/train/python0034.jsonl.zst",
+   "size": 115508649,
+   "sha256": "9eadb6dd3f1ca2f4c0b04e4fa5a297d8fabacbc280b93a2048b89ab4e0175c00"
+  },
+  {
+   "path": "algebraic-stack/train/python0035.jsonl.zst",
+   "size": 117070878,
+   "sha256": "ee13037eda70431f436be972074bed4c15e240abf9f9004c98d232abc986a966"
+  },
+  {
+   "path": "algebraic-stack/train/python0036.jsonl.zst",
+   "size": 117140188,
+   "sha256": "d1a0fd0d6482115862c81443ab5fb4e9bf49173f0832c42111965cdd9c362fcd"
+  },
+  {
+   "path": "algebraic-stack/train/python0037.jsonl.zst",
+   "size": 115793743,
+   "sha256": "62e03a85d3a7d1f5b7d62736d9d25d9b9d8ceca52866268d0d2ac2478c20c088"
+  },
+  {
+   "path": "algebraic-stack/train/python0038.jsonl.zst",
+   "size": 115864913,
+   "sha256": "103439d7bce1f1c0153cd28be92ccb025ef867497c91318a40c5a262209bcbe6"
+  },
+  {
+   "path": "algebraic-stack/train/python0039.jsonl.zst",
+   "size": 116359471,
+   "sha256": "847a2f814af13be337fb76b7df47f8d500ae1450ac1d9b0c9f7cf15d7fdea0ec"
+  },
+  {
+   "path": "algebraic-stack/train/python0040.jsonl.zst",
+   "size": 115827424,
+   "sha256": "1c26d154ddd979230998eefbe19af33e6242e767a920d977915f92f70da9bfa5"
+  },
+  {
+   "path": "algebraic-stack/train/python0041.jsonl.zst",
+   "size": 100145624,
+   "sha256": "b8c217a5cbe0d61fdec0da733e03ce98db652218bb974cea1d0436cf962bc89c"
+  },
+  {
+   "path": "algebraic-stack/train/r0000.jsonl.zst",
+   "size": 54474201,
+   "sha256": "f659195744f757c83b969787b2bf6f8e0ec65c034a6d1eb30dfa55c9dd9e686b"
+  },
+  {
+   "path": "algebraic-stack/train/tex0000.jsonl.zst",
+   "size": 262218789,
+   "sha256": "a8f1a543c65593b326190ecc02e61fce41459bfbb30886580fafd6480cb2e632"
+  },
+  {
+   "path": "algebraic-stack/train/tex0001.jsonl.zst",
+   "size": 259295920,
+   "sha256": "9f31d20024b5311cb62dbfa6c60bc76cbfd2a8f68d0f10d13685a0877ccd890e"
+  },
+  {
+   "path": "algebraic-stack/train/tex0002.jsonl.zst",
+   "size": 26274775,
+   "sha256": "d23aa51b2f4759088f7abc4ccf0a320e5e9928fd44706ac989357a466a857d3a"
+  },
+  {
+   "path": "algebraic-stack/validation/agda-validation.jsonl.zst",
+   "size": 87669,
+   "sha256": "a604b46104276ed98396b74dc865476a020848999d482cdbb6ba15a9cd67eae3"
+  },
+  {
+   "path": "algebraic-stack/validation/c-validation.jsonl.zst",
+   "size": 58438,
+   "sha256": "7635f191e08fc39c5220953db9d81a72489f408153ae76a429f561ddaa2af943"
+  },
+  {
+   "path": "algebraic-stack/validation/cpp-validation.jsonl.zst",
+   "size": 2691406,
+   "sha256": "f1d30cbd7152981347ac05e4a4d3a06b98f0b74936159586081eb3382209e04c"
+  },
+  {
+   "path": "algebraic-stack/validation/fortran-validation.jsonl.zst",
+   "size": 1943225,
+   "sha256": "669591cf35553260d786221442bd113359694b092801e24cc4803f52f2c8ce72"
+  },
+  {
+   "path": "algebraic-stack/validation/gap-validation.jsonl.zst",
+   "size": 8347,
+   "sha256": "2acd97f2d5f06e645115c9032614dec8891ad95744374e2fa49832f31c49a18e"
+  },
+  {
+   "path": "algebraic-stack/validation/github-MATLAB-validation-0000.jsonl.zst",
+   "size": 761850,
+   "sha256": "14554658f6a95215f013e573ebeaa45e8c41ace0d598d487713168c551df2ef2"
+  },
+  {
+   "path": "algebraic-stack/validation/github-coq-validation-0000.jsonl.zst",
+   "size": 2058655,
+   "sha256": "f6668131b0d2fb98f4570ee0e62092d8adef8f7d93816ec5d2a27b26e1b357b0"
+  },
+  {
+   "path": "algebraic-stack/validation/github-isabelle-validation-0000.jsonl.zst",
+   "size": 775392,
+   "sha256": "33f21725ebf2385dbbc5a5dc9e6b1efd44e7271a984edcb22f045fdf178ad3f4"
+  },
+  {
+   "path": "algebraic-stack/validation/github-lean-validation-0000.jsonl.zst",
+   "size": 695474,
+   "sha256": "bad34f5a3a6880789958aff0cc40b1da07d60bef8d3ade5f835f14deeb072d43"
+  },
+  {
+   "path": "algebraic-stack/validation/haskell-validation.jsonl.zst",
+   "size": 28914,
+   "sha256": "3f02df1f916d83dd53b923230de820497a9b0c3764b5cc237c373996c3d527fc"
+  },
+  {
+   "path": "algebraic-stack/validation/idris-validation.jsonl.zst",
+   "size": 51404,
+   "sha256": "8e8e40ccb6326b23cd4945905c9e8a59dcea05f140f7845f01a6c165e42b5580"
+  },
+  {
+   "path": "algebraic-stack/validation/isa_proofsteps.jsonl.zst",
+   "size": 604679,
+   "sha256": "2b4e8cfd0a3a5e44413ba5aa76ed5b56a6d5eb20e7416427640d6c8767bcfafe"
+  },
+  {
+   "path": "algebraic-stack/validation/julia-validation.jsonl.zst",
+   "size": 2027002,
+   "sha256": "3d95e674716d5b04348c7b26f8c748b0401924e7143548216e5f96da393ade2c"
+  },
+  {
+   "path": "algebraic-stack/validation/jupyter-notebook-validation.jsonl.zst",
+   "size": 623451,
+   "sha256": "e2158dd5ae3ece06299034dcf1cdc22122ec29b78076982b8a64108e22b9d905"
+  },
+  {
+   "path": "algebraic-stack/validation/lean_proofsteps.jsonl.zst",
+   "size": 49985,
+   "sha256": "d7c033a044eda69ee86cab405c74851f27f8cc76a4eea7214c0df1b1a990d68f"
+  },
+  {
+   "path": "algebraic-stack/validation/maple-validation.jsonl.zst",
+   "size": 4116,
+   "sha256": "6e80909c769718666d1e45fd2b875a38c7ae77f603ddc74108805a735b1d8942"
+  },
+  {
+   "path": "algebraic-stack/validation/python-validation.jsonl.zst",
+   "size": 24039437,
+   "sha256": "1aca50a25061ae1a5b2ebf94a1c4172816f30c5701f37e83ab9aeaf3e4719566"
+  },
+  {
+   "path": "algebraic-stack/validation/r-validation.jsonl.zst",
+   "size": 295365,
+   "sha256": "0ac732c29d9da7efacfee30ab2dc4cc3e2f19b01e2211fae0716bcdd66765d73"
+  },
+  {
+   "path": "algebraic-stack/validation/tex-validation.jsonl.zst",
+   "size": 3100822,
+   "sha256": "b260b28e20df31c0bcaaa2e1348e27c2b6aba66a8fde708006f6040e84150088"
+  }
+ ]
+}

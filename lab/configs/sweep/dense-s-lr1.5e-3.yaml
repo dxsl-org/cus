@@ -1,0 +1,12 @@
+# Phase 15 LR sweep: dense-S on 0.1B tokens (own cosine schedule), compared by bpb/all at the end.
+model: {d_model: 512, n_layers: 8, n_heads: 8, n_kv_heads: 4}
+train:
+  name: dense-s-lr1.5e-3
+  mix: {fineweb2_vie: 0.6, culturax_vi: 0.2, news: 0.08, law: 0.04, reference: 0.02, forum: 0.02,
+        literature: 0.02, health: 0.01, culture_history: 0.005, education: 0.005}
+  total_tokens: 1.0e8
+  batch_tokens: 262144
+  micro_batch: 16
+  lr: 1.5e-3
+  warmup_steps: 50
+  eval_every: 127

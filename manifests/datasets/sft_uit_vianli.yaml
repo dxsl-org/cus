@@ -1,0 +1,9 @@
+name: sft_uit_vianli
+repo: uitnlp/ViANLI
+revision: 0fec8d6ecb043a61c609f9b51f80401fdf1e84d3
+allow_patterns: ["*.jsonl", "README.md"]
+purpose: sft
+wave: 2
+license: unknown
+usage_scope: train_ok
+notes: "[SFT] Adversarial NLI tiếng Việt (UIT): suy luận Entailment/Contradiction/Neutral từ ngữ cảnh."

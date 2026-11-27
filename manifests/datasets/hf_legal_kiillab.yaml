@@ -1,0 +1,13 @@
+name: hf_legal_kiillab
+repo: kiil-lab/vietnamese-law-corpus
+revision: 0325cacb1c6ca0c9bb3bd414cb4585b5bae19f10
+allow_patterns: ["data/train-*", "README.md"]
+purpose: pretrain
+wave: 2
+license: vn-not-protected
+usage_scope: train_ok
+notes: "215.000+ văn bản pháp luật Việt Nam định dạng markdown bảng sạch, cập nhật các luật mới 2024 (~1,2 GB parquet, 8 file)."
+default_crawl_time: "2024-06-01T00:00:00"
+fields:
+  id: doc_id
+  text: markdown

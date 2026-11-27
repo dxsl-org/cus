@@ -1,0 +1,20 @@
+{
+ "name": "hf_lit_moa",
+ "repo": "moa/Chinese-Vietnamese-literature",
+ "revision": "e24a1c862f03466ef35f345ee34661e1b4e4b6e6",
+ "downloaded_at": "2026-11-20T01:40:45+00:00",
+ "local_dir": "raw/open_datasets/hf_lit_moa",
+ "bytes": 76579954,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 2370,
+   "sha256": null
+  },
+  {
+   "path": "dataset_zh_vi.parquet",
+   "size": 76577584,
+   "sha256": "2676db2aabdb3d6b5c2618b7cc8fa9ad283ae4e80bb0c8366065134295ce3b4e"
+  }
+ ]
+}

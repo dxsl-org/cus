@@ -1,0 +1,9 @@
+name: vmlu
+repo: tridm/VMLU
+revision: 9ed8d5ca21c680783da62e26f499facf47788568
+allow_patterns: ["*.jsonl", "README.md"]
+purpose: eval
+wave: 1
+license: unknown (bản mirror cộng đồng; bản gốc ở vmlu.ai)
+usage_scope: blocked
+notes: Trắc nghiệm kiến thức tiếng Việt. Cần đối chiếu với bản gốc trên vmlu.ai trước khi dùng làm mốc chính thức.

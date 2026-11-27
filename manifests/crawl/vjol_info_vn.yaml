@@ -1,0 +1,6 @@
+source_id: vjol_info_vn
+# OJS OAI-PMH: ~252k records (2026-11-14). Abstracts only; PDFs go through phase 7.
+adapter: oai_pmh
+rps: 0.5
+params:
+  endpoint: "https://vjol.info.vn/index.php/index/oai"

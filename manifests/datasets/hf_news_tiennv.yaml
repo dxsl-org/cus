@@ -1,0 +1,13 @@
+name: hf_news_tiennv
+repo: tiennv/vietnamese-news
+revision: 9e8bcf16206e744ea76b1c5271a908fb4bd3a45a
+allow_patterns: ["data/train-*", "README.md"]
+purpose: pretrain
+wave: 2
+license: unknown
+usage_scope: train_ok
+notes: "12,57M bài báo tiếng Việt sạch từ tiennv (~15,1 GB parquet, 15 file)."
+default_crawl_time: "2024-01-01T00:00:00"
+fields:
+  id: null
+  text: text

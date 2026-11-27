@@ -1,0 +1,35 @@
+# Fixed vocabulary for TaskItem domain / skills / difficulty. Every item version stores
+# the taxonomy version it was validated against; bump `version` on any rename or removal
+# (additions too, so a stored version always names the exact vocabulary in force).
+version: 1
+
+domains:
+  law: Pháp luật
+  health: Y tế, sức khỏe
+  education: Giáo dục
+  economics: Kinh tế, tài chính
+  programming: Lập trình
+  daily_life: Đời sống
+  culture_history: Văn hóa, lịch sử, địa lý
+  science: Khoa học tự nhiên
+  math: Toán
+  language: Ngôn ngữ (chính tả, ngữ pháp, thành ngữ, xưng hô)
+  society: Xã hội, chính trị
+  general: Tổng hợp (chưa phân loại)
+
+skills:
+  recall: Nhớ kiến thức
+  comprehension: Đọc hiểu
+  reasoning: Suy luận nhiều bước
+  calculation: Tính toán
+  coding: Viết hoặc sửa code
+  writing: Viết, soạn thảo
+  summarization: Tóm tắt
+  translation: Dịch
+  extraction: Trích xuất thông tin
+  classification: Phân loại
+  dialogue: Hội thoại nhiều lượt
+  refusal: Từ chối yêu cầu không an toàn
+
+# 1 = tiểu học / tra cứu một bước … 5 = chuyên gia
+difficulty: [1, 2, 3, 4, 5]

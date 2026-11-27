@@ -1,0 +1,194 @@
+# Source registry: policy per source. Validate: python -m pipeline.schema.sources_manifest
+# loss_risk: gone (dead, archive only) | high | medium | low
+# status:    active | partial (crawl incomplete) | empty (<~20 docs) | planned | retired
+# license:   copyrighted | cc-by-sa-4.0 | vn-not-protected (Luật SHTT Điều 15: văn bản QPPL, hành chính, tư pháp) | unknown
+# usage_scope: train_ok = internal training allowed (decision 2026-11-13: internal use only)
+sources:
+  # --- news & magazines ---
+  - {id: tuoitre_vn, name: Báo Tuổi Trẻ, url: "https://tuoitre.vn/", source_type: news, acquisition: crawl, loss_risk: low, license: copyrighted, usage_scope: train_ok, status: active,
+     legacy: {config_ids: [tuoitre_vn], dbs: [tuoitre_vn.db]}, notes: "metadata.date = ngày cào; ngày thật trong id ở link"}
+  - {id: cuoituan_tuoitre_vn, name: Tuổi Trẻ Cuối Tuần, url: "https://cuoituan.tuoitre.vn/", source_type: news, acquisition: crawl, loss_risk: medium, license: copyrighted, usage_scope: train_ok, status: active,
+     legacy: {config_ids: [cuoituan_tuoitre_vn], dbs: [cuoituan_tuoitre_vn.db]}, notes: "~65% thiếu ngày đăng"}
+  - {id: thanhnien_vn, name: Báo Thanh Niên, url: "https://thanhnien.vn/", source_type: news, acquisition: crawl, loss_risk: low, license: copyrighted, usage_scope: train_ok, status: partial,
+     legacy: {config_ids: [thanhnien_vn], dbs: [thanhnien_vn.db]}, notes: "chỉ có 2025-05 → 2026-03"}
+  - {id: plo_vn, name: Báo Pháp luật TP.HCM, url: "https://plo.vn/", source_type: news, acquisition: crawl, loss_risk: low, license: copyrighted, usage_scope: train_ok, status: active,
+     legacy: {config_ids: [plo_vn], dbs: [plo_vn.db]}, notes: "~95% thiếu ngày đăng → cào lại head"}
+  - {id: sggp_org_vn, name: Báo Sài Gòn Giải Phóng, url: "https://www.sggp.org.vn/", source_type: news, acquisition: crawl, loss_risk: low, license: copyrighted, usage_scope: train_ok, status: partial,
+     legacy: {config_ids: [sggp_org_vn], dbs: [sggp_org_vn.db]}, notes: "chỉ có 2010 → 2021-06"}
+  - {id: vneconomy_vn, name: VnEconomy, url: "https://vneconomy.vn/", source_type: news, acquisition: crawl, loss_risk: low, license: copyrighted, usage_scope: train_ok, status: active,
+     legacy: {config_ids: [vneconomy_vn], dbs: [vneconomy_vn.db]}}
+  - {id: nhandan_vn, name: Báo Nhân Dân, url: "https://nhandan.vn/", source_type: news, acquisition: crawl, loss_risk: low, license: copyrighted, usage_scope: train_ok, status: active,
+     legacy: {config_ids: [nhandan_vn], dbs: [nhandan_vn.db]}, notes: "~88% thiếu ngày đăng"}
+  - {id: baochinhphu_vn, name: Báo Chính Phủ, url: "https://baochinhphu.vn/", source_type: news, acquisition: crawl, loss_risk: low, license: copyrighted, usage_scope: train_ok, status: active,
+     legacy: {config_ids: [baochinhphu_vn], dbs: [baochinhphu_vn.db]}, notes: "publish_date rỗng toàn bộ"}
+  - {id: suckhoedoisong_vn, name: Báo Sức khỏe và Đời sống, url: "https://suckhoedoisong.vn/", source_type: news, acquisition: crawl, loss_risk: low, license: copyrighted, usage_scope: train_ok, status: active,
+     legacy: {config_ids: [suckhoedoisong_vn], dbs: [suckhoedoisong_vn.db]}}
+  - {id: cafef_vn, name: CafeF, url: "https://cafef.vn/", source_type: news, acquisition: crawl, loss_risk: low, license: copyrighted, usage_scope: train_ok, status: partial,
+     legacy: {config_ids: [cafef_vn], dbs: [cafef_vn.db]}, notes: "chỉ có 2025-06 → 2026-03"}
+  - {id: genk_vn, name: GenK, url: "https://genk.vn/", source_type: news, acquisition: crawl, loss_risk: low, license: copyrighted, usage_scope: train_ok, status: partial,
+     legacy: {config_ids: [genk_vn], dbs: [genk_vn.db]}}
+  - {id: giaoducthoidai_vn, name: Báo Giáo dục và Thời đại, url: "https://giaoducthoidai.vn/", source_type: news, acquisition: crawl, loss_risk: low, license: copyrighted, usage_scope: train_ok, status: partial,
+     legacy: {config_ids: [giaoducthoidai_vn], dbs: [giaoducthoidai_vn.db]}}
+  - {id: vnexpress_net, name: VnExpress, url: "https://vnexpress.net/", source_type: news, acquisition: crawl, loss_risk: low, license: copyrighted, usage_scope: train_ok, status: empty,
+     legacy: {config_ids: [vnexpress_net], dbs: [vnexpress_net.db]}, notes: "mới 59 bài"}
+  - {id: baovanhoa_vn, name: Báo Văn Hóa, url: "http://baovanhoa.vn/", source_type: news, acquisition: crawl, loss_risk: medium, license: copyrighted, usage_scope: train_ok, status: active,
+     legacy: {config_ids: [baovanhoa_vn], dbs: [baovanhoa_vn.db]}}
+  - {id: doanhnhansaigon_vn, name: Doanh Nhân Sài Gòn, url: "https://doanhnhansaigon.vn/", source_type: news, acquisition: crawl, loss_risk: medium, license: copyrighted, usage_scope: train_ok, status: active,
+     legacy: {config_ids: [doanhnhansaigon_vn], dbs: [doanhnhansaigon_vn.db]}, notes: "published_time rỗng toàn bộ"}
+  - {id: thesaigontimes_vn, name: Tạp chí Kinh tế Sài Gòn, url: "https://thesaigontimes.vn/", source_type: news, acquisition: crawl, loss_risk: medium, license: copyrighted, usage_scope: train_ok, status: partial,
+     legacy: {config_ids: [thesaigontimes_vn], dbs: [thesaigontimes_vn.db]}, notes: "chỉ có 2007 → 2021-06"}
+  - {id: nguoidothi_net_vn, name: Báo Người Đô Thị, url: "https://nguoidothi.net.vn/", source_type: news, acquisition: crawl, loss_risk: medium, license: copyrighted, usage_scope: train_ok, status: active,
+     legacy: {config_ids: [nguoidothi_net_vn], dbs: [nguoidothi_net_vn.db]}}
+  - {id: phunuonline_com_vn, name: Báo Phụ Nữ Online, url: "https://www.phunuonline.com.vn/", source_type: news, acquisition: crawl, loss_risk: medium, license: copyrighted, usage_scope: train_ok, status: active,
+     legacy: {config_ids: [phunuonline_com_vn], dbs: [phunuonline_com_vn.db]}, notes: "content chỉ có sapo; thiếu ngày"}
+  - {id: tgs_vn, name: Thế Giới Số, url: "https://tgs.vn/", source_type: news, acquisition: crawl, loss_risk: medium, license: copyrighted, usage_scope: train_ok, status: active,
+     legacy: {config_ids: [tgs_vn], dbs: [tgs_vn.db]}}
+  - {id: lsvn_vn, name: Luật sư Việt Nam, url: "https://lsvn.vn/", source_type: news, acquisition: crawl, loss_risk: medium, license: copyrighted, usage_scope: train_ok, status: active,
+     legacy: {config_ids: [lsvn_vn], dbs: [lsvn_vn.db]}, ai_objection: content_signal_ai_train_no,
+     notes: "robots.txt Content-Signal ai-train=no (2026-11-14): không cào mới; dữ liệu cũ vẫn train theo quyết định của anh"}
+  - {id: tapchitoaan_vn, name: Tạp chí Tòa án, url: "https://tapchitoaan.vn/", source_type: news, acquisition: crawl, loss_risk: medium, license: copyrighted, usage_scope: train_ok, status: active,
+     legacy: {config_ids: [tapchitoaan_vn], dbs: [tapchitoaan_vn.db]}}
+  - {id: tiasang_com_vn, name: Tạp chí Tia Sáng, url: "https://tiasang.com.vn/", source_type: news, acquisition: crawl, loss_risk: medium, license: copyrighted, usage_scope: train_ok, status: partial,
+     legacy: {config_ids: [tiasang_com_vn], dbs: [tiasang_com_vn.db]}}
+  - {id: tapchicongsan_org_vn, name: Tạp chí Cộng Sản, url: "https://www.tapchicongsan.org.vn/", source_type: news, acquisition: crawl, loss_risk: low, license: copyrighted, usage_scope: train_ok, status: partial,
+     legacy: {config_ids: [tapchicongsan_org_vn], dbs: [tapchicongsan_org_vn.db]}}
+  - {id: hoidisanvanhoa_vn, name: Hội Di sản Văn hóa Việt Nam, url: "http://hoidisanvanhoa.vn/", source_type: news, acquisition: crawl, loss_risk: high, license: copyrighted, usage_scope: train_ok, status: partial,
+     legacy: {config_ids: [hoidisanvanhoa_vn], dbs: [hoidisanvanhoa_vn.db]}}
+  - {id: didau_com, name: Đi Đâu, url: "https://didau.com/", source_type: news, acquisition: crawl, loss_risk: high, license: copyrighted, usage_scope: train_ok, status: partial,
+     legacy: {config_ids: [didau_com], dbs: [didau_com.db]}}
+  # --- blogs & community writing ---
+  - {id: spiderum_com, name: Spiderum, url: "https://spiderum.com/", source_type: blog, acquisition: crawl, loss_risk: high, license: copyrighted, usage_scope: train_ok, status: active,
+     legacy: {config_ids: [spiderum_com], dbs: [spiderum_com.db]}}
+  - {id: caphesach_wordpress_com, name: Cà Phê Sách, url: "https://caphesach.wordpress.com/", source_type: blog, acquisition: crawl, loss_risk: high, license: copyrighted, usage_scope: train_ok, status: active,
+     legacy: {config_ids: [caphesach_wordpress_com], dbs: [caphesach_wordpress_com.db]}}
+  - {id: nghiencuulichsu_com, name: Nghiên cứu Lịch sử, url: "https://nghiencuulichsu.com/", source_type: blog, acquisition: crawl, loss_risk: high, license: copyrighted, usage_scope: train_ok, status: active,
+     legacy: {config_ids: [nghiencuulichsu_com], dbs: [nghiencuulichsu_com.db]}}
+  - {id: nghiencuuquocte_org, name: Nghiên cứu Quốc tế, url: "https://nghiencuuquocte.org/", source_type: blog, acquisition: crawl, loss_risk: medium, license: copyrighted, usage_scope: train_ok, status: active,
+     legacy: {config_ids: [nghiencuuquocte_org], dbs: [nghiencuuquocte_org.db]}, notes: "blog phân tích quan hệ quốc tế, dịch thuật chất lượng (11.441 bài từ sitemap)"}
+  - {id: viblo_asia, name: Viblo, url: "https://viblo.asia/", source_type: blog, acquisition: crawl, loss_risk: medium, license: copyrighted, usage_scope: train_ok, status: active,
+     legacy: {config_ids: [viblo_asia], dbs: [viblo_asia.db]}, notes: "không có ngày; API viblo có published_at"}
+  # --- forums ---
+  - {id: voz_vn, name: VOZ Forum, url: "https://voz.vn/", source_type: forum, acquisition: crawl, loss_risk: high, license: copyrighted, usage_scope: train_ok, status: empty,
+     legacy: {config_ids: [voz_vn], dbs: [voz_vn.db]}, ai_objection: content_signal_ai_train_no,
+     notes: "robots.txt Content-Signal ai-train=no (2026-11-14): không cào mới; 160 thread cũ vẫn train theo quyết định của anh"}
+  - {id: tinhte_vn, name: Tinh tế, url: "https://tinhte.vn/", source_type: forum, acquisition: crawl, loss_risk: high, license: copyrighted, usage_scope: train_ok, status: partial,
+     legacy: {config_ids: [tinhte_vn, tinhte_vn_api], dbs: [tinhte_vn.db, tinhte_vn_api.db]}, ai_objection: named_ai_bots,
+     notes: "robots.txt chặn ClaudeBot; thread < id 2,6M cần đăng nhập; dữ liệu cũ 43k thread nhưng ~2M từ"}
+  - {id: otofun_net, name: Otofun, url: "https://www.otofun.net/", source_type: forum, acquisition: crawl, loss_risk: high, license: copyrighted, usage_scope: train_ok, status: partial,
+     legacy: {config_ids: [otofun_net], dbs: [otofun_net.db]}}
+  - {id: kenhsinhvien_vn, name: Kênh Sinh Viên, url: "https://kenhsinhvien.vn/", source_type: forum, acquisition: crawl, loss_risk: high, license: copyrighted, usage_scope: train_ok, status: active,
+     legacy: {config_ids: [kenhsinhvien_vn], dbs: [kenhsinhvien_vn.db]}}
+  - {id: hocmai_vn, name: Hocmai Diễn đàn, url: "https://diendan.hocmai.vn/", source_type: forum, acquisition: crawl, loss_risk: high, license: copyrighted, usage_scope: train_ok, status: partial,
+     legacy: {config_ids: [hocmai_vn], dbs: [hocmai_vn.db]}}
+  - {id: dembuon_vn, name: Đêm Buồn, url: "https://dembuon.vn/", source_type: forum, acquisition: crawl, loss_risk: high, license: copyrighted, usage_scope: train_ok, status: active,
+     legacy: {config_ids: [dembuon_vn], dbs: [dembuon_vn.db]}}
+  - {id: vnphoto_net, name: VNPhoto, url: "http://www.vnphoto.net/", source_type: forum, acquisition: crawl, loss_risk: high, license: copyrighted, usage_scope: train_ok, status: partial,
+     legacy: {config_ids: [vnphoto_net], dbs: [vnphoto_net.db]}}
+  - {id: webtretho_com, name: Webtretho, url: "https://www.webtretho.com/", source_type: forum, acquisition: crawl, loss_risk: high, license: copyrighted, usage_scope: train_ok, status: empty,
+     legacy: {config_ids: [webtretho_com], dbs: [webtretho_com.db]}, notes: "0 bài; forum cũ có thể đã đóng → kiểm tra Wayback/CC index"}
+  # --- Q&A ---
+  - {id: alobacsi_com, name: AloBacsi Q&A, url: "https://alobacsi.com/", source_type: qa, acquisition: crawl, loss_risk: high, license: copyrighted, usage_scope: train_ok, status: partial,
+     legacy: {config_ids: [alobacsi_com], dbs: [alobacsi_com.db]}}
+  - {id: chinhsachonline_vn, name: ChinhSachOnline, url: "https://chinhsachonline.chinhphu.vn/", source_type: qa, acquisition: crawl, loss_risk: medium, license: unknown, usage_scope: train_ok, status: active,
+     legacy: {config_ids: [chinhsachonline_vn], dbs: [chinhsachonline_vn.db]}}
+  - {id: lazi_vn, name: Lazi, url: "https://lazi.vn/", source_type: qa, acquisition: crawl, loss_risk: high, license: copyrighted, usage_scope: train_ok, status: empty,
+     legacy: {config_ids: [lazi_vn], dbs: [lazi_vn.db]}}
+  - {id: noron_vn, name: Noron, url: "https://noron.vn/", source_type: qa, acquisition: crawl, loss_risk: high, license: copyrighted, usage_scope: train_ok, status: empty,
+     legacy: {config_ids: [noron_vn], dbs: [noron_vn.db]}}
+  - {id: vi_quora, name: Vietnamese QA (HF hchautran/vietnamese-qa-segmented), url: "https://huggingface.co/datasets/hchautran/vietnamese-qa-segmented", source_type: qa, acquisition: open_dataset, loss_risk: medium, license: unknown, usage_scope: train_ok, status: active,
+     legacy: {config_ids: [], dbs: [vi_quora.db]}, notes: "text đã tách từ (segmented) → kiểm tra trước khi dùng"}
+  # --- legal, court, standards ---
+  - {id: vbpl_vn, name: Cổng thông tin Pháp luật (VBPL), url: "https://vbpl.vn/", source_type: legal, acquisition: crawl, loss_risk: low, license: vn-not-protected, usage_scope: train_ok, status: partial,
+     legacy: {config_ids: [vbpl_vn], dbs: [vbpl.vn.db]}, notes: "rác đầu bài 'Are You suprised ?'"}
+  - {id: thuvienphapluat_vn, name: Thư viện Pháp luật, url: "https://thuvienphapluat.vn/", source_type: legal, acquisition: crawl, loss_risk: low, license: copyrighted, usage_scope: train_ok, status: empty,
+     legacy: {config_ids: [thuvienphapluat_vn], dbs: [thuvienphapluat_vn.db]}, notes: "2 plugin (thuvienphapluat, thuvienphapluat_qa) cùng id"}
+  - {id: vbpq_org_vn, name: Văn bản Pháp quy Tiêu chuẩn, url: "https://vbpq.org.vn/", source_type: legal, acquisition: crawl, loss_risk: medium, license: unknown, usage_scope: train_ok, status: empty,
+     legacy: {config_ids: [vbpq_org_vn], dbs: [vbpq_org_vn.db]}}
+  - {id: vsqi_gov_vn, name: Viện Tiêu chuẩn Chất lượng Việt Nam (VSQI), url: "http://vsqi.gov.vn/", source_type: reference, acquisition: crawl, loss_risk: medium, license: unknown, usage_scope: train_ok, status: partial,
+     legacy: {config_ids: [vsqi_gov_vn], dbs: [vsqi_gov_vn.db]}, notes: "danh mục TCVN, ít văn bản"}
+  - {id: toaan_gov_vn, name: TANDTC - Công bố bản án, url: "https://congbobanan.toaan.gov.vn/", source_type: court, acquisition: crawl, loss_risk: low, license: vn-not-protected, usage_scope: train_ok, status: partial,
+     legacy: {config_ids: [toaan_gov_vn], dbs: [toaan_gov_vn.db]}, notes: "text PDF vỡ dấu → bóc lại; chỉ tới 2019-01; PII"}
+  # --- academic & education ---
+  - {id: vjol_info_vn, name: VJOL, url: "https://vjol.info.vn/", source_type: academic, acquisition: crawl, loss_risk: medium, license: unknown, usage_scope: train_ok, status: partial,
+     legacy: {config_ids: [vjol_info_vn], dbs: [vjol_info_vn.db]}, ai_objection: named_ai_bots, notes: "dùng OAI-PMH; robots.txt chặn CCBot/GPTBot/ClaudeBot"}
+  - {id: tapchiyhocvietnam_vn, name: Tạp chí Y học Việt Nam, url: "https://tapchiyhocvietnam.vn/", source_type: academic, acquisition: crawl, loss_risk: medium, license: unknown, usage_scope: train_ok, status: active,
+     legacy: {config_ids: [tapchiyhocvietnam_vn], dbs: [tapchiyhocvietnam_vn.db]}, notes: "dùng OAI-PMH /index.php/vmj/oai (chuẩn Dublin Core, crawl-delay: 20s, 15.589 bài quy chuẩn)"}
+  - {id: vjpm_vn, name: Tạp chí Y học Dự phòng, url: "https://vjpm.vn/", source_type: academic, acquisition: crawl, loss_risk: medium, license: unknown, usage_scope: train_ok, status: active,
+     legacy: {config_ids: [vjpm_vn], dbs: []}, notes: "dùng OAI-PMH /index.php/vjpm/oai (chuẩn Dublin Core, 1.960 bài quy chuẩn)"}
+  - {id: vietjack_com, name: Vietjack, url: "https://vietjack.com/", source_type: education, acquisition: crawl, loss_risk: medium, license: copyrighted, usage_scope: train_ok, status: partial,
+     legacy: {config_ids: [vietjack_com], dbs: [vietjack_com.db]}}
+  - {id: loigiaihay_com, name: Loigiaihay, url: "https://loigiaihay.com/", source_type: education, acquisition: crawl, loss_risk: medium, license: copyrighted, usage_scope: train_ok, status: partial,
+     legacy: {config_ids: [loigiaihay_com], dbs: [loigiaihay_com.db]}}
+  # --- reference, corporate, social ---
+  - {id: vi_wikipedia_org, name: Wikipedia Tiếng Việt, url: "https://vi.wikipedia.org/", source_type: reference, acquisition: open_dataset, loss_risk: low, license: cc-by-sa-4.0, usage_scope: train_ok, status: active,
+     legacy: {config_ids: [vi_wikipedia_org], dbs: [vi_wikipedia_org.db], export: false}, notes: "nguồn chính: pipeline.ingest.wikipedia_dump (snapshot 20220501 + 20261101); DB crawl cũ 72k bài không export"}
+  - {id: tamanhhospital_vn, name: Bệnh viện Đa khoa Tâm Anh, url: "https://tamanhhospital.vn/", source_type: corporate, acquisition: crawl, loss_risk: medium, license: copyrighted, usage_scope: train_ok, status: active,
+     legacy: {config_ids: [tamanhhospital_vn], dbs: [tamanhhospital_vn.db]}}
+  - {id: vinmec_com, name: Bệnh viện Vinmec, url: "https://www.vinmec.com/", source_type: corporate, acquisition: crawl, loss_risk: low, license: copyrighted, usage_scope: train_ok, status: partial,
+     legacy: {config_ids: [vinmec_com], dbs: [vinmec_com.db]}}
+  - {id: x_twitter, name: Vietnamese social posts (HF minhtoan), url: "https://huggingface.co/minhtoan", source_type: social, acquisition: open_dataset, loss_risk: medium, license: unknown, usage_scope: train_ok, status: active,
+     legacy: {config_ids: [], dbs: [x_twitter.db]}, notes: "không có ngày → era unknown; cần xác định đúng tên dataset"}
+  # --- open pretraining datasets (declared in manifests/datasets/<id>.yaml) ---
+  - {id: fineweb2_vie, name: FineWeb-2 vie_Latn, url: "https://huggingface.co/datasets/HuggingFaceFW/fineweb-2", source_type: open_dataset, acquisition: open_dataset, loss_risk: medium, license: odc-by-1.0, usage_scope: train_ok, status: active}
+  - {id: hplt2_vie, name: HPLT 2.0 cleaned vie_Latn, url: "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned", source_type: open_dataset, acquisition: open_dataset, loss_risk: medium, license: cc0-1.0, usage_scope: train_ok, status: active}
+  - {id: culturax_vi, name: CulturaX vi, url: "https://huggingface.co/datasets/uonlp/CulturaX", source_type: open_dataset, acquisition: open_dataset, loss_risk: medium, license: mc4-odc-by + oscar-cc0, usage_scope: train_ok, status: active, notes: "gated: truy cập đã cấp 2026-11-14 (HF_TOKEN của anh)"}
+  - {id: finepdfs_vie, name: FinePDFs vie_Latn, url: "https://huggingface.co/datasets/HuggingFaceFW/finepdfs", source_type: open_dataset, acquisition: open_dataset, loss_risk: medium, license: odc-by-1.0, usage_scope: train_ok, status: active, notes: "PDF web trích bằng Docling (1,23M dòng vie_Latn train)"}
+  - {id: fineweb_c_vie, name: FineWeb-C vie_Latn, url: "https://huggingface.co/datasets/data-is-better-together/fineweb-c", source_type: open_dataset, acquisition: open_dataset, loss_risk: low, license: unknown, usage_scope: research_only, status: active, notes: "1.000 mẫu nhãn người đánh giá giáo dục; dùng kiểm chuẩn/hiệu chỉnh q_edu, không pretrain"}
+  - {id: hplt3_vie_hq, name: HPLT 3.0 sorted vie_Latn (tầng 9-10), url: "https://data.hplt-project.org/three/sorted/vie_Latn/", source_type: open_dataset, acquisition: open_dataset, loss_risk: medium, license: cc0-1.0, usage_scope: train_ok, status: active, notes: "tầng chất lượng cao 9-10 của HPLT 3.0 (~34,6 GB nén)"}
+  - {id: opus_vi, name: OPUS en-vi (OpenSubtitles, TED2020, QED), url: "https://opus.nlpl.eu/", source_type: open_dataset, acquisition: open_dataset, loss_risk: low, license: unknown, usage_scope: train_ok, status: active, notes: "ngữ liệu hội thoại & bài giảng tiếng Việt từ tập song ngữ OPUS en-vi"}
+  - {id: vtsnlp_vie, name: Viettel Curated Dataset (VTSNLP), url: "https://huggingface.co/datasets/VTSNLP/vietnamese_curated_dataset", source_type: open_dataset, acquisition: open_dataset, loss_risk: medium, license: unknown, usage_scope: train_ok, status: active, notes: "12,17M văn bản tiếng Việt lọc bằng NeMo Curator từ C4, OSCAR, Wikipedia và Binhvq news (132 shard canonical)"}
+  - {id: hf_news_namsyntax, name: Vietnamese News 1.3M (NamSyntax), url: "https://huggingface.co/datasets/NamSyntax/vietnamese-news-classification", source_type: open_dataset, acquisition: open_dataset, loss_risk: medium, license: apache-2.0, usage_scope: train_ok, status: active, notes: "1,35M bài báo tiếng Việt phân loại theo 11 chủ đề (Thời sự, Khoa học, Pháp luật...) từ NamSyntax (2 shard canonical)"}
+  - {id: hf_news_tmnam, name: Vietnamese News 2.4M (tmnam20), url: "https://huggingface.co/datasets/tmnam20/Vietnamese-News", source_type: open_dataset, acquisition: open_dataset, loss_risk: medium, license: unknown, usage_scope: train_ok, status: active, notes: "2,42M bài báo tiếng Việt sạch từ 8 tòa soạn lớn (Báo Chính phủ, Dân trí, Lao động, QĐND, VietNamNet, VnExpress, VTC, Zing News) từ tmnam20"}
+  - {id: hf_corpus_tiennv, name: Vietnamese Corpus 19.2M (tiennv), url: "https://huggingface.co/datasets/tiennv/vietnamese-corpus", source_type: open_dataset, acquisition: open_dataset, loss_risk: medium, license: unknown, usage_scope: train_ok, status: active, notes: "19,23M đoạn văn tiếng Việt sạch tổng hợp từ báo chí và đời sống từ tiennv"}
+  - {id: hf_news_tiennv, name: Vietnamese News 12.5M (tiennv), url: "https://huggingface.co/datasets/tiennv/vietnamese-news", source_type: open_dataset, acquisition: open_dataset, loss_risk: medium, license: unknown, usage_scope: train_ok, status: active, notes: "12,57M bài báo tiếng Việt sạch từ tiennv"}
+  - {id: hf_books_tmnam, name: Vietnamese Books Dedup 14.4M (tmnam20), url: "https://huggingface.co/datasets/tmnam20/Vietnamese-Books-dedup", source_type: open_dataset, acquisition: open_dataset, loss_risk: medium, license: unknown, usage_scope: train_ok, status: active, notes: "14,48M đoạn sách tiếng Việt đã lọc trùng (triết học, văn học, khoa học, lịch sử) từ tmnam20"}
+  - {id: hf_books_thailevan, name: 10000 Vietnamese Books (thailevann), url: "https://huggingface.co/datasets/thailevann/10000_Vietnamese_Books", source_type: open_dataset, acquisition: open_dataset, loss_risk: medium, license: unknown, usage_scope: train_ok, status: active, notes: "10.415 cuốn sách tiếng Việt toàn văn (văn học, tiểu thuyết, truyện, kiến thức) từ thailevann"}
+  - {id: hf_lit_vutrongphung, name: Vũ Trọng Phụng Literature (trieunh), url: "https://huggingface.co/datasets/trieunh/Vietnamese_literature_VuTrongPhung", source_type: open_dataset, acquisition: open_dataset, loss_risk: low, license: cc-by-4.0, usage_scope: train_ok, status: active, notes: "Tác phẩm văn học kinh điển của nhà văn Vũ Trọng Phụng từ trieunh"}
+  - {id: hf_lit_moa, name: Aligned Classical Literature (moa), url: "https://huggingface.co/datasets/moa/Chinese-Vietnamese-literature", source_type: book, acquisition: open_dataset, loss_risk: low, license: cc-by-sa-4.0, usage_scope: train_ok, status: active, notes: "396.307 đoạn văn học cổ điển (Tam Quốc, Tây Du Ký, Hồng Lâu Mộng) gióng hàng song ngữ Trung-Việt do dịch giả con người dịch"}
+  - {id: hf_legal_kiillab, name: Vietnamese Law Corpus (kiil-lab), url: "https://huggingface.co/datasets/kiil-lab/vietnamese-law-corpus", source_type: legal, acquisition: open_dataset, loss_risk: medium, license: vn-not-protected, usage_scope: train_ok, status: active, notes: "215.723 văn bản pháp luật VN định dạng markdown bảng sạch, cập nhật luật 2024 từ kiil-lab"}
+  - {id: hf_books_raw_tmnam, name: Vietnamese Book Corpus Raw (tmnam20), url: "https://huggingface.co/datasets/tmnam20/VietnameseBookCorpus-raw-parquet", source_type: book, acquisition: open_dataset, loss_risk: medium, license: unknown, usage_scope: train_ok, status: active, notes: "19.139 cuốn sách và tiểu thuyết nguyên bản full-text từ vnthuquan.net (2,37 GB raw -> 1,63 GB canonical) từ tmnam20"}
+  # --- SFT datasets ---
+  - {id: sft_uit_vianli, name: UIT ViANLI (Adversarial NLI), url: "https://huggingface.co/datasets/uitnlp/ViANLI", source_type: open_dataset, acquisition: open_dataset, loss_risk: low, license: unknown, usage_scope: train_ok, status: active, notes: "[SFT] Adversarial NLI tiếng Việt"}
+  - {id: sft_xnli_vi, name: XNLI Vietnamese, url: "https://huggingface.co/datasets/facebook/xnli", source_type: open_dataset, acquisition: open_dataset, loss_risk: low, license: cc-by-4.0, usage_scope: train_ok, status: active, notes: "[SFT] XNLI nhánh tiếng Việt ~392k cặp NLI"}
+  - {id: sft_hcmus_factcheck, name: HCMUS Vietnamese News Fact-Checking, url: "https://huggingface.co/datasets/k22-hcmus/fact-checking-vietnamese-news", source_type: open_dataset, acquisition: open_dataset, loss_risk: medium, license: unknown, usage_scope: train_ok, status: active, notes: "[SFT] Kiểm chứng sự thật tin tức tiếng Việt"}
+  - {id: sft_uit_vihsd, name: UIT ViHSD (Hate Speech Detection), url: "https://huggingface.co/datasets/ura-hcmut/UIT-ViHSD", source_type: open_dataset, acquisition: open_dataset, loss_risk: low, license: unknown, usage_scope: train_ok, status: active, notes: "[SFT] Phát hiện ngôn từ thù ghét CLEAN/OFFENSIVE/HATE"}
+  - {id: sft_uit_vsfc, name: UIT VSFC (Student Feedback), url: "https://huggingface.co/datasets/ura-hcmut/UIT-VSFC", source_type: open_dataset, acquisition: open_dataset, loss_risk: low, license: unknown, usage_scope: train_ok, status: active, notes: "[SFT] Cảm xúc & chủ đề phản hồi sinh viên"}
+  - {id: sft_uit_vsmec, name: UIT VSMEC (Social Media Emotion), url: "https://huggingface.co/datasets/ura-hcmut/UIT-VSMEC", source_type: open_dataset, acquisition: open_dataset, loss_risk: low, license: unknown, usage_scope: train_ok, status: active, notes: "[SFT] Nhận diện 7 nhãn cảm xúc MXH tiếng Việt"}
+  - {id: sft_uit_vimmrc, name: UIT ViMMRC (Multiple-Choice RC), url: "https://huggingface.co/datasets/ura-hcmut/ViMMRC", source_type: open_dataset, acquisition: open_dataset, loss_risk: low, license: unknown, usage_scope: train_ok, status: active, notes: "[SFT] Đọc hiểu trắc nghiệm nhiều lựa chọn tiếng Việt"}
+  - {id: sft_vispam_reviews, name: ViSpamReviews (E-commerce Spam), url: "https://huggingface.co/datasets/visolex/ViSpamReviews", source_type: open_dataset, acquisition: open_dataset, loss_risk: medium, license: unknown, usage_scope: train_ok, status: active, notes: "[SFT] Phát hiện review ảo/spam sàn TMĐT"}
+  - {id: sft_vimrhp, name: ViMRHP (Review Helpfulness), url: "https://huggingface.co/datasets/trucmtnguyen/ViMRHP", source_type: open_dataset, acquisition: open_dataset, loss_risk: low, license: unknown, usage_scope: train_ok, status: active, notes: "[SFT] Chấm điểm độ hữu ích của review sản phẩm (chỉ Annotation JSON)"}
+  - {id: sft_orca_dpo_vi, name: Vietnamese Intel Orca DPO Pairs, url: "https://huggingface.co/datasets/5CD-AI/Vietnamese-Intel-orca_dpo_pairs-gg-translated", source_type: open_dataset, acquisition: open_dataset, loss_risk: medium, license: apache-2.0, usage_scope: train_ok, status: active, notes: "[SFT] Cặp DPO chosen/rejected tiếng Việt cho chấm điểm & SFT"}
+  # --- Wikimedia sister projects & open legal/STEM datasets ---
+  - {id: vi_wikisource_org, name: Wikisource Tiếng Việt, url: "https://vi.wikisource.org/", source_type: reference, acquisition: open_dataset, loss_risk: low, license: cc-by-sa-4.0, usage_scope: train_ok, status: active, notes: "dump 20261101"}
+  - {id: vi_wiktionary_org, name: Wiktionary Tiếng Việt, url: "https://vi.wiktionary.org/", source_type: reference, acquisition: open_dataset, loss_risk: low, license: cc-by-sa-4.0, usage_scope: train_ok, status: active, notes: "dump 20261101; lọc mục từ tiếng Việt"}
+  - {id: vi_wikibooks_org, name: Wikibooks Tiếng Việt, url: "https://vi.wikibooks.org/", source_type: reference, acquisition: open_dataset, loss_risk: low, license: cc-by-sa-4.0, usage_scope: train_ok, status: active, notes: "dump 20261101"}
+  - {id: vi_wikiquote_org, name: Wikiquote Tiếng Việt, url: "https://vi.wikiquote.org/", source_type: reference, acquisition: open_dataset, loss_risk: low, license: cc-by-sa-4.0, usage_scope: train_ok, status: active, notes: "dump 20261101"}
+  - {id: vi_wikivoyage_org, name: Wikivoyage Tiếng Việt, url: "https://vi.wikivoyage.org/", source_type: reference, acquisition: open_dataset, loss_risk: low, license: cc-by-sa-4.0, usage_scope: train_ok, status: active, notes: "dump 20261101"}
+  - {id: hf_legal_vohuutridung, name: HF Legal (vohuutridung/vietnamese-legal-documents), url: "https://huggingface.co/datasets/vohuutridung/vietnamese-legal-documents", source_type: legal, acquisition: open_dataset, loss_risk: medium, license: vn-not-protected, usage_scope: train_ok, status: active, notes: "HF cc-by-4.0 packaging; văn bản quy phạm pháp luật VN"}
+  - {id: hf_legal_th1nhng0, name: HF Legal (th1nhng0/vietnamese-legal-documents), url: "https://huggingface.co/datasets/th1nhng0/vietnamese-legal-documents", source_type: legal, acquisition: open_dataset, loss_risk: medium, license: vn-not-protected, usage_scope: train_ok, status: active, notes: "HF cc-by-4.0 packaging; kèm metadata + relationships hiệu lực"}
+  - {id: hf_legal_vlsp2025, name: HF Legal (VLSP2025-LegalSML/legal-pretrain), url: "https://huggingface.co/datasets/VLSP2025-LegalSML/legal-pretrain", source_type: legal, acquisition: open_dataset, loss_risk: medium, license: vn-not-protected, usage_scope: train_ok, status: active, notes: "văn bản pháp luật tới 2024-2025"}
+  - {id: hf_phapdien_tmquan, name: HF Pháp điển (tmquan/phapdien-moj-gov-vn), url: "https://huggingface.co/datasets/tmquan/phapdien-moj-gov-vn", source_type: legal, acquisition: open_dataset, loss_risk: medium, license: vn-not-protected, usage_scope: train_ok, status: active, notes: "HF cc-by-4.0 packaging; Bộ Pháp điển Quốc gia (chỉ lấy documents, bỏ embeddings)"}
+  - {id: vnoi_wiki, name: VNOI Wiki, url: "https://github.com/VNOI-Admin/vnoi_wiki", source_type: education, acquisition: open_dataset, loss_risk: low, license: agpl-3.0, usage_scope: train_ok, status: active, notes: "kho bài viết thuật toán & toán rời rạc tiếng Việt (GitHub Markdown)"}
+  - {id: mlcb_tiepvupsu, name: Machine Learning Cơ Bản (Vũ Hữu Tiệp), url: "https://github.com/tiepvupsu/tiepvupsu.github.io", source_type: education, acquisition: open_dataset, loss_risk: medium, license: unknown, usage_scope: train_ok, status: active, notes: "giáo trình Machine Learning & toán nền tảng tiếng Việt (GitHub Markdown)"}
+  - {id: d2l_vn, name: Dive into Deep Learning Tiếng Việt (aivivn), url: "https://github.com/aivivn/d2l-vn", source_type: education, acquisition: open_dataset, loss_risk: medium, license: unknown, usage_scope: train_ok, status: active, notes: "sách Deep Learning tiếng Việt có công thức & code (GitHub Markdown)"}
+  # --- new crawl sources (wave 2 expansion) ---
+  - {id: bktt_vn, name: Bách khoa toàn thư Việt Nam, url: "https://bktt.vn/", source_type: reference, acquisition: crawl, loss_risk: medium, license: copyrighted, usage_scope: train_ok, status: partial}
+  - {id: webketoan_com, name: Webketoan Forum, url: "https://webketoan.com/", source_type: forum, acquisition: crawl, loss_risk: high, license: copyrighted, usage_scope: train_ok, status: partial}
+  - {id: thivien_net, name: Thi Viện, url: "https://www.thivien.net/", source_type: reference, acquisition: crawl, loss_risk: high, license: copyrighted, usage_scope: train_ok, status: partial}
+  - {id: vannghequandoi_com_vn, name: Tạp chí Văn nghệ Quân đội, url: "https://vannghequandoi.com.vn/", source_type: news, acquisition: crawl, loss_risk: medium, license: copyrighted, usage_scope: train_ok, status: partial}
+  - {id: phebinhvanhoc_com_vn, name: Phê bình Văn học, url: "https://phebinhvanhoc.com.vn/", source_type: blog, acquisition: crawl, loss_risk: high, license: copyrighted, usage_scope: train_ok, status: retired, notes: "domain đã bị tiêm bài rác cờ bạc/SEO (789bet/hubet/bet88 ở post-sitemap 1..14, kiểm tra 2026-11-19); loại khỏi danh sách cào"}
+  - {id: kcb_vn, name: Cục Quản lý Khám chữa bệnh (Bộ Y tế), url: "https://kcb.vn/", source_type: reference, acquisition: crawl, loss_risk: medium, license: vn-not-protected, usage_scope: train_ok, status: partial, notes: "robots.txt chặn /content/download/ và /portals/; kiểm tra trang hướng dẫn công khai trước khi cào"}
+  - {id: anle_toaan_gov_vn, name: TANDTC - Cổng thông tin Án lệ, url: "https://anle.toaan.gov.vn/", source_type: court, acquisition: crawl, loss_risk: medium, license: vn-not-protected, usage_scope: train_ok, status: planned, notes: "Oracle ADF cookie loopback; cần fetcher hỗ trợ JS/cookie hoặc endpoint tài liệu trực tiếp"}
+  - {id: ueh_dspace, name: ĐH Kinh tế TP.HCM Digital Repository (DSpace), url: "https://digital.lib.ueh.edu.vn/oai/request", source_type: academic, acquisition: crawl, loss_risk: medium, license: unknown, usage_scope: train_ok, status: partial}
+  - {id: hueuni_jos, name: Tạp chí Khoa học ĐH Huế (OJS), url: "https://jos.hueuni.edu.vn/index.php/index/oai", source_type: academic, acquisition: crawl, loss_risk: medium, license: unknown, usage_scope: train_ok, status: partial}
+  - {id: udn_jst, name: Tạp chí KH&CN ĐH Đà Nẵng (OJS), url: "https://jst-ud.vn/jst-ud/oai", source_type: academic, acquisition: crawl, loss_risk: medium, license: unknown, usage_scope: train_ok, status: partial}
+  - {id: hcmue_jos, name: Tạp chí Khoa học ĐH Sư phạm TP.HCM (OJS), url: "https://journal.hcmue.edu.vn/index.php/hcmuejos/oai", source_type: academic, acquisition: crawl, loss_risk: medium, license: unknown, usage_scope: train_ok, status: partial}
+  - {id: hmu_tcncyh, name: Tạp chí Nghiên cứu Y học - ĐH Y Hà Nội (OJS), url: "https://tapchinghiencuuyhoc.vn/index.php/tcncyh/oai", source_type: academic, acquisition: crawl, loss_risk: medium, license: unknown, usage_scope: train_ok, status: partial}
+  - {id: ou_jos, name: Tạp chí Khoa học ĐH Mở TP.HCM (OJS), url: "https://journalofscience.ou.edu.vn/index.php/index/oai", source_type: academic, acquisition: crawl, loss_risk: medium, license: unknown, usage_scope: train_ok, status: partial}
+  - {id: ctu_jos, name: Tạp chí Khoa học ĐH Cần Thơ (OJS), url: "https://ctujsvn.ctu.edu.vn/index.php/ctujsvn/oai", source_type: academic, acquisition: crawl, loss_risk: medium, license: unknown, usage_scope: train_ok, status: partial}
+  # --- dead forums recovered from web archives ---
+  - {id: ttvnol_com, name: Trái Tim Việt Nam Online (TTVN Online / Trí Tuệ Việt Nam) – Wayback, url: "http://ttvnol.com/", source_type: forum, acquisition: crawl, loss_risk: gone, license: copyrighted, usage_scope: train_ok, status: planned, notes: "đóng 10/8/2006; chỉ còn bản lưu Wayback"}
+  - {id: ttvnol_com_cc, name: TTVN Online – Common Crawl captures, url: "http://ttvnol.com/", source_type: forum, acquisition: crawl, loss_risk: gone, license: copyrighted, usage_scope: train_ok, status: planned, notes: "CC 2013-2018; trùng lặp với ttvnol_com xử lý ở phase 6"}
+  - {id: anh2_forum, name: Diễn đàn anh2 (anh2.com / anh2.net) – Wayback, url: "http://anh2.net/", source_type: forum, acquisition: crawl, loss_risk: gone, license: copyrighted, usage_scope: train_ok, status: planned, notes: "theo anh nhớ: nội dung tốt, trước 2005; cần xác minh qua bản lưu"}
+  # --- books (phase 7) ---
+  - {id: owner_books, name: Kho sách của anh (D:\Book), source_type: book, acquisition: books, loss_risk: low, license: copyrighted, usage_scope: train_ok, status: partial, notes: "mới một phần kho; PDF có lớp chữ trước, sách chụp/scan OCR sau"}

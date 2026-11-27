@@ -1,0 +1,11 @@
+name: numinamath_cot
+repo: AI-MO/NuminaMath-CoT
+revision: 9d8d210c9f6a36c8f3cd84045668c9b7800ef517
+allow_patterns: ["data/*", "README.md"]
+purpose: pretrain
+wave: 2
+license: apache-2.0
+usage_scope: train_ok
+notes: "860k bài toán kèm lời giải từng bước (olympiad, AMC, sách VN/TQ...), 1,1 GB. Dùng cho mid-training/annealing và làm mẫu SFT. Có thể trùng đề với bộ eval toán: phải chạy khử nhiễm trước khi train."
+default_crawl_time: "2024-07-01T00:00:00"
+fields: {text: solution, meta: [source, problem]}

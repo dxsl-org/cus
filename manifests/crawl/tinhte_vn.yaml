@@ -1,0 +1,11 @@
+source_id: tinhte_vn
+# Opening posts split from replies; homepage-promoted / staff posts tagged "editorial"
+# (often machine-translated or AI-written), replies "user_reply". See crawler/adapters/tinhte.py.
+adapter: tinhte
+client: impersonate
+rps: 0.5
+concurrency: 2         # pages are ~900 KB and take several seconds; rps still caps request starts
+timeout: 240           # sitemap-N.xml (50k URLs) takes >60 s to generate server-side
+params:
+  sitemaps: ["https://tinhte.vn/sitemap.xml"]
+  min_thread_id: 2600000   # older threads require login (checked 2026-11-14)

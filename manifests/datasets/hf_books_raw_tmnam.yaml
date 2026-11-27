@@ -1,0 +1,13 @@
+name: hf_books_raw_tmnam
+repo: tmnam20/VietnameseBookCorpus-raw-parquet
+revision: f7182dca4f1ae3a0e31b4fb2ab18834eeb4b7d77
+allow_patterns: ["data/train-*", "README.md"]
+purpose: pretrain
+wave: 2
+license: unknown
+usage_scope: train_ok
+notes: "Sách và tiểu thuyết nguyên bản full-text từ vnthuquan.net (~2,37 GB parquet, 10 file)."
+default_crawl_time: "2024-01-01T00:00:00"
+fields:
+  id: null
+  text: text

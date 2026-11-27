@@ -1,0 +1,14 @@
+name: hf_lit_vutrongphung
+repo: trieunh/Vietnamese_literature_VuTrongPhung
+revision: c7f5df1844f19072ab49e7b1593ae8f11a62e29a
+allow_patterns: ["*.parquet", "README.md"]
+purpose: pretrain
+wave: 2
+license: cc-by-4.0
+usage_scope: train_ok
+notes: "Tác phẩm văn học kinh điển của nhà văn Vũ Trọng Phụng (tiểu thuyết, truyện ngắn chia chunk theo PhoGPT) từ trieunh."
+default_crawl_time: "2024-01-01T00:00:00"
+fields:
+  id: null
+  text: content
+  meta: [title, type, chapter, author]

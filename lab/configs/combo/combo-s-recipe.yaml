@@ -1,0 +1,30 @@
+# Phase 18 E5: combo-S (phase 17) with the phase 18 recipe — Muon (muon_lr 0.01) for hidden matrices and
+# experts, AdamW 3e-3 for the rest, WSD with the annealing mix in the last 20%. d_model 512 is the μP base
+# width, so μP is a no-op here; it matters for combo-M. Compare with combo-s (0.7804) and combo-s-seed1 (0.7846).
+# Gated DeltaNet on H100 needs Triton >= 3.7.1 (fla #640): torch 2.12.1, as pinned in pyproject.toml.
+model:
+  d_model: 512
+  n_layers: 8
+  n_heads: 8
+  n_kv_heads: 4
+  mup_base_width: 512
+  gdn: {attention_every: 4}
+  attn_gate: true
+  mtp: {weight: 0.3}
+  moe: {n_experts: 32, top_k: 4, n_shared: 1, expert_hidden: 280, balance: bias, bias_rate: 1.0e-3}
+train:
+  name: combo-s-recipe
+  mix: {fineweb2_vie: 0.6, culturax_vi: 0.2, news: 0.08, law: 0.04, reference: 0.02, forum: 0.02,
+        literature: 0.02, health: 0.01, culture_history: 0.005, education: 0.005}
+  total_tokens: 5.0e8
+  batch_tokens: 262144
+  micro_batch: 8  # local 4070; Modal runs override with --micro-batch 32
+  lr: 3.0e-3
+  warmup_steps: 100
+  eval_every: 250
+  schedule: wsd
+  decay_fraction: 0.2
+  optimizer: muon
+  muon_lr: 0.01
+  anneal_mix: {reference: 0.25, literature: 0.2, news: 0.15, law: 0.1, fineweb2_vie: 0.1, culturax_vi: 0.05,
+               education: 0.05, health: 0.05, culture_history: 0.05}

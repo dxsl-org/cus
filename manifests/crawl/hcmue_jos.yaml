@@ -1,0 +1,8 @@
+source_id: hcmue_jos
+adapter: oai_pmh
+rps: 0.5
+concurrency: 1
+params:
+  endpoint: "https://journal.hcmue.edu.vn/index.php/hcmuejos/oai"
+timeout: 180
+max_attempts: 6

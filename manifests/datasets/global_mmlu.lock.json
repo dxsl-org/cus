@@ -1,0 +1,105 @@
+{
+ "name": "global_mmlu",
+ "repo": "CohereForAI/Global-MMLU",
+ "revision": "0e619dbeb34206cd48705a1a0ea7fb21cae09993",
+ "downloaded_at": "2026-11-19T14:09:20+00:00",
+ "local_dir": "eval/global_mmlu",
+ "bytes": 40865155,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 53310,
+   "sha256": null
+  },
+  {
+   "path": "de/dev-00000-of-00001.parquet",
+   "size": 100678,
+   "sha256": "242f31aca9cfdcc7c87f6a77eef6ced0c7967153400898e10dc264a196116d76"
+  },
+  {
+   "path": "de/test-00000-of-00001.parquet",
+   "size": 4543635,
+   "sha256": "b58a0d5994e756dabef96eb804693be153953052276d3e0b7d57bb2f2798854a"
+  },
+  {
+   "path": "en/dev-00000-of-00001.parquet",
+   "size": 90574,
+   "sha256": "86e985fb70b49130d751c7c5b255767348a8590793dc794ff0f34f1b8bd2d16f"
+  },
+  {
+   "path": "en/test-00000-of-00001.parquet",
+   "size": 3910925,
+   "sha256": "5baec81ba97243728cc9557b2cba2f03aaeedf8232473db9f20cf995c6b0a1a9"
+  },
+  {
+   "path": "es/dev-00000-of-00001.parquet",
+   "size": 97926,
+   "sha256": "f4c4420525ef97f7a88da1bf6d8169c0faa70f49de6c779c04db94e8f278fac1"
+  },
+  {
+   "path": "es/test-00000-of-00001.parquet",
+   "size": 4327396,
+   "sha256": "efbcc4ce1cf14f2f43f7b05be49a9a1153b2893c59d2f660c3bb58679801dccb"
+  },
+  {
+   "path": "fr/dev-00000-of-00001.parquet",
+   "size": 100882,
+   "sha256": "bb3dd1fdd13509b0c8342af49470bbceca9cae2bb32f6e3f589de93aa4c2a82e"
+  },
+  {
+   "path": "fr/test-00000-of-00001.parquet",
+   "size": 4550854,
+   "sha256": "e602201459c29c5dbacf9a3d80cfe2524496f8e0c0b51b6326ef4205bad3405e"
+  },
+  {
+   "path": "ja/dev-00000-of-00001.parquet",
+   "size": 98924,
+   "sha256": "63c3fd6d20d016e7dc0df1d9b830ab5d93f9150450a24ec992a4662f2a80fefc"
+  },
+  {
+   "path": "ja/test-00000-of-00001.parquet",
+   "size": 4363616,
+   "sha256": "b56ad153180d4368757891796dfad0e1a76ebeb3f7b2500b1ac63789d4e4dfe7"
+  },
+  {
+   "path": "ko/dev-00000-of-00001.parquet",
+   "size": 93942,
+   "sha256": "77fd025bfd38bc5681e5c3d8e24b6c028587760e1fa993fb9bc5df57d3a295de"
+  },
+  {
+   "path": "ko/test-00000-of-00001.parquet",
+   "size": 4273255,
+   "sha256": "aa896380f066e8e905604bbda8c2c57818a22a7d02ab99a48edc1ad078affb27"
+  },
+  {
+   "path": "ru/dev-00000-of-00001.parquet",
+   "size": 135462,
+   "sha256": "9d9dd57996698aeaaca28d58e6f7df9945dedf275cc9d4951a994f0b8c40c8f9"
+  },
+  {
+   "path": "ru/test-00000-of-00001.parquet",
+   "size": 5884449,
+   "sha256": "9037e1aaca6aed1856fe1e427e5b3d4e3bb6563861b760a3360ef077df301bd6"
+  },
+  {
+   "path": "vi/dev-00000-of-00001.parquet",
+   "size": 100423,
+   "sha256": "35f091f5ad30397372b43134db8f463a9c39211a44beb05dcc5dfc6cf47dd9b0"
+  },
+  {
+   "path": "vi/test-00000-of-00001.parquet",
+   "size": 4435419,
+   "sha256": "5cd0840972e32c99d86cf287c7f9b1a8f594dd24fc2800169cce1ec0724abfba"
+  },
+  {
+   "path": "zh/dev-00000-of-00001.parquet",
+   "size": 84714,
+   "sha256": "6c1dc5daf941264c1de302acf9088c7ed436d25c22e311d583271c81e7c4056e"
+  },
+  {
+   "path": "zh/test-00000-of-00001.parquet",
+   "size": 3618771,
+   "sha256": "e1ba0c287b650043b8686fa5c506d1f2718b098a7f88f724ade55a76f0062ae7"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+name: hf_news_tmnam
+repo: tmnam20/Vietnamese-News
+revision: a5a26c8bf7c36ccb0870e9bb94474c021fcfd757
+allow_patterns: ["all/train-*", "README.md"]
+purpose: pretrain
+wave: 2
+license: unknown
+usage_scope: train_ok
+notes: "2,42M bài báo tiếng Việt sạch từ 8 tòa soạn lớn (Báo Chính phủ, Dân trí, Lao động, QĐND, VietNamNet, VnExpress, VTC, Zing News) từ tmnam20 (~10,9 GB parquet)."
+default_crawl_time: "2024-01-01T00:00:00"
+fields:
+  id: null
+  text: text
+  url: url
+  meta: [title, description]

@@ -1,0 +1,13 @@
+name: hf_books_thailevan
+repo: thailevann/10000_Vietnamese_Books
+revision: ce5d494f7f136cc4e052f88154a68b9c5ee40087
+allow_patterns: ["data/train-*", "README.md"]
+purpose: pretrain
+wave: 2
+license: unknown
+usage_scope: train_ok
+notes: "10.415 cuốn sách tiếng Việt toàn văn (văn học, tiểu thuyết, truyện, kiến thức) từ thailevann (~906 MB parquet, 4 file)."
+default_crawl_time: "2024-01-01T00:00:00"
+fields:
+  id: null
+  text: text

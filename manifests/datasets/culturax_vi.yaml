@@ -1,0 +1,14 @@
+name: culturax_vi
+repo: uonlp/CulturaX
+revision: 6a8734bc69fefcbb7735f4f9250f43e4cd7a442e
+allow_patterns: ["vi/*"]
+purpose: pretrain
+wave: 1
+gated: true
+license: mc4-odc-by + oscar-cc0 (theo dataset card)
+usage_scope: train_ok
+notes: Gated, phải chấp nhận điều khoản trên Hub và đặt HF_TOKEN. mC4 + OSCAR, khoảng 134 GB.
+fields: {id: null, text: text, url: url, crawl_time: timestamp, meta: [source]}
+# OSCAR-2019 rows carry no timestamp; that release was built from the Common Crawl
+# November 2018 snapshot (CC-MAIN-2018-47), so its end is a true upper bound on capture time.
+crawl_time_fallback: {column: source, values: {OSCAR-2019: "2018-11-30T23:59:59"}}

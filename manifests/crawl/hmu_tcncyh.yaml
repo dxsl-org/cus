@@ -1,0 +1,6 @@
+source_id: hmu_tcncyh
+adapter: oai_pmh
+rps: 0.5
+concurrency: 1
+params:
+  endpoint: "https://tapchinghiencuuyhoc.vn/index.php/tcncyh/oai"

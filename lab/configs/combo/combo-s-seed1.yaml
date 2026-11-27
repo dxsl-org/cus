@@ -1,0 +1,22 @@
+# combo-S rerun with seed 1 (init + data order): with moe-s-a3-seed1, tells whether combo-S's 0.011 bpb lead
+# over A3 exceeds run-to-run noise before an M-size run. Same model and schedule as combo-s (seed 0, 0.7804).
+model:
+  d_model: 512
+  n_layers: 8
+  n_heads: 8
+  n_kv_heads: 4
+  gdn: {attention_every: 4}
+  attn_gate: true
+  mtp: {weight: 0.3}
+  moe: {n_experts: 32, top_k: 4, n_shared: 1, expert_hidden: 280, balance: bias, bias_rate: 1.0e-3}
+train:
+  name: combo-s-seed1
+  seed: 1
+  mix: {fineweb2_vie: 0.6, culturax_vi: 0.2, news: 0.08, law: 0.04, reference: 0.02, forum: 0.02,
+        literature: 0.02, health: 0.01, culture_history: 0.005, education: 0.005}
+  total_tokens: 5.0e8
+  batch_tokens: 262144
+  micro_batch: 8
+  lr: 3.0e-3
+  warmup_steps: 100
+  eval_every: 250

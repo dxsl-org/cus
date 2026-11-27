@@ -1,0 +1,10 @@
+source_id: nghiencuulichsu_com
+adapter: sitemap
+client: impersonate
+rps: 0.5
+concurrency: 1
+params:
+  sitemaps:
+    - https://nghiencuulichsu.com/sitemap.xml
+  include: '^https://nghiencuulichsu\.com/\d{4}/\d{2}/\d{2}/[^/?#]+/?$'
+  exclude: '\.(jpg|jpeg|png|gif|pdf)$'

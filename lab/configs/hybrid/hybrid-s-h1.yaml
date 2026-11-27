@@ -1,0 +1,19 @@
+# Phase 17 ablation H1: Gated DeltaNet with every 4th layer full attention (3:1, Qwen3-Next ratio).
+# Dense FFN, so only the token mixer differs from the dense-S baseline (dense-s-full-lr3.0e-3, bpb/all
+# 0.8245): same 0.5B tokens, lr 3e-3, seq 2048. Compare bpb against FLOPs (train log: mfu, tok_s).
+model:
+  d_model: 512
+  n_layers: 8
+  n_heads: 8
+  n_kv_heads: 4
+  gdn: {attention_every: 4}
+train:
+  name: hybrid-s-h1
+  mix: {fineweb2_vie: 0.6, culturax_vi: 0.2, news: 0.08, law: 0.04, reference: 0.02, forum: 0.02,
+        literature: 0.02, health: 0.01, culture_history: 0.005, education: 0.005}
+  total_tokens: 5.0e8
+  batch_tokens: 262144
+  micro_batch: 8  # 16 overflows 12 GB VRAM; Windows then spills to RAM (17k vs 89k tok/s measured on H2)
+  lr: 3.0e-3
+  warmup_steps: 100
+  eval_every: 250

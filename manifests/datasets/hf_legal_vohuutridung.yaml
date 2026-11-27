@@ -1,0 +1,9 @@
+name: hf_legal_vohuutridung
+repo: vohuutridung/vietnamese-legal-documents
+revision: 4d4e10b201544e8a4c49a1d3fa496595a7d486d0
+allow_patterns: ["content/*.parquet", "metadata/*.parquet", "README.md"]
+purpose: pretrain
+wave: 2
+license: vn-not-protected
+usage_scope: train_ok
+notes: 518.255 văn bản pháp luật VN (HF cc-by-4.0 packaging; Luật SHTT Điều 15 cho văn bản gốc). Export qua pipeline.ingest.legal_open_export.

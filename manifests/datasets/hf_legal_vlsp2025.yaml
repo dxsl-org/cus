@@ -1,0 +1,9 @@
+name: hf_legal_vlsp2025
+repo: VLSP2025-LegalSML/legal-pretrain
+revision: e30b20a9c504cd48be4da16e1ebc276cbee75a9b
+allow_patterns: ["data/*.parquet", "README.md"]
+purpose: pretrain
+wave: 2
+license: vn-not-protected
+usage_scope: train_ok
+notes: 96.770 văn bản pháp luật VN tới 2024-2025 (HTML + JSON metadata). Export qua pipeline.ingest.legal_open_export.

@@ -1,0 +1,413 @@
+{
+  "global_settings": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "request_delay": 1.5,
+    "retry_attempts": 3,
+    "output_base_dir": "D:/Data"
+  },
+  "sources": [
+    {
+      "id": "alobacsi_com",
+      "name": "AloBacsi Q&A",
+      "url": "https://alobacsi.com/",
+      "plugin": "scrapers.alobacsi_qa",
+      "enabled": true
+    },
+    {
+      "id": "baovanhoa_vn",
+      "name": "Báo Văn Hóa",
+      "url": "http://baovanhoa.vn/",
+      "plugin": "scrapers.baovanhoa",
+      "enabled": true
+    },
+    {
+      "id": "cafef_vn",
+      "name": "CafeF",
+      "url": "https://cafef.vn/",
+      "plugin": "scrapers.cafef",
+      "enabled": true
+    },
+    {
+      "id": "caphesach_wordpress_com",
+      "name": "Cà Phê Sách (P)",
+      "url": "https://caphesach.wordpress.com/",
+      "plugin": "scrapers.wordpress_rest_api",
+      "enabled": true
+    },
+    {
+      "id": "doanhnhansaigon_vn",
+      "name": "Doanh Nhân Sài Gòn",
+      "url": "https://doanhnhansaigon.vn/",
+      "plugin": "scrapers.doanhnhansaigon_sitemap",
+      "enabled": true
+    },
+    {
+      "id": "thesaigontimes_vn",
+      "name": "Tạp chí Kinh tế Sài Gòn",
+      "url": "https://thesaigontimes.vn/",
+      "plugin": "scrapers.thesaigontimes_sitemap",
+      "enabled": true
+    },
+    {
+      "id": "giaoducthoidai_vn",
+      "name": "Báo Giáo dục và Thời đại",
+      "url": "https://giaoducthoidai.vn/",
+      "plugin": "scrapers.giaoducthoidai",
+      "enabled": true
+    },
+    {
+      "id": "genk_vn",
+      "name": "GenK",
+      "url": "https://genk.vn/",
+      "plugin": "scrapers.genk_sitemap",
+      "enabled": true
+    },
+    {
+      "id": "hoidisanvanhoa_vn",
+      "name": "Hội Di sản Văn hóa Việt Nam",
+      "url": "http://hoidisanvanhoa.vn/",
+      "plugin": "scrapers.hoidisanvanhoa",
+      "enabled": true
+    },
+    {
+      "id": "nghiencuulichsu_com",
+      "name": "Nghiên cứu Lịch sử",
+      "url": "https://nghiencuulichsu.com/",
+      "plugin": "scrapers.nghiencuulichsu",
+      "enabled": true
+    },
+    {
+      "id": "nguoidothi_net_vn",
+      "name": "Báo Người Đô Thị",
+      "url": "https://nguoidothi.net.vn/",
+      "plugin": "scrapers.nguoidothi_sitemap",
+      "enabled": true
+    },
+    {
+      "id": "nhandan_vn",
+      "name": "Báo Nhân Dân",
+      "url": "https://nhandan.vn/",
+      "plugin": "scrapers.nhandan",
+      "enabled": true
+    },
+    {
+      "id": "plo_vn",
+      "name": "Báo Pháp luật TP.HCM",
+      "url": "https://plo.vn/",
+      "plugin": "scrapers.plo_sitemap",
+      "enabled": true
+    },
+    {
+      "id": "sggp_org_vn",
+      "name": "Báo Sài Gòn Giải Phóng",
+      "url": "https://www.sggp.org.vn/",
+      "plugin": "scrapers.sggp_sitemap",
+      "enabled": true
+    },
+    {
+      "id": "spiderum_com",
+      "name": "Spiderum",
+      "url": "https://spiderum.com/",
+      "plugin": "scrapers.spiderum_api",
+      "enabled": true
+    },
+    {
+      "id": "suckhoedoisong_vn",
+      "name": "Báo Sức khỏe và Đời sống",
+      "url": "https://suckhoedoisong.vn/",
+      "plugin": "scrapers.suckhoedoisong",
+      "enabled": true
+    },
+    {
+      "id": "tamanhhospital_vn",
+      "name": "Bệnh viện Đa khoa Tâm Anh",
+      "url": "https://tamanhhospital.vn/",
+      "plugin": "scrapers.tamanhhospital_sitemap",
+      "enabled": true
+    },
+    {
+      "id": "tgs_vn",
+      "name": "Thế Giới Số",
+      "url": "https://tgs.vn/",
+      "plugin": "scrapers.tgs",
+      "enabled": true
+    },
+    {
+      "id": "thanhnien_vn",
+      "name": "Báo Thanh Niên",
+      "url": "https://thanhnien.vn/",
+      "plugin": "scrapers.thanhnien",
+      "enabled": true
+    },
+    {
+      "id": "thuvienphapluat_vn",
+      "name": "Thư viện Pháp luật",
+      "url": "https://thuvienphapluat.vn/",
+      "plugin": "scrapers.thuvienphapluat_qa",
+      "enabled": true
+    },
+    {
+      "id": "tiasang_com_vn",
+      "name": "Tạp chí Tia Sáng",
+      "url": "https://tiasang.com.vn/",
+      "plugin": "scrapers.tiasang",
+      "enabled": true
+    },
+    {
+      "id": "toaan_gov_vn",
+      "name": "Toà án nhân dân tối cao - Công bố bản án",
+      "url": "https://congbobanan.toaan.gov.vn/",
+      "plugin": "scrapers.toaan_gov_vn",
+      "enabled": true,
+      "start_id": 1,
+      "end_id": 2100000,
+      "workers": 10,
+      "batch_size": 50
+    },
+    {
+      "id": "tuoitre_vn",
+      "name": "Báo Tuổi Trẻ",
+      "url": "https://tuoitre.vn/",
+      "plugin": "scrapers.tuoitre_sitemap",
+      "enabled": true
+    },
+    {
+      "id": "cuoituan_tuoitre_vn",
+      "name": "Tuổi Trẻ Cuối Tuần",
+      "url": "https://cuoituan.tuoitre.vn/",
+      "plugin": "scrapers.cuoituan_tuoitre",
+      "enabled": true
+    },
+    {
+      "id": "vbpl_vn",
+      "name": "Cổng thông tin Pháp luật (VBPL)",
+      "url": "https://vbpl.vn/",
+      "plugin": "scrapers.vbpl_sequential",
+      "enabled": true
+    },
+    {
+      "id": "vbpq_org_vn",
+      "name": "Văn bản Pháp quy Tiêu chuẩn",
+      "url": "https://vbpq.org.vn/",
+      "plugin": "scrapers.vbpq_standards",
+      "enabled": true
+    },
+    {
+      "id": "viblo_asia",
+      "name": "Viblo.asia",
+      "url": "https://viblo.asia/",
+      "plugin": "scrapers.viblo_asia",
+      "enabled": true
+    },
+    {
+      "id": "vinmec_com",
+      "name": "Bệnh viện Vinmec",
+      "url": "https://www.vinmec.com/",
+      "plugin": "scrapers.vinmec_sitemap",
+      "enabled": true
+    },
+    {
+      "id": "vneconomy_vn",
+      "name": "Báo điện tử VnEconomy",
+      "url": "https://vneconomy.vn/",
+      "plugin": "scrapers.vneconomy_sitemap",
+      "enabled": true
+    },
+    {
+      "id": "tapchiyhocvietnam_vn",
+      "name": "Tạp chí Y học Việt Nam",
+      "url": "https://tapchiyhocvietnam.vn/",
+      "plugin": "scrapers.ojs_crawler",
+      "enabled": true
+    },
+    {
+      "id": "vjpm_vn",
+      "name": "Tạp chí Y học Dự phòng",
+      "url": "https://vjpm.vn/",
+      "plugin": "scrapers.ojs_crawler",
+      "enabled": true
+    },
+    {
+      "id": "voz_vn",
+      "name": "VOZ Forum",
+      "url": "https://voz.vn/",
+      "plugin": "scrapers.voz",
+      "enabled": true
+    },
+    {
+      "id": "vsqi_gov_vn",
+      "name": "Viện Tiêu chuẩn Chất lượng Việt Nam (VSQI)",
+      "url": "http://vsqi.gov.vn/",
+      "plugin": "scrapers.vsqi_tcvn",
+      "enabled": true
+    },
+    {
+      "id": "vi_wikipedia_org",
+      "name": "Wikipedia Tiếng Việt",
+      "url": "https://vi.wikipedia.org/",
+      "plugin": "scrapers.wikipedia_vi",
+      "enabled": true
+    },
+    {
+      "id": "tinhte_vn",
+      "name": "Tinh tế",
+      "url": "https://tinhte.vn/",
+      "plugin": "scrapers.tinhte",
+      "enabled": true
+    },
+    {
+      "id": "thuvienphapluat_vn",
+      "name": "Thư viện Pháp luật",
+      "url": "https://thuvienphapluat.vn/",
+      "plugin": "scrapers.thuvienphapluat",
+      "enabled": true
+    },
+    {
+      "id": "phunuonline_com_vn",
+      "name": "Báo Phụ Nữ Online",
+      "url": "https://www.phunuonline.com.vn/",
+      "plugin": "scrapers.phunuonline",
+      "enabled": true
+    },
+    {
+      "id": "tapchicongsan_org_vn",
+      "name": "Tạp chí Cộng Sản",
+      "url": "https://www.tapchicongsan.org.vn/",
+      "plugin": "scrapers.tapchicongsan",
+      "enabled": true
+    },
+    {
+      "id": "baochinhphu_vn",
+      "name": "Báo Chính Phủ",
+      "url": "https://baochinhphu.vn/",
+      "plugin": "scrapers.baochinhphu",
+      "enabled": true
+    },
+    {
+      "id": "chinhsachonline_vn",
+      "name": "ChinhSachOnline",
+      "url": "https://chinhsachonline.chinhphu.vn/",
+      "plugin": "scrapers.chinhsachonline",
+      "enabled": true
+    },
+    {
+      "id": "lsvn_vn",
+      "name": "Luật sư Việt Nam",
+      "url": "https://lsvn.vn/",
+      "plugin": "scrapers.lsvn",
+      "enabled": true
+    },
+    {
+      "id": "tapchitoaan_vn",
+      "name": "Tạp chí Tòa án",
+      "url": "https://tapchitoaan.vn/",
+      "plugin": "scrapers.tapchitoaan",
+      "enabled": true
+    },
+    {
+      "id": "nghiencuuquocte_org",
+      "name": "Nghiên cứu Quốc tế",
+      "url": "https://nghiencuuquocte.org/",
+      "plugin": "scrapers.nghiencuuquocte",
+      "enabled": true
+    },
+    {
+      "id": "otofun_net",
+      "name": "Otofun.net",
+      "url": "https://www.otofun.net/",
+      "plugin": "scrapers.otofun",
+      "enabled": true
+    },
+    {
+      "id": "lazi_vn",
+      "name": "Lazi.vn",
+      "url": "https://lazi.vn/",
+      "plugin": "scrapers.lazi",
+      "enabled": true
+    },
+    {
+      "id": "noron_vn",
+      "name": "Noron.vn",
+      "url": "https://noron.vn/",
+      "plugin": "scrapers.noron",
+      "enabled": true
+    },
+    {
+      "id": "vjol_info_vn",
+      "name": "VJOL",
+      "url": "https://vjol.info.vn/",
+      "plugin": "scrapers.vjol",
+      "enabled": true
+    },
+    {
+      "id": "vietjack_com",
+      "name": "Vietjack",
+      "url": "https://vietjack.com/",
+      "plugin": "scrapers.vietjack",
+      "enabled": true
+    },
+    {
+      "id": "loigiaihay_com",
+      "name": "Loigiaihay",
+      "url": "https://loigiaihay.com/",
+      "plugin": "scrapers.loigiaihay",
+      "enabled": true
+    },
+    {
+      "id": "hocmai_vn",
+      "name": "Hocmai Diễn đàn",
+      "url": "https://diendan.hocmai.vn/",
+      "plugin": "scrapers.hocmai",
+      "enabled": true
+    },
+    {
+      "id": "kenhsinhvien_vn",
+      "name": "Kênh Sinh Viên",
+      "url": "https://kenhsinhvien.vn/",
+      "plugin": "scrapers.kenhsinhvien",
+      "enabled": true
+    },
+    {
+      "id": "dembuon_vn",
+      "name": "Đêm Buồn",
+      "url": "https://dembuon.vn/",
+      "plugin": "scrapers.dembuon",
+      "enabled": true
+    },
+    {
+      "id": "didau_com",
+      "name": "Đi Đâu",
+      "url": "https://didau.com/",
+      "plugin": "scrapers.didau",
+      "enabled": true
+    },
+    {
+      "id": "vnphoto_net",
+      "name": "VNPhoto",
+      "url": "http://www.vnphoto.net/",
+      "plugin": "scrapers.vnphoto",
+      "enabled": true
+    },
+    {
+      "id": "vnexpress_net",
+      "name": "VnExpress",
+      "url": "https://vnexpress.net/",
+      "plugin": "scrapers.vnexpress",
+      "enabled": true
+    },
+    {
+      "id": "tinhte_vn_api",
+      "name": "Tinh Tế API",
+      "url": "https://tinhte.vn/",
+      "plugin": "scrapers.tinhte_api",
+      "enabled": true
+    },
+    {
+      "id": "webtretho_com",
+      "name": "Webtretho",
+      "url": "https://www.webtretho.com/",
+      "plugin": "scrapers.webtretho",
+      "enabled": true
+    }
+  ]
+}

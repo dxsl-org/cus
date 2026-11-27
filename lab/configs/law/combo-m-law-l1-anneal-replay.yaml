@@ -1,0 +1,30 @@
+# Phase 19: combo-m-law-l1 with its 24% replay drawn from combo-M's anneal mix (law removed, rescaled to 0.24)
+# instead of the pretraining mix; every other setting is identical. combo-m-law-l1 forgot most on reference
+# (+6.5%) and literature (+5.2%), which its replay held at 0.5% each while the anneal mix had them at 25% / 20%.
+# Replaying what the base model last trained on should keep those gains. Forum is not in the anneal mix.
+model:
+  d_model: 768
+  n_layers: 12
+  n_heads: 12
+  n_kv_heads: 4
+  mup_base_width: 512
+  gdn: {attention_every: 4}
+  attn_gate: true
+  mtp: {weight: 0.3}
+  moe: {n_experts: 32, top_k: 4, n_shared: 1, expert_hidden: 416, balance: bias, bias_rate: 1.0e-3}
+train:
+  name: combo-m-law-l1-anneal-replay
+  init_from: combo-m
+  mix: {law: 0.76, reference: 0.0667, literature: 0.0533, news: 0.04, fineweb2_vie: 0.0267, culturax_vi: 0.0133,
+        education: 0.0133, health: 0.0133, culture_history: 0.0134}
+  total_tokens: 3.0e8
+  batch_tokens: 262144
+  micro_batch: 2  # local 4070 (12 GB): 8 and 4 spill into shared memory, as in the combo-M LR checks
+  lr: 9.0e-4
+  warmup_steps: 50
+  eval_every: 250
+  ckpt_minutes: 15
+  schedule: wsd
+  decay_fraction: 0.2
+  optimizer: muon
+  muon_lr: 0.003

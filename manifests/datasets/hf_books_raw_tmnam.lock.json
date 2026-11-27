@@ -1,0 +1,65 @@
+{
+ "name": "hf_books_raw_tmnam",
+ "repo": "tmnam20/VietnameseBookCorpus-raw-parquet",
+ "revision": "f7182dca4f1ae3a0e31b4fb2ab18834eeb4b7d77",
+ "downloaded_at": "2026-11-20T01:42:47+00:00",
+ "local_dir": "raw/open_datasets/hf_books_raw_tmnam",
+ "bytes": 2543403204,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 470,
+   "sha256": null
+  },
+  {
+   "path": "data/train-00000-of-00010-62994baf3663b867.parquet",
+   "size": 699029380,
+   "sha256": "ca278b4580342751f5c1a8ea342c5154355413f9d3ef0789bd4c3d7b13c04c70"
+  },
+  {
+   "path": "data/train-00001-of-00010-332ba59e4c0f3937.parquet",
+   "size": 311500164,
+   "sha256": "a8c12d9a59389af3d0a00669642d8350094033c269646ed0c27c7af62bcdbee0"
+  },
+  {
+   "path": "data/train-00002-of-00010-df4ef051e9aa9995.parquet",
+   "size": 339637725,
+   "sha256": "03fabab15b514a023158ab1fcad6d5ef718684a449945538551beabe7d25a648"
+  },
+  {
+   "path": "data/train-00003-of-00010-3bed65fbcee54a89.parquet",
+   "size": 320897217,
+   "sha256": "411e5f8a10cba9d131e2c65d14d9ef8e007471c471d89f6c909a0e7916cb3d60"
+  },
+  {
+   "path": "data/train-00004-of-00010-ef93a61ad7b8fd0d.parquet",
+   "size": 252036478,
+   "sha256": "a9d90a777caacaafd248af7ee801bc3a5feaf3aa709b1f7847f1593ab449d682"
+  },
+  {
+   "path": "data/train-00005-of-00010-c187b028421ed75c.parquet",
+   "size": 115862692,
+   "sha256": "25a40e596ab74140a68d9dbfaa25e27a503867d14ae632a1bffbe3ddd95bf172"
+  },
+  {
+   "path": "data/train-00006-of-00010-83c217a7f22d33b2.parquet",
+   "size": 130584221,
+   "sha256": "39f4c9e441140048b09cc5c2d2db3ebfd807efe7defa66c44798d5188a3b0e25"
+  },
+  {
+   "path": "data/train-00007-of-00010-43c3c071d5ae62a2.parquet",
+   "size": 112701290,
+   "sha256": "8cec8e853d9cadedc6b173416333f29b442431e134280a0ebd763b75c082bfb7"
+  },
+  {
+   "path": "data/train-00008-of-00010-45e2b7206ba971f8.parquet",
+   "size": 128621794,
+   "sha256": "52ecfd0c06ce8d61be42a79bd3d01dbad25c7e12bf36226f5a89d76578014c13"
+  },
+  {
+   "path": "data/train-00009-of-00010-d1fa366b9c12194a.parquet",
+   "size": 132531773,
+   "sha256": "2f8166bc873465a87e865324c02af3cc0a67d21b756fad1371c97b06c5945616"
+  }
+ ]
+}

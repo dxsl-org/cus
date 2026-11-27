@@ -1,0 +1,9 @@
+name: sft_vimrhp
+repo: trucmtnguyen/ViMRHP
+revision: 784a2e5e96f0e94b40743aae657208002bd7f490
+allow_patterns: ["Annotation/*.json", "README.md"]
+purpose: sft
+wave: 2
+license: unknown
+usage_scope: train_ok
+notes: "[SFT] ViMRHP: Chấm điểm độ hữu ích của đánh giá sản phẩm (chỉ lấy Annotation/*.json, bỏ ảnh)."

@@ -1,0 +1,20 @@
+{
+ "name": "sft_vispam_reviews",
+ "repo": "visolex/ViSpamReviews",
+ "revision": "3527ed2c779bca5162145bd03575647c5993d937",
+ "downloaded_at": "2026-11-20T02:26:49+00:00",
+ "local_dir": "raw/open_datasets/sft_vispam_reviews",
+ "bytes": 3762292,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 3367,
+   "sha256": null
+  },
+  {
+   "path": "ViSpamReviews.csv",
+   "size": 3758925,
+   "sha256": null
+  }
+ ]
+}

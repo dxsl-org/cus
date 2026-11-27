@@ -1,0 +1,9 @@
+name: sft_vispam_reviews
+repo: visolex/ViSpamReviews
+revision: 3527ed2c779bca5162145bd03575647c5993d937
+allow_patterns: ["*.csv", "README.md"]
+purpose: sft
+wave: 2
+license: unknown
+usage_scope: train_ok
+notes: "[SFT] ViSpamReviews: Phát hiện đánh giá ảo/spam trên sàn TMĐT."

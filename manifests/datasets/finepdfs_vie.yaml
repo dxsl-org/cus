@@ -1,0 +1,15 @@
+name: finepdfs_vie
+repo: HuggingFaceFW/finepdfs
+revision: 220bac3acbf07789502c621d2d33952f51ac7f86
+allow_patterns: ["data/vie_Latn/train/*", "README.md"]
+purpose: pretrain
+wave: 2
+license: odc-by-1.0
+usage_scope: train_ok
+notes: PDF tiếng Việt trích bằng Docling từ Common Crawl (1,23M dòng train, ~12,14 GB).
+fields:
+  id: id
+  text: text
+  url: url
+  crawl_time: date
+  meta: [dump, token_count, full_doc_lid_score, extractor, fw_edu_scores, ocr_quality_scores, minhash_cluster_size]

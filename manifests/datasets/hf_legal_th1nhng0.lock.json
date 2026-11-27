@@ -1,0 +1,30 @@
+{
+ "name": "hf_legal_th1nhng0",
+ "repo": "th1nhng0/vietnamese-legal-documents",
+ "revision": "8977887f17be2defae4c5171d55562e1cde7d695",
+ "downloaded_at": "2026-11-19T08:50:41+00:00",
+ "local_dir": "raw/open_datasets/hf_legal_th1nhng0",
+ "bytes": 809170093,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 12798,
+   "sha256": null
+  },
+  {
+   "path": "data/content.parquet",
+   "size": 784578084,
+   "sha256": "69c5b99c7e22bd14075ebc60e8d216e9eb35c4f1ab28bfc4c0bc38a87de45aab"
+  },
+  {
+   "path": "data/metadata.parquet",
+   "size": 15143095,
+   "sha256": "d7278e8b911a3a37bde871e24f4061f5beed651bb5f4ee177e2504f0633903fa"
+  },
+  {
+   "path": "data/relationships.parquet",
+   "size": 9436116,
+   "sha256": "2cdb628b4dfdc92e33d234785f80378d0b99418c7711adcbe6402ade98b57ffb"
+  }
+ ]
+}

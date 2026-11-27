@@ -1,0 +1,10 @@
+name: proofpile2_arxiv
+repo: EleutherAI/proof-pile-2
+revision: 901a9273a770e9d4138c5ddd91802f9c5c6cdc4b
+allow_patterns: ["arxiv/*"]
+purpose: pretrain
+wave: 2
+license: arxiv (theo từng bài; dataset card ghi dùng cho nghiên cứu)
+usage_scope: train_ok
+notes: "Bài arXiv toán/khoa học dạng LaTeX (khoảng 29B token, 24 GB jsonl.zst). Định dạng jsonl.zst: open_dataset_export chưa đọc được, cần thêm reader trước khi chuyển canonical."
+fields: {text: text, meta: [meta]}

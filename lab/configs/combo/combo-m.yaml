@@ -1,0 +1,36 @@
+# Phase 19 combo-M: the combo-S architecture and phase 18 recipe at dense-M width and depth (ADR 0001).
+# Gated DeltaNet 3:1 with gated attention (layers gggagggaggga), 32 experts of 416 (top-4 + 1 shared: 5×416
+# ≈ dense-M's 2048 FFN), bias balancing, MTP. 446M params, 124M active, 835 MFLOP/token at seq 2048: the same
+# FLOPs as dense-M (831), which reached 0.7268 bpb on the same 2B tokens (cosine + AdamW).
+# Recipe: Muon 0.01 for hidden matrices and experts (μP from base width 512; E4 put the d768 optimum near
+# 0.014 at 0.2B tokens, and longer runs prefer lower), AdamW 3e-3 for embeddings, gains and readout-like
+# params, WSD with the annealing mix in the last 20%. ckpt-stable.pt (saved at the first decay step) lets the
+# stable phase be extended to more tokens later without retraining.
+# Gated DeltaNet on H100 needs Triton >= 3.7.1 (fla #640): torch 2.12.1, as pinned in pyproject.toml.
+model:
+  d_model: 768
+  n_layers: 12
+  n_heads: 12
+  n_kv_heads: 4
+  mup_base_width: 512
+  gdn: {attention_every: 4}
+  attn_gate: true
+  mtp: {weight: 0.3}
+  moe: {n_experts: 32, top_k: 4, n_shared: 1, expert_hidden: 416, balance: bias, bias_rate: 1.0e-3}
+train:
+  name: combo-m
+  mix: {fineweb2_vie: 0.6, culturax_vi: 0.2, news: 0.08, law: 0.04, reference: 0.02, forum: 0.02,
+        literature: 0.02, health: 0.01, culture_history: 0.005, education: 0.005}
+  total_tokens: 2.0e9
+  batch_tokens: 262144
+  micro_batch: 8  # local 4070; cloud runs override (H100: --micro-batch from the benchmark)
+  lr: 3.0e-3
+  warmup_steps: 200
+  eval_every: 500
+  ckpt_minutes: 15
+  schedule: wsd
+  decay_fraction: 0.2
+  optimizer: muon
+  muon_lr: 0.01
+  anneal_mix: {reference: 0.25, literature: 0.2, news: 0.15, law: 0.1, fineweb2_vie: 0.1, culturax_vi: 0.05,
+               education: 0.05, health: 0.05, culture_history: 0.05}

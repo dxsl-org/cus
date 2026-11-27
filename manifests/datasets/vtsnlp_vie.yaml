@@ -1,0 +1,14 @@
+name: vtsnlp_vie
+repo: VTSNLP/vietnamese_curated_dataset
+revision: b81fcce58945970117a1b56d50ec81be2628a5c3
+allow_patterns: ["data/train-*", "README.md"]
+purpose: pretrain
+wave: 2
+license: unknown
+usage_scope: train_ok
+notes: "12,17M văn bản tiếng Việt lọc bằng NeMo Curator từ C4, OSCAR, Wikipedia và báo chí Binhvq (~32,3 GB parquet)."
+default_crawl_time: "2024-05-01T00:00:00"
+fields:
+  id: id
+  text: text
+  meta: [domain]

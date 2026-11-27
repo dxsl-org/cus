@@ -1,0 +1,14 @@
+name: hf_news_namsyntax
+repo: NamSyntax/vietnamese-news-classification
+revision: b6ee76ee6ec15190c4c644ab102b29be5b082c1b
+allow_patterns: ["data/train-*", "README.md"]
+purpose: pretrain
+wave: 2
+license: apache-2.0
+usage_scope: train_ok
+notes: "1,35M bài báo tiếng Việt phân loại theo 11 chủ đề (Thời sự, Khoa học, Pháp luật, Kinh doanh...) từ NamSyntax (~382 MB parquet)."
+default_crawl_time: "2024-01-01T00:00:00"
+fields:
+  id: null
+  text: text
+  meta: [title, description, label]

@@ -1,0 +1,30 @@
+{
+ "name": "sft_xnli_vi",
+ "repo": "facebook/xnli",
+ "revision": "b8dd5d7af51114dbda02c0e3f6133f332186418e",
+ "downloaded_at": "2026-11-20T02:26:54+00:00",
+ "local_dir": "raw/open_datasets/sft_xnli_vi",
+ "bytes": 57710847,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 20789,
+   "sha256": null
+  },
+  {
+   "path": "vi/test-00000-of-00001.parquet",
+   "size": 364126,
+   "sha256": "34918143e8de1172147abd6fd78f369d6b6b6c2f5a016c2a4febc10190803fb1"
+  },
+  {
+   "path": "vi/train-00000-of-00001.parquet",
+   "size": 57140047,
+   "sha256": "f0eefcc40a026d25745a8edc6080ab8200a2307f974f333af32552c323a3dddc"
+  },
+  {
+   "path": "vi/validation-00000-of-00001.parquet",
+   "size": 185885,
+   "sha256": "ff6d6aa869a554c38e43be21be8e880e3422cbccc7cc04bd0544ff2931af6f82"
+  }
+ ]
+}

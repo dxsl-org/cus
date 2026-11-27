@@ -1,0 +1,9 @@
+source_id: nghiencuuquocte_org
+adapter: sitemap
+rps: 1.0
+concurrency: 2
+params:
+  sitemaps:
+    - https://nghiencuuquocte.org/sitemap_index.xml
+  include: '^https://nghiencuuquocte\.org/\d{4}/\d{2}/\d{2}/[^/?#]+/?$'
+  exclude: '\.(jpg|jpeg|png|gif|pdf)$'

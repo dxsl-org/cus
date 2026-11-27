@@ -1,0 +1,55 @@
+{
+ "name": "hf_phapdien_tmquan",
+ "repo": "tmquan/phapdien-moj-gov-vn",
+ "revision": "a1b6860c821b7142ffe2385178af4e4bb6f86aff",
+ "downloaded_at": "2026-11-19T08:42:39+00:00",
+ "local_dir": "raw/open_datasets/hf_phapdien_tmquan",
+ "bytes": 24819954,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 23509,
+   "sha256": null
+  },
+  {
+   "path": "analytics.json",
+   "size": 116156,
+   "sha256": null
+  },
+  {
+   "path": "documents-00000-of-00007.parquet",
+   "size": 3471677,
+   "sha256": "ff0df90b381217a3a30a29a91c08073671fd0587fc6d406f55792b40b3ccc135"
+  },
+  {
+   "path": "documents-00001-of-00007.parquet",
+   "size": 3484746,
+   "sha256": "1b43927919a21aae88a37e4406b66b0bed8c793d1ada1094e34c616a9a09b2bc"
+  },
+  {
+   "path": "documents-00002-of-00007.parquet",
+   "size": 3968607,
+   "sha256": "223baf5f93b5885561a606e569ad30a3ed8165628e59c8f39c11531236cbdaad"
+  },
+  {
+   "path": "documents-00003-of-00007.parquet",
+   "size": 3877189,
+   "sha256": "dee67c91fe7745f582feae3e2fc43f0ef4788cfe72f2425b2d1b80b9aded0856"
+  },
+  {
+   "path": "documents-00004-of-00007.parquet",
+   "size": 4021877,
+   "sha256": "98fa3093430d09d3a5dc1a97aaa9110d654afdf427dfa52223f64f4f68a0ab91"
+  },
+  {
+   "path": "documents-00005-of-00007.parquet",
+   "size": 3739975,
+   "sha256": "e7a7f766a17642cbc8ca8becb2aa1c85b568d5dc53a71ede4c33a32794e13de1"
+  },
+  {
+   "path": "documents-00006-of-00007.parquet",
+   "size": 2116218,
+   "sha256": "e5659661fe62d51de883eb58639cda2ccba0bc4f2e634ce57d8f9ff31cd74ddd"
+  }
+ ]
+}

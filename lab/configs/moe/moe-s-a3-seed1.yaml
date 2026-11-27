@@ -1,0 +1,19 @@
+# A3 rerun with seed 1 (init + data order): measures run-to-run noise, so A3 vs A2 (0.001 bpb) and combo-S vs A3
+# (0.011) can be judged. Same model and schedule as moe-s-a3 (seed 0, bpb/all 0.7913).
+model:
+  d_model: 512
+  n_layers: 8
+  n_heads: 8
+  n_kv_heads: 4
+  moe: {n_experts: 32, top_k: 4, n_shared: 1, expert_hidden: 280, balance: bias, bias_rate: 1.0e-3}
+train:
+  name: moe-s-a3-seed1
+  seed: 1
+  mix: {fineweb2_vie: 0.6, culturax_vi: 0.2, news: 0.08, law: 0.04, reference: 0.02, forum: 0.02,
+        literature: 0.02, health: 0.01, culture_history: 0.005, education: 0.005}
+  total_tokens: 5.0e8
+  batch_tokens: 262144
+  micro_batch: 8
+  lr: 3.0e-3
+  warmup_steps: 100
+  eval_every: 250

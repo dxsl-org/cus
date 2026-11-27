@@ -1,0 +1,75 @@
+{
+ "name": "hf_legal_vohuutridung",
+ "repo": "vohuutridung/vietnamese-legal-documents",
+ "revision": "4d4e10b201544e8a4c49a1d3fa496595a7d486d0",
+ "downloaded_at": "2026-11-19T08:53:34+00:00",
+ "local_dir": "raw/open_datasets/hf_legal_vohuutridung",
+ "bytes": 3590643693,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 5998,
+   "sha256": null
+  },
+  {
+   "path": "content/data-00000-of-00011.parquet",
+   "size": 424374920,
+   "sha256": "62841f04f88500f2a04e10f600de8b0a81bc7dd8e1fd136b40acf38c3caec525"
+  },
+  {
+   "path": "content/data-00001-of-00011.parquet",
+   "size": 338535130,
+   "sha256": "f601aeb89f8e18d830eb6ed4c945f1651753e98e849de89c521f5af259cd8faf"
+  },
+  {
+   "path": "content/data-00002-of-00011.parquet",
+   "size": 253197253,
+   "sha256": "a5a50f636b179c91fdc8f10b0d7b2ed8db0d0826d95fc3e3ece089b8cee1467c"
+  },
+  {
+   "path": "content/data-00003-of-00011.parquet",
+   "size": 397229430,
+   "sha256": "0d31be0559c30c3a351fdb87efc174ac89f85664d3c6027da7f6320d97033ff9"
+  },
+  {
+   "path": "content/data-00004-of-00011.parquet",
+   "size": 272508415,
+   "sha256": "6819cb3393f7136bd63a3b66479c943820d4079c165ec306a80fe1e40ecffe65"
+  },
+  {
+   "path": "content/data-00005-of-00011.parquet",
+   "size": 396367020,
+   "sha256": "69e6de0fe2205281f6a50ae8032d198f0ac11c833e12704bb5b7fb9f201ede3d"
+  },
+  {
+   "path": "content/data-00006-of-00011.parquet",
+   "size": 310683841,
+   "sha256": "eb24b9a5ebcc06205b4a84c19e08ad23d0b583cc384e894e30ebff7ee30ba153"
+  },
+  {
+   "path": "content/data-00007-of-00011.parquet",
+   "size": 334923228,
+   "sha256": "0e43f988004a9e5805fc32ad8ff7c0bca689b5dcafb32146de2b58c510e50114"
+  },
+  {
+   "path": "content/data-00008-of-00011.parquet",
+   "size": 326808459,
+   "sha256": "1948e7b6d81679ed37d66e133d2ca6d98f929ae334f89aaab1720b3f3035e6b2"
+  },
+  {
+   "path": "content/data-00009-of-00011.parquet",
+   "size": 330481680,
+   "sha256": "4569cd7f2de40bbd6782afbe5dcbb45c8f38eab735344fbd4c1015c21db36e23"
+  },
+  {
+   "path": "content/data-00010-of-00011.parquet",
+   "size": 123759239,
+   "sha256": "f3e945867c0b18cb798df5cbd597b277f1eee0f649ff6f53d7ad6b667d8e5e69"
+  },
+  {
+   "path": "metadata/data-00000-of-00001.parquet",
+   "size": 81769080,
+   "sha256": "dc036447825768e24291d2510a93545ae1465853aabd20d22307bbac61c62ee6"
+  }
+ ]
+}

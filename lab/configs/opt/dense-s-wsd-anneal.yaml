@@ -1,0 +1,18 @@
+# Phase 18 E2: E1 + annealing: during the 20% decay (100M tokens) the mix shifts to high-quality sources
+# (Wikipedia, books, law, education, health, history, news), keeping 15% web so the distribution does not jump.
+# Judge with evalset-v2 (cloze) as well as bpb: bpb/all averages domains, so web bpb may rise slightly.
+model: {d_model: 512, n_layers: 8, n_heads: 8, n_kv_heads: 4}
+train:
+  name: dense-s-wsd-anneal
+  mix: {fineweb2_vie: 0.6, culturax_vi: 0.2, news: 0.08, law: 0.04, reference: 0.02, forum: 0.02,
+        literature: 0.02, health: 0.01, culture_history: 0.005, education: 0.005}
+  total_tokens: 5.0e8
+  batch_tokens: 262144
+  micro_batch: 16
+  lr: 3.0e-3
+  warmup_steps: 100
+  eval_every: 250
+  schedule: wsd
+  decay_fraction: 0.2
+  anneal_mix: {reference: 0.25, literature: 0.2, news: 0.15, law: 0.1, fineweb2_vie: 0.1, culturax_vi: 0.05,
+                 education: 0.05, health: 0.05, culture_history: 0.05}

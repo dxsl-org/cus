@@ -1,0 +1,12 @@
+name: starcoder_python
+repo: bigcode/starcoderdata
+revision: 9fc30b578cedaec69e47302df72cf00feed7c8c4
+allow_patterns: ["python/*", "jupyter-scripts-dedup-filtered/*", "jupyter-structured-clean-dedup/*"]
+purpose: pretrain
+wave: 2
+gated: true
+license: permissive theo từng repo (The Stack v1.2, đã loại opt-out)
+usage_scope: train_ok
+notes: "Python đã khử trùng lặp (21,6 GB) + Jupyter notebook Python kèm markdown giải thích (5,7 GB). Gated: chấp nhận điều khoản trên Hub bằng tài khoản của HF_TOKEN."
+default_crawl_time: "2023-05-01T00:00:00"
+fields: {text: content, meta: [max_stars_repo_name, max_stars_repo_path]}

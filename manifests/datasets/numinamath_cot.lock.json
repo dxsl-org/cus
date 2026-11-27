@@ -1,0 +1,45 @@
+{
+ "name": "numinamath_cot",
+ "repo": "AI-MO/NuminaMath-CoT",
+ "revision": "9d8d210c9f6a36c8f3cd84045668c9b7800ef517",
+ "downloaded_at": "2026-11-22T05:05:26+00:00",
+ "local_dir": "raw/open_datasets/numinamath_cot",
+ "bytes": 1234354317,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 2683,
+   "sha256": null
+  },
+  {
+   "path": "data/test-00000-of-00001.parquet",
+   "size": 165933,
+   "sha256": "62f94a9529fadf5fa08711ac932205eb4ee9fe57320052c8bb6a61ba0759d731"
+  },
+  {
+   "path": "data/train-00000-of-00005.parquet",
+   "size": 246635854,
+   "sha256": "25c0fa2ca96dd8078470ad1bbc439d0d211fd8b7d22e04abf7f61e9be9bf9ec3"
+  },
+  {
+   "path": "data/train-00001-of-00005.parquet",
+   "size": 246936512,
+   "sha256": "2d4ba17018b6563728e0a92b38ee965479476cc41975923c224391e90b436236"
+  },
+  {
+   "path": "data/train-00002-of-00005.parquet",
+   "size": 246784426,
+   "sha256": "c607c18379548f4fda05981f871518adf2506adc870825f5ccbf91a1fbb38183"
+  },
+  {
+   "path": "data/train-00003-of-00005.parquet",
+   "size": 246896920,
+   "sha256": "e07293604d1ae0d16dc2708c9c51205760a0253c999e1a5a2ffd971474b3c06d"
+  },
+  {
+   "path": "data/train-00004-of-00005.parquet",
+   "size": 246931989,
+   "sha256": "e3929523d643d93c705444c349b3cc6467cfd27ce8fe502211279889d9b753b9"
+  }
+ ]
+}

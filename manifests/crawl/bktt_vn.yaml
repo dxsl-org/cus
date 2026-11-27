@@ -1,0 +1,13 @@
+source_id: bktt_vn
+adapter: sitemap
+rps: 0.5
+concurrency: 2
+params:
+  sitemaps:
+    - "https://bktt.vn/post-sitemap1.xml"
+    - "https://bktt.vn/post-sitemap2.xml"
+    - "https://bktt.vn/post-sitemap3.xml"
+    - "https://bktt.vn/post-sitemap4.xml"
+    - "https://bktt.vn/post-sitemap5.xml"
+    - "https://bktt.vn/post-sitemap6.xml"
+  exclude: '/(wikipedia|page-sitemap|wp-content/uploads)/|\.(jpg|jpeg|png|gif|webp)$'

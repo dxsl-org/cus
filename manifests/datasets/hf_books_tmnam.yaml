@@ -1,0 +1,13 @@
+name: hf_books_tmnam
+repo: tmnam20/Vietnamese-Books-dedup
+revision: 23edfecef664d265e49aa44edd847b8604264a0d
+allow_patterns: ["data/train-*", "README.md"]
+purpose: pretrain
+wave: 2
+license: unknown
+usage_scope: train_ok
+notes: "14,48M đoạn sách tiếng Việt đã lọc trùng (triết học, văn học, khoa học, lịch sử) từ tmnam20 (~1,92 GB parquet, 8 file)."
+default_crawl_time: "2024-01-01T00:00:00"
+fields:
+  id: null
+  text: text

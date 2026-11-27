@@ -1,0 +1,6 @@
+source_id: udn_jst
+adapter: oai_pmh
+rps: 0.5
+concurrency: 1
+params:
+  endpoint: "https://jst-ud.vn/jst-ud/oai"

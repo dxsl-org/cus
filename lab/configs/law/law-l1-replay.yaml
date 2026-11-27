@@ -1,0 +1,16 @@
+# Phase 17 step 6, L1: continue dense-M on law with 25% replay of its original mix (same proportions, x0.25).
+# 0.3B tokens, under one epoch of the 597M law train tokens. Fresh AdamW, re-warmed to 0.3x dense-M's peak lr.
+# Measured: bpb/law gain vs the dense-M checkpoint, and bpb lost on every other domain (compare with L2).
+# Base is dense-M (ready first); rerun on the winning M tier by changing model + init_from only.
+model: {d_model: 768, n_layers: 12, n_heads: 12, n_kv_heads: 4}
+train:
+  name: law-l1-replay
+  init_from: dense-m
+  mix: {law: 0.76, fineweb2_vie: 0.15, culturax_vi: 0.05, news: 0.02, reference: 0.005, forum: 0.005,
+        literature: 0.005, health: 0.0025, culture_history: 0.00125, education: 0.00125}
+  total_tokens: 3.0e8
+  batch_tokens: 524288
+  micro_batch: 8
+  lr: 6.0e-4
+  warmup_steps: 50
+  eval_every: 100

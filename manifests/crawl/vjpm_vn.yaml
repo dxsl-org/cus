@@ -1,0 +1,6 @@
+source_id: vjpm_vn
+adapter: oai_pmh
+rps: 0.5
+concurrency: 1
+params:
+  endpoint: "https://vjpm.vn/index.php/vjpm/oai"

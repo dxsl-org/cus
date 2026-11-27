@@ -1,0 +1,11 @@
+name: fineweb2_vie
+repo: HuggingFaceFW/fineweb-2
+revision: af9c13333eb981300149d5ca60a8e9d659b276b9
+allow_patterns: ["data/vie_Latn/*"]
+purpose: pretrain
+wave: 1
+license: odc-by-1.0
+usage_scope: train_ok
+notes: Common Crawl, đã lọc và khử trùng lặp theo từng snapshot CC (khoảng 121 GB).
+# Mapping to DocumentRecord (pipeline.ingest.open_dataset_export). crawl_time = CC fetch time.
+fields: {id: id, text: text, url: url, crawl_time: date, meta: [dump, language_score, minhash_cluster_size]}

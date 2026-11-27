@@ -1,0 +1,30 @@
+{
+ "name": "viquad2",
+ "repo": "taidng/UIT-ViQuAD2.0",
+ "revision": "406f09a45cc106a8f7b7fd0c25078883fe58cb1f",
+ "downloaded_at": "2026-11-19T14:09:22+00:00",
+ "local_dir": "eval/viquad2",
+ "bytes": 7105532,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 6040,
+   "sha256": null
+  },
+  {
+   "path": "data/test-00000-of-00001.parquet",
+   "size": 1163726,
+   "sha256": "e6453e0fa0bc94128579b37a9ca4e8381c5301960944ca6399dccc85a785a805"
+  },
+  {
+   "path": "data/train-00000-of-00001.parquet",
+   "size": 5200852,
+   "sha256": "6e68a0c8fb6fa3c7f89e5b3825e3b3e96fd66913db89a9bdfcaf8fa2b5469e19"
+  },
+  {
+   "path": "data/validation-00000-of-00001.parquet",
+   "size": 734914,
+   "sha256": "8c81bdd75bd39eeff98df769f2282453397fa8c7004085e4fe3fc6e419733ae0"
+  }
+ ]
+}

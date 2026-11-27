@@ -1,0 +1,510 @@
+{
+ "name": "opc_fineweb_code",
+ "repo": "OpenCoder-LLM/opc-fineweb-code-corpus",
+ "revision": "9e8e48e666c226294d6f9e6c2e13f2c84c1c06f3",
+ "downloaded_at": "2026-11-22T07:11:50+00:00",
+ "local_dir": "raw/open_datasets/opc_fineweb_code",
+ "bytes": 29016308753,
+ "files": [
+  {
+   "path": "data/train-00000-of-00510.parquet",
+   "size": 290943312,
+   "sha256": "54d7f759ce98e097774c6f8dae466e3a7e719c19262cad3b43755ea4172e54ea"
+  },
+  {
+   "path": "data/train-00001-of-00510.parquet",
+   "size": 289342730,
+   "sha256": "407d3ea71a7674a8674ab9c5a5f9e9b365a1fcf0eceb04eb795ef28793f7bafa"
+  },
+  {
+   "path": "data/train-00002-of-00510.parquet",
+   "size": 290030562,
+   "sha256": "02bf80442485b4cef373c615fd99c9ff3c153ecc678c9e7d539f2e8eadb85921"
+  },
+  {
+   "path": "data/train-00003-of-00510.parquet",
+   "size": 290740219,
+   "sha256": "a1deee02e5a51c6b0fc0cd01a163f68c5463f5d9545f3a3b7603c694cf02d1a4"
+  },
+  {
+   "path": "data/train-00004-of-00510.parquet",
+   "size": 288901767,
+   "sha256": "6dd04da7a66392a2055d796ea011c9370f2f3ca2c3c1315c6186398a2d6c549d"
+  },
+  {
+   "path": "data/train-00005-of-00510.parquet",
+   "size": 291130903,
+   "sha256": "f620533b64c5c44b635a5484aff09cdfef0b5a56821857061f944e4e1f8b95d7"
+  },
+  {
+   "path": "data/train-00006-of-00510.parquet",
+   "size": 287859315,
+   "sha256": "539c71ba23fd44cc95596d902501052266c44b5c8f7b9ed5796d598d05aa5413"
+  },
+  {
+   "path": "data/train-00007-of-00510.parquet",
+   "size": 291103321,
+   "sha256": "9353b43b221d3890c7e888c5a9d5ab9f9378fdb0ca8b2400d6ebff3e9a7fd18a"
+  },
+  {
+   "path": "data/train-00008-of-00510.parquet",
+   "size": 289174238,
+   "sha256": "473d73b9e225e74d079d7621ebf409139f567089b646345e872b48927438da39"
+  },
+  {
+   "path": "data/train-00009-of-00510.parquet",
+   "size": 291140114,
+   "sha256": "aaf7253355bd92a181467e20d37b2f5a2b98a947e3962ed8cd55454107e9ecce"
+  },
+  {
+   "path": "data/train-00010-of-00510.parquet",
+   "size": 290327701,
+   "sha256": "793de55dbb37c81175a5022e20e45c9ecf68d920352528014a10b4c16cf48e1f"
+  },
+  {
+   "path": "data/train-00011-of-00510.parquet",
+   "size": 289498564,
+   "sha256": "bd0e2e1ffac90d6e884001a01c8973a75dd6c6b9a4ba17a50a1285e3f7c6cd5f"
+  },
+  {
+   "path": "data/train-00012-of-00510.parquet",
+   "size": 290200420,
+   "sha256": "bffcf96c0f5031a45a5805696f01b06a929fa5639342fd5633b4df91c79fb13c"
+  },
+  {
+   "path": "data/train-00013-of-00510.parquet",
+   "size": 289069713,
+   "sha256": "ec03704a9ff0b619bbd07184a7a1bf00273dfe94d68aa655dfd72d57b9d5138d"
+  },
+  {
+   "path": "data/train-00014-of-00510.parquet",
+   "size": 291028037,
+   "sha256": "a941045d2193aac16df884d9fe020928759b7a651813f5f7a75da0a1d14aaffb"
+  },
+  {
+   "path": "data/train-00015-of-00510.parquet",
+   "size": 291693692,
+   "sha256": "9b2daedcaeef881d111d22d157bd0be343d6281843aeef4248fe89235c16c8fd"
+  },
+  {
+   "path": "data/train-00016-of-00510.parquet",
+   "size": 290105038,
+   "sha256": "db056e48a2ab4d32110ae7ae86432ea7a9d5377f4cfc26f05559cbf9d22b66de"
+  },
+  {
+   "path": "data/train-00017-of-00510.parquet",
+   "size": 291979705,
+   "sha256": "ead58e9cfd40dea5926b88cdd393da80a6e6cd3af4ab3530a501a8f17e1beaec"
+  },
+  {
+   "path": "data/train-00018-of-00510.parquet",
+   "size": 290090691,
+   "sha256": "00d99b9b11cda661d0fd5f086de175ea5343f3760f2425c53c54c114c4c0c5d3"
+  },
+  {
+   "path": "data/train-00019-of-00510.parquet",
+   "size": 288812383,
+   "sha256": "f6c439919f40ced08fd791f3248a2419576859925f04cd4e275111038fda4c47"
+  },
+  {
+   "path": "data/train-00020-of-00510.parquet",
+   "size": 289382467,
+   "sha256": "fc2722cddb500f70e40efde8a9f93f981c9fb5a289b3dbeb0a53634cb102f54e"
+  },
+  {
+   "path": "data/train-00021-of-00510.parquet",
+   "size": 290199111,
+   "sha256": "98f9fc085fdaae54026a0950fcb3d07b044515621feaf0b352febc4e4a2eb845"
+  },
+  {
+   "path": "data/train-00022-of-00510.parquet",
+   "size": 291355989,
+   "sha256": "360738d1655cc55eb53de179d885a6b1b47ba09c440a3bae867966c6b71af9ed"
+  },
+  {
+   "path": "data/train-00023-of-00510.parquet",
+   "size": 289200647,
+   "sha256": "ed46a90975d047813de920bead7ae1b0d4a31ac0f063fe17de996cece7b4bd5a"
+  },
+  {
+   "path": "data/train-00024-of-00510.parquet",
+   "size": 290335836,
+   "sha256": "8810af9b343e1eab843b7014378cd7a81c2e27c651fc8ced474adf17a0ae340b"
+  },
+  {
+   "path": "data/train-00025-of-00510.parquet",
+   "size": 291433838,
+   "sha256": "80bf60990ea73a8bae7475ff09d5c18f013754839bba00551210cf75c98a3a89"
+  },
+  {
+   "path": "data/train-00026-of-00510.parquet",
+   "size": 290342006,
+   "sha256": "dd04a995cf39ae1c7fe131cef56439b54e0ff165fa327e481d9da54b5301b84a"
+  },
+  {
+   "path": "data/train-00027-of-00510.parquet",
+   "size": 290263280,
+   "sha256": "e8dc085cc0cc2823e73b7257e372f5991d926d69e0600945fe9673d137648391"
+  },
+  {
+   "path": "data/train-00028-of-00510.parquet",
+   "size": 290652971,
+   "sha256": "d1a4b90b58839cf4b4c42e4dad96757fcea653f4447756bc314aa34265277127"
+  },
+  {
+   "path": "data/train-00029-of-00510.parquet",
+   "size": 291595622,
+   "sha256": "37cc7a629bbcd2e45d4af2973944ac766907cb2130b875beac949fd146ad2275"
+  },
+  {
+   "path": "data/train-00030-of-00510.parquet",
+   "size": 290812991,
+   "sha256": "07f9e5cbe2571ae8078eaa505af2b0c77b4ce26bd610780c7efa60ed0a06b28f"
+  },
+  {
+   "path": "data/train-00031-of-00510.parquet",
+   "size": 290479089,
+   "sha256": "681fd06ead9842a02b1d16659ed33063c0a78983cd9f4cd33efa48d22532f49c"
+  },
+  {
+   "path": "data/train-00032-of-00510.parquet",
+   "size": 290308378,
+   "sha256": "58bab62d6fd1fc1ccce1b9404d7c0f1131b55c8e6935b4d693429adfd3c7141f"
+  },
+  {
+   "path": "data/train-00033-of-00510.parquet",
+   "size": 289037344,
+   "sha256": "d2cfce4ef6724537c66f0fee63152bb70cfe07e8d3c02621746b75786afe8794"
+  },
+  {
+   "path": "data/train-00034-of-00510.parquet",
+   "size": 290563485,
+   "sha256": "763944beefb961787f8f532d427ab53c2c6174d0bfed5b0237effb968324a1cc"
+  },
+  {
+   "path": "data/train-00035-of-00510.parquet",
+   "size": 289904711,
+   "sha256": "feb2600ecf0e255d93b33aac0d288dc5c1b574086d7d4f1c9d4ae784120105a0"
+  },
+  {
+   "path": "data/train-00036-of-00510.parquet",
+   "size": 290301149,
+   "sha256": "7d6d62d767f3909345912235bf1d24d22eb398a0e918b2648fa6c94739d151fc"
+  },
+  {
+   "path": "data/train-00037-of-00510.parquet",
+   "size": 291596975,
+   "sha256": "dd26c69db708c9f57913dbce5dde455c2ad9ec3a4a1dcc43870472dd7ede10a3"
+  },
+  {
+   "path": "data/train-00038-of-00510.parquet",
+   "size": 288803447,
+   "sha256": "5506224d8c519e48e40c370355834257d36e5527720f3062dc63af06c3364ea3"
+  },
+  {
+   "path": "data/train-00039-of-00510.parquet",
+   "size": 289835352,
+   "sha256": "f84e65dec6d80577ddc6074f58c72a1a432119f5c33aa86ba23e7df75afad24e"
+  },
+  {
+   "path": "data/train-00040-of-00510.parquet",
+   "size": 289543033,
+   "sha256": "f7933dab1e685bd4e090e8dce7fe44a038d7f9d50348491996c5fd76cecde0a4"
+  },
+  {
+   "path": "data/train-00041-of-00510.parquet",
+   "size": 289284805,
+   "sha256": "b249e7bbfac86a1b247e85f9bad154a83516f191b7aa23afd966ac05f3b52e66"
+  },
+  {
+   "path": "data/train-00042-of-00510.parquet",
+   "size": 289404559,
+   "sha256": "ec3dc89ae75df8296796d11cdb0dc63a23646badf4e3521e6cc96aa7841a962d"
+  },
+  {
+   "path": "data/train-00043-of-00510.parquet",
+   "size": 292189799,
+   "sha256": "f7b52ea8e0de9f89007db31110246e5cd41984b2fecf635d206a9a64f87d9e20"
+  },
+  {
+   "path": "data/train-00044-of-00510.parquet",
+   "size": 291486637,
+   "sha256": "4b2adc0ff5d00be13b25f52b0cfeb4cb74c4d8bb046c2dbfc3cf26b3327ac539"
+  },
+  {
+   "path": "data/train-00045-of-00510.parquet",
+   "size": 290094726,
+   "sha256": "0bb6479b459c51f02907a559fbec538ce5bb54d2b034b90c2fe8a6c9b98706c8"
+  },
+  {
+   "path": "data/train-00046-of-00510.parquet",
+   "size": 288557049,
+   "sha256": "57ee94da8de6bd9ea4ba198aca81f5b4a05e31f9c20d9a3ea879b1dbbcf5ca71"
+  },
+  {
+   "path": "data/train-00047-of-00510.parquet",
+   "size": 289484323,
+   "sha256": "4faa917db1d5967759305bed777ff13bd15de44b2008496089ff9ab7bf7a0236"
+  },
+  {
+   "path": "data/train-00048-of-00510.parquet",
+   "size": 288705996,
+   "sha256": "1b406a11b0c0195962aedf35c10c090fa1932f01287266a359a1efee814821eb"
+  },
+  {
+   "path": "data/train-00049-of-00510.parquet",
+   "size": 289112091,
+   "sha256": "04733e19fb8b122e8c79272b3a5713c4688300e3edb31801460909eea398a251"
+  },
+  {
+   "path": "data/train-00050-of-00510.parquet",
+   "size": 292196021,
+   "sha256": "c3946e392a924fd71c7979dad8bf038202852e55e7386d082aee3b2d789c540a"
+  },
+  {
+   "path": "data/train-00051-of-00510.parquet",
+   "size": 289567613,
+   "sha256": "e1d9b265db182b9ea8f3745d5fe8856eaa4114157a8a941179fd5b1c6b19dd39"
+  },
+  {
+   "path": "data/train-00052-of-00510.parquet",
+   "size": 290722170,
+   "sha256": "f2f8e472013264de075f75c6ea5c30515b75c4b25231dc389ff334824f8a0de7"
+  },
+  {
+   "path": "data/train-00053-of-00510.parquet",
+   "size": 290889498,
+   "sha256": "9b92ed5db26fbb0814d7103e0e9adca2443078c6a2c0fd71b4d4c3a27f0da4b5"
+  },
+  {
+   "path": "data/train-00054-of-00510.parquet",
+   "size": 290377011,
+   "sha256": "e075902039e092dcd3b707e5c4fe44c6cecd63fa2b5db1459387e16229603472"
+  },
+  {
+   "path": "data/train-00055-of-00510.parquet",
+   "size": 289487898,
+   "sha256": "7b80a4f11dd2a0013fa0814fd80c4bd5c9682b7b548fdb5fb44f4045de99548b"
+  },
+  {
+   "path": "data/train-00056-of-00510.parquet",
+   "size": 291895933,
+   "sha256": "6e36a4d25c6e43276f335aa21bd9b1b1543787deefa0f5d45d205fd68d261af9"
+  },
+  {
+   "path": "data/train-00057-of-00510.parquet",
+   "size": 289987650,
+   "sha256": "2e6c6db21e5a16bf12680b883c486c335cf721777aa096873285eac1a58063cf"
+  },
+  {
+   "path": "data/train-00058-of-00510.parquet",
+   "size": 290896568,
+   "sha256": "5bd05c1ca7a6846f9b370937ef9e347899e677b14e92e8279d7eb54eb847bc8b"
+  },
+  {
+   "path": "data/train-00059-of-00510.parquet",
+   "size": 291322878,
+   "sha256": "e3bc49bf8727f99c069e6e288f79a334a39e844f992c7feb72d56d47ec5fbd9a"
+  },
+  {
+   "path": "data/train-00060-of-00510.parquet",
+   "size": 289904864,
+   "sha256": "6d3f82f197d927e0476bae6efcbb3ee3df4b2b365e7d8fb71583b80e976c7d50"
+  },
+  {
+   "path": "data/train-00061-of-00510.parquet",
+   "size": 290096304,
+   "sha256": "30d6e6440bc3bb0d26f0117aa2381b8fc037194aa41e80daba491c6de0c56d4d"
+  },
+  {
+   "path": "data/train-00062-of-00510.parquet",
+   "size": 289191086,
+   "sha256": "0f66cf9c10743997bf4719141b0080d931a0b79420f3561a913b7f4dfe7f0aa1"
+  },
+  {
+   "path": "data/train-00063-of-00510.parquet",
+   "size": 289822906,
+   "sha256": "aadfb89ac6baee67e335bb0b064161b4a6c6383e9b39125c545ca362683c76db"
+  },
+  {
+   "path": "data/train-00064-of-00510.parquet",
+   "size": 289612304,
+   "sha256": "45bd054f93383a44689ea0f57aa4b2a1c113cc5ba725d25d5228c1c0e6145f2c"
+  },
+  {
+   "path": "data/train-00065-of-00510.parquet",
+   "size": 291626499,
+   "sha256": "c07505e19dc4b7815c656d26ef9eb387c2112cc203bcb1d6ecb1b0364c0e1691"
+  },
+  {
+   "path": "data/train-00066-of-00510.parquet",
+   "size": 289988511,
+   "sha256": "088468b608fde06b01661e6f1b92020c988d4699d9e9d84281abfe97483da89a"
+  },
+  {
+   "path": "data/train-00067-of-00510.parquet",
+   "size": 289355824,
+   "sha256": "fbe5c6306b15d85b20c2b385d2efeab40e5a3a9041f7445a17ce7ac7d509c5d7"
+  },
+  {
+   "path": "data/train-00068-of-00510.parquet",
+   "size": 290442826,
+   "sha256": "0bc91ea43d52f7331abea33b6ba8f99bc352fcd527f93008364caf10243edacd"
+  },
+  {
+   "path": "data/train-00069-of-00510.parquet",
+   "size": 288975496,
+   "sha256": "3d8dc6d8abb9bf95b72b0c784746ba04221e4c42011c920de85ae8de5ff30e2a"
+  },
+  {
+   "path": "data/train-00070-of-00510.parquet",
+   "size": 288287745,
+   "sha256": "8dce2d0c35e3022605639340e867bdf1eb16d0abdb9ca3bb3077299741102728"
+  },
+  {
+   "path": "data/train-00071-of-00510.parquet",
+   "size": 290327548,
+   "sha256": "6a56fe4f53e126571d010d05362d5cd04e6995518e32e101f7df629079f5a581"
+  },
+  {
+   "path": "data/train-00072-of-00510.parquet",
+   "size": 288309414,
+   "sha256": "d7cd05292e1232cf48c4e2fdb79feac86408090c2b765b7cecfdaf890929a723"
+  },
+  {
+   "path": "data/train-00073-of-00510.parquet",
+   "size": 290297893,
+   "sha256": "6dad062ceaaa2205f3511ac59cc9c79c725eced6dcfe4b61c7b4bcacfdcc36fe"
+  },
+  {
+   "path": "data/train-00074-of-00510.parquet",
+   "size": 289921502,
+   "sha256": "82dc64cd0d13223ad08ba7f610d4e5d38ba4ccb1023b9fc755a0e1c8e33c5859"
+  },
+  {
+   "path": "data/train-00075-of-00510.parquet",
+   "size": 289447929,
+   "sha256": "913e5a38dc94747a10c2c1e30b29f7d2495b705305bd91e025f95612a74604b6"
+  },
+  {
+   "path": "data/train-00076-of-00510.parquet",
+   "size": 289339631,
+   "sha256": "bca75111b659818ec1e57dcc7c33578788ecda244fcc64d92d090d449b331260"
+  },
+  {
+   "path": "data/train-00077-of-00510.parquet",
+   "size": 289472910,
+   "sha256": "6d87aca157cff30c44ce0c4c4284367abe2de60ff60141d500f75ef3528f3006"
+  },
+  {
+   "path": "data/train-00078-of-00510.parquet",
+   "size": 289143009,
+   "sha256": "05e7a769d88e44755fdeab4fa0eede03ceeee43ac0c773b046b55cea1b36138b"
+  },
+  {
+   "path": "data/train-00079-of-00510.parquet",
+   "size": 290123597,
+   "sha256": "38fc46940fd8a34bb9a6190e066c373994b84212011b1f8ec6d3ee9e141c0219"
+  },
+  {
+   "path": "data/train-00080-of-00510.parquet",
+   "size": 290259250,
+   "sha256": "343b41a051131f688eb6bb4ec26e641871e44e048a5cf96024992a4385b352a3"
+  },
+  {
+   "path": "data/train-00081-of-00510.parquet",
+   "size": 291450570,
+   "sha256": "e8c00ef036355c9b2fcd1a0061ed30e80d315d19c3145d67ffccbf8f07c96769"
+  },
+  {
+   "path": "data/train-00082-of-00510.parquet",
+   "size": 288583293,
+   "sha256": "e239787987988181d89efcd6068798162b455ff471fcd47e305bb8f0aa853233"
+  },
+  {
+   "path": "data/train-00083-of-00510.parquet",
+   "size": 290070861,
+   "sha256": "e2a0714015c044ca8dd1886c4fa0722410436e5699563ee525ad0aa41da25f42"
+  },
+  {
+   "path": "data/train-00084-of-00510.parquet",
+   "size": 290160549,
+   "sha256": "b3c064476adf877636fc9b4f8c2ae0827d9ddf93456ed52377a96c427a1a50d4"
+  },
+  {
+   "path": "data/train-00085-of-00510.parquet",
+   "size": 291938057,
+   "sha256": "1c03656e3a00d8f049ffd729fd95326d8e2387202fa4018cefc67f6afcf8d676"
+  },
+  {
+   "path": "data/train-00086-of-00510.parquet",
+   "size": 291794671,
+   "sha256": "0224abc3439aeb5daf25d96fb216bc418d6a1a638ac16ffd8ec3d0358da48404"
+  },
+  {
+   "path": "data/train-00087-of-00510.parquet",
+   "size": 291610229,
+   "sha256": "59847c816b2a03d949d64d15a50f35d915c33600257f28cda631c546a3aba31b"
+  },
+  {
+   "path": "data/train-00088-of-00510.parquet",
+   "size": 291849467,
+   "sha256": "fc4ac6705aeb6a24adbbe7b50a44326dadaf850dcd88d557d1c69affdcfe4f60"
+  },
+  {
+   "path": "data/train-00089-of-00510.parquet",
+   "size": 290799342,
+   "sha256": "c1209705352fca6da6199e04383b65b4ab9a74811db49280e5fb1ccef1577876"
+  },
+  {
+   "path": "data/train-00090-of-00510.parquet",
+   "size": 290442259,
+   "sha256": "9f36a3429a234b93c6032129807a845312455ee323af9ad81a0ade6eeb319385"
+  },
+  {
+   "path": "data/train-00091-of-00510.parquet",
+   "size": 290583555,
+   "sha256": "c197f1e68895f3b4d0122efc9d3fdd871cfa771f4adfd448309af4db2fb8da41"
+  },
+  {
+   "path": "data/train-00092-of-00510.parquet",
+   "size": 289510541,
+   "sha256": "172bf9a717ffc208a14889a2065d362c63233d646e78163bb2bf213bba269b99"
+  },
+  {
+   "path": "data/train-00093-of-00510.parquet",
+   "size": 292685804,
+   "sha256": "3e6677b573a80d8c72b488a4cb56c69120c486a18884e8a569bfe838ef3951a8"
+  },
+  {
+   "path": "data/train-00094-of-00510.parquet",
+   "size": 288599562,
+   "sha256": "fcec16d81038ae5f0551cb3cb50aa0973deee30dc3420e9f0d05062d8ac58e4e"
+  },
+  {
+   "path": "data/train-00095-of-00510.parquet",
+   "size": 288513433,
+   "sha256": "07af85f1278e95d6aeb68aa5d1ff85b944f6d33c5db8661b1f1716d1c81bfab6"
+  },
+  {
+   "path": "data/train-00096-of-00510.parquet",
+   "size": 290037906,
+   "sha256": "cac6559c2dbac175c80b2459ed7d72f8ab62b1dcc089f718182a80988f74dfd7"
+  },
+  {
+   "path": "data/train-00097-of-00510.parquet",
+   "size": 289126898,
+   "sha256": "e54a0440d23383ea586585a7d729889f4a62426f2d19a550bcdd612e4cb05c6b"
+  },
+  {
+   "path": "data/train-00098-of-00510.parquet",
+   "size": 290816187,
+   "sha256": "4880a0b7245c321451fc471eced32a9cd0c98eec2de05c41a68c99cb66a46c36"
+  },
+  {
+   "path": "data/train-00099-of-00510.parquet",
+   "size": 289005150,
+   "sha256": "847131509ba1a574d4c117f16a50d26326277c1218c26defc6dcc2912d648d5b"
+  }
+ ]
+}

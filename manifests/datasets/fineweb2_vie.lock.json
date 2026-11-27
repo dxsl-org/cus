@@ -1,0 +1,165 @@
+{
+ "name": "fineweb2_vie",
+ "repo": "HuggingFaceFW/fineweb-2",
+ "revision": "af9c13333eb981300149d5ca60a8e9d659b276b9",
+ "downloaded_at": "2026-11-13T19:29:07+00:00",
+ "local_dir": "raw/open_datasets/fineweb2_vie",
+ "bytes": 130193340267,
+ "files": [
+  {
+   "path": "data/vie_Latn/test/000_00000.parquet",
+   "size": 61615389,
+   "sha256": "7011cf38e32636245a65735433d8afdcb0e71cb24ff621b49fd7244a7821b2bf"
+  },
+  {
+   "path": "data/vie_Latn/train/000_00000.parquet",
+   "size": 4840313001,
+   "sha256": "337df3c387a7d5bc854059605acb9382e3887dc7ab0da958ecfe3f73d6219acf"
+  },
+  {
+   "path": "data/vie_Latn/train/000_00001.parquet",
+   "size": 4840175525,
+   "sha256": "8ea63a6d509953495155dddfbce42c91bec69cb845d4b8db1cf4635399a1355e"
+  },
+  {
+   "path": "data/vie_Latn/train/000_00002.parquet",
+   "size": 4840867143,
+   "sha256": "623b77d3d8f420fc35d155a29dafc4c4ff7742de859ce8ef65bea243da385a2e"
+  },
+  {
+   "path": "data/vie_Latn/train/000_00003.parquet",
+   "size": 4841338455,
+   "sha256": "05db65c775430378e3987c5610805ec375fa2fd67f194f69db4fc24c8384a9b8"
+  },
+  {
+   "path": "data/vie_Latn/train/000_00004.parquet",
+   "size": 4841460989,
+   "sha256": "42ffa3d3efb0cce8d6736e95030155476899fddb7e470f2d20328e02834170c6"
+  },
+  {
+   "path": "data/vie_Latn/train/000_00005.parquet",
+   "size": 4841100535,
+   "sha256": "fe9a9babd504582e0457224702d1b88fae06123ec108aa1dd9f41c4c94f8be44"
+  },
+  {
+   "path": "data/vie_Latn/train/001_00000.parquet",
+   "size": 4841453285,
+   "sha256": "9fdade7bed943053794eac71038ebfaaec31a57f74da2d2236cdeeb0f63453cc"
+  },
+  {
+   "path": "data/vie_Latn/train/001_00001.parquet",
+   "size": 4840460341,
+   "sha256": "411ee6a101f2304bb078d15f936c5c824b00b8e6a11ebe41632ff7773f7d50ab"
+  },
+  {
+   "path": "data/vie_Latn/train/001_00002.parquet",
+   "size": 4841630153,
+   "sha256": "d6db3ef051e1b793f6dd81211f348eff3d80008e4d5a91d3aace1645a532b8a7"
+  },
+  {
+   "path": "data/vie_Latn/train/001_00003.parquet",
+   "size": 4840797137,
+   "sha256": "3c64ebde18f15dcf3ded8128c800fe2643db3e21e76c32e2bcf9e040741e929a"
+  },
+  {
+   "path": "data/vie_Latn/train/001_00004.parquet",
+   "size": 4841437527,
+   "sha256": "89258ec9c7797fb930dc0c7afac2d66ce222bc717653813f7b8b80232f2f98d8"
+  },
+  {
+   "path": "data/vie_Latn/train/001_00005.parquet",
+   "size": 4841685955,
+   "sha256": "d91139a63a406ec3009b5f44762ac0bf8e836eb1b75bd8b856b85b0e86851b6b"
+  },
+  {
+   "path": "data/vie_Latn/train/002_00000.parquet",
+   "size": 4840861158,
+   "sha256": "6cae348065ae1289270724c49cc0f6719202846c63f5d8b4635f742a32abb937"
+  },
+  {
+   "path": "data/vie_Latn/train/002_00001.parquet",
+   "size": 4839798929,
+   "sha256": "c0c74f7db3ee676d3b83f8155523972fd43f67ecd374be25897a4f6516bb8c55"
+  },
+  {
+   "path": "data/vie_Latn/train/002_00002.parquet",
+   "size": 4840324130,
+   "sha256": "fae82483521f6543292528117bdd3ec28700528843995433e15c829604c73269"
+  },
+  {
+   "path": "data/vie_Latn/train/002_00003.parquet",
+   "size": 4841144200,
+   "sha256": "557a9251b6b04d7adae5a59a951e8399a06111243614c5ea85e8618ed3071ee1"
+  },
+  {
+   "path": "data/vie_Latn/train/002_00004.parquet",
+   "size": 4840084390,
+   "sha256": "ae88307d384e335f5768720a2ee78f0366dab1e422ef7687cfc17b9f70bbdaa2"
+  },
+  {
+   "path": "data/vie_Latn/train/002_00005.parquet",
+   "size": 4841123130,
+   "sha256": "0a2eef2c39aa2e6357f0e63da6437055cd159a30387bf7df2a2f8c32715b3176"
+  },
+  {
+   "path": "data/vie_Latn/train/003_00000.parquet",
+   "size": 4840524369,
+   "sha256": "0e0a766bc44390de0cce08ec78efcfe0bbe0385c3304e4aebe2cd09f4b142d5c"
+  },
+  {
+   "path": "data/vie_Latn/train/003_00001.parquet",
+   "size": 4840532828,
+   "sha256": "b3a0deeecff98934f7d0faa2e97c40b1eb80c4921d08500d9e08c9a38b035513"
+  },
+  {
+   "path": "data/vie_Latn/train/003_00002.parquet",
+   "size": 4840011969,
+   "sha256": "f74eb75e65ec420e77a50d2463dc4270b676b18fb8decdb02f52018c3e0f3a70"
+  },
+  {
+   "path": "data/vie_Latn/train/003_00003.parquet",
+   "size": 4841872466,
+   "sha256": "9da679733d86606c5d0ffc3a347c97382ea3f989fd1a8dc10cd21c0037de9666"
+  },
+  {
+   "path": "data/vie_Latn/train/003_00004.parquet",
+   "size": 4841007451,
+   "sha256": "2aac394584b87ce617a51ecc6e7547f227c3a7f983d69ba1c1995921dc54f914"
+  },
+  {
+   "path": "data/vie_Latn/train/003_00005.parquet",
+   "size": 4841778612,
+   "sha256": "0067a444cde932fffaf7ae8b44bea6ca7a7018e3340c951b7309c5efbcfa76a5"
+  },
+  {
+   "path": "data/vie_Latn/train/004_00000.parquet",
+   "size": 2568024079,
+   "sha256": "57b162617c00f7df2c547cc2a9735b15cdaef2cb223c9cdf856c22560eb48bc1"
+  },
+  {
+   "path": "data/vie_Latn/train/004_00001.parquet",
+   "size": 2475535780,
+   "sha256": "e1d4bdf0fd719802306b4cca4ebb8127447de5db96e6f75866922893b9894790"
+  },
+  {
+   "path": "data/vie_Latn/train/004_00002.parquet",
+   "size": 2404545371,
+   "sha256": "3898703d3ec7056c1ad08f0ffa1d6f751aacf93398f8fb342d9215edb48fa0b8"
+  },
+  {
+   "path": "data/vie_Latn/train/004_00003.parquet",
+   "size": 2303277394,
+   "sha256": "89a55873991d260e15e58618ac50fcfe38ca70ef473cd12529427d7cf5ed93b8"
+  },
+  {
+   "path": "data/vie_Latn/train/004_00004.parquet",
+   "size": 2147850974,
+   "sha256": "986e5b833087f8507ae4bfb273994dde25bed67fceb3815704e93473a847a124"
+  },
+  {
+   "path": "data/vie_Latn/train/004_00005.parquet",
+   "size": 2050707602,
+   "sha256": "84f578ed543a08c67acad1eebd289d03617482c5d24c30d608eb8378aeddf186"
+  }
+ ]
+}

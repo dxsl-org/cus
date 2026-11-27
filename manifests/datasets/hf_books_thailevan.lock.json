@@ -1,0 +1,35 @@
+{
+ "name": "hf_books_thailevan",
+ "repo": "thailevann/10000_Vietnamese_Books",
+ "revision": "ce5d494f7f136cc4e052f88154a68b9c5ee40087",
+ "downloaded_at": "2026-11-20T01:15:42+00:00",
+ "local_dir": "raw/open_datasets/hf_books_thailevan",
+ "bytes": 906615345,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 283,
+   "sha256": null
+  },
+  {
+   "path": "data/train-00000-of-00004.parquet",
+   "size": 216046337,
+   "sha256": "37122cd6f6aa4b7f6d197ba6f0087756d7c3bc0221c587d89081ae072e31d2ed"
+  },
+  {
+   "path": "data/train-00001-of-00004.parquet",
+   "size": 244810883,
+   "sha256": "65287737af154309c1dd99e79e21c41947ecfade51a6c91c6909d7946f28463e"
+  },
+  {
+   "path": "data/train-00002-of-00004.parquet",
+   "size": 228215356,
+   "sha256": "041c5e76e08371b44d2b68700ff11c9bb0e51a249e8a66614964d2f94b0ed9e2"
+  },
+  {
+   "path": "data/train-00003-of-00004.parquet",
+   "size": 217542486,
+   "sha256": "bbff21b3268f62eb2ede1fbe6b056c0f66b98a45017b1ef56ba6ff5db74eafb1"
+  }
+ ]
+}

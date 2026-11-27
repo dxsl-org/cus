@@ -1,0 +1,20 @@
+{
+ "name": "fineweb_c_vie",
+ "repo": "data-is-better-together/fineweb-c",
+ "revision": "913fc6250ca94f032bce31a6e5fa9363ea27ba73",
+ "downloaded_at": "2026-11-19T08:42:34+00:00",
+ "local_dir": "raw/open_datasets/fineweb_c_vie",
+ "bytes": 2856451,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 116629,
+   "sha256": null
+  },
+  {
+   "path": "vie_Latn/train-00000-of-00001.parquet",
+   "size": 2739822,
+   "sha256": "98fdf0f40b77461cd8ecd6596b67fc837adb0ed78feeb2224aa59e693dfab10b"
+  }
+ ]
+}

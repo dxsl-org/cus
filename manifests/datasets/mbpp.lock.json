@@ -1,0 +1,55 @@
+{
+ "name": "mbpp",
+ "repo": "google-research-datasets/mbpp",
+ "revision": "4bb6404fdc6cacfda99d4ac4205087b89d32030c",
+ "downloaded_at": "2026-11-19T14:09:21+00:00",
+ "local_dir": "eval/mbpp",
+ "bytes": 360549,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 9058,
+   "sha256": null
+  },
+  {
+   "path": "full/prompt-00000-of-00001.parquet",
+   "size": 7878,
+   "sha256": "a053e4bb85ceb77430ae80592addb4ca4dc6ba087592f9e04537800ee88b7431"
+  },
+  {
+   "path": "full/test-00000-of-00001.parquet",
+   "size": 115824,
+   "sha256": "566fd53060ffba5766dace1d1e2f4c38906781526de222b0dfbdbc325b696c77"
+  },
+  {
+   "path": "full/train-00000-of-00001.parquet",
+   "size": 87223,
+   "sha256": "09d125ca31edacb7800be8c67c45abff618faf0214ff551291817d06bdb914ae"
+  },
+  {
+   "path": "full/validation-00000-of-00001.parquet",
+   "size": 25144,
+   "sha256": "3f0ec060987432d99fe8fb409d31e6c67445b208a01741c5583517c80a10fe80"
+  },
+  {
+   "path": "sanitized/prompt-00000-of-00001.parquet",
+   "size": 6717,
+   "sha256": "73c623309b7b5d65fd5661204b35f779f8e66301aa9832d1ad4b8fc3b21151fd"
+  },
+  {
+   "path": "sanitized/test-00000-of-00001.parquet",
+   "size": 60864,
+   "sha256": "e9e9efa2c0d59ef5e55537a9d126b8f875d5ac010a8d75628d76824884e15850"
+  },
+  {
+   "path": "sanitized/train-00000-of-00001.parquet",
+   "size": 33854,
+   "sha256": "d95f8ad6d2fff08fe4826122d6e3e31f75716825d0c5c340d297aca5e9e0de0e"
+  },
+  {
+   "path": "sanitized/validation-00000-of-00001.parquet",
+   "size": 13987,
+   "sha256": "27e065fcab3c863959933328a7fdbf404e1bcb5464b1be6fe0dcd9530e420204"
+  }
+ ]
+}

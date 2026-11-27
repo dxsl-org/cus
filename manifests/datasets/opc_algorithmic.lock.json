@@ -1,0 +1,50 @@
+{
+ "name": "opc_algorithmic",
+ "repo": "OpenCoder-LLM/opc-annealing-corpus",
+ "revision": "078e4bc1d39725cccc18514d2e3278a3fe191110",
+ "downloaded_at": "2026-11-22T05:05:44+00:00",
+ "local_dir": "raw/open_datasets/opc_algorithmic",
+ "bytes": 492430225,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 2734,
+   "sha256": null
+  },
+  {
+   "path": "algorithmic_corpus/1.jsonl",
+   "size": 68917100,
+   "sha256": "290c2b20775ea9faa08d6d6512b035bbd3f9d9343e6b3cb3373794e457286e51"
+  },
+  {
+   "path": "algorithmic_corpus/2.jsonl",
+   "size": 69290885,
+   "sha256": "42ce225fdb4d859ce15e4ea4dcff97289430bc83740518b2068db1e718b30cb3"
+  },
+  {
+   "path": "algorithmic_corpus/3.jsonl",
+   "size": 69817424,
+   "sha256": "2765116c91b9301ee996024c046d85c07a6e24404c90b6e72bf9d60dea26b633"
+  },
+  {
+   "path": "algorithmic_corpus/4.jsonl",
+   "size": 70360753,
+   "sha256": "a5f3e26e064d8996ffc8e015f08d7ec4f039038b03ffdd0e88a997f3decf4e1b"
+  },
+  {
+   "path": "algorithmic_corpus/5.jsonl",
+   "size": 70901905,
+   "sha256": "2d8aa699be94d1c0d8a2ed4226e71ab7396dd749cff64b01e67dcf9d724d573a"
+  },
+  {
+   "path": "algorithmic_corpus/6.jsonl",
+   "size": 71548274,
+   "sha256": "f840bb532a42a8d6e75749f32b990787762ff046e6eb1d6d4617cd4104884f2f"
+  },
+  {
+   "path": "algorithmic_corpus/7.jsonl",
+   "size": 71591150,
+   "sha256": "627e90d37bc2da63b816f59c24f1a2cb544487e8f0bb0c03d2695f49054e2f0a"
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+# Phase 17 step 6, L3: same architecture trained from scratch on law only, with L1's compute (0.3B tokens).
+# Answers: is a general model + adaptation better at law than a law-only model of the same budget?
+# lr and warmup as dense-M (a from-scratch run), on the shorter schedule.
+model: {d_model: 768, n_layers: 12, n_heads: 12, n_kv_heads: 4}
+train:
+  name: law-l3-scratch
+  mix: {law: 1.0}
+  total_tokens: 3.0e8
+  batch_tokens: 524288
+  micro_batch: 8
+  lr: 2.0e-3
+  warmup_steps: 100
+  eval_every: 100

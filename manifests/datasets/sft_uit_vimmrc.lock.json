@@ -1,0 +1,30 @@
+{
+ "name": "sft_uit_vimmrc",
+ "repo": "ura-hcmut/ViMMRC",
+ "revision": "fe68800e37aaa84d80b1d93466b36c3fa60d8bcb",
+ "downloaded_at": "2026-11-20T02:26:39+00:00",
+ "local_dir": "raw/open_datasets/sft_uit_vimmrc",
+ "bytes": 4420229,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 36,
+   "sha256": null
+  },
+  {
+   "path": "ViMMRC_test.csv",
+   "size": 886237,
+   "sha256": null
+  },
+  {
+   "path": "ViMMRC_train.csv",
+   "size": 3078363,
+   "sha256": null
+  },
+  {
+   "path": "ViMMRC_validation.csv",
+   "size": 455593,
+   "sha256": null
+  }
+ ]
+}

@@ -1,0 +1,170 @@
+{
+ "name": "infiwebmath_4plus",
+ "repo": "HuggingFaceTB/finemath",
+ "revision": "e92b25a616738fe95dc186b64dfb19f9c8525594",
+ "downloaded_at": "2026-11-22T06:23:02+00:00",
+ "local_dir": "raw/open_datasets/infiwebmath_4plus",
+ "bytes": 19234328998,
+ "files": [
+  {
+   "path": "infiwebmath-4plus/train-00000-of-00032.parquet",
+   "size": 600695333,
+   "sha256": "8dae840ed1921e42a7e36dfa4d44db96af81f1de9bfaeddab0b1daf6c71c09a3"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00001-of-00032.parquet",
+   "size": 603520076,
+   "sha256": "b6bf7d0ba9eb433e7c31a8f6c55d2d906e39e5970c96929a49463d8a88642162"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00002-of-00032.parquet",
+   "size": 602113178,
+   "sha256": "1a0bdad6d2068c79e8a1a8041c24b6a8d452c395e25706b9eaf6979f40691035"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00003-of-00032.parquet",
+   "size": 599752084,
+   "sha256": "c6e88defa1850841d0a7ce77440709f84a56381c106cb0951f6d72fc10939036"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00004-of-00032.parquet",
+   "size": 601004420,
+   "sha256": "9f9ea683d7c5997d9df640f0e0261d1026c453d25cf1fa3290c20be60850c256"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00005-of-00032.parquet",
+   "size": 599472523,
+   "sha256": "27e87fd6790663672e01c0f6c58db61c2ba6ebda7fdc4ba4eb76694e45e1d1e1"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00006-of-00032.parquet",
+   "size": 603144084,
+   "sha256": "ee5415300ea02387962518f7091b64ab33f5965a7e532e7cd9d6c7d0797319a2"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00007-of-00032.parquet",
+   "size": 598886266,
+   "sha256": "3a8b08f94b370651af39aa2992e067e44188625d85dd68cc093cc27e8a47a81f"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00008-of-00032.parquet",
+   "size": 599739670,
+   "sha256": "033a9d0ec10ce609e69bb757b9019cd2f5df3f003faa89d506c9fc24910b3a8b"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00009-of-00032.parquet",
+   "size": 598408066,
+   "sha256": "8a05473ddd5ad52c9443cd89d0eac383c25f28837a06392f0e0bd05ff65ec50a"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00010-of-00032.parquet",
+   "size": 598470616,
+   "sha256": "6d8318c5ce2085b0a42b1e1750258b0f8799ebf40470594b859121982b77f9b9"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00011-of-00032.parquet",
+   "size": 603033452,
+   "sha256": "e98a3783c628705270851c2270e67c48dae5603393e8be34e7c84fe37ce0d63c"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00012-of-00032.parquet",
+   "size": 599345269,
+   "sha256": "24a0046331712768ba177e74d5ed1f827f2714850358cb55555c9c964fd67223"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00013-of-00032.parquet",
+   "size": 599196710,
+   "sha256": "49807430864d632f9fb57837bf8ea1ec9a35e47fa722037dfed5c3802f60d671"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00014-of-00032.parquet",
+   "size": 601514387,
+   "sha256": "d1f7508db1dddc5819f8d8f16f79538d7fed6afc9cce9c6659f8e553c4368a30"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00015-of-00032.parquet",
+   "size": 603782110,
+   "sha256": "40ba8fefd98d6adfcbf1bb922964ffb2a31a1ddcf0901eeea31e603fca533417"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00016-of-00032.parquet",
+   "size": 601519285,
+   "sha256": "2a7de948fb2f7b7904f27ee1e485c5116838370b7658aa347be12a0e8c5784bb"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00017-of-00032.parquet",
+   "size": 601081629,
+   "sha256": "dc5bc5597778b04a995ee9bf74c3657b3d8c33c42e1c48cd6e5b10108b7aed27"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00018-of-00032.parquet",
+   "size": 602328657,
+   "sha256": "434180e884125d90214f4a09cf8f2ef9dc99692dc2b950d52c00f871840ddfac"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00019-of-00032.parquet",
+   "size": 598541302,
+   "sha256": "5953d6e708186576aae602425e48fa85137d97a9fe68d9d4711922c1e5191873"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00020-of-00032.parquet",
+   "size": 603854661,
+   "sha256": "36d1eab2048bb9b902f946ae9faa2dedc6af59f71323ab15583bc5654afea3f7"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00021-of-00032.parquet",
+   "size": 601981958,
+   "sha256": "ee8ba05911c9c74f30993bbf887b36e47a954e876b523c4c5eb87375ce6f88fa"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00022-of-00032.parquet",
+   "size": 601083891,
+   "sha256": "c342e0774ce63b340922da5f03ec5050d8a8194339d227b57ce9d5c265d16352"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00023-of-00032.parquet",
+   "size": 601514116,
+   "sha256": "2ceadfa8b20f4a7e4ee0c173b6abadada846e0eee97073f3c16081e31e17b1f3"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00024-of-00032.parquet",
+   "size": 601504197,
+   "sha256": "a1d80533a329d5112edbeeb18f66665805ba40e63e5618ffde77885320b8a413"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00025-of-00032.parquet",
+   "size": 603118250,
+   "sha256": "78e7bfa221c379c2821c20c470a09043086ca319726a889519a5579cdd0f50d5"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00026-of-00032.parquet",
+   "size": 603253418,
+   "sha256": "8afbbd6c39e2a5b151825ef0d6157cbc87fce71b7dd24be6f603f40407dffe99"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00027-of-00032.parquet",
+   "size": 600637899,
+   "sha256": "6982b554a45aed5621fbb5286ef679f5af217ef52e6fde48bf3fb123d19d7d91"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00028-of-00032.parquet",
+   "size": 599909260,
+   "sha256": "1510fc9a9d199da3ceac4786f9e3436638b92a8a97e848372b2b994db1f3e7e5"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00029-of-00032.parquet",
+   "size": 602180999,
+   "sha256": "aebaebfa05d6c99654c9e1994d63e9a9e743b6b0b3c1da8a97933837bc2a4ac9"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00030-of-00032.parquet",
+   "size": 599958236,
+   "sha256": "9ff136b008c6099b2e9ecc26656b2220e0201f59cefd49330e358d7eadb6c239"
+  },
+  {
+   "path": "infiwebmath-4plus/train-00031-of-00032.parquet",
+   "size": 599782996,
+   "sha256": "bded7d88de4cd3e5f984f1207554f80c72a463b54acd89fc509c794ef38e9486"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+# Frozen Vietnamese-first eval set (phase 11). Built by `python -m eval.build_evalset evalset-v1`
+# from reviewed TaskItems only (approved/corrected, no flags). Once built, the output directory
+# is immutable: changing any group, quota or item means a new evalset-v2, never an edit here.
+name: evalset-v1
+sample_salt: "llm-evalset/v1"
+groups:
+  # Vietnamese school/university knowledge, all subjects (VMLU valid, public answers).
+  - {name: vn_knowledge, sources: [vmlu]}
+  # Extractive reading comprehension; a hash sample keeps the run time reasonable.
+  - {name: reading, sources: [viquad2], sample: 500}
+  # Same MMLU question ids in vi + 8 languages; scores are also reported per language.
+  - {name: multilingual, sources: [global_mmlu]}
+  # English prompts in v1 (HumanEval + MBPP sanitized), Vietnamese translations in authored items.
+  - {name: code, sources: [humaneval, mbpp, claude_drafts], domains: [programming]}
+  # New questions, never published on the web: split holdout, drafted by Claude, reviewed by anh.
+  - {name: language, sources: [claude_drafts], domains: [language]}
+  - {name: law, sources: [claude_drafts], domains: [law]}
+  - {name: math, sources: [claude_drafts], domains: [math]}

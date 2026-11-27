@@ -1,0 +1,10 @@
+name: proofpile2_algebraic_stack
+repo: EleutherAI/proof-pile-2
+revision: 901a9273a770e9d4138c5ddd91802f9c5c6cdc4b
+allow_patterns: ["algebraic-stack/*"]
+purpose: pretrain
+wave: 2
+license: theo từng repo nguồn (The Stack, permissive)
+usage_scope: train_ok
+notes: "Code toán: Lean, Coq, Isabelle, Agda, Python số học (sympy, numpy), Julia, Matlab... (khoảng 11B token, 7 GB jsonl.zst). Nền cho thuật toán hoá tư duy. Cùng lưu ý jsonl.zst như proofpile2_arxiv."
+fields: {text: text, meta: [meta]}

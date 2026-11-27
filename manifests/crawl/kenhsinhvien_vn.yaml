@@ -1,0 +1,9 @@
+source_id: kenhsinhvien_vn
+adapter: xenforo
+client: impersonate
+rps: 0.5
+params:
+  base: "https://kenhsinhvien.vn"
+  forums: ["/"]
+  thread_route: "t"
+  forum_route: "f"

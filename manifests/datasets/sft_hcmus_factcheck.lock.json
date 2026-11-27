@@ -1,0 +1,25 @@
+{
+ "name": "sft_hcmus_factcheck",
+ "repo": "k22-hcmus/fact-checking-vietnamese-news",
+ "revision": "6d690dd737934fd63e41c95c0787010288c3f3be",
+ "downloaded_at": "2026-11-20T02:26:27+00:00",
+ "local_dir": "raw/open_datasets/sft_hcmus_factcheck",
+ "bytes": 3379531,
+ "files": [
+  {
+   "path": "fact_checking_news/Claim_Dataset/test_claim_dataset.json",
+   "size": 339696,
+   "sha256": null
+  },
+  {
+   "path": "fact_checking_news/Claim_Dataset/train_claim_dataset.json",
+   "size": 2711851,
+   "sha256": null
+  },
+  {
+   "path": "fact_checking_news/Claim_Dataset/val_claim_dataset.json",
+   "size": 327984,
+   "sha256": null
+  }
+ ]
+}

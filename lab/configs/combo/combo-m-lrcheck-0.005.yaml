@@ -1,0 +1,30 @@
+# Phase 19 coarse LR check for combo-M: 0.3B tokens with the full WSD + anneal recipe, muon_lr 0.005.
+# Catches only gross mis-transfer (≥2x) of the μP-predicted LR: MoE seed noise is ~0.4%, and short runs favour
+# higher LR (E4: 0.2B → 0.014 at d768; 0.5B → ~0.01 at d512), so lean low when choosing.
+model:
+  d_model: 768
+  n_layers: 12
+  n_heads: 12
+  n_kv_heads: 4
+  mup_base_width: 512
+  gdn: {attention_every: 4}
+  attn_gate: true
+  mtp: {weight: 0.3}
+  moe: {n_experts: 32, top_k: 4, n_shared: 1, expert_hidden: 416, balance: bias, bias_rate: 1.0e-3}
+train:
+  name: combo-m-lrcheck-0.005
+  mix: {fineweb2_vie: 0.6, culturax_vi: 0.2, news: 0.08, law: 0.04, reference: 0.02, forum: 0.02,
+        literature: 0.02, health: 0.01, culture_history: 0.005, education: 0.005}
+  total_tokens: 3.0e8
+  batch_tokens: 262144
+  micro_batch: 2  # local 4070 (12 GB): 8 and 4 spill into shared memory (1.3k / 2.7k tok/s), 2 runs 16.5k tok/s
+  lr: 3.0e-3
+  warmup_steps: 100
+  eval_every: 250
+  ckpt_minutes: 15
+  schedule: wsd
+  decay_fraction: 0.2
+  optimizer: muon
+  muon_lr: 0.005
+  anneal_mix: {reference: 0.25, literature: 0.2, news: 0.15, law: 0.1, fineweb2_vie: 0.1, culturax_vi: 0.05,
+               education: 0.05, health: 0.05, culture_history: 0.05}

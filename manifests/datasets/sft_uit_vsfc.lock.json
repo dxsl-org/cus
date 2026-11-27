@@ -1,0 +1,30 @@
+{
+ "name": "sft_uit_vsfc",
+ "repo": "ura-hcmut/UIT-VSFC",
+ "revision": "c572aed01a811a1dbc68e9aed9f9e684980a10a2",
+ "downloaded_at": "2026-11-20T02:26:40+00:00",
+ "local_dir": "raw/open_datasets/sft_uit_vsfc",
+ "bytes": 1423537,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 567,
+   "sha256": null
+  },
+  {
+   "path": "UIT-VSFC_test.csv",
+   "size": 278746,
+   "sha256": null
+  },
+  {
+   "path": "UIT-VSFC_train.csv",
+   "size": 1010046,
+   "sha256": null
+  },
+  {
+   "path": "UIT-VSFC_valid.csv",
+   "size": 134178,
+   "sha256": null
+  }
+ ]
+}

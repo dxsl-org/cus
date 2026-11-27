@@ -1,0 +1,17 @@
+# Phase 18 E3: dense-S + Muon (hidden matrices, muon_lr 0.02) + WSD; AdamW (lr 3e-3) for embedding and gains.
+# Compare with E1 (same schedule, AdamW everywhere). Three muon_lr values at the full 0.5B tokens (phase 15 lesson).
+model: {d_model: 512, n_layers: 8, n_heads: 8, n_kv_heads: 4}
+train:
+  name: dense-s-muon-lr0.02
+  mix: {fineweb2_vie: 0.6, culturax_vi: 0.2, news: 0.08, law: 0.04, reference: 0.02, forum: 0.02,
+        literature: 0.02, health: 0.01, culture_history: 0.005, education: 0.005}
+  total_tokens: 5.0e8
+  batch_tokens: 262144
+  micro_batch: 16
+  lr: 3.0e-3
+  warmup_steps: 100
+  eval_every: 250
+  schedule: wsd
+  decay_fraction: 0.2
+  optimizer: muon
+  muon_lr: 0.02

@@ -1,0 +1,30 @@
+{
+ "name": "finepdfs_vie",
+ "repo": "HuggingFaceFW/finepdfs",
+ "revision": "220bac3acbf07789502c621d2d33952f51ac7f86",
+ "downloaded_at": "2026-11-19T08:50:06+00:00",
+ "local_dir": "raw/open_datasets/finepdfs_vie",
+ "bytes": 13036107102,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 229820,
+   "sha256": null
+  },
+  {
+   "path": "data/vie_Latn/train/000_00000.parquet",
+   "size": 4360963347,
+   "sha256": "776ad6c2f705d48611a1edb43de828ebad4fe0008a45cf6e4b83663b421cce8c"
+  },
+  {
+   "path": "data/vie_Latn/train/000_00001.parquet",
+   "size": 4393328475,
+   "sha256": "9ba7df5829246dc92c56ab65cd3db0f75ff5b967352ae0df5aab689f778b573e"
+  },
+  {
+   "path": "data/vie_Latn/train/000_00002.parquet",
+   "size": 4281585460,
+   "sha256": "4a8d0fdf988d1996f7cc59a25c9969ebcfea93b66b0a3fc8569aa921dbe2519d"
+  }
+ ]
+}

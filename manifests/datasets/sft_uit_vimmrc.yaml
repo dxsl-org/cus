@@ -1,0 +1,9 @@
+name: sft_uit_vimmrc
+repo: ura-hcmut/ViMMRC
+revision: fe68800e37aaa84d80b1d93466b36c3fa60d8bcb
+allow_patterns: ["*.csv", "README.md"]
+purpose: sft
+wave: 2
+license: unknown
+usage_scope: train_ok
+notes: "[SFT] UIT-ViMMRC: Đọc hiểu trắc nghiệm nhiều lựa chọn tiếng Việt."

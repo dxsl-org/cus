@@ -1,0 +1,9 @@
+name: humaneval
+repo: openai/openai_humaneval
+revision: 7dce6050a7d6d172f3cc5c32aa97f52fa1a2e544
+allow_patterns: ["openai_humaneval/*", "README.md"]
+purpose: eval
+wave: 1
+license: mit
+usage_scope: blocked
+notes: Code. Phase 11 sẽ dịch đề sang tiếng Việt.

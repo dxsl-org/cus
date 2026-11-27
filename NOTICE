@@ -1,0 +1,8 @@
+Cus
+Copyright 2026 The Cus Authors
+
+This product includes software developed by the Cus project (https://github.com/lungmat8/cus),
+licensed under the Apache License, Version 2.0.
+
+Third-party datasets referenced in manifests/ keep their original licenses, listed per source in
+manifests/sources.yaml. No third-party text data is distributed in this repository.

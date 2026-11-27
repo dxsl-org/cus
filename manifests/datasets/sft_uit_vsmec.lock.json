@@ -1,0 +1,30 @@
+{
+ "name": "sft_uit_vsmec",
+ "repo": "ura-hcmut/UIT-VSMEC",
+ "revision": "ab642b189eff31fdb781cca7c4c34dee3ee0f1de",
+ "downloaded_at": "2026-11-20T02:26:42+00:00",
+ "local_dir": "raw/open_datasets/sft_uit_vsmec",
+ "bytes": 578541,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 526,
+   "sha256": null
+  },
+  {
+   "path": "test.csv",
+   "size": 57164,
+   "sha256": null
+  },
+  {
+   "path": "train.csv",
+   "size": 463018,
+   "sha256": null
+  },
+  {
+   "path": "validation.csv",
+   "size": 57833,
+   "sha256": null
+  }
+ ]
+}

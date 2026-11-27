@@ -1,0 +1,10 @@
+# What data_prep tokenizes. `max_tokens: null` takes the whole source. Training mix weights live in each
+# run config, so the mix can change without re-tokenizing; budgets here only cap what exists on disk.
+# Curated sources come from phase-6 output (s4_clean: deduped, decontaminated, PII-masked); sources not
+# processed yet (open datasets, books) are read from canonical.
+heldout_fraction: 0.01
+sources:
+  fineweb2_vie: {max_tokens: 1.6e9}
+  culturax_vi: {max_tokens: 0.6e9}
+  owner_books: {max_tokens: null}
+  curated: {max_tokens: null}   # every source under processed/s4_clean

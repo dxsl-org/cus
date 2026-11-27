@@ -1,0 +1,9 @@
+name: sft_hcmus_factcheck
+repo: k22-hcmus/fact-checking-vietnamese-news
+revision: 6d690dd737934fd63e41c95c0787010288c3f3be
+allow_patterns: ["fact_checking_news/Claim_Dataset/*.json", "README.md"]
+purpose: sft
+wave: 2
+license: unknown
+usage_scope: train_ok
+notes: "[SFT] Kiểm chứng sự thật (Fact-Checking) tin tức tiếng Việt từ K22 HCMUS (chỉ lấy Claim_Dataset text, bỏ ảnh)."

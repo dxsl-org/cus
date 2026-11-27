@@ -1,0 +1,375 @@
+{
+ "name": "starcoder_python",
+ "repo": "bigcode/starcoderdata",
+ "revision": "9fc30b578cedaec69e47302df72cf00feed7c8c4",
+ "downloaded_at": "2026-11-22T07:36:13+00:00",
+ "local_dir": "raw/open_datasets/starcoder_python",
+ "bytes": 29272428467,
+ "files": [
+  {
+   "path": "jupyter-scripts-dedup-filtered/train-00000-of-00008.parquet",
+   "size": 440878750,
+   "sha256": "098d06cc4a03216e62aa9a0f39f9242aeff801b3c88b6ea4e358f037ed4d4663"
+  },
+  {
+   "path": "jupyter-scripts-dedup-filtered/train-00001-of-00008.parquet",
+   "size": 402624017,
+   "sha256": "cda6088c861f360a9f0c06c309b6c58337fb2feff50582b710212b0bc1303f5b"
+  },
+  {
+   "path": "jupyter-scripts-dedup-filtered/train-00002-of-00008.parquet",
+   "size": 418878868,
+   "sha256": "496ab29d473285d17bb2ecd3ed2cc621f7ddf2133a153ed63112682bf25a08ac"
+  },
+  {
+   "path": "jupyter-scripts-dedup-filtered/train-00003-of-00008.parquet",
+   "size": 414157115,
+   "sha256": "5e394b08227b2b69616d4299982bf90c2d34b08a0bd763499f536c728dc76832"
+  },
+  {
+   "path": "jupyter-scripts-dedup-filtered/train-00004-of-00008.parquet",
+   "size": 409058908,
+   "sha256": "5efbb1be6579559c68e6ca6da8013a5363fe4ed503e0c82d4df1cdffb3d39945"
+  },
+  {
+   "path": "jupyter-scripts-dedup-filtered/train-00005-of-00008.parquet",
+   "size": 402723062,
+   "sha256": "97e46b36a2133219420464c47c78e0074a0822ad2ba28f9a72e6236d02cb5b8d"
+  },
+  {
+   "path": "jupyter-scripts-dedup-filtered/train-00006-of-00008.parquet",
+   "size": 399372312,
+   "sha256": "420097e0faa8956dc3af991db626c472fceb5f3b3c7c644009648722df0a89c7"
+  },
+  {
+   "path": "jupyter-scripts-dedup-filtered/train-00007-of-00008.parquet",
+   "size": 396994034,
+   "sha256": "2c8ff7d012d0b20b1ec482d838955fd7adc7ea4d6c27979f6f593fcfbecf11c4"
+  },
+  {
+   "path": "jupyter-structured-clean-dedup/train-00000-of-00006.parquet",
+   "size": 481220752,
+   "sha256": "d9c46b35d727132e282a22b6cb37f016ebd422744720f1801f7d9c384b8bff10"
+  },
+  {
+   "path": "jupyter-structured-clean-dedup/train-00001-of-00006.parquet",
+   "size": 475260920,
+   "sha256": "c9e1354f39491d1200a6644ef02542b291a775c9020dc2cb2a07228bcb8aac92"
+  },
+  {
+   "path": "jupyter-structured-clean-dedup/train-00002-of-00006.parquet",
+   "size": 464670490,
+   "sha256": "ea8a7c25504a9975125cda2a66cede9f827a6c2a85565667c758b8cdd5ee678a"
+  },
+  {
+   "path": "jupyter-structured-clean-dedup/train-00003-of-00006.parquet",
+   "size": 475091092,
+   "sha256": "4bdb02c2345bb2e7dea57adefc9b7d63b7644310c909840281162874680e1bd2"
+  },
+  {
+   "path": "jupyter-structured-clean-dedup/train-00004-of-00006.parquet",
+   "size": 471829171,
+   "sha256": "8414e0d2c45a259510cb72ecd58b13803851e88d6915e0f952aea19390e7b1b1"
+  },
+  {
+   "path": "jupyter-structured-clean-dedup/train-00005-of-00006.parquet",
+   "size": 460778395,
+   "sha256": "f0d9928880ab072e1e7e1b1eb3addc25f1dd8fa0218682020352b5978a380c52"
+  },
+  {
+   "path": "python/train-00000-of-00059.parquet",
+   "size": 399133539,
+   "sha256": "407cf6628d01fe2da72ac301d669fc99a75b223a1defe71a48ab583dcb047c70"
+  },
+  {
+   "path": "python/train-00001-of-00059.parquet",
+   "size": 392204274,
+   "sha256": "d70b8a5d7ea3201110bb21ea04b2a9dfed23e46bc40233e5f5b879a16e82d834"
+  },
+  {
+   "path": "python/train-00002-of-00059.parquet",
+   "size": 390970907,
+   "sha256": "29200be6c8fc5ee7185ea5c3eb71e0997d1c5cb774eb0c264dde71b7bc0f4c1b"
+  },
+  {
+   "path": "python/train-00003-of-00059.parquet",
+   "size": 389821885,
+   "sha256": "3803644efbc73ac5aff411fe89e8bb608e708eaf3fe1732ff520d1572863871c"
+  },
+  {
+   "path": "python/train-00004-of-00059.parquet",
+   "size": 390508507,
+   "sha256": "e146d81f0729c15efcc1c4be5b15f31a094f2c3c44195d55a0c54ac77b52fcf4"
+  },
+  {
+   "path": "python/train-00005-of-00059.parquet",
+   "size": 389288067,
+   "sha256": "deffc68751a3aed8b8ab61a8fed2d73cac8c0e517c4c4e46edb3497ac5691e81"
+  },
+  {
+   "path": "python/train-00006-of-00059.parquet",
+   "size": 397242510,
+   "sha256": "33b1c6375af6a83bf678a8b91afa1f8645054736c78b6bbf20e066979ef5a9f8"
+  },
+  {
+   "path": "python/train-00007-of-00059.parquet",
+   "size": 394144463,
+   "sha256": "1c30f2d3750c57129c3589e1002b37c73f6ed81aab480fe414e6c70bfd205d7a"
+  },
+  {
+   "path": "python/train-00008-of-00059.parquet",
+   "size": 395801762,
+   "sha256": "6d7a5e5689cc7be5aacf16c83be389b43af107083a5dfb4d62f1a0c4cc27488e"
+  },
+  {
+   "path": "python/train-00009-of-00059.parquet",
+   "size": 393861970,
+   "sha256": "e914f5d57c691f70c3e95c61479d7c2e0108f02a9e8097ec922adae21397db3a"
+  },
+  {
+   "path": "python/train-00010-of-00059.parquet",
+   "size": 385822996,
+   "sha256": "c7ac750226f12efd6574c6d7ac9070a80fca33b923b17598030e905e1c059309"
+  },
+  {
+   "path": "python/train-00011-of-00059.parquet",
+   "size": 389120484,
+   "sha256": "31d100920a5591e38752c4296e651612e746176101821bcef300a6996d5624da"
+  },
+  {
+   "path": "python/train-00012-of-00059.parquet",
+   "size": 397475364,
+   "sha256": "ba401c34d46aae0f53b06d5c5caea9ed78bb9d6a4c9d2cb1e4f28dbf905f77af"
+  },
+  {
+   "path": "python/train-00013-of-00059.parquet",
+   "size": 394800950,
+   "sha256": "4f29b8df88bc3953aeb8c8422d22c0e3936260b15bf0a1566e3a3842ea4d2ef0"
+  },
+  {
+   "path": "python/train-00014-of-00059.parquet",
+   "size": 392029229,
+   "sha256": "433be384b8223748d8ac3cf558e464c2f91d9b5a7e99e83b8e97b6aca4cdcb20"
+  },
+  {
+   "path": "python/train-00015-of-00059.parquet",
+   "size": 394061593,
+   "sha256": "1c6f88ecac78877eb2d42b3db808a6d7a692094cce96a52fd2b6cabbfd4eb077"
+  },
+  {
+   "path": "python/train-00016-of-00059.parquet",
+   "size": 399347830,
+   "sha256": "ee83a7f8e52f9e5c73931b0f871fde741173e200e9f89afa66589c7088f1fb4d"
+  },
+  {
+   "path": "python/train-00017-of-00059.parquet",
+   "size": 392823938,
+   "sha256": "9241ce6ca64a1fce404390254784a499639305af5e2f6ca6ace7b5e30ebf8c59"
+  },
+  {
+   "path": "python/train-00018-of-00059.parquet",
+   "size": 386137784,
+   "sha256": "d70e4facda488903642760a78c1f3407e37ba7d2aec0ab774ae9dbd48862e5ce"
+  },
+  {
+   "path": "python/train-00019-of-00059.parquet",
+   "size": 391744861,
+   "sha256": "621c931bbe76d56b879afda7468c9c82affeb55ecf7c5e73dd0da09380cadfc9"
+  },
+  {
+   "path": "python/train-00020-of-00059.parquet",
+   "size": 392976174,
+   "sha256": "f7365688348a832c108438f6885a8f263654232f144b824c0d14ea3d9817b6c2"
+  },
+  {
+   "path": "python/train-00021-of-00059.parquet",
+   "size": 396809292,
+   "sha256": "3dea4337920d5c9356688d30595c31dea7a71098bff6401aac7726d7e8bcc4bd"
+  },
+  {
+   "path": "python/train-00022-of-00059.parquet",
+   "size": 391009050,
+   "sha256": "abcdbd0950b4943ffeff1a974234b35c5c4adf182e7e4956eaadadd849a03b22"
+  },
+  {
+   "path": "python/train-00023-of-00059.parquet",
+   "size": 391033131,
+   "sha256": "e080c15388888916adbe2f26f57e66e718c0351300ec2b8cd7e2929610a04d46"
+  },
+  {
+   "path": "python/train-00024-of-00059.parquet",
+   "size": 393661613,
+   "sha256": "9f1bae0180796290bd2f2d4201652c629e517c4c12822470ddf4edb27a99a216"
+  },
+  {
+   "path": "python/train-00025-of-00059.parquet",
+   "size": 399373961,
+   "sha256": "f906c09c2c63f18823fa760b25daa5d0fa966a88b45b9ad63d66344148e21980"
+  },
+  {
+   "path": "python/train-00026-of-00059.parquet",
+   "size": 392464331,
+   "sha256": "b498ce6b31eb8fbf2c22019222ce1c458d79fdc29bd232b820a6c27bef58f0d5"
+  },
+  {
+   "path": "python/train-00027-of-00059.parquet",
+   "size": 391937337,
+   "sha256": "eaca37f09ddce4e48620aaa2e247dbb687f733b8023a32bfef498166282a3551"
+  },
+  {
+   "path": "python/train-00028-of-00059.parquet",
+   "size": 392569988,
+   "sha256": "a91810fe62b62c3a53bf17db265ce95b24114bc2a9d566ef9f72f68d4b8d4462"
+  },
+  {
+   "path": "python/train-00029-of-00059.parquet",
+   "size": 391275564,
+   "sha256": "6c895bbb1a1aa54b64c0f8c1998cc8bc51a060bdb50bd6373c537dfaec6894a2"
+  },
+  {
+   "path": "python/train-00030-of-00059.parquet",
+   "size": 389886224,
+   "sha256": "ca7099ff2cee7862f0cb358857d9846571921c76165e913468879f96ec1a5272"
+  },
+  {
+   "path": "python/train-00031-of-00059.parquet",
+   "size": 389806229,
+   "sha256": "9aa8c7c39402e896e876487ac6ed1be6c347d247a4db9627cbf18ad65b1b7e10"
+  },
+  {
+   "path": "python/train-00032-of-00059.parquet",
+   "size": 398082575,
+   "sha256": "f347acdcadd4984443737ff0ffbc617ba771fd3c4cb476286fab9eceecf52956"
+  },
+  {
+   "path": "python/train-00033-of-00059.parquet",
+   "size": 398788013,
+   "sha256": "ff45ce4acda46db8d5cb4e0ed5bfe4c1ba22e2c410cbe9db3d5ceeffa66550d9"
+  },
+  {
+   "path": "python/train-00034-of-00059.parquet",
+   "size": 392365588,
+   "sha256": "01cafee0bef2491f22ec0dc2fbe0123eaa8ce6ea70a6460c39244f5e50e2dbbb"
+  },
+  {
+   "path": "python/train-00035-of-00059.parquet",
+   "size": 387683748,
+   "sha256": "2a1d07f258056147c2af5fdf7c9539a624a68a016839d90f225e03213a1fd513"
+  },
+  {
+   "path": "python/train-00036-of-00059.parquet",
+   "size": 389399748,
+   "sha256": "bc02ed8280a45d12cbc2485d7d1868bb78288a17f56ce8ec1190cd82a55b2f70"
+  },
+  {
+   "path": "python/train-00037-of-00059.parquet",
+   "size": 388389774,
+   "sha256": "8c54d8561bdfba856829913285caa1cf20a3e7e5084b0ccac7e24d37d0ae24f0"
+  },
+  {
+   "path": "python/train-00038-of-00059.parquet",
+   "size": 388239423,
+   "sha256": "5c055d2ec1e14055321217ccbbed72dd1d98cc7f1af2b6f8bb1791968e9d00f8"
+  },
+  {
+   "path": "python/train-00039-of-00059.parquet",
+   "size": 393824649,
+   "sha256": "93ef34c44f991b7e22b96290ab3d7d1a5182c9e0a69ccf03ae13abc8dc972e5a"
+  },
+  {
+   "path": "python/train-00040-of-00059.parquet",
+   "size": 395947909,
+   "sha256": "19e706ed12da6d7b9d5f37feee42c9a3cce470b6c32b13515cc63b82d665ed1f"
+  },
+  {
+   "path": "python/train-00041-of-00059.parquet",
+   "size": 395385135,
+   "sha256": "7df61b49a9148beb7bea77631eb029ead7d76902c2ef47a189c8299e34e4a93a"
+  },
+  {
+   "path": "python/train-00042-of-00059.parquet",
+   "size": 388093306,
+   "sha256": "a4a970db552b092eeed51226723639a0a57edbbcc7349147638e2c7b0734e0db"
+  },
+  {
+   "path": "python/train-00043-of-00059.parquet",
+   "size": 385224603,
+   "sha256": "e38bbf8bdf123a2849fe6fdf2dfd5086cc1f12c795f8816fabbb60e65bfd9155"
+  },
+  {
+   "path": "python/train-00044-of-00059.parquet",
+   "size": 389057584,
+   "sha256": "70ac3f3e5925842a0a0a805aa74248cc0ffecd59d3a46389f76445728820ec9e"
+  },
+  {
+   "path": "python/train-00045-of-00059.parquet",
+   "size": 391738347,
+   "sha256": "951e346a24bf8d7199ea2d607f62d0c40a2b70f1a7ca70ce0f8994ed885a25bb"
+  },
+  {
+   "path": "python/train-00046-of-00059.parquet",
+   "size": 396666816,
+   "sha256": "556599a66644c88af7949f07d25678102f603ef5bb111dbcd1a84804c85eef31"
+  },
+  {
+   "path": "python/train-00047-of-00059.parquet",
+   "size": 395002198,
+   "sha256": "842afacffd4048e8dbdb1aadd5f019fc3fbe5bdc84bc4a50b88fddb6ea3c1c82"
+  },
+  {
+   "path": "python/train-00048-of-00059.parquet",
+   "size": 395781144,
+   "sha256": "4ef5c3ad31d165eeabdcf375868971a28495da11f1bac24b11b49fe98b7e0381"
+  },
+  {
+   "path": "python/train-00049-of-00059.parquet",
+   "size": 397364630,
+   "sha256": "323be2a1a6658be426291e165cd1f5928d7f0867ce656b9a0e7191060a49c392"
+  },
+  {
+   "path": "python/train-00050-of-00059.parquet",
+   "size": 387577536,
+   "sha256": "a6dd77bb06b0a711f46326fd8c88908e318dce814e62a0f5598f11b657db6fc6"
+  },
+  {
+   "path": "python/train-00051-of-00059.parquet",
+   "size": 390255966,
+   "sha256": "11fad1d70288ca99110d25dac18ea2edd4e3d92179127437f8edf49006fc18b3"
+  },
+  {
+   "path": "python/train-00052-of-00059.parquet",
+   "size": 391165665,
+   "sha256": "0d3893ec4019102a4c0804ad6519df9cadbf2497b6f267460a70b934ecdc9508"
+  },
+  {
+   "path": "python/train-00053-of-00059.parquet",
+   "size": 389080291,
+   "sha256": "a9cead1f95e8036f97d7aef2e13508373efccebbb1415c2a54e46ddf9178e293"
+  },
+  {
+   "path": "python/train-00054-of-00059.parquet",
+   "size": 390811130,
+   "sha256": "931b1fc2db62a26c6768ef936f2ad18221b3903f11ac031a40d2df5b05d2e6e1"
+  },
+  {
+   "path": "python/train-00055-of-00059.parquet",
+   "size": 395095129,
+   "sha256": "04471e018cb742b72fefad1d32b39b27f8c442bb8f8f6914813bb5bbfc2b04bf"
+  },
+  {
+   "path": "python/train-00056-of-00059.parquet",
+   "size": 392590302,
+   "sha256": "af2aa36052b58ae5a2413be68aa0e3e61f3966f02a8bfaa301b3f21ba37eb97a"
+  },
+  {
+   "path": "python/train-00057-of-00059.parquet",
+   "size": 395994092,
+   "sha256": "dd0f5a734af7354f7bae78d17d1f0c976becd4a3e0366f72eba919b7121497f5"
+  },
+  {
+   "path": "python/train-00058-of-00059.parquet",
+   "size": 390139473,
+   "sha256": "4c9433142cc89da16dc25874cdd6cc821c22b43335c90cc25b9f0e222d3f1842"
+  }
+ ]
+}

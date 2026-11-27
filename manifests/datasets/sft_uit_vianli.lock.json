@@ -1,0 +1,30 @@
+{
+ "name": "sft_uit_vianli",
+ "repo": "uitnlp/ViANLI",
+ "revision": "0fec8d6ecb043a61c609f9b51f80401fdf1e84d3",
+ "downloaded_at": "2026-11-20T02:26:35+00:00",
+ "local_dir": "raw/open_datasets/sft_uit_vianli",
+ "bytes": 3624120,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 2295,
+   "sha256": null
+  },
+  {
+   "path": "vianli_dev.jsonl",
+   "size": 364351,
+   "sha256": null
+  },
+  {
+   "path": "vianli_test.jsonl",
+   "size": 364606,
+   "sha256": null
+  },
+  {
+   "path": "vianli_train.jsonl",
+   "size": 2892868,
+   "sha256": null
+  }
+ ]
+}

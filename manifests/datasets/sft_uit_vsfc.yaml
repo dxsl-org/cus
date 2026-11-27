@@ -1,0 +1,9 @@
+name: sft_uit_vsfc
+repo: ura-hcmut/UIT-VSFC
+revision: c572aed01a811a1dbc68e9aed9f9e684980a10a2
+allow_patterns: ["*.csv", "README.md"]
+purpose: sft
+wave: 2
+license: unknown
+usage_scope: train_ok
+notes: "[SFT] UIT-VSFC: Đánh giá cảm xúc & phân loại chủ đề phản hồi sinh viên."

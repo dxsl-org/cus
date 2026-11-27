@@ -1,0 +1,9 @@
+source_id: ttvnol_com
+# Trái Tim Việt Nam Online (TTVN Online), founded 12/2000 as "Trí Tuệ Việt Nam";
+# went dark 10/8/2006 (VnExpress 11/8/2006). Only archived copies remain.
+adapter: wayback
+rps: 0.1               # archive.org rate-limits per IP (429); fetcher also backs off host-wide
+max_attempts: 10
+params:
+  url_patterns: ["ttvnol.com/*"]
+  to: "20221130"

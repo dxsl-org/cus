@@ -1,0 +1,9 @@
+name: fineweb_c_vie
+repo: data-is-better-together/fineweb-c
+revision: 913fc6250ca94f032bce31a6e5fa9363ea27ba73
+allow_patterns: ["vie_Latn/*", "README.md"]
+purpose: quality
+wave: 2
+license: unknown
+usage_scope: research_only
+notes: 1.000 mẫu tiếng Việt có nhãn đánh giá giáo dục do người chấm; dùng kiểm chuẩn/hiệu chỉnh q_edu, không đưa vào pretrain.

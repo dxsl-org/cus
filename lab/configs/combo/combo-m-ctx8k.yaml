@@ -1,0 +1,33 @@
+# Phase 19: combo-M context extension to 8192 tokens (phase 17 step 4). 0.2B tokens from the final combo-m weights
+# (fresh optimizer, short re-warmup, peak 0.3x the main run's LRs, WSD decay with the anneal mix). Same mix
+# as the main run; documents shorter than 8192 are packed as in training. Measure with lab.eval_long_context.
+model:
+  d_model: 768
+  n_layers: 12
+  n_heads: 12
+  n_kv_heads: 4
+  max_seq_len: 8192
+  mup_base_width: 512
+  gdn: {attention_every: 4}
+  attn_gate: true
+  mtp: {weight: 0.3}
+  moe: {n_experts: 32, top_k: 4, n_shared: 1, expert_hidden: 416, balance: bias, bias_rate: 1.0e-3}
+train:
+  name: combo-m-ctx8k
+  init_from: combo-m
+  seq_len: 8192
+  mix: {fineweb2_vie: 0.6, culturax_vi: 0.2, news: 0.08, law: 0.04, reference: 0.02, forum: 0.02,
+        literature: 0.02, health: 0.01, culture_history: 0.005, education: 0.005}
+  total_tokens: 2.0e8
+  batch_tokens: 262144
+  micro_batch: 2  # local 4070; cloud runs override
+  lr: 9.0e-4
+  warmup_steps: 50
+  eval_every: 250
+  ckpt_minutes: 15
+  schedule: wsd
+  decay_fraction: 0.2
+  optimizer: muon
+  muon_lr: 0.003
+  anneal_mix: {reference: 0.25, literature: 0.2, news: 0.15, law: 0.1, fineweb2_vie: 0.1, culturax_vi: 0.05,
+               education: 0.05, health: 0.05, culture_history: 0.05}

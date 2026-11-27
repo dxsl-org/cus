@@ -1,0 +1,7 @@
+source_id: otofun_net
+adapter: xenforo
+client: impersonate
+rps: 1.0
+params:
+  base: "https://www.otofun.net.vn"   # www.otofun.net redirects here
+  forums: ["/forums/"]

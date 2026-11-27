@@ -1,0 +1,12 @@
+name: infiwebmath_4plus
+repo: HuggingFaceTB/finemath
+revision: e92b25a616738fe95dc186b64dfb19f9c8525594
+allow_patterns: ["infiwebmath-4plus/*"]
+purpose: pretrain
+wave: 2
+license: odc-by
+usage_scope: train_ok
+notes: "InfiMM-WebMath chấm lại bằng bộ phân loại FineMath, điểm >= 4 (khoảng 8,5B token, 17,9 GB). Trùng một phần URL với finemath_3plus: khử trùng ở phase 6."
+# No fetch time in this subset; InfiMM-WebMath-40B was released 2024-09, an upper bound on capture time.
+default_crawl_time: "2024-09-01T00:00:00"
+fields: {text: text, url: url, meta: [score, int_score, token_count]}

@@ -1,0 +1,1510 @@
+{
+ "name": "proofpile2_arxiv",
+ "repo": "EleutherAI/proof-pile-2",
+ "revision": "901a9273a770e9d4138c5ddd91802f9c5c6cdc4b",
+ "downloaded_at": "2026-11-22T06:45:24+00:00",
+ "local_dir": "raw/open_datasets/proofpile2_arxiv",
+ "bytes": 25860639070,
+ "files": [
+  {
+   "path": "arxiv/test/arXiv_000.jsonl.zst",
+   "size": 923954,
+   "sha256": "6cc63607ba350fe93763454a98ea1f6eae6f0b37986c0d01a76e8e969cf637a6"
+  },
+  {
+   "path": "arxiv/test/arXiv_001.jsonl.zst",
+   "size": 1463263,
+   "sha256": "c9dccb7b2eac96107acad2c7293a8045331ccd94d0d3f362a26883af02464055"
+  },
+  {
+   "path": "arxiv/test/arXiv_002.jsonl.zst",
+   "size": 1308598,
+   "sha256": "5e866b636cbeb978debced53c358c5b31d9036b3f1c3514407faa8fc313dc430"
+  },
+  {
+   "path": "arxiv/test/arXiv_003.jsonl.zst",
+   "size": 1159844,
+   "sha256": "dcdcb19557160ba856f4d3dbab14dc441c0ef1c54672555581971c5e6cb9aae0"
+  },
+  {
+   "path": "arxiv/test/arXiv_004.jsonl.zst",
+   "size": 1315901,
+   "sha256": "2deda6ca1e4ec01a83dc32efca7b71850e73a6450f94113f40c878a4355770e7"
+  },
+  {
+   "path": "arxiv/test/arXiv_005.jsonl.zst",
+   "size": 1079516,
+   "sha256": "8d1fa66ab31c7a132eef141a1ddf97f67ebf0cc6d92a0592baae6df3e7af1bee"
+  },
+  {
+   "path": "arxiv/test/arXiv_006.jsonl.zst",
+   "size": 1557401,
+   "sha256": "22d4435701bbec5d44ffaeec2d1412b58cef8b8faf01098524d92f67aa1afa37"
+  },
+  {
+   "path": "arxiv/test/arXiv_007.jsonl.zst",
+   "size": 1500387,
+   "sha256": "8e4684574595776a7b835a35f4b3a8999c547e982c697f00aca6590f0aeb2c9b"
+  },
+  {
+   "path": "arxiv/test/arXiv_008.jsonl.zst",
+   "size": 1387339,
+   "sha256": "81fb330a6adcd5fda982095588c721067b51551a0467c56cbfeb1bfdab3451c6"
+  },
+  {
+   "path": "arxiv/test/arXiv_009.jsonl.zst",
+   "size": 1091438,
+   "sha256": "8f4dd857e00064683d88aed417c0f2ca5a52008734a528231e9e03fa9cba363f"
+  },
+  {
+   "path": "arxiv/test/arXiv_010.jsonl.zst",
+   "size": 1370862,
+   "sha256": "8abc2bcd69f65a1a9f398ab575c278b7c97955ab7fb506399ee9723980756e02"
+  },
+  {
+   "path": "arxiv/test/arXiv_011.jsonl.zst",
+   "size": 1123682,
+   "sha256": "808fc921f82ae430fa303e7cd502fd91665d918782a4f5ac5a6a2906a6027467"
+  },
+  {
+   "path": "arxiv/test/arXiv_012.jsonl.zst",
+   "size": 1695195,
+   "sha256": "2650b72c8f3afd40c487c14cdd981b32300e7126bac2febedeef12812b90cd90"
+  },
+  {
+   "path": "arxiv/test/arXiv_013.jsonl.zst",
+   "size": 1179927,
+   "sha256": "594fb2ce8431585330958d1a8b0a4cc5ce5dd9011e36487c954c5ed451d65dee"
+  },
+  {
+   "path": "arxiv/test/arXiv_014.jsonl.zst",
+   "size": 1542567,
+   "sha256": "1ad4a458bf93e6257f63e38a1dd8f2bc59ee10524598638da231790a58943aa5"
+  },
+  {
+   "path": "arxiv/test/arXiv_015.jsonl.zst",
+   "size": 1262613,
+   "sha256": "f91f257ab74a507848bb5fce026f6fd220367888855891f32936f87d38e0f886"
+  },
+  {
+   "path": "arxiv/test/arXiv_016.jsonl.zst",
+   "size": 1608453,
+   "sha256": "263b67a4ded01c9289df62b46b34dc09d08bee1d3234ccb58c0fd9d7659f93e9"
+  },
+  {
+   "path": "arxiv/test/arXiv_017.jsonl.zst",
+   "size": 1428540,
+   "sha256": "915f5c3aac2d15df5de099de9c4451b95b1c52fd8127124e8be70533d285c71f"
+  },
+  {
+   "path": "arxiv/test/arXiv_018.jsonl.zst",
+   "size": 1279277,
+   "sha256": "d203632204697c6daab4d23c83ad0169bb15997eec849ccdf0d4a4766cddd454"
+  },
+  {
+   "path": "arxiv/test/arXiv_019.jsonl.zst",
+   "size": 1318127,
+   "sha256": "8918b4ca77d6128910e2a7c308e9883e5824d15fa284d10e6b7f3ebd369855d0"
+  },
+  {
+   "path": "arxiv/test/arXiv_020.jsonl.zst",
+   "size": 1808278,
+   "sha256": "b0680c6a64767730b4571a2fa13e557666aa420eec76cdc3de34a6234c6cde6c"
+  },
+  {
+   "path": "arxiv/test/arXiv_021.jsonl.zst",
+   "size": 1241649,
+   "sha256": "14ba9ddf39a3e743c3dff492ed49927ba2628dc78292c69fc3ae5e77d33f1572"
+  },
+  {
+   "path": "arxiv/test/arXiv_022.jsonl.zst",
+   "size": 1201867,
+   "sha256": "fd05df1ce72280cc1c297e6ba81fa35af4198d40d130c6a912d36417b790aa78"
+  },
+  {
+   "path": "arxiv/test/arXiv_023.jsonl.zst",
+   "size": 1266363,
+   "sha256": "b2c267a34ae3f4303aedefb9528d908d2a23f58d306968b0cfcf02be85058b04"
+  },
+  {
+   "path": "arxiv/test/arXiv_024.jsonl.zst",
+   "size": 1218937,
+   "sha256": "9b36cad7bba9d612abdc70e67b99cf6cc35612c206191e1cd2b8b10631187531"
+  },
+  {
+   "path": "arxiv/test/arXiv_025.jsonl.zst",
+   "size": 1234202,
+   "sha256": "802fe867725762d2d790af0b31976890804c92e64b475e1c5942734d06c6816d"
+  },
+  {
+   "path": "arxiv/test/arXiv_026.jsonl.zst",
+   "size": 1471916,
+   "sha256": "f592aaf0533c9f538f23412312d70f30b024397026979df23f12ed554e3f7cd0"
+  },
+  {
+   "path": "arxiv/test/arXiv_027.jsonl.zst",
+   "size": 1357079,
+   "sha256": "a3a86e560dd00d7b5aa6aa1c582ae172f09206dfea46b7d8453c4244bf5a1b97"
+  },
+  {
+   "path": "arxiv/test/arXiv_028.jsonl.zst",
+   "size": 1299240,
+   "sha256": "89385e1942afd6495822141a204c7070ae2405a90d4d40a8ac2deec00afd6e49"
+  },
+  {
+   "path": "arxiv/test/arXiv_029.jsonl.zst",
+   "size": 1370149,
+   "sha256": "496ea56cebcbfbdb6ec63ebd5bcb9d9ce7647530f4d4f5551c5a8e820d1eda2e"
+  },
+  {
+   "path": "arxiv/test/arXiv_030.jsonl.zst",
+   "size": 1684876,
+   "sha256": "02bdb62943081811d6ec9667ba171496d427db5121c1cf9848e4aa4afebd9b41"
+  },
+  {
+   "path": "arxiv/test/arXiv_031.jsonl.zst",
+   "size": 1116001,
+   "sha256": "c6f86f7045aabf315e68364b05c9e0872de5cc9ae576118af132e7da694380e9"
+  },
+  {
+   "path": "arxiv/test/arXiv_032.jsonl.zst",
+   "size": 1542222,
+   "sha256": "be7633679912a61f914110fea19ed53da22c4a0bf82090d8d27c68f75d240430"
+  },
+  {
+   "path": "arxiv/test/arXiv_033.jsonl.zst",
+   "size": 1825876,
+   "sha256": "aa49932a7639390ef34c5087872c16f0aacc348746e4f34fe259d03305d3cc18"
+  },
+  {
+   "path": "arxiv/test/arXiv_034.jsonl.zst",
+   "size": 1598757,
+   "sha256": "f445f911b56b45282c06b6705dac203c6539cc6ddce1fa4770f602522a4446ed"
+  },
+  {
+   "path": "arxiv/test/arXiv_035.jsonl.zst",
+   "size": 1345445,
+   "sha256": "6099c589f8341d31d8fd8087c2e30b2a33bdedafad92bc3cce6b2ef91cf484f5"
+  },
+  {
+   "path": "arxiv/test/arXiv_036.jsonl.zst",
+   "size": 1607844,
+   "sha256": "06eaa8b08bb7a7cdccd9e1b8b867bc316f60a4ca2edb53e6622d09c441b12305"
+  },
+  {
+   "path": "arxiv/test/arXiv_037.jsonl.zst",
+   "size": 1214544,
+   "sha256": "c5e1bd7d372ef9eefbc9e4dd8966ee42a840d2bcf6c09e516c59410cc1395856"
+  },
+  {
+   "path": "arxiv/test/arXiv_038.jsonl.zst",
+   "size": 1041128,
+   "sha256": "dbf9cc3e5563375f1d498e9deb09a5a662b6b0cf5bf757f8888cda13dc20a461"
+  },
+  {
+   "path": "arxiv/test/arXiv_039.jsonl.zst",
+   "size": 1310037,
+   "sha256": "f7558143ece365ef14e192b5900d0ecee3cfd4ef62163fb469e94bdbf52fe347"
+  },
+  {
+   "path": "arxiv/test/arXiv_040.jsonl.zst",
+   "size": 1311390,
+   "sha256": "3d095713aa1afae6882c626e80cfe5cc21df8c95581d645c618edee4761edbda"
+  },
+  {
+   "path": "arxiv/test/arXiv_041.jsonl.zst",
+   "size": 1264825,
+   "sha256": "630d1dfe8f83ee79a74e48075630abb6992a83938b99e8436b34ef5b06917ebf"
+  },
+  {
+   "path": "arxiv/test/arXiv_042.jsonl.zst",
+   "size": 1292281,
+   "sha256": "02ee1b5ce67309bd3950af05f8efff12ae129604f8cac629d62b1e8e6c842ba0"
+  },
+  {
+   "path": "arxiv/test/arXiv_043.jsonl.zst",
+   "size": 1407010,
+   "sha256": "15553c4d93733129c3be73cccde1d22ea4643ee563ba72f566d2c2ddc9d17abe"
+  },
+  {
+   "path": "arxiv/test/arXiv_044.jsonl.zst",
+   "size": 1009433,
+   "sha256": "2026997485197e9f23804acc2498c8d3bde6a5fe4b8241faacefb5a610d5ec56"
+  },
+  {
+   "path": "arxiv/test/arXiv_045.jsonl.zst",
+   "size": 1317824,
+   "sha256": "b285f054fc4957ba9fbdc1a2ea90fd167074c06bbb3c43a53812cb5ecd842c46"
+  },
+  {
+   "path": "arxiv/test/arXiv_046.jsonl.zst",
+   "size": 1497762,
+   "sha256": "c457f340ff081dc29f42ab4a6e86fc5a8d02dad67439693bd8b0833243c98a0e"
+  },
+  {
+   "path": "arxiv/test/arXiv_047.jsonl.zst",
+   "size": 1025271,
+   "sha256": "c599da1fd198640eff136b8ae57d83355599919430777fc35dbc1f88c5b14932"
+  },
+  {
+   "path": "arxiv/test/arXiv_048.jsonl.zst",
+   "size": 1229588,
+   "sha256": "32b7198eb766d9bbdae70a181ae5c0f6087216fc73fe57e3c5982416b63e4f8b"
+  },
+  {
+   "path": "arxiv/test/arXiv_049.jsonl.zst",
+   "size": 1047040,
+   "sha256": "d0bc04b51b165fdb8709f3461453e420f297a3019648368b6a26bb1ed77f2d5c"
+  },
+  {
+   "path": "arxiv/test/arXiv_050.jsonl.zst",
+   "size": 1472974,
+   "sha256": "7ca728a64e7b5a9aa0acd7933ab40ef8f25aa5d2837ab327c289d47b36363b31"
+  },
+  {
+   "path": "arxiv/test/arXiv_051.jsonl.zst",
+   "size": 1122406,
+   "sha256": "507fb72da062896e254b96d179cfce8fa0969336b416a82f02cde7019be402a5"
+  },
+  {
+   "path": "arxiv/test/arXiv_052.jsonl.zst",
+   "size": 1319258,
+   "sha256": "2956db34dcf1d332792b56951afa0e91be8fe6c8026942f2d24e0ad8e6b9ad3d"
+  },
+  {
+   "path": "arxiv/test/arXiv_053.jsonl.zst",
+   "size": 1478237,
+   "sha256": "dc95cfbfe0974fa5f3656c317e34488ff87c0046b1e023cffda7760f17b12d0e"
+  },
+  {
+   "path": "arxiv/test/arXiv_054.jsonl.zst",
+   "size": 1601542,
+   "sha256": "d0bfabf00d3b792c1f82f724f5e59812b875d1ce15eec7899db1ae989cf924d8"
+  },
+  {
+   "path": "arxiv/test/arXiv_055.jsonl.zst",
+   "size": 1618632,
+   "sha256": "55144936d124f1984bc7159b5f73a2632d3458e18c8ea073a16e328e20a1e984"
+  },
+  {
+   "path": "arxiv/test/arXiv_056.jsonl.zst",
+   "size": 1136217,
+   "sha256": "22ef553b1f2ed3ec01eef89a1bdd6f6d799c922042c6072b5bf4a97d94988893"
+  },
+  {
+   "path": "arxiv/test/arXiv_057.jsonl.zst",
+   "size": 1253057,
+   "sha256": "1cf0ef61c8f14a41e24453efa310a0087ab1cf1cda1600ee3e2058ad6f403e0e"
+  },
+  {
+   "path": "arxiv/test/arXiv_058.jsonl.zst",
+   "size": 1213108,
+   "sha256": "54b9ebc3074174b489f4568c3aa7202ea020ccbc1eb87e0ae296a7560154000d"
+  },
+  {
+   "path": "arxiv/test/arXiv_059.jsonl.zst",
+   "size": 1488619,
+   "sha256": "d723a9e5bf21ff93355796b71c4a3428d2dd0b8c1cae045b445bfb6b2d37d4f0"
+  },
+  {
+   "path": "arxiv/test/arXiv_060.jsonl.zst",
+   "size": 1692087,
+   "sha256": "7f94e983a6b63b64041bfe55a3056e41d3a9daab7ffa5691d2e89d03197537c9"
+  },
+  {
+   "path": "arxiv/test/arXiv_061.jsonl.zst",
+   "size": 1158826,
+   "sha256": "6a2d39d639be13cc14915c2a80ce84f4fb1146ba86472f4f0c24b3d8c9975373"
+  },
+  {
+   "path": "arxiv/test/arXiv_062.jsonl.zst",
+   "size": 1739654,
+   "sha256": "63b8c48356d1c85b6d19ca206528c01aa05c8b01b4f7e9c7585ff2ba92fdcf0c"
+  },
+  {
+   "path": "arxiv/test/arXiv_063.jsonl.zst",
+   "size": 1080641,
+   "sha256": "e7e92aa23acdaee1986be0f91baa88cac0bce81ca15413e282757de17d9fbb42"
+  },
+  {
+   "path": "arxiv/test/arXiv_064.jsonl.zst",
+   "size": 1529982,
+   "sha256": "44d3f54a1a05670223504ec5fddd474deba693e096e6c742492b368035a30177"
+  },
+  {
+   "path": "arxiv/test/arXiv_065.jsonl.zst",
+   "size": 1407000,
+   "sha256": "d8fb9ab1af0a389e2c6255159720eda62870f3ad75c5f306135d475182631c0e"
+  },
+  {
+   "path": "arxiv/test/arXiv_066.jsonl.zst",
+   "size": 1219522,
+   "sha256": "d882078c62cd17090bce8fe4532111f78d85026da23c86f03f44f9c7678157b4"
+  },
+  {
+   "path": "arxiv/test/arXiv_067.jsonl.zst",
+   "size": 1374110,
+   "sha256": "7bbc951014d8de993541a270f1b10b227e9b385f81b12d5a4f56e992916c384a"
+  },
+  {
+   "path": "arxiv/test/arXiv_068.jsonl.zst",
+   "size": 1643257,
+   "sha256": "21f92ef85dd141d3a16efb2b4d18edbc7a23c6a7e6429b194e70c93932539e18"
+  },
+  {
+   "path": "arxiv/test/arXiv_069.jsonl.zst",
+   "size": 1595645,
+   "sha256": "7cf90f32ba19e7dc208a66e8f4449fbd8ad87518da42f318f919f5c797a064f0"
+  },
+  {
+   "path": "arxiv/test/arXiv_070.jsonl.zst",
+   "size": 1030420,
+   "sha256": "4d10ee20964fdc0c0a0ef5bf858ff387a67d38ad213969c7350a1a368e58fc80"
+  },
+  {
+   "path": "arxiv/test/arXiv_071.jsonl.zst",
+   "size": 985338,
+   "sha256": "00e1f7c3f5918ac83c85094ead2bb625d4e7e8b03937108afcba51758a220a46"
+  },
+  {
+   "path": "arxiv/test/arXiv_072.jsonl.zst",
+   "size": 1285115,
+   "sha256": "b1930f7ff2c10c0c8bfc25012a073c005aa270f9f42bb57a5c06453a4d68782a"
+  },
+  {
+   "path": "arxiv/test/arXiv_073.jsonl.zst",
+   "size": 1278802,
+   "sha256": "bfa9faffc47c1062a04ce1dc8bad936dfbbbd6e52b0f69684f1a419d883f2627"
+  },
+  {
+   "path": "arxiv/test/arXiv_074.jsonl.zst",
+   "size": 1280404,
+   "sha256": "cc4c58d2c246080385c1db6aed4570fe30b2349756e259ac7845c88fc979bbb4"
+  },
+  {
+   "path": "arxiv/test/arXiv_075.jsonl.zst",
+   "size": 1368661,
+   "sha256": "e4b8f8f27262f0a9907252fbc5c85ec143dc9406c38d075ddd18978c66dcc4c2"
+  },
+  {
+   "path": "arxiv/test/arXiv_076.jsonl.zst",
+   "size": 1556516,
+   "sha256": "d1adae21033937e11ff08eb7a2581052bd9f027cba1c4902f174dcc7df7d967c"
+  },
+  {
+   "path": "arxiv/test/arXiv_077.jsonl.zst",
+   "size": 1529001,
+   "sha256": "743ce44920cd0c130c440991a16e32ad037cfab67ccc909acfbea5ed568bcaa8"
+  },
+  {
+   "path": "arxiv/test/arXiv_078.jsonl.zst",
+   "size": 1357670,
+   "sha256": "8baa0b176f3b66b8adc67c67a720adcc52558ff256fac1581d5520331b8569ab"
+  },
+  {
+   "path": "arxiv/test/arXiv_079.jsonl.zst",
+   "size": 1363693,
+   "sha256": "39f0f087c7d281606146ed9a15629335ea0608fc3c24837ef0d8d2ec65336d0c"
+  },
+  {
+   "path": "arxiv/test/arXiv_080.jsonl.zst",
+   "size": 1090605,
+   "sha256": "29c0718c72bce481e1b8530df2de4e684b5187c7dbe6e28852e02bf5ed973cb8"
+  },
+  {
+   "path": "arxiv/test/arXiv_081.jsonl.zst",
+   "size": 1365791,
+   "sha256": "2105335784dfb1829bfe64bdae53acdc85344737cfacdb5c6706f11c26e2e2bc"
+  },
+  {
+   "path": "arxiv/test/arXiv_082.jsonl.zst",
+   "size": 1245337,
+   "sha256": "7738a3618ab2a5483b4904fc25cc0db9cb32c636284c6026b187b75ee7a30f8d"
+  },
+  {
+   "path": "arxiv/test/arXiv_083.jsonl.zst",
+   "size": 1632268,
+   "sha256": "75c40abb998a6894b123653447191128d63c6c528d1683eda0558aa7e8a215ed"
+  },
+  {
+   "path": "arxiv/test/arXiv_084.jsonl.zst",
+   "size": 1158198,
+   "sha256": "095d9a9ce65d7d85c24802617a0ed12fb971acb21572657d4bbb6ddb137083b6"
+  },
+  {
+   "path": "arxiv/test/arXiv_085.jsonl.zst",
+   "size": 1457416,
+   "sha256": "3fbf2909ee0753e9969fb01e539f7f59ce840b551b72491c21f95a4c50f54d6d"
+  },
+  {
+   "path": "arxiv/test/arXiv_086.jsonl.zst",
+   "size": 1378066,
+   "sha256": "ca6a5986aa971c46de3622f7ac34185ed362bc17153d61b316f3374de275e5da"
+  },
+  {
+   "path": "arxiv/test/arXiv_087.jsonl.zst",
+   "size": 1360838,
+   "sha256": "9a367056742931c29f29760879583bf5b309043a06cf627cf2cc8ddc00156cb8"
+  },
+  {
+   "path": "arxiv/test/arXiv_088.jsonl.zst",
+   "size": 1088418,
+   "sha256": "5354bc9f070bcc9c83069e3889b7dd9b30396ec93be6b6e506dca09a8e8ca0b3"
+  },
+  {
+   "path": "arxiv/test/arXiv_089.jsonl.zst",
+   "size": 1087098,
+   "sha256": "3cd3014749dde238b4eb4e5a61670cfef743c483501566f9b3818a4f8259f547"
+  },
+  {
+   "path": "arxiv/test/arXiv_090.jsonl.zst",
+   "size": 1347367,
+   "sha256": "a45c322cf0b8dfd1ec91ab2a7f5682f90426e66e02d750fe353c39ed1ff48147"
+  },
+  {
+   "path": "arxiv/test/arXiv_091.jsonl.zst",
+   "size": 1279884,
+   "sha256": "40a0c0d4f3915164184ed0a400d75e01da4eaeea6db3aa12b6a295d5fca49bc2"
+  },
+  {
+   "path": "arxiv/test/arXiv_092.jsonl.zst",
+   "size": 1211369,
+   "sha256": "ecfc3cfaafac0fb93e7cd31288afc1a750f3a431a36db7b35f1991ee3723acce"
+  },
+  {
+   "path": "arxiv/test/arXiv_093.jsonl.zst",
+   "size": 1511739,
+   "sha256": "c5bd75a4532079d2a72cb8493d24997370e565514043522f26ed3b21e6ad0522"
+  },
+  {
+   "path": "arxiv/test/arXiv_094.jsonl.zst",
+   "size": 1498231,
+   "sha256": "682890302bbe2960ff228c85ffcd6e7aecee607ab84428941f9dd6da350e605e"
+  },
+  {
+   "path": "arxiv/test/arXiv_095.jsonl.zst",
+   "size": 1324550,
+   "sha256": "a96750f51d30ff92f6a03c8f44fff8818fa17bba91d30c9fc6093f593304b63a"
+  },
+  {
+   "path": "arxiv/test/arXiv_096.jsonl.zst",
+   "size": 1284606,
+   "sha256": "5b10099bc102947a0ea4586ee26ccf2d77ba7ebb84648fac37adbdbdd14e17d5"
+  },
+  {
+   "path": "arxiv/test/arXiv_097.jsonl.zst",
+   "size": 1680614,
+   "sha256": "354b47b41050f30c4d06c4afd0ff94506af709f8627c779c024ae349b03d47c0"
+  },
+  {
+   "path": "arxiv/test/arXiv_098.jsonl.zst",
+   "size": 1133585,
+   "sha256": "5b12aab61bb395f77ecfaba30b93409fa2897ce3338f65400123e2e9b96c998a"
+  },
+  {
+   "path": "arxiv/test/arXiv_099.jsonl.zst",
+   "size": 1086326,
+   "sha256": "085b19e8f2ce5278b8dbc6d75df3c0f1b86379fb7975f3ab10292ce57fcc7205"
+  },
+  {
+   "path": "arxiv/train/arXiv_000.jsonl.zst",
+   "size": 219047026,
+   "sha256": "44afbfe594b8a289fd54e9937461b26629c6c5632dcfb64f78ba65bfbc1edecc"
+  },
+  {
+   "path": "arxiv/train/arXiv_001.jsonl.zst",
+   "size": 226123838,
+   "sha256": "78f60b210253cc790268b1fa6bf9a157331a9a336857ed4d6da63b302b5c769e"
+  },
+  {
+   "path": "arxiv/train/arXiv_002.jsonl.zst",
+   "size": 268678417,
+   "sha256": "35329492e7f1f89d3423561bfe75ad6d36f7636f15b3f34e0ff1364cc5dc7775"
+  },
+  {
+   "path": "arxiv/train/arXiv_003.jsonl.zst",
+   "size": 248381410,
+   "sha256": "d3728a425ad9e87e1efc24c8d7971ea0db24598e1ab882ac45ac4821c40cfa24"
+  },
+  {
+   "path": "arxiv/train/arXiv_004.jsonl.zst",
+   "size": 241852577,
+   "sha256": "bf35fdee1002bc44135b6b1636f5c4e47083e8c1d06485af109cda55e2c6653a"
+  },
+  {
+   "path": "arxiv/train/arXiv_005.jsonl.zst",
+   "size": 260686633,
+   "sha256": "d4c3a8eafce124edbd68ada52b78ffc54b988e092cd7c3bfbe0c35f8f17b4a26"
+  },
+  {
+   "path": "arxiv/train/arXiv_006.jsonl.zst",
+   "size": 272263549,
+   "sha256": "9635ba594810759f8fa4b4d82c5c8272aa8efddbebf83bcbf66db7793004f355"
+  },
+  {
+   "path": "arxiv/train/arXiv_007.jsonl.zst",
+   "size": 262187318,
+   "sha256": "d6ed0d494f8e2dee73c81bece87d3f8f4935689f0d59466f36a3be4e731b013c"
+  },
+  {
+   "path": "arxiv/train/arXiv_008.jsonl.zst",
+   "size": 267396091,
+   "sha256": "fbe21b2aadea2d323e96558a1af0b188cf845fcd4fa81f618785808e1b3b1319"
+  },
+  {
+   "path": "arxiv/train/arXiv_009.jsonl.zst",
+   "size": 216638040,
+   "sha256": "8a65a9721454d41e4c2d8efcf0bf9ea89cd43d0a1bd66a9bcfa75a39d35caaca"
+  },
+  {
+   "path": "arxiv/train/arXiv_010.jsonl.zst",
+   "size": 265009842,
+   "sha256": "080cf84022c74845f1bf597f4273552d123c043328b711fe74cbd8f2ac27250a"
+  },
+  {
+   "path": "arxiv/train/arXiv_011.jsonl.zst",
+   "size": 220825859,
+   "sha256": "83c003c6177e25a1c51f834e2868e0389d1dcc0af9658046e6ec8f2bd1b52c17"
+  },
+  {
+   "path": "arxiv/train/arXiv_012.jsonl.zst",
+   "size": 327250704,
+   "sha256": "326cae67da008cd08991f91308ff9f878dbafc044c8e504e45e7fc55144af317"
+  },
+  {
+   "path": "arxiv/train/arXiv_013.jsonl.zst",
+   "size": 234087595,
+   "sha256": "8ab0a48de310443764bd59da7e1d95fcc450fc96985cb7bad54cda36ae85e61e"
+  },
+  {
+   "path": "arxiv/train/arXiv_014.jsonl.zst",
+   "size": 282042317,
+   "sha256": "3592e725f6f1cc530d7514941090f5f9a75bf9a2c848394575a28da08ddcd973"
+  },
+  {
+   "path": "arxiv/train/arXiv_015.jsonl.zst",
+   "size": 260622653,
+   "sha256": "6c1f0103b0df00a76af1fede1d4f9d8769ae5e91d52a730872f54ef41523015f"
+  },
+  {
+   "path": "arxiv/train/arXiv_016.jsonl.zst",
+   "size": 276008389,
+   "sha256": "4bf65b1128024826520fb7b959912296e0cbed1553341f7531316a4894bd8277"
+  },
+  {
+   "path": "arxiv/train/arXiv_017.jsonl.zst",
+   "size": 285589335,
+   "sha256": "8bd60da86c239556dedfc46a5eebd4cfb9f5098e985859d86e2019f924a6dd02"
+  },
+  {
+   "path": "arxiv/train/arXiv_018.jsonl.zst",
+   "size": 264731528,
+   "sha256": "768cc3fbfdfc70dd60cf38d6bb3fd6163a9bb60ba70dffbb018cc05dd926b881"
+  },
+  {
+   "path": "arxiv/train/arXiv_019.jsonl.zst",
+   "size": 276482067,
+   "sha256": "58246eda1b4e5c75ed72f578e6687933e1691ebb118550d38bd1b98f818e70e4"
+  },
+  {
+   "path": "arxiv/train/arXiv_020.jsonl.zst",
+   "size": 301361565,
+   "sha256": "36230ca0111851ade8e0f32cb49cf256dd2b24c5786ec19ee39bdb0639ea1f62"
+  },
+  {
+   "path": "arxiv/train/arXiv_021.jsonl.zst",
+   "size": 240445297,
+   "sha256": "8c393c6d0c78d3d3b01fde38e8a0a8f366d4b9f1c31a2f90d29f67a1f96720c5"
+  },
+  {
+   "path": "arxiv/train/arXiv_022.jsonl.zst",
+   "size": 263058376,
+   "sha256": "3a204e6e7311e24fc0571fe222d1a10e9e412417b198883aed83f5478505698b"
+  },
+  {
+   "path": "arxiv/train/arXiv_023.jsonl.zst",
+   "size": 250188982,
+   "sha256": "cab7a7f34178fbd51ca75b90cadb48cb723260fe21b7d2e3ce988db523b45984"
+  },
+  {
+   "path": "arxiv/train/arXiv_024.jsonl.zst",
+   "size": 246152941,
+   "sha256": "7ce7ee577705e37205b1f3aa78c8fd04124286bc6572d96e8eed337f1e1f7d04"
+  },
+  {
+   "path": "arxiv/train/arXiv_025.jsonl.zst",
+   "size": 243131289,
+   "sha256": "03cb597a3b7ec27ddc5e79f2f13bc707e5a390dad032f49b3232b86f736ba7df"
+  },
+  {
+   "path": "arxiv/train/arXiv_026.jsonl.zst",
+   "size": 249841670,
+   "sha256": "ef0219e5495cb61a478c912b6d720c6862661d398840a04aa65ff15e3b6cbfb8"
+  },
+  {
+   "path": "arxiv/train/arXiv_027.jsonl.zst",
+   "size": 231585266,
+   "sha256": "cd3c9a77284ca75cce5d1b739bbda17111cbe9e934996b86d740896208151795"
+  },
+  {
+   "path": "arxiv/train/arXiv_028.jsonl.zst",
+   "size": 264112327,
+   "sha256": "73350a1ef2eb1f5771dc7066e219727b4fdf6ae9abc2dee19624109875b25dfe"
+  },
+  {
+   "path": "arxiv/train/arXiv_029.jsonl.zst",
+   "size": 257527311,
+   "sha256": "4fa8efce49d7eaa392f4f7b60debb7441f67fb117525e4b747dd3249bab4eb95"
+  },
+  {
+   "path": "arxiv/train/arXiv_030.jsonl.zst",
+   "size": 324279000,
+   "sha256": "c9b42c932d243afc8945f510c976169e1a46bb3735c8f22f70a5a12679ca94cb"
+  },
+  {
+   "path": "arxiv/train/arXiv_031.jsonl.zst",
+   "size": 229111546,
+   "sha256": "e53286dded56e27afb52d71410760340dcadfbe4b01cb369028e2ac66caa0c50"
+  },
+  {
+   "path": "arxiv/train/arXiv_032.jsonl.zst",
+   "size": 238398435,
+   "sha256": "d5905a4b6911b07207a4756908a5df4b5b87b62900637d9102fd9f99d10481a6"
+  },
+  {
+   "path": "arxiv/train/arXiv_033.jsonl.zst",
+   "size": 295493514,
+   "sha256": "5a4b30ab32751217d196f3cb96202dba53d767dde3d7cdf2cdda1744901e6bfa"
+  },
+  {
+   "path": "arxiv/train/arXiv_034.jsonl.zst",
+   "size": 308160433,
+   "sha256": "26f56a8da3386b40df1a63c66bb5bd7e122d479a2809810fe0fdbb8d7d07b63e"
+  },
+  {
+   "path": "arxiv/train/arXiv_035.jsonl.zst",
+   "size": 267147907,
+   "sha256": "7ec7654ea604872b4b86fb93c2df25e0006e7c1772667b03fc9e90bd2e7d91ec"
+  },
+  {
+   "path": "arxiv/train/arXiv_036.jsonl.zst",
+   "size": 235071831,
+   "sha256": "888d5eb28f3c3908b882e9c7efd3da58fdbdef6db877a1cdf4a85647699d2c9c"
+  },
+  {
+   "path": "arxiv/train/arXiv_037.jsonl.zst",
+   "size": 258211954,
+   "sha256": "f93ac7b9b0cfd13034a75be8dfac208a4bac854e8fb8197d6ecb1fc38e7f3ff4"
+  },
+  {
+   "path": "arxiv/train/arXiv_038.jsonl.zst",
+   "size": 228100055,
+   "sha256": "4eddd8d8d5cd77041471d44d9a8ccbd941f1ee553a83e9410d7523646a868c59"
+  },
+  {
+   "path": "arxiv/train/arXiv_039.jsonl.zst",
+   "size": 254958384,
+   "sha256": "cbc5fb8689e85b6c6d5d5487b32900fd470201bbed0d73589bbda6ffa661e300"
+  },
+  {
+   "path": "arxiv/train/arXiv_040.jsonl.zst",
+   "size": 243161153,
+   "sha256": "c324750429b8bd8d57ac0af1cc529569c6fd154dd03647c96b97a2f12ef44481"
+  },
+  {
+   "path": "arxiv/train/arXiv_041.jsonl.zst",
+   "size": 234284897,
+   "sha256": "b084e4031739539228596c3fffc32f49b3969d35e497395f766a1214aae235b1"
+  },
+  {
+   "path": "arxiv/train/arXiv_042.jsonl.zst",
+   "size": 273393651,
+   "sha256": "9e258f27ef5a5c1078e3a7c25ac5f68c995f6a601890e8bd69e032885a90ff89"
+  },
+  {
+   "path": "arxiv/train/arXiv_043.jsonl.zst",
+   "size": 281858478,
+   "sha256": "df5ecfad5b77aa5e3d1a65e19b8ffb228fed9fe25e5252013f0f6172c40939a4"
+  },
+  {
+   "path": "arxiv/train/arXiv_044.jsonl.zst",
+   "size": 244959213,
+   "sha256": "6ba2d6e484b0e996ceb9cf917c7e40d3c8518ae7dfacb4ca96a5aef8ac2f4dc6"
+  },
+  {
+   "path": "arxiv/train/arXiv_045.jsonl.zst",
+   "size": 258935104,
+   "sha256": "34fc57f96acfe7d1f1a35371ce4fc9e8bd06daa9240bcaae92d6d460b0589bcf"
+  },
+  {
+   "path": "arxiv/train/arXiv_046.jsonl.zst",
+   "size": 283627512,
+   "sha256": "7ba30c8330fc8754bdb125df1ce55fa2bbda334a8d7757633cfe2c0be5460779"
+  },
+  {
+   "path": "arxiv/train/arXiv_047.jsonl.zst",
+   "size": 218204140,
+   "sha256": "59f82922ce9f47c1702598f0bcd3db56502e4b628aac566995d84cce509514c7"
+  },
+  {
+   "path": "arxiv/train/arXiv_048.jsonl.zst",
+   "size": 246422954,
+   "sha256": "1cd713134f2aa5db07f81a3430d2df774d6df352121cbf960a5accca271596b9"
+  },
+  {
+   "path": "arxiv/train/arXiv_049.jsonl.zst",
+   "size": 227302112,
+   "sha256": "dcd0e5d4244c49832b323002f5acfb0fdc1438b913506d9e1bd9827b93548b78"
+  },
+  {
+   "path": "arxiv/train/arXiv_050.jsonl.zst",
+   "size": 271132102,
+   "sha256": "705d72cc4fe1ceba6a8c1712f39a86bcc532d9d96897a2e34ad7e0c2587ecefd"
+  },
+  {
+   "path": "arxiv/train/arXiv_051.jsonl.zst",
+   "size": 274825447,
+   "sha256": "123a87e272813b96889eefadfdc82495dd864e285bc505a71c692fc3c6885bea"
+  },
+  {
+   "path": "arxiv/train/arXiv_052.jsonl.zst",
+   "size": 267411233,
+   "sha256": "6cd50eed6eadcc48bd89e683b0f03ba3da0088022123347fa0a941a816b525bf"
+  },
+  {
+   "path": "arxiv/train/arXiv_053.jsonl.zst",
+   "size": 264321562,
+   "sha256": "a62594fff529e33558a6343821fa803b88cf5818401928f5361788fdbbd8a59a"
+  },
+  {
+   "path": "arxiv/train/arXiv_054.jsonl.zst",
+   "size": 259961263,
+   "sha256": "b447b64e9ec1403f6d73708d539adc042c7d88986d826dc33c5b4de88b103198"
+  },
+  {
+   "path": "arxiv/train/arXiv_055.jsonl.zst",
+   "size": 273188154,
+   "sha256": "64eb34e44289426559b0d3905d1cbf28ad6b6da7241fdb825616951b1e33f8d0"
+  },
+  {
+   "path": "arxiv/train/arXiv_056.jsonl.zst",
+   "size": 212294207,
+   "sha256": "616137fb6e5b04d31a14fc4578fcd989e5054a133b01e129abb2fde7fe89398e"
+  },
+  {
+   "path": "arxiv/train/arXiv_057.jsonl.zst",
+   "size": 254957746,
+   "sha256": "58be3fe5bcbd45a0dc6b0d7ffbdd2652e6acd94f241d7bdccf67d36747955771"
+  },
+  {
+   "path": "arxiv/train/arXiv_058.jsonl.zst",
+   "size": 246238273,
+   "sha256": "5ec4e68cb9d6292a17814a12e0d8073568c8bdca2166c330ec8aab33dc780d0c"
+  },
+  {
+   "path": "arxiv/train/arXiv_059.jsonl.zst",
+   "size": 263553079,
+   "sha256": "bcf9d4929098a614d43c19bbc4188f3189da4de4d929ed83842995ae4c69201e"
+  },
+  {
+   "path": "arxiv/train/arXiv_060.jsonl.zst",
+   "size": 297412704,
+   "sha256": "6b9dd793583ad2ad96d62dbf3ba48b8f44bcd976b8e7c103402795d2d9a465e2"
+  },
+  {
+   "path": "arxiv/train/arXiv_061.jsonl.zst",
+   "size": 224307019,
+   "sha256": "58ef0036c75836ff30b0b36c98e51c58bee37b49c5af80a1bddb5c268654e3c5"
+  },
+  {
+   "path": "arxiv/train/arXiv_062.jsonl.zst",
+   "size": 300945992,
+   "sha256": "a54f5c84e0976c96d733dc3d1d366ec7296406ba9b67dc9749b1dea19a98b253"
+  },
+  {
+   "path": "arxiv/train/arXiv_063.jsonl.zst",
+   "size": 204088490,
+   "sha256": "42c7df220b49c111c7c15dcb7ad8a9e074175391f08271008c66f8145c53a429"
+  },
+  {
+   "path": "arxiv/train/arXiv_064.jsonl.zst",
+   "size": 264051692,
+   "sha256": "8bd4402e154f2308ebb4ee474a1bdfd247ba743be3d960663c6744423990e41d"
+  },
+  {
+   "path": "arxiv/train/arXiv_065.jsonl.zst",
+   "size": 251793786,
+   "sha256": "657a671a8e64b0bbdb726593b3430c429a892bc8de3ddaeaef310a35a588a431"
+  },
+  {
+   "path": "arxiv/train/arXiv_066.jsonl.zst",
+   "size": 223783261,
+   "sha256": "bf1358d497c255c71f4f2114d9f2c4655ee77c4da4f9c61231495048de8e74a8"
+  },
+  {
+   "path": "arxiv/train/arXiv_067.jsonl.zst",
+   "size": 259635074,
+   "sha256": "c2e9d39eeeeff3d58c55486e01574e07d6ccb0602b6da3c060d5e8f259c82bac"
+  },
+  {
+   "path": "arxiv/train/arXiv_068.jsonl.zst",
+   "size": 275165839,
+   "sha256": "f3b1905b37b8f1868530f711f216bf2ca88f022bb1bce3ca52ba6f6ce90537ba"
+  },
+  {
+   "path": "arxiv/train/arXiv_069.jsonl.zst",
+   "size": 265017404,
+   "sha256": "4d07e68de37837f54e0c7339da2e878674f04628db40c7e163969b0e2cc6be8e"
+  },
+  {
+   "path": "arxiv/train/arXiv_070.jsonl.zst",
+   "size": 196622760,
+   "sha256": "1f34f5e77f455647ce33d7da83415448aeda337186b90c67da9f2c8658b88fe3"
+  },
+  {
+   "path": "arxiv/train/arXiv_071.jsonl.zst",
+   "size": 259586112,
+   "sha256": "bc525b84e2786fc70f35632d8bc5562d60ab149ef051fde6532dbe7d571ef94e"
+  },
+  {
+   "path": "arxiv/train/arXiv_072.jsonl.zst",
+   "size": 303344408,
+   "sha256": "00b44dba270e573ecbc9deda155cd18022b3d57214f7486693d6506e9c5e4af7"
+  },
+  {
+   "path": "arxiv/train/arXiv_073.jsonl.zst",
+   "size": 247432248,
+   "sha256": "1162c576a0b32fd5d702af8c048350642fc7e3b2dd77cee89e0f595a0120d472"
+  },
+  {
+   "path": "arxiv/train/arXiv_074.jsonl.zst",
+   "size": 251326394,
+   "sha256": "38b502714f11d5ddf83bc6ab544ef591d33d011765040d771203e53e69b45a70"
+  },
+  {
+   "path": "arxiv/train/arXiv_075.jsonl.zst",
+   "size": 246003971,
+   "sha256": "c7d37397fd4b1035c0b4e8cba536f49c50f23fb7e97c804a29b3186be1026cca"
+  },
+  {
+   "path": "arxiv/train/arXiv_076.jsonl.zst",
+   "size": 263998869,
+   "sha256": "f112c6ecb365b192af1538fdd65096af61910e6b7c34b5f9823373f1d8b88444"
+  },
+  {
+   "path": "arxiv/train/arXiv_077.jsonl.zst",
+   "size": 261819695,
+   "sha256": "7bcacbdbadd8912f8f3213076a41093322dfcc5a1a55309f2b4268fa6eb2530f"
+  },
+  {
+   "path": "arxiv/train/arXiv_078.jsonl.zst",
+   "size": 241983647,
+   "sha256": "f18209c99b8316aa7e0b04e7c7bc5b27c929846f6744bafbc1d9c34a21a947af"
+  },
+  {
+   "path": "arxiv/train/arXiv_079.jsonl.zst",
+   "size": 244362548,
+   "sha256": "483a73440fb5eb9f9bead5c30b98290511e11d18d0d26984aa22f74aa28c222f"
+  },
+  {
+   "path": "arxiv/train/arXiv_080.jsonl.zst",
+   "size": 224260434,
+   "sha256": "73d593a09c27e5a47dd808500831cf9860516a978daec26fdf8d5c2c5370055c"
+  },
+  {
+   "path": "arxiv/train/arXiv_081.jsonl.zst",
+   "size": 251417488,
+   "sha256": "86d698ac16786d66627919de77a57547fa6554a1c45a77801bb3046d56968505"
+  },
+  {
+   "path": "arxiv/train/arXiv_082.jsonl.zst",
+   "size": 272694974,
+   "sha256": "d98a583cb1243fdf6dd3bc3ff6e221de4c952c68fb9b89b12805103c13e75553"
+  },
+  {
+   "path": "arxiv/train/arXiv_083.jsonl.zst",
+   "size": 270887386,
+   "sha256": "8bef937ccc8ee2396f2413b413d4cd04964f72565b526f295112ae5d896343e8"
+  },
+  {
+   "path": "arxiv/train/arXiv_084.jsonl.zst",
+   "size": 267719791,
+   "sha256": "9c616fd0382cb21776b7060bd65fde40a44dd3fa9c7f3d09ade6abc6ba159ee2"
+  },
+  {
+   "path": "arxiv/train/arXiv_085.jsonl.zst",
+   "size": 287811438,
+   "sha256": "a3a7d50f856ddaa4026df1f9b8519b1cf764e4be385a9f1f2bd5ae82426990fc"
+  },
+  {
+   "path": "arxiv/train/arXiv_086.jsonl.zst",
+   "size": 226744823,
+   "sha256": "581d380c99159927c32724b07074f38df5ef5de98be2e7f44ed877b6aa1c4a39"
+  },
+  {
+   "path": "arxiv/train/arXiv_087.jsonl.zst",
+   "size": 255494711,
+   "sha256": "9da8eba7ba667e1df9b3885e9d71d1fbce61913647ec5809c5c559c9941d6725"
+  },
+  {
+   "path": "arxiv/train/arXiv_088.jsonl.zst",
+   "size": 232326461,
+   "sha256": "861e1978bf68bd6bbf5ce9d7ae79d306bd74a3b2e973f189a175ef4953ced5fc"
+  },
+  {
+   "path": "arxiv/train/arXiv_089.jsonl.zst",
+   "size": 231994580,
+   "sha256": "13a6fe3220cff368a5b1545aedaa89586cebc88eef0837fa0e3af4d3d65345d2"
+  },
+  {
+   "path": "arxiv/train/arXiv_090.jsonl.zst",
+   "size": 240144115,
+   "sha256": "0cb569f3a03de665c516f4c1e64f30bd3cdbe6d462ed7905ab76f96cb5c6a746"
+  },
+  {
+   "path": "arxiv/train/arXiv_091.jsonl.zst",
+   "size": 266077450,
+   "sha256": "33978d3a919ed8fd76004b4d1bfbf15cfccb806fae4e9a07125db62c061a1d74"
+  },
+  {
+   "path": "arxiv/train/arXiv_092.jsonl.zst",
+   "size": 260834447,
+   "sha256": "72178fd2e2bcce923baa3d81f3d633c1d8e9743e88b017885bb90057ba7be1c7"
+  },
+  {
+   "path": "arxiv/train/arXiv_093.jsonl.zst",
+   "size": 289464144,
+   "sha256": "ed7a8162d2486c1340382fbb5189a408be3658c4ab896b2dfc22378f65808058"
+  },
+  {
+   "path": "arxiv/train/arXiv_094.jsonl.zst",
+   "size": 266005202,
+   "sha256": "01bf53616504c670bc0738f4f7c9a4c86d05ab82d1f993305a4d0334f20ac1f2"
+  },
+  {
+   "path": "arxiv/train/arXiv_095.jsonl.zst",
+   "size": 231627345,
+   "sha256": "72cc24f1b6328a38f861ff3aa6c98f6d1cce259d58b842f4bb5285346d111e57"
+  },
+  {
+   "path": "arxiv/train/arXiv_096.jsonl.zst",
+   "size": 245000012,
+   "sha256": "382bd5494b0b2f856afbb9b0203aa325ae0132d13198b9ca2f8d0ec526fba76b"
+  },
+  {
+   "path": "arxiv/train/arXiv_097.jsonl.zst",
+   "size": 265407783,
+   "sha256": "d92c4a5fa921acc60220fbf0fa1018adebfc3ddddde4dd1935d5d3f0d4e3028b"
+  },
+  {
+   "path": "arxiv/train/arXiv_098.jsonl.zst",
+   "size": 220501348,
+   "sha256": "f197ad96b590b1ff08ab453898887258f0b6600706de8d8b169d2dd7a30234b2"
+  },
+  {
+   "path": "arxiv/train/arXiv_099.jsonl.zst",
+   "size": 243144157,
+   "sha256": "ede7212ecca98df864f0551845bb470b95a83a934adb244dc3928d21c2d6bd3b"
+  },
+  {
+   "path": "arxiv/validation/arXiv_000.jsonl.zst",
+   "size": 1276647,
+   "sha256": "267ce757f2f17b111d75ee41cf18617517e6533a58a1ae352116eda5c28b2ccb"
+  },
+  {
+   "path": "arxiv/validation/arXiv_001.jsonl.zst",
+   "size": 1061280,
+   "sha256": "49e04ed4385e4438d099f69ce619bd5b748cbdd34ba5412fb7277d5796b45472"
+  },
+  {
+   "path": "arxiv/validation/arXiv_002.jsonl.zst",
+   "size": 1205569,
+   "sha256": "367630833153dca1c9e680f9e0f4fd6576c6f6cc9d1719b241eabccdb6a8522f"
+  },
+  {
+   "path": "arxiv/validation/arXiv_003.jsonl.zst",
+   "size": 1153701,
+   "sha256": "63a25c6c5ec761744dc9a372e7ceb34b2a2f659d7aedd6153184fc7bab626c23"
+  },
+  {
+   "path": "arxiv/validation/arXiv_004.jsonl.zst",
+   "size": 1116807,
+   "sha256": "e36413c1857e98bb2cc83720b2815e9918f3e39523c1051462e46f08e343574c"
+  },
+  {
+   "path": "arxiv/validation/arXiv_005.jsonl.zst",
+   "size": 1124158,
+   "sha256": "0a629be9d6e84544933701c2abb78f99123d1d19234ac9b259a2d617f607c1ff"
+  },
+  {
+   "path": "arxiv/validation/arXiv_006.jsonl.zst",
+   "size": 1184152,
+   "sha256": "16874ba6cb97a3cedcb362e265fce498d21f1ce723d6d5deb626cfe1624a5e13"
+  },
+  {
+   "path": "arxiv/validation/arXiv_007.jsonl.zst",
+   "size": 1395178,
+   "sha256": "7f51a82e5a83e9809b64366ab1b0cc8835e7a52ad323456d676ad499b8b34f9f"
+  },
+  {
+   "path": "arxiv/validation/arXiv_008.jsonl.zst",
+   "size": 1195095,
+   "sha256": "63e598087516ae1c05f5b0aa373d8f18a77fb2e2f63a995d5925acfe70eb437e"
+  },
+  {
+   "path": "arxiv/validation/arXiv_009.jsonl.zst",
+   "size": 908075,
+   "sha256": "e87619018333a364c105caef9aa6bf76ef9bdbd7e2848eb15c959ff628b69b91"
+  },
+  {
+   "path": "arxiv/validation/arXiv_010.jsonl.zst",
+   "size": 1326491,
+   "sha256": "e76bb76b14155869bf96d8f42cac47deb1e93b93e9c626e26545c090341b4371"
+  },
+  {
+   "path": "arxiv/validation/arXiv_011.jsonl.zst",
+   "size": 1103015,
+   "sha256": "a0aaf9749add5cf2541fecf7b8e2dc15ba70ec2b99f12c46ea12ff9e729834da"
+  },
+  {
+   "path": "arxiv/validation/arXiv_012.jsonl.zst",
+   "size": 1759843,
+   "sha256": "3c625e8292662a7659d0d0e6b61141263f3446e934597ccd3b4a6c62d46d5773"
+  },
+  {
+   "path": "arxiv/validation/arXiv_013.jsonl.zst",
+   "size": 1099115,
+   "sha256": "9b76f48ab64860c589fd817010e85c75b8ffd676357db0ce47e6d90affcd7aa0"
+  },
+  {
+   "path": "arxiv/validation/arXiv_014.jsonl.zst",
+   "size": 1662729,
+   "sha256": "44fa34e0eb12e123afdcb6758bea428b1fa5d14ad896b7e4ac2e7ce252717322"
+  },
+  {
+   "path": "arxiv/validation/arXiv_015.jsonl.zst",
+   "size": 1237072,
+   "sha256": "d14111423a9d956e461ff1f99a08985a87ea95a80baaff67a91b6565c005227d"
+  },
+  {
+   "path": "arxiv/validation/arXiv_016.jsonl.zst",
+   "size": 1753572,
+   "sha256": "e966acc74c2d4c59967ec1c3cdf9e581320bf801144b774bbb4bf97ed197cba3"
+  },
+  {
+   "path": "arxiv/validation/arXiv_017.jsonl.zst",
+   "size": 1464941,
+   "sha256": "5f38eec267e62bc1861597060f50148511f81ec9b58309d20d7272609e24189a"
+  },
+  {
+   "path": "arxiv/validation/arXiv_018.jsonl.zst",
+   "size": 1553652,
+   "sha256": "636010fae74222a6e601dea3022e0a7c8f2223742ce892c98df84e5a9f4fe4cb"
+  },
+  {
+   "path": "arxiv/validation/arXiv_019.jsonl.zst",
+   "size": 1533393,
+   "sha256": "1e5a503248bcdb8424fd3c68dbb75d1054e58b4e9c8156bc79e5e6428b52fe05"
+  },
+  {
+   "path": "arxiv/validation/arXiv_020.jsonl.zst",
+   "size": 1707836,
+   "sha256": "5b8f5aaf743fc67682bda907cd3368b7476640936f19392cabf7f591c8d18513"
+  },
+  {
+   "path": "arxiv/validation/arXiv_021.jsonl.zst",
+   "size": 1188112,
+   "sha256": "92e10526df842f033c527b059e50494e97bf2a67a20bd77dd8c514b30d6fcb47"
+  },
+  {
+   "path": "arxiv/validation/arXiv_022.jsonl.zst",
+   "size": 1260372,
+   "sha256": "2ba41e14129492191a52628518d6e33bb4a47c433f51fcb244616fbec40b33e3"
+  },
+  {
+   "path": "arxiv/validation/arXiv_023.jsonl.zst",
+   "size": 1398632,
+   "sha256": "e68b27be02a07953efa403ea726e0ce25a031edf42d0afdbc58c723bafcdb046"
+  },
+  {
+   "path": "arxiv/validation/arXiv_024.jsonl.zst",
+   "size": 1187942,
+   "sha256": "dc42a0551dc158e3bfa15e18eed52e4be88c6ff4c53cf320cea358ba9193d905"
+  },
+  {
+   "path": "arxiv/validation/arXiv_025.jsonl.zst",
+   "size": 1431597,
+   "sha256": "de4d409d66f783a82d92e1095db795c28904cd04835ff006f8fc851418857bad"
+  },
+  {
+   "path": "arxiv/validation/arXiv_026.jsonl.zst",
+   "size": 1158584,
+   "sha256": "d1f3539e659ad82d12fa8db75049bd70ac5a4a130ab123b98ca08d45a99cfebf"
+  },
+  {
+   "path": "arxiv/validation/arXiv_027.jsonl.zst",
+   "size": 1344698,
+   "sha256": "e3a44efb0194a7042ab8b2deff0e223eccb4708a32c703989c8b169d7d226240"
+  },
+  {
+   "path": "arxiv/validation/arXiv_028.jsonl.zst",
+   "size": 1390730,
+   "sha256": "c0b9934243f874511adf6f3b47e85385b13fec8c14835947293920ae2cfedc89"
+  },
+  {
+   "path": "arxiv/validation/arXiv_029.jsonl.zst",
+   "size": 1505105,
+   "sha256": "3d36958b06adc8f463a8f8c8421a772af7bb664f451ccb0dc043efb2396f98ed"
+  },
+  {
+   "path": "arxiv/validation/arXiv_030.jsonl.zst",
+   "size": 1728693,
+   "sha256": "38ea204ad70a52f235af725dcd7e91e33327cbad1112b926808503bbaea57dbc"
+  },
+  {
+   "path": "arxiv/validation/arXiv_031.jsonl.zst",
+   "size": 1228678,
+   "sha256": "78b2da2aca232b46c327bec650b31ce3fe882f60af4ed7f246d828fe7cb81a88"
+  },
+  {
+   "path": "arxiv/validation/arXiv_032.jsonl.zst",
+   "size": 1079774,
+   "sha256": "b7b00b617249373adca3cf8520b42438c141505d40db8fcc3bef8bc870ade961"
+  },
+  {
+   "path": "arxiv/validation/arXiv_033.jsonl.zst",
+   "size": 1692424,
+   "sha256": "b87a05435f4cfb6ea4344b249e654bc60fef3b50b7326faf14b4dd8df3614e64"
+  },
+  {
+   "path": "arxiv/validation/arXiv_034.jsonl.zst",
+   "size": 1399222,
+   "sha256": "6ea43d7a18c9d119bdc7f393e5f9143a41cf124419e21b62116c2b338c007146"
+  },
+  {
+   "path": "arxiv/validation/arXiv_035.jsonl.zst",
+   "size": 1732329,
+   "sha256": "0045287f37f9261270e77a2b3518203b74b96dd94d83c7f39cd4f1a0c153b963"
+  },
+  {
+   "path": "arxiv/validation/arXiv_036.jsonl.zst",
+   "size": 1148481,
+   "sha256": "8487afdf1d67030941cbeef42c29c13d52e15381a14d0c002ce2a07ab671cae7"
+  },
+  {
+   "path": "arxiv/validation/arXiv_037.jsonl.zst",
+   "size": 1379788,
+   "sha256": "3176ffc1959a97957b1bd79a509e9968bf0647f16279e68a71d669d7fadb3acb"
+  },
+  {
+   "path": "arxiv/validation/arXiv_038.jsonl.zst",
+   "size": 1117857,
+   "sha256": "a19a05b5846c40ec00e766743b693b35dcb8a152859c993a47dc4cb0982ba959"
+  },
+  {
+   "path": "arxiv/validation/arXiv_039.jsonl.zst",
+   "size": 1317958,
+   "sha256": "a06e60c20c9e8461def5d458e5bd3483903b8406e5937e4a0324fbe5879cf24d"
+  },
+  {
+   "path": "arxiv/validation/arXiv_040.jsonl.zst",
+   "size": 1190382,
+   "sha256": "1dbd42b6c2ec10f2406b3586b08f9e89e14bb6176b738e313ceef077c52ffda4"
+  },
+  {
+   "path": "arxiv/validation/arXiv_041.jsonl.zst",
+   "size": 1059830,
+   "sha256": "8630f6f486c870ae4ebed0520a96c3836d8a7f17b5fc295d4e3451ba651f3b9c"
+  },
+  {
+   "path": "arxiv/validation/arXiv_042.jsonl.zst",
+   "size": 1361911,
+   "sha256": "17fd9e1d408a87199706d13d80cce900042b43c0360c4312db8ddc68ab135a89"
+  },
+  {
+   "path": "arxiv/validation/arXiv_043.jsonl.zst",
+   "size": 1474011,
+   "sha256": "4faf30df892dc630b14283e0cf9e339fad556da86d53cc4ae41499385a015f6f"
+  },
+  {
+   "path": "arxiv/validation/arXiv_044.jsonl.zst",
+   "size": 1307432,
+   "sha256": "59554580c397f9f9ade8fef836a2edf6b1413bc49147dd6c0fef5598f22d3a70"
+  },
+  {
+   "path": "arxiv/validation/arXiv_045.jsonl.zst",
+   "size": 1264662,
+   "sha256": "be31cd3d47b1f00fa47928c667906d62df3e6a010cd28bb12ddf5c3719acf300"
+  },
+  {
+   "path": "arxiv/validation/arXiv_046.jsonl.zst",
+   "size": 1670964,
+   "sha256": "1fbce430891e842976ef96d3b8008a0e4d52acc50218c842237f3525941fc7b7"
+  },
+  {
+   "path": "arxiv/validation/arXiv_047.jsonl.zst",
+   "size": 1002992,
+   "sha256": "a940a09d828561c8d693fb7fae2ef524a1d28b7a475cacc1784617c6f678c7dc"
+  },
+  {
+   "path": "arxiv/validation/arXiv_048.jsonl.zst",
+   "size": 1255241,
+   "sha256": "c898e890701cc6c55e5cb3cba88c703e768ecf5589c6c2c93abf348846d06eb9"
+  },
+  {
+   "path": "arxiv/validation/arXiv_049.jsonl.zst",
+   "size": 1052790,
+   "sha256": "8b54c0bcbf0ca0a36739b5e59c9b4965901a5723fa1b6325650c1bbdcdb20aea"
+  },
+  {
+   "path": "arxiv/validation/arXiv_050.jsonl.zst",
+   "size": 1766876,
+   "sha256": "6a1c606161c0d5aed7d05eff6928015500356891c0aa02effc72a4b634275b6a"
+  },
+  {
+   "path": "arxiv/validation/arXiv_051.jsonl.zst",
+   "size": 1245964,
+   "sha256": "257aa71ba726c6ef0730ca71acb8019e85986bb641cc7a5f550e6868d392b70e"
+  },
+  {
+   "path": "arxiv/validation/arXiv_052.jsonl.zst",
+   "size": 1488742,
+   "sha256": "43a7dc859d330b456bbd181e22891f6f7dc902b71837d66fb42aa9dc66f4c94a"
+  },
+  {
+   "path": "arxiv/validation/arXiv_053.jsonl.zst",
+   "size": 1270082,
+   "sha256": "50f19695b02fa5639aa3b8f9309d571fa293a00c863b4defb6c23ac7acd57d8a"
+  },
+  {
+   "path": "arxiv/validation/arXiv_054.jsonl.zst",
+   "size": 1414394,
+   "sha256": "fa9b1f1245d967b112169c85b19d7928da08e0902c9d9b2a85f5eb55ca963fba"
+  },
+  {
+   "path": "arxiv/validation/arXiv_055.jsonl.zst",
+   "size": 1515016,
+   "sha256": "e4a5856e7edf3aa1ec50e99fd6f9ef445b03afb82eda5831fb4b8f5737ca47e2"
+  },
+  {
+   "path": "arxiv/validation/arXiv_056.jsonl.zst",
+   "size": 1181360,
+   "sha256": "6d3434b59bfecbf636c8b526a3189be853c1e12b8dd1eefc28440f13786e62c1"
+  },
+  {
+   "path": "arxiv/validation/arXiv_057.jsonl.zst",
+   "size": 1144143,
+   "sha256": "c6043c6982b8526b93c4ffc6ab34fdc291f5f50a3d4ab9a2343a3407e5cb6006"
+  },
+  {
+   "path": "arxiv/validation/arXiv_058.jsonl.zst",
+   "size": 1200829,
+   "sha256": "0fa20acdadefbe906b196012dad41d73feb18692c2c1e4d99944f76aebb034db"
+  },
+  {
+   "path": "arxiv/validation/arXiv_059.jsonl.zst",
+   "size": 1472837,
+   "sha256": "293b1da3a9b9e4c898422ae2d5478823e2d496a14d46b80ff247637f6bd3e60d"
+  },
+  {
+   "path": "arxiv/validation/arXiv_060.jsonl.zst",
+   "size": 1724204,
+   "sha256": "211648d3bfca6be01bcf1b7c806580b71bd6be324763fb8d50f3e4203af502a7"
+  },
+  {
+   "path": "arxiv/validation/arXiv_061.jsonl.zst",
+   "size": 1190589,
+   "sha256": "bb3d856d004ac19a2d2344c72e63a9736f98b7c09361796c14a1865c08ac3a52"
+  },
+  {
+   "path": "arxiv/validation/arXiv_062.jsonl.zst",
+   "size": 1284448,
+   "sha256": "4ef95659a69f252e34ed8e4f4726178d8cf09c6c721ca371291922eb73eb9e66"
+  },
+  {
+   "path": "arxiv/validation/arXiv_063.jsonl.zst",
+   "size": 880837,
+   "sha256": "12a3c18f70abe799282915965f7d3ee44f52b8712a1cb4f20f6e55479a7999f8"
+  },
+  {
+   "path": "arxiv/validation/arXiv_064.jsonl.zst",
+   "size": 1318919,
+   "sha256": "ebf1441fd205e17b1e6d5f0b223a09156c733ba979270ad0795b5788b458a0c6"
+  },
+  {
+   "path": "arxiv/validation/arXiv_065.jsonl.zst",
+   "size": 1402778,
+   "sha256": "9a7ed278bf89be0583f8957b14ac2595514a8c64552aa032041ef5d1168dbf89"
+  },
+  {
+   "path": "arxiv/validation/arXiv_066.jsonl.zst",
+   "size": 1334194,
+   "sha256": "92722b7b3fd5873e616145fc24a819b885415d7d147dbcb64efb09d91d9d8dd2"
+  },
+  {
+   "path": "arxiv/validation/arXiv_067.jsonl.zst",
+   "size": 1399158,
+   "sha256": "599ce9797e6e759fda516a263c39c4b8d1c0c7b0a5ef62168a913505b5eb5cdd"
+  },
+  {
+   "path": "arxiv/validation/arXiv_068.jsonl.zst",
+   "size": 1359029,
+   "sha256": "782a95ae9aecdcf0db2ad3f69eefb4e652c18344b62cb33d0fea772658b13bb3"
+  },
+  {
+   "path": "arxiv/validation/arXiv_069.jsonl.zst",
+   "size": 1384868,
+   "sha256": "54f2bd76e5676fbfed1860e78cddf65b5f3047ab2af6aefef0865017d1f74514"
+  },
+  {
+   "path": "arxiv/validation/arXiv_070.jsonl.zst",
+   "size": 1308602,
+   "sha256": "aeab5ab165eca93ef1f36ca351a7aed0987bb8c5e3bcbb20479d86203727e4c4"
+  },
+  {
+   "path": "arxiv/validation/arXiv_071.jsonl.zst",
+   "size": 1000896,
+   "sha256": "4a130eb6e3161e942db5df9baced2bed6804eb8087313b8809ec0beaa61b7374"
+  },
+  {
+   "path": "arxiv/validation/arXiv_072.jsonl.zst",
+   "size": 1441774,
+   "sha256": "7fec36f78cc2df4814a911963d8df9394ff3a24aa5652061259710a5aa33549f"
+  },
+  {
+   "path": "arxiv/validation/arXiv_073.jsonl.zst",
+   "size": 1311677,
+   "sha256": "103c4ebeade1394cc0abccc2d3a3e0c53c16dc15f1a9f58da87ab59c200c8f73"
+  },
+  {
+   "path": "arxiv/validation/arXiv_074.jsonl.zst",
+   "size": 1125250,
+   "sha256": "456331c44931acfb77d8af26b37bbfb050c4dd436498e41d9c3a16373b5f23f1"
+  },
+  {
+   "path": "arxiv/validation/arXiv_075.jsonl.zst",
+   "size": 1281403,
+   "sha256": "7fc16780f0ff53f94d8ec65add0c920afe7145a2c2f13c448ab06a52b71c88f5"
+  },
+  {
+   "path": "arxiv/validation/arXiv_076.jsonl.zst",
+   "size": 1289291,
+   "sha256": "559bcea6a95c6f4d10ee88591b12474e07a85c0d8cbb980b54f9389d72f41e35"
+  },
+  {
+   "path": "arxiv/validation/arXiv_077.jsonl.zst",
+   "size": 1539927,
+   "sha256": "834463ca0de1974344bcf14d8660470c0d21602b958088732fdc4cee6e147a02"
+  },
+  {
+   "path": "arxiv/validation/arXiv_078.jsonl.zst",
+   "size": 1272105,
+   "sha256": "330582c4a57fc17d670a2c7f5373af93aa634507ee55b2d26cd8a492963f5ee7"
+  },
+  {
+   "path": "arxiv/validation/arXiv_079.jsonl.zst",
+   "size": 1202591,
+   "sha256": "df7c9e53323a36a010ab5599f30a47efd27cbfdb8d31ef2d69ce53dffab1cc3a"
+  },
+  {
+   "path": "arxiv/validation/arXiv_080.jsonl.zst",
+   "size": 1137384,
+   "sha256": "5edf82fc63b224458d6b462b066459a204fa2f7983ed539ea1dc37fbc6d02b7b"
+  },
+  {
+   "path": "arxiv/validation/arXiv_081.jsonl.zst",
+   "size": 1157772,
+   "sha256": "a7edbe8a5e82a2bc9a423f48c8c0035f195dc22aa7a129fdfd82a344788c0275"
+  },
+  {
+   "path": "arxiv/validation/arXiv_082.jsonl.zst",
+   "size": 1433145,
+   "sha256": "b83bb699b0e62f133eef0419e0f57e7cc52c9e9fccf04e2516af07e5f78181ad"
+  },
+  {
+   "path": "arxiv/validation/arXiv_083.jsonl.zst",
+   "size": 1454110,
+   "sha256": "a9f9f17fd52188bb6c4989c415addced51697431c3f813a6a59ba3b36d1924be"
+  },
+  {
+   "path": "arxiv/validation/arXiv_084.jsonl.zst",
+   "size": 1586036,
+   "sha256": "fe11209d954318f2cca68fdda556527c46688026bf545a05d95cb4274ec66c41"
+  },
+  {
+   "path": "arxiv/validation/arXiv_085.jsonl.zst",
+   "size": 1326902,
+   "sha256": "caea8efba82d4e2de413e4d53b3631a8a06289a7a5cdff95be726c52d13389bc"
+  },
+  {
+   "path": "arxiv/validation/arXiv_086.jsonl.zst",
+   "size": 1318467,
+   "sha256": "b03d148acd52cffc08c217a442c26ae728b57a19e5255afffb7e37c5747ac963"
+  },
+  {
+   "path": "arxiv/validation/arXiv_087.jsonl.zst",
+   "size": 1429327,
+   "sha256": "2cd27bfe6d8c8be9512ffa3b80eacb19784d21f65df279be7c1170fb2d7c0673"
+  },
+  {
+   "path": "arxiv/validation/arXiv_088.jsonl.zst",
+   "size": 1214579,
+   "sha256": "48125ace69d06769e227863f5c6472e787097e019045fc419b56973af9727e8d"
+  },
+  {
+   "path": "arxiv/validation/arXiv_089.jsonl.zst",
+   "size": 1344652,
+   "sha256": "eb1f2bf86abb7fb005909fafa740ded878e8b026785f4442f747f9d234d7e4d4"
+  },
+  {
+   "path": "arxiv/validation/arXiv_090.jsonl.zst",
+   "size": 1047698,
+   "sha256": "2cae608118408a740a23d4fa1cbfc647a942d34863df147506729dcdf93d6dba"
+  },
+  {
+   "path": "arxiv/validation/arXiv_091.jsonl.zst",
+   "size": 1452620,
+   "sha256": "cf07d69c9927da2c9906bb8cca47de965b060a898d7b26a62ff6593c5db88985"
+  },
+  {
+   "path": "arxiv/validation/arXiv_092.jsonl.zst",
+   "size": 1243482,
+   "sha256": "9e448a76c7af5ec8a5fdcfb94038fbcb9d618dc7f6ba5d4cee9845ea0992376a"
+  },
+  {
+   "path": "arxiv/validation/arXiv_093.jsonl.zst",
+   "size": 1420967,
+   "sha256": "496b2141b13e56ebe1153a7473fbaa4ecaf366711f46a9e191af1ca4f7eff3ef"
+  },
+  {
+   "path": "arxiv/validation/arXiv_094.jsonl.zst",
+   "size": 1179016,
+   "sha256": "8f94c0cc0d740365a25c671045ae082a3a576c84d8bf2303a5da0a0b3c908021"
+  },
+  {
+   "path": "arxiv/validation/arXiv_095.jsonl.zst",
+   "size": 1131822,
+   "sha256": "8fa72a2e636c9ab2f418009d27f352f1b6882576fc87332943ea0b5424d0167f"
+  },
+  {
+   "path": "arxiv/validation/arXiv_096.jsonl.zst",
+   "size": 1375299,
+   "sha256": "054f6fa6ee20b9e6d648cb266a71c952441b7557a0b9f6d65779275dee0ad945"
+  },
+  {
+   "path": "arxiv/validation/arXiv_097.jsonl.zst",
+   "size": 1506509,
+   "sha256": "15a0bd908be3023ceec13421b5dfa0eb29a3d5357211906043045dd3fecb5b4e"
+  },
+  {
+   "path": "arxiv/validation/arXiv_098.jsonl.zst",
+   "size": 1016785,
+   "sha256": "bda192315c6b747b468dcb5d98f052daa999b1f115519d5bdf61c582f0913e76"
+  },
+  {
+   "path": "arxiv/validation/arXiv_099.jsonl.zst",
+   "size": 1282232,
+   "sha256": "d1ff790d970b18ba9abde5cf4ada6974c0f141784ec99aa51c08dbf34b2bf35d"
+  }
+ ]
+}

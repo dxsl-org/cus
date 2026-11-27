@@ -1,0 +1,12 @@
+source_id: kcb_vn
+adapter: listing
+rps: 0.5
+concurrency: 2
+params:
+  start_urls:
+    - "https://kcb.vn/cong-van"
+    - "https://kcb.vn/du-thao"
+    - "https://kcb.vn/van-ban"
+    - "https://kcb.vn/kham-chua-benh"
+  follow: '^$'
+  include: '^https://kcb\.vn/[^/?#]+\.html(\?categoryId=\d+)?$|^https://kcb\.vn/.+/[^/?#]+\.html(\?categoryId=\d+)?$'

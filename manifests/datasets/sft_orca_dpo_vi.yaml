@@ -1,0 +1,9 @@
+name: sft_orca_dpo_vi
+repo: 5CD-AI/Vietnamese-Intel-orca_dpo_pairs-gg-translated
+revision: e49ea6f9f46370fac2188091392a6f4657bda3c9
+allow_patterns: ["orca_rlhf_vi.json", "README.md"]
+purpose: sft
+wave: 2
+license: apache-2.0
+usage_scope: train_ok
+notes: "[SFT] Cặp dữ liệu DPO/Preference (chosen vs rejected) tiếng Việt cho chấm điểm chất lượng câu trả lời và SFT."

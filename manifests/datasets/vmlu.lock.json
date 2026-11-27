@@ -1,0 +1,30 @@
+{
+ "name": "vmlu",
+ "repo": "tridm/VMLU",
+ "revision": "9ed8d5ca21c680783da62e26f499facf47788568",
+ "downloaded_at": "2026-11-19T14:09:22+00:00",
+ "local_dir": "eval/vmlu",
+ "bytes": 4116032,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 1020,
+   "sha256": null
+  },
+  {
+   "path": "test.jsonl",
+   "size": 3735483,
+   "sha256": null
+  },
+  {
+   "path": "train.jsonl",
+   "size": 106148,
+   "sha256": null
+  },
+  {
+   "path": "valid.jsonl",
+   "size": 273381,
+   "sha256": null
+  }
+ ]
+}

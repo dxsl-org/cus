@@ -1,0 +1,75 @@
+{
+ "name": "sft_vimrhp",
+ "repo": "trucmtnguyen/ViMRHP",
+ "revision": "784a2e5e96f0e94b40743aae657208002bd7f490",
+ "downloaded_at": "2026-11-20T02:26:47+00:00",
+ "local_dir": "raw/open_datasets/sft_vimrhp",
+ "bytes": 178948046,
+ "files": [
+  {
+   "path": "Annotation/Electronic-dev.json",
+   "size": 3653019,
+   "sha256": null
+  },
+  {
+   "path": "Annotation/Electronic-test.json",
+   "size": 7772799,
+   "sha256": null
+  },
+  {
+   "path": "Annotation/Electronic-train.json",
+   "size": 26873345,
+   "sha256": "9a05298b834a06399347c1c2cb77e5bde456cee4e33991a4d9040b45c8abf58c"
+  },
+  {
+   "path": "Annotation/Fashion-dev.json",
+   "size": 4348062,
+   "sha256": null
+  },
+  {
+   "path": "Annotation/Fashion-test.json",
+   "size": 8553295,
+   "sha256": null
+  },
+  {
+   "path": "Annotation/Fashion-train.json",
+   "size": 31800039,
+   "sha256": "37e56045f053be677c238f1d6ac92665b4dd85e38c7ec85a3d4ed30831202fbb"
+  },
+  {
+   "path": "Annotation/HealthBeauty-dev.json",
+   "size": 5522912,
+   "sha256": null
+  },
+  {
+   "path": "Annotation/HealthBeauty-test.json",
+   "size": 11296292,
+   "sha256": "bccdf2f02e075389317a67acc6c4c0ac564df4983c07867483833ad2f31e4036"
+  },
+  {
+   "path": "Annotation/HealthBeauty-train.json",
+   "size": 39393616,
+   "sha256": "77b279b5b0e24105432bcd11320e62dfb60acd5d50450195e1ae1b3f07aa0c10"
+  },
+  {
+   "path": "Annotation/HomeLifestyle-dev.json",
+   "size": 3920734,
+   "sha256": null
+  },
+  {
+   "path": "Annotation/HomeLifestyle-test.json",
+   "size": 8087516,
+   "sha256": null
+  },
+  {
+   "path": "Annotation/HomeLifestyle-train.json",
+   "size": 27714104,
+   "sha256": "108f8b5f35133e93995d3f03ffa1c022fed4f172f3b5f1f35f4349506e5eb869"
+  },
+  {
+   "path": "README.md",
+   "size": 12313,
+   "sha256": null
+  }
+ ]
+}

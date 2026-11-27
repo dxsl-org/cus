@@ -1,0 +1,17 @@
+# Phase 18 E4: μP width transfer. Same depth (8), head_dim 64, Muon + WSD, 0.2B tokens; base width 512.
+# If μP holds, the best muon_lr is the same at d 256 / 512 / 768 (compare within this 0.2B-token grid).
+model: {d_model: 256, n_layers: 8, n_heads: 4, n_kv_heads: 2, mup_base_width: 512}
+train:
+  name: mup-d256-muon0.04
+  mix: {fineweb2_vie: 0.6, culturax_vi: 0.2, news: 0.08, law: 0.04, reference: 0.02, forum: 0.02,
+        literature: 0.02, health: 0.01, culture_history: 0.005, education: 0.005}
+  total_tokens: 2.0e8
+  batch_tokens: 262144
+  micro_batch: 16
+  lr: 3.0e-3
+  warmup_steps: 100
+  eval_every: 250
+  schedule: wsd
+  decay_fraction: 0.2
+  optimizer: muon
+  muon_lr: 0.04

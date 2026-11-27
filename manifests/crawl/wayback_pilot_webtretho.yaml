@@ -1,0 +1,9 @@
+source_id: wayback_pilot_webtretho
+# Pilot of the Wayback adapter on the dead webtretho forum (vBulletin thread pages).
+adapter: wayback
+rps: 0.5
+max_attempts: 5
+params:
+  url_patterns: ["webtretho.com/forum/f*"]
+  include: '/forum/f\d+/[^/]+-\d+/?$'
+  to: "20200101"

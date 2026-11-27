@@ -1,0 +1,5690 @@
+{
+ "name": "hplt2_vie",
+ "repo": "HPLT/HPLT2.0_cleaned",
+ "revision": "d1324a5283f762ee62c2a5c81de08fc6450ea540",
+ "downloaded_at": "2026-11-13T19:29:13+00:00",
+ "local_dir": "raw/open_datasets/hplt2_vie",
+ "bytes": 269710589553,
+ "files": [
+  {
+   "path": "vie_Latn_1/train-00000-of-00094.parquet",
+   "size": 256803548,
+   "sha256": "7f65cb282c7bfb7a6c6d2ed890042169952fb767a72945998532402bb5677b82"
+  },
+  {
+   "path": "vie_Latn_1/train-00001-of-00094.parquet",
+   "size": 284851394,
+   "sha256": "1dbcd48bb1b835d0d9125441f03fb96123994b4e54db836685c8aa5a14ddf18f"
+  },
+  {
+   "path": "vie_Latn_1/train-00002-of-00094.parquet",
+   "size": 287940418,
+   "sha256": "26782c7c21c7b3279d4894ac28de4270eb9a1849168d62898c796191b507a411"
+  },
+  {
+   "path": "vie_Latn_1/train-00003-of-00094.parquet",
+   "size": 284714299,
+   "sha256": "327250dc0ca8f3b5d736e353da15f14cd90c40da668c7e4d2172ccc7b95aa888"
+  },
+  {
+   "path": "vie_Latn_1/train-00004-of-00094.parquet",
+   "size": 282398527,
+   "sha256": "d23f578d1f2ca6456d41a793a6e7845684de0cef2a6c16c68c688ebd4909d418"
+  },
+  {
+   "path": "vie_Latn_1/train-00005-of-00094.parquet",
+   "size": 281223556,
+   "sha256": "2fc200bf167922d39aa36035366bb331e05251a20ff95cc1622237d69623fd4a"
+  },
+  {
+   "path": "vie_Latn_1/train-00006-of-00094.parquet",
+   "size": 285383447,
+   "sha256": "9816875333499ce4762ae41617bcb7604effbb92ebca91b28ded8d9ff36440c2"
+  },
+  {
+   "path": "vie_Latn_1/train-00007-of-00094.parquet",
+   "size": 273372008,
+   "sha256": "f063284b20c9b106948520175103b6d7f9ee0464063290da8e2aac6857da8317"
+  },
+  {
+   "path": "vie_Latn_1/train-00008-of-00094.parquet",
+   "size": 275743271,
+   "sha256": "ccd9241932fc7b35eac9370590d98aa5000c4b0e5469ea28dec89c1ab54b7cf1"
+  },
+  {
+   "path": "vie_Latn_1/train-00009-of-00094.parquet",
+   "size": 277619416,
+   "sha256": "55f07258f1f5825336bd9d23fc6eed86af72b7de930dd91a73da5fe63b1a4b1f"
+  },
+  {
+   "path": "vie_Latn_1/train-00010-of-00094.parquet",
+   "size": 267701905,
+   "sha256": "ad4fca0df226c5b1ae01f8f2cc7b6e66140788432a5ddf1446f0d550403a179d"
+  },
+  {
+   "path": "vie_Latn_1/train-00011-of-00094.parquet",
+   "size": 242956278,
+   "sha256": "f93ceecffac8cf927dbc4a705753b28e67a9dada503fe130d581696b266fd3b6"
+  },
+  {
+   "path": "vie_Latn_1/train-00012-of-00094.parquet",
+   "size": 248075372,
+   "sha256": "6fae354b8c03ce0f120e164212c757263105129fd093e08086fdd6122a508347"
+  },
+  {
+   "path": "vie_Latn_1/train-00013-of-00094.parquet",
+   "size": 240012165,
+   "sha256": "7ef9f1fe27d93c6400f16e42b1a945be5860fca2efa7cb40d91711fa08f7a862"
+  },
+  {
+   "path": "vie_Latn_1/train-00014-of-00094.parquet",
+   "size": 237023345,
+   "sha256": "b69821d921264f92cbd3f4e4364e42ba2580f79fbc37444d7611cdd2edee8948"
+  },
+  {
+   "path": "vie_Latn_1/train-00015-of-00094.parquet",
+   "size": 247533247,
+   "sha256": "7e190ff5cdbe9da177dfc4760d33c5d6262f1680d922544864a972e6801d3463"
+  },
+  {
+   "path": "vie_Latn_1/train-00016-of-00094.parquet",
+   "size": 287710745,
+   "sha256": "1b4f6f6fef223fde2f06ae9afd8ddc6868e3593025c828b31bb4929128423c5c"
+  },
+  {
+   "path": "vie_Latn_1/train-00017-of-00094.parquet",
+   "size": 286378800,
+   "sha256": "949ffc38074a722cd02f36658685e72acda81404ce9dee4d69608f28a8437df0"
+  },
+  {
+   "path": "vie_Latn_1/train-00018-of-00094.parquet",
+   "size": 282970998,
+   "sha256": "6d2423f85343458449a8c6657fd777f99e55a8df668f9454a2ab30878df2bd1f"
+  },
+  {
+   "path": "vie_Latn_1/train-00019-of-00094.parquet",
+   "size": 281773245,
+   "sha256": "f6257f56e82784de0057698f0b0193f60ebc70a4eaa1b9a2068d5a5728c55e14"
+  },
+  {
+   "path": "vie_Latn_1/train-00020-of-00094.parquet",
+   "size": 280301179,
+   "sha256": "91ce850c59052fb4b8e34fab6d0eed7c2ae7e60f00a292988f1ba590754fc548"
+  },
+  {
+   "path": "vie_Latn_1/train-00021-of-00094.parquet",
+   "size": 279466578,
+   "sha256": "8d3542278d48050f7a5f199e9ea87bcd4863a5e085907d5c1bc5993d668f6952"
+  },
+  {
+   "path": "vie_Latn_1/train-00022-of-00094.parquet",
+   "size": 278459287,
+   "sha256": "78e290e956fb34ff652496fa80ffcca7fbb99965094e7f39e702faa1fff01428"
+  },
+  {
+   "path": "vie_Latn_1/train-00023-of-00094.parquet",
+   "size": 279321046,
+   "sha256": "11d3c07a25021c72370669db6c35c7bdc871ef3f41713a2fcb5127356c5f6460"
+  },
+  {
+   "path": "vie_Latn_1/train-00024-of-00094.parquet",
+   "size": 272993089,
+   "sha256": "4c1c73a4717189348b0e77e968a8e95a46d3662c4407bf21a4569e7f6f06040f"
+  },
+  {
+   "path": "vie_Latn_1/train-00025-of-00094.parquet",
+   "size": 269219664,
+   "sha256": "2111f7be5f7f6b33cf1b658a50df0b6f2643ef9edd2c8cda3da6dd8fdbb109b2"
+  },
+  {
+   "path": "vie_Latn_1/train-00026-of-00094.parquet",
+   "size": 272748113,
+   "sha256": "12c65173acbcd2830f53f705a3f6dd2e7ddfaa98fc5b3e45dd6cc592979372cb"
+  },
+  {
+   "path": "vie_Latn_1/train-00027-of-00094.parquet",
+   "size": 273042993,
+   "sha256": "b6a23aa1cce536be8068f79c98d399c6579862522467bf3341d315fd89b41f0c"
+  },
+  {
+   "path": "vie_Latn_1/train-00028-of-00094.parquet",
+   "size": 286151754,
+   "sha256": "932cc564384f2235d549753ab8a8b4b451ff6b94832b312a78c12d7104c98c6d"
+  },
+  {
+   "path": "vie_Latn_1/train-00029-of-00094.parquet",
+   "size": 244206877,
+   "sha256": "d896bf855c63e6e4584ba1ff1c3a96042ca9a8856a205f16c6312e27819922bd"
+  },
+  {
+   "path": "vie_Latn_1/train-00030-of-00094.parquet",
+   "size": 224147085,
+   "sha256": "6490b746b7ae99d50e6ebd8924121c2817df825bab784c9c8b19df7531fe9097"
+  },
+  {
+   "path": "vie_Latn_1/train-00031-of-00094.parquet",
+   "size": 222916039,
+   "sha256": "05f3525d442eec6f8fa72ce2bc3983b9cb7268d2baf20ec513ac7653ea5dbe36"
+  },
+  {
+   "path": "vie_Latn_1/train-00032-of-00094.parquet",
+   "size": 224286613,
+   "sha256": "dea46a941b6f8a2f100d7278ecdac32115a801b5e565ae36305b7268653aa19b"
+  },
+  {
+   "path": "vie_Latn_1/train-00033-of-00094.parquet",
+   "size": 222339470,
+   "sha256": "066609d90eb7f7f43c4d18772044d5858bc4f123aee465e5c5c6fc4c76adb13b"
+  },
+  {
+   "path": "vie_Latn_1/train-00034-of-00094.parquet",
+   "size": 221918129,
+   "sha256": "fbdb288b5dcd18f70b069fc7e99d59019ca96e9d344d62e9caa6919347c1e851"
+  },
+  {
+   "path": "vie_Latn_1/train-00035-of-00094.parquet",
+   "size": 222552057,
+   "sha256": "2caec08a0e0d87afd51e0fc50b0f7ed1586076a7411d3eba66fe529b13c2cf17"
+  },
+  {
+   "path": "vie_Latn_1/train-00036-of-00094.parquet",
+   "size": 223073533,
+   "sha256": "b646e88440ef84bc18d61b1b7bc76b82b5c1755c1f47d3459b2363fea991ebb4"
+  },
+  {
+   "path": "vie_Latn_1/train-00037-of-00094.parquet",
+   "size": 222407370,
+   "sha256": "038ffd87507c38c3d0d45cfa07c639f8dcd63821e53c647306977592237b1322"
+  },
+  {
+   "path": "vie_Latn_1/train-00038-of-00094.parquet",
+   "size": 223256136,
+   "sha256": "2a387a29301839a94046f7900933fab3632cfd87f331942084e276a429c9483b"
+  },
+  {
+   "path": "vie_Latn_1/train-00039-of-00094.parquet",
+   "size": 225016620,
+   "sha256": "e331bd15c36e61ca02719b98c0f4b0668b19e7a31275208e8c402301bc739e85"
+  },
+  {
+   "path": "vie_Latn_1/train-00040-of-00094.parquet",
+   "size": 222999705,
+   "sha256": "078de0b1cbf81ce1f0b21d7ca9947f71e694e1851b79e71461f361e64965d261"
+  },
+  {
+   "path": "vie_Latn_1/train-00041-of-00094.parquet",
+   "size": 222603451,
+   "sha256": "718dc6480e46e278e77556b8d53f895412815e382b5ed389c043206bd76ddcf9"
+  },
+  {
+   "path": "vie_Latn_1/train-00042-of-00094.parquet",
+   "size": 222171140,
+   "sha256": "25afccb9eebdd5220484d4253375310cacf4908dfe18bea5a3e100853b5d5705"
+  },
+  {
+   "path": "vie_Latn_1/train-00043-of-00094.parquet",
+   "size": 220652366,
+   "sha256": "6a8bfd3d6a16c8ef77f440de3001ff06358a1eb8fee32313320b41d44f7e13bc"
+  },
+  {
+   "path": "vie_Latn_1/train-00044-of-00094.parquet",
+   "size": 223596094,
+   "sha256": "e442a8885cde056a52a0a57819cb0a6a2d16d67a71cf91cbe7459d66e1fa8bed"
+  },
+  {
+   "path": "vie_Latn_1/train-00045-of-00094.parquet",
+   "size": 223545082,
+   "sha256": "a7cd181d8b59f0155eeb9eadc969f83e7a2331b3f8fe28ac866c6345026704b1"
+  },
+  {
+   "path": "vie_Latn_1/train-00046-of-00094.parquet",
+   "size": 222205011,
+   "sha256": "5d6f2d7f99f180893e6ad94ea6d440b68c5e1df0bfb1ce4b4e3231772fec4458"
+  },
+  {
+   "path": "vie_Latn_1/train-00047-of-00094.parquet",
+   "size": 220520097,
+   "sha256": "79ec29a25beafccf95af7b9c332a7c5b5958c79ca5851ea1ee3a784db436b9ea"
+  },
+  {
+   "path": "vie_Latn_1/train-00048-of-00094.parquet",
+   "size": 223105427,
+   "sha256": "4bdebb3d6eca87efcb9c135fe3ce29004edf0db907d26581b560f021d50eee2c"
+  },
+  {
+   "path": "vie_Latn_1/train-00049-of-00094.parquet",
+   "size": 221864597,
+   "sha256": "bd73dba77ebf3a7c998e074acbd015770b09a4ccbf5c51dba6b260fbafc0c226"
+  },
+  {
+   "path": "vie_Latn_1/train-00050-of-00094.parquet",
+   "size": 223636055,
+   "sha256": "d2fd4f93f740b9b47256c7e036c0558b1b3d0bf111ac7305c8cd2ffbf156fb48"
+  },
+  {
+   "path": "vie_Latn_1/train-00051-of-00094.parquet",
+   "size": 221239805,
+   "sha256": "ba053d2132a0373efa7683dee70ec3a1c78d0201e6532209b35d0687d340bc07"
+  },
+  {
+   "path": "vie_Latn_1/train-00052-of-00094.parquet",
+   "size": 220812662,
+   "sha256": "ba0574661d05ee1d7f6aba38c0b580933ff3a05d259e863f5f7cccb38b2f8ee9"
+  },
+  {
+   "path": "vie_Latn_1/train-00053-of-00094.parquet",
+   "size": 222306850,
+   "sha256": "bd6210eb7a221ecbbe273d38669401d0abb86d177080fba426f85f6953e0cfd8"
+  },
+  {
+   "path": "vie_Latn_1/train-00054-of-00094.parquet",
+   "size": 221985109,
+   "sha256": "05c545f4148f991029311def68d0eba1a1ceabe92358e69b0a3522d650097b0e"
+  },
+  {
+   "path": "vie_Latn_1/train-00055-of-00094.parquet",
+   "size": 221760696,
+   "sha256": "4933a43cac181b408c8d46bb92eea95f799378f2fd07009355d91e850b78c090"
+  },
+  {
+   "path": "vie_Latn_1/train-00056-of-00094.parquet",
+   "size": 222705798,
+   "sha256": "9504ddec2d7bed4457542599f20e360a16ac0245486dc041dadfd787b8986810"
+  },
+  {
+   "path": "vie_Latn_1/train-00057-of-00094.parquet",
+   "size": 220867913,
+   "sha256": "b8dcf8108ad8f16aba694165de98e8b473af665c2094f98b8071061bde46afa9"
+  },
+  {
+   "path": "vie_Latn_1/train-00058-of-00094.parquet",
+   "size": 221565798,
+   "sha256": "68b066870b7cf5052eb71d0b650ec1896a9f95051aa5963337c40cf816dad2e9"
+  },
+  {
+   "path": "vie_Latn_1/train-00059-of-00094.parquet",
+   "size": 221443169,
+   "sha256": "3b7ebd260e8ab735148ab7fac28cb43ce9c3c67545a47066d7e227329e702f70"
+  },
+  {
+   "path": "vie_Latn_1/train-00060-of-00094.parquet",
+   "size": 223695716,
+   "sha256": "8f682e93f89897ab20577f42ac8d650d76eb55b4fc5b0e697151fe5e13eee795"
+  },
+  {
+   "path": "vie_Latn_1/train-00061-of-00094.parquet",
+   "size": 220330168,
+   "sha256": "16b1391e85c20a4498f0f2540d089d3026810a1e34f3b8302a2df92a99583264"
+  },
+  {
+   "path": "vie_Latn_1/train-00062-of-00094.parquet",
+   "size": 221759952,
+   "sha256": "20658593657c0867cd2c1bfc8b7a49e4f3a904ca6531a4f75cb53fc6d6e8f622"
+  },
+  {
+   "path": "vie_Latn_1/train-00063-of-00094.parquet",
+   "size": 223631168,
+   "sha256": "1f2d5f7fbb3d93936433e3c7fd678566d2813bde57fcd221454da8df9abaf5ef"
+  },
+  {
+   "path": "vie_Latn_1/train-00064-of-00094.parquet",
+   "size": 222579943,
+   "sha256": "8ea20dfd284425439791dbd19d6347e040cb965ce4eb65f3fad70a203a844644"
+  },
+  {
+   "path": "vie_Latn_1/train-00065-of-00094.parquet",
+   "size": 221963252,
+   "sha256": "c1dea68587a0257fc6b3b9c21e81cdab7a77ba4b105db6c25eddbfd88a00f377"
+  },
+  {
+   "path": "vie_Latn_1/train-00066-of-00094.parquet",
+   "size": 219064879,
+   "sha256": "2f99030f715939bf45f407f25eb97399f4d976560f2958244cbf203cdf2e2198"
+  },
+  {
+   "path": "vie_Latn_1/train-00067-of-00094.parquet",
+   "size": 222942646,
+   "sha256": "38cb8f463dcc79a54b2438ae51bde6e0a8f31433cb38a90c5187f842dad672ec"
+  },
+  {
+   "path": "vie_Latn_1/train-00068-of-00094.parquet",
+   "size": 221759810,
+   "sha256": "3a54d25e6bdc48f6dae8001d43b41420e4f20ae62d7b8b19d22d6c2810df5f19"
+  },
+  {
+   "path": "vie_Latn_1/train-00069-of-00094.parquet",
+   "size": 218396196,
+   "sha256": "f1bb9614d8ecdbcfacb5aef980b4da0f581b0b8b19464fd321b7358b5cad8205"
+  },
+  {
+   "path": "vie_Latn_1/train-00070-of-00094.parquet",
+   "size": 220538693,
+   "sha256": "801fdd8868d2c9c4aa9224625f09168ca5254ee119583a9994402215fc1468f7"
+  },
+  {
+   "path": "vie_Latn_1/train-00071-of-00094.parquet",
+   "size": 223341525,
+   "sha256": "d17f23d4e1d04b058e84bb83f606d4c78a662491688a310c5e508da70d7a71a7"
+  },
+  {
+   "path": "vie_Latn_1/train-00072-of-00094.parquet",
+   "size": 222544260,
+   "sha256": "4a97bd1cd1bff41f1807c50f82ae9f5c8a8590d7a1a6b6280498dd2f32c98667"
+  },
+  {
+   "path": "vie_Latn_1/train-00073-of-00094.parquet",
+   "size": 219759996,
+   "sha256": "9e0e2ecd45db01037f3b8496d8d98e7cd270ed2ca5b5f5daaa5813698e699059"
+  },
+  {
+   "path": "vie_Latn_1/train-00074-of-00094.parquet",
+   "size": 224107154,
+   "sha256": "db9859ce4b4b008eae1cc3768fc4462814c9ddb50f83f094845ae4a8fddc0e90"
+  },
+  {
+   "path": "vie_Latn_1/train-00075-of-00094.parquet",
+   "size": 219410172,
+   "sha256": "2a1d521ef06e3173a082943dd60e889eab1ae56321fed4575efabf039d415050"
+  },
+  {
+   "path": "vie_Latn_1/train-00076-of-00094.parquet",
+   "size": 221626169,
+   "sha256": "616e7f4ad9e3ab0aaeb972e25a2d32d6d83ffdd3ca4855f1a7efa7d631ec0828"
+  },
+  {
+   "path": "vie_Latn_1/train-00077-of-00094.parquet",
+   "size": 220963767,
+   "sha256": "c942f5d68fc2a853f99580256ee7e55962a8a905c8dae4c502b85c20f1771464"
+  },
+  {
+   "path": "vie_Latn_1/train-00078-of-00094.parquet",
+   "size": 220041753,
+   "sha256": "5cf875eaa93c746912328629d29c47c7de708250f0972e0e9451eafd0d413847"
+  },
+  {
+   "path": "vie_Latn_1/train-00079-of-00094.parquet",
+   "size": 222096218,
+   "sha256": "7e2d960e2ca3fe371e5ed966f05062755654a8a4ef201b54af9b594ac865ae76"
+  },
+  {
+   "path": "vie_Latn_1/train-00080-of-00094.parquet",
+   "size": 219819994,
+   "sha256": "dc121ea35ba52389d019deead95c1345eedd2f627639cabbc6c8027eca724256"
+  },
+  {
+   "path": "vie_Latn_1/train-00081-of-00094.parquet",
+   "size": 218662613,
+   "sha256": "833c944cead10c4b6223e1a40b9e5035be1fc210bed207b100fee97a7dafd147"
+  },
+  {
+   "path": "vie_Latn_1/train-00082-of-00094.parquet",
+   "size": 218262619,
+   "sha256": "e0644433bcfb32978ca6e182c7c46eadbe3654c1ce370ec1aff653b35ee1f007"
+  },
+  {
+   "path": "vie_Latn_1/train-00083-of-00094.parquet",
+   "size": 222722052,
+   "sha256": "89de2ad030b1bcff0f3df5f0341f9973c1d0905d4865652f08c0cbb7ea2ed0dc"
+  },
+  {
+   "path": "vie_Latn_1/train-00084-of-00094.parquet",
+   "size": 218540317,
+   "sha256": "ff7a0905b7933e4a57909312da0a290bd4a23c92c37b18cce40bd11f5bb121b1"
+  },
+  {
+   "path": "vie_Latn_1/train-00085-of-00094.parquet",
+   "size": 219255106,
+   "sha256": "a148813476b9577df475f19c0b8129df68b9ada3f5774a6883d1a99a5831e363"
+  },
+  {
+   "path": "vie_Latn_1/train-00086-of-00094.parquet",
+   "size": 233581650,
+   "sha256": "49ba54808d83badb70ef98daae5b7caefa5baee2496c817f1116cbd5a742595a"
+  },
+  {
+   "path": "vie_Latn_1/train-00087-of-00094.parquet",
+   "size": 232411621,
+   "sha256": "40e85dc074de13d64d9a7bdb1da5b91e9aedd3224210571fc594d7b23af75af2"
+  },
+  {
+   "path": "vie_Latn_1/train-00088-of-00094.parquet",
+   "size": 237076315,
+   "sha256": "4220ede50be252c6ebb3108140cecd8973963eb910d5550b99701165bf5a83ea"
+  },
+  {
+   "path": "vie_Latn_1/train-00089-of-00094.parquet",
+   "size": 216282607,
+   "sha256": "349271917bfe58fed7c11eed6e555be7c1c29499a229048d04e40c643753367f"
+  },
+  {
+   "path": "vie_Latn_1/train-00090-of-00094.parquet",
+   "size": 220081052,
+   "sha256": "bfbda1fd59e4b76effba865fde275512480ac12f73cecee93269e675b42ac11b"
+  },
+  {
+   "path": "vie_Latn_1/train-00091-of-00094.parquet",
+   "size": 215549726,
+   "sha256": "f36002c9a9def80a09b45cb763dcc1a1f8bd82b4bf6dbd304511512d1aab78f7"
+  },
+  {
+   "path": "vie_Latn_1/train-00092-of-00094.parquet",
+   "size": 218813365,
+   "sha256": "95fc9a6fdeb85ff4987f02282f47695976ea0a9be6d389bba7b004f678729be2"
+  },
+  {
+   "path": "vie_Latn_1/train-00093-of-00094.parquet",
+   "size": 219094929,
+   "sha256": "de5527d70cbe3a986b4288cfb4d60bbcb798117b3391d3d9da1a43f7969f6048"
+  },
+  {
+   "path": "vie_Latn_2/train-00000-of-00308.parquet",
+   "size": 235465847,
+   "sha256": "4dc64867549d469a2c66cac52c1433919e7b645b3b9c3014a9a8f24915a2cf96"
+  },
+  {
+   "path": "vie_Latn_2/train-00001-of-00308.parquet",
+   "size": 236670219,
+   "sha256": "8cb5bb2a9802ed4a0f057c055138c7f72ac23aaf2bb98940485af6ef5cbcc117"
+  },
+  {
+   "path": "vie_Latn_2/train-00002-of-00308.parquet",
+   "size": 237508403,
+   "sha256": "9edca7d5351fdcba6576a6ba2a45acf67953bf89af9afed8f8aea0a1e04223dd"
+  },
+  {
+   "path": "vie_Latn_2/train-00003-of-00308.parquet",
+   "size": 234912059,
+   "sha256": "4884b8962c8443bb59a1eb7ee19ce3adf6a6a6c55f03233b657539106d237b31"
+  },
+  {
+   "path": "vie_Latn_2/train-00004-of-00308.parquet",
+   "size": 237250493,
+   "sha256": "84c704a518338e774c082f4c27c421bf727353fe0521ac022177ec2f4c17e76d"
+  },
+  {
+   "path": "vie_Latn_2/train-00005-of-00308.parquet",
+   "size": 237201230,
+   "sha256": "03911b165eccdf0fbed4a154028aa7528b2d46d77cf827c194abca6998bf58d7"
+  },
+  {
+   "path": "vie_Latn_2/train-00006-of-00308.parquet",
+   "size": 236220662,
+   "sha256": "e77be8244e86320d3fec7ee5777490972c314acadbaaa92e684adf93ed07af46"
+  },
+  {
+   "path": "vie_Latn_2/train-00007-of-00308.parquet",
+   "size": 236189918,
+   "sha256": "d4f0fa8c6d8c8c9febe82d991107eae994d0331bbd90ac7c461aed2c828e86c6"
+  },
+  {
+   "path": "vie_Latn_2/train-00008-of-00308.parquet",
+   "size": 236344295,
+   "sha256": "0be75375f5b90010d283dcdab5b87079d2eede68cb063983fba26a76e24ab6f7"
+  },
+  {
+   "path": "vie_Latn_2/train-00009-of-00308.parquet",
+   "size": 237849351,
+   "sha256": "1221ef3a2040c9593490a73eed533dd8728894d480146066dec740e5f5a372a4"
+  },
+  {
+   "path": "vie_Latn_2/train-00010-of-00308.parquet",
+   "size": 238948452,
+   "sha256": "add8901346d03ab836928d3233ad8f677e264a262a7d3cf30782a8e72fa50ca1"
+  },
+  {
+   "path": "vie_Latn_2/train-00011-of-00308.parquet",
+   "size": 235355765,
+   "sha256": "01cf3aaf4ebf895668cf3f7f3fe2a00f7888f6e5740be7159a9e4826505126b7"
+  },
+  {
+   "path": "vie_Latn_2/train-00012-of-00308.parquet",
+   "size": 241696235,
+   "sha256": "a549287171df60f567e603d92c7ece5cd46bb0d66fdeff1c3ea4dac80168ea74"
+  },
+  {
+   "path": "vie_Latn_2/train-00013-of-00308.parquet",
+   "size": 237084786,
+   "sha256": "2ad5ac9180aa58fe4fefb9a25af3144c7c37f4972f18a1a9fd7ebb638ac857ea"
+  },
+  {
+   "path": "vie_Latn_2/train-00014-of-00308.parquet",
+   "size": 236986522,
+   "sha256": "ea6b270395e0d5670fbaafb7a7817c715f8936b3424276cca5fa0990da21455d"
+  },
+  {
+   "path": "vie_Latn_2/train-00015-of-00308.parquet",
+   "size": 236045054,
+   "sha256": "e8f621a65d16c0c03b7f4c1a742475d36aefdd71dfc3efff81378bb279a922c4"
+  },
+  {
+   "path": "vie_Latn_2/train-00016-of-00308.parquet",
+   "size": 236963894,
+   "sha256": "c2bc3ed16da7518729295035e14296e2de228e3878c18592cfa674397b9bed44"
+  },
+  {
+   "path": "vie_Latn_2/train-00017-of-00308.parquet",
+   "size": 236640177,
+   "sha256": "0212624cc10241a9a63c0642cd212ba25e2cf7aef051d4f7a2dd99f356bd6ecf"
+  },
+  {
+   "path": "vie_Latn_2/train-00018-of-00308.parquet",
+   "size": 235256900,
+   "sha256": "ec49e9c9ef6cb98de07409f9710594891fb1ae29c7e2125293652b8c587ad2e6"
+  },
+  {
+   "path": "vie_Latn_2/train-00019-of-00308.parquet",
+   "size": 235149300,
+   "sha256": "ede14d265b51fb5cd18f6a4b049a4dbd4c673d2a10cd1d4b182bfd1ef32de3ef"
+  },
+  {
+   "path": "vie_Latn_2/train-00020-of-00308.parquet",
+   "size": 235587644,
+   "sha256": "5ff59ccfab50d7b3a704521b19b922f4d4cb7f1932fec576f6748901db5c616e"
+  },
+  {
+   "path": "vie_Latn_2/train-00021-of-00308.parquet",
+   "size": 238356715,
+   "sha256": "d43e890aa74054781172ce719576de477a707fc57c54cd59fae3bcda144b93ed"
+  },
+  {
+   "path": "vie_Latn_2/train-00022-of-00308.parquet",
+   "size": 235118274,
+   "sha256": "bbc46eb7ea53d247ca65d1a3544cb7bd503170ba1472535d7c6d59afd3c2d597"
+  },
+  {
+   "path": "vie_Latn_2/train-00023-of-00308.parquet",
+   "size": 237394518,
+   "sha256": "0a97d695db67cc2fe2d6e371a69a43197c0408e5c013b070756dae24986ae060"
+  },
+  {
+   "path": "vie_Latn_2/train-00024-of-00308.parquet",
+   "size": 238652874,
+   "sha256": "3296dd84d7982adbde42cde76ac7fff6aef9e49e57ac3126791c675315932834"
+  },
+  {
+   "path": "vie_Latn_2/train-00025-of-00308.parquet",
+   "size": 234835631,
+   "sha256": "7f2d97a33699f807029312ca3438c2c387e145566eaeb0686c73d87ee2f5e1d6"
+  },
+  {
+   "path": "vie_Latn_2/train-00026-of-00308.parquet",
+   "size": 234345598,
+   "sha256": "e9550bec94bb9a9e6cdc0ec51236d400f97ac80ec7a57343dbd8a48dba8be1f9"
+  },
+  {
+   "path": "vie_Latn_2/train-00027-of-00308.parquet",
+   "size": 234401124,
+   "sha256": "fa409be646e977e72dc68d7c9f8400887ab579ad3b6e3025cb69edcb897aefe9"
+  },
+  {
+   "path": "vie_Latn_2/train-00028-of-00308.parquet",
+   "size": 234444018,
+   "sha256": "aef4309024859b30e441fa4403ee065237d7f949e32655cce7e6a6a11d057089"
+  },
+  {
+   "path": "vie_Latn_2/train-00029-of-00308.parquet",
+   "size": 232699609,
+   "sha256": "83169d28fde15a6005736bf119f320dad3bcfd67fbaa3a4440e787c1c2c285aa"
+  },
+  {
+   "path": "vie_Latn_2/train-00030-of-00308.parquet",
+   "size": 234743975,
+   "sha256": "2b0cf10feefa1970abc9082cbf85ab0cc8d2aa46240fb1dd2d9c67e5f839b434"
+  },
+  {
+   "path": "vie_Latn_2/train-00031-of-00308.parquet",
+   "size": 235210933,
+   "sha256": "b309887908aa4a259f5adbf9d5b8224232e26c89f1e4a22cee6420767649693c"
+  },
+  {
+   "path": "vie_Latn_2/train-00032-of-00308.parquet",
+   "size": 234215948,
+   "sha256": "3634218c291bf8ba5cd4d0aec8baa1df557c29d152ed5bb9a0d7ff11a116d6a2"
+  },
+  {
+   "path": "vie_Latn_2/train-00033-of-00308.parquet",
+   "size": 235306206,
+   "sha256": "9fbd02e0e29f4bf398924de06a095508c0dde4703b9984d36fb02bc4a000da4c"
+  },
+  {
+   "path": "vie_Latn_2/train-00034-of-00308.parquet",
+   "size": 235373864,
+   "sha256": "148247f6803522c838beea80488b6eca63364c4495b320dbdb8cdc006b7f44cd"
+  },
+  {
+   "path": "vie_Latn_2/train-00035-of-00308.parquet",
+   "size": 237096387,
+   "sha256": "ef4a9783ca361a8f98a59bf0d67fa11c4e3afae8329a63c697093093ab6bc014"
+  },
+  {
+   "path": "vie_Latn_2/train-00036-of-00308.parquet",
+   "size": 232233427,
+   "sha256": "20d345975d97a41afbaedef5fb348b4f7da05d061296100ba1f663696f42de32"
+  },
+  {
+   "path": "vie_Latn_2/train-00037-of-00308.parquet",
+   "size": 232871420,
+   "sha256": "e2801f614e5f1fb3aecc2ea2e1e44bd16a21c4e7746726289587b469cf1ccd21"
+  },
+  {
+   "path": "vie_Latn_2/train-00038-of-00308.parquet",
+   "size": 232401613,
+   "sha256": "e2e991cfd214fc29e9fd2f39b5df4b8376824b2e605a4234507b49cd1dbb3af4"
+  },
+  {
+   "path": "vie_Latn_2/train-00039-of-00308.parquet",
+   "size": 231827546,
+   "sha256": "9b73200cdafe930c1dc627adb9367dd8c1e19f6c7d15c63c3fe56ee976e6b6da"
+  },
+  {
+   "path": "vie_Latn_2/train-00040-of-00308.parquet",
+   "size": 231300619,
+   "sha256": "31e5e598c1ad631f2c872fb96e4076d0a55fffb95c6a02e2799908f974e49b0e"
+  },
+  {
+   "path": "vie_Latn_2/train-00041-of-00308.parquet",
+   "size": 231222275,
+   "sha256": "bdbc91edff199fc5ab0f31eefba8c35ed93dda83fba156a9efcd1662f8ed9c0a"
+  },
+  {
+   "path": "vie_Latn_2/train-00042-of-00308.parquet",
+   "size": 232965617,
+   "sha256": "76909509a5ee716f419d21eb1c73ebde4c41205bd62b0fa93611fa2abc6a4ba9"
+  },
+  {
+   "path": "vie_Latn_2/train-00043-of-00308.parquet",
+   "size": 232599194,
+   "sha256": "8af0f2d92cd2a7e0b699be0d897178e7bc127102964bb4f43d0fda010e0f365c"
+  },
+  {
+   "path": "vie_Latn_2/train-00044-of-00308.parquet",
+   "size": 232012323,
+   "sha256": "4ec4b2698ba126e0994c050f57b2b4f8c4b6358060633984e8fd1d22d29189fa"
+  },
+  {
+   "path": "vie_Latn_2/train-00045-of-00308.parquet",
+   "size": 237198346,
+   "sha256": "db2339e6270414f007d9659311fb5a2d7604a554f043bb73260f720ddd07ada8"
+  },
+  {
+   "path": "vie_Latn_2/train-00046-of-00308.parquet",
+   "size": 234504812,
+   "sha256": "e35db46e5db7a3142b08257d581c7ad2373a228b5ac136068f58a8fd44d2c26c"
+  },
+  {
+   "path": "vie_Latn_2/train-00047-of-00308.parquet",
+   "size": 232301411,
+   "sha256": "9d3f6e49f216c671f4b64ca241df8bbaea44a22fae82063f5352802ee46f5fec"
+  },
+  {
+   "path": "vie_Latn_2/train-00048-of-00308.parquet",
+   "size": 232383028,
+   "sha256": "a7d66c7205ccc4f1b7d329697e14d1b071f795a49fc4fa6c245887cb77c140c4"
+  },
+  {
+   "path": "vie_Latn_2/train-00049-of-00308.parquet",
+   "size": 233284474,
+   "sha256": "3a2f5b4f0d1a6cd31ccd6eca28ea371ecd22739deaf567b9a0db943cfefa57d5"
+  },
+  {
+   "path": "vie_Latn_2/train-00050-of-00308.parquet",
+   "size": 233951623,
+   "sha256": "dcec63aeb2fd637e22cba3007f733bde9d783cc802f61a89a007c4524c912e1f"
+  },
+  {
+   "path": "vie_Latn_2/train-00051-of-00308.parquet",
+   "size": 232185546,
+   "sha256": "fe6e4c8ca0314894816d416a76574489abd725a83e4eaf8d3e25cb71d6e71bc3"
+  },
+  {
+   "path": "vie_Latn_2/train-00052-of-00308.parquet",
+   "size": 234230198,
+   "sha256": "c7159409e5b9762141b9265b007644045e9f9abb496d52a0a4190c292c9651da"
+  },
+  {
+   "path": "vie_Latn_2/train-00053-of-00308.parquet",
+   "size": 235034267,
+   "sha256": "4f426578022b8a477fab9033f386f533ebd448c4845b3fbebfe13e9db8dd46f0"
+  },
+  {
+   "path": "vie_Latn_2/train-00054-of-00308.parquet",
+   "size": 232690229,
+   "sha256": "34458ac1689ac60f5bfd72624c695dcc6b47f0f422e4fb32440b06fe8d43830d"
+  },
+  {
+   "path": "vie_Latn_2/train-00055-of-00308.parquet",
+   "size": 233660180,
+   "sha256": "4ec51fd460f0b167c3d76a2328767646ad89bc2d43310aa841282229b0cefacb"
+  },
+  {
+   "path": "vie_Latn_2/train-00056-of-00308.parquet",
+   "size": 217995096,
+   "sha256": "744d6a1579db1219b4e1ae04abb3c9b01e262a6f1f1b06b26c40ea7f6bca8681"
+  },
+  {
+   "path": "vie_Latn_2/train-00057-of-00308.parquet",
+   "size": 219863634,
+   "sha256": "5cccf89aca77feb4fef4028ed5dcd0063a9f3656cddef40f9cdd68c4748275a5"
+  },
+  {
+   "path": "vie_Latn_2/train-00058-of-00308.parquet",
+   "size": 219737392,
+   "sha256": "987d33161bf65456abc5f216352ea3bd4d4875091b820753542b9b91d085094b"
+  },
+  {
+   "path": "vie_Latn_2/train-00059-of-00308.parquet",
+   "size": 219385960,
+   "sha256": "3622e1a4410ac165d25719c379870e165e75c56d32f2b2c631917bc56d184d28"
+  },
+  {
+   "path": "vie_Latn_2/train-00060-of-00308.parquet",
+   "size": 220004301,
+   "sha256": "a3bb6c668fffdc570daa595b86097337aa63819aaedcf779d60d290a1b4fbda0"
+  },
+  {
+   "path": "vie_Latn_2/train-00061-of-00308.parquet",
+   "size": 218586613,
+   "sha256": "a3087ad00d8ebf0f47d6199cca7a25ad48b0795825973c126e1c067dc3a6debf"
+  },
+  {
+   "path": "vie_Latn_2/train-00062-of-00308.parquet",
+   "size": 220620168,
+   "sha256": "2dce8cad70256c5a63598d609f2e6665652a60585463c30621b08cecd2c2d480"
+  },
+  {
+   "path": "vie_Latn_2/train-00063-of-00308.parquet",
+   "size": 220541672,
+   "sha256": "6c9a06060b8288730ebf9b20e1f4934ec109222f404a06196c36f051284c244d"
+  },
+  {
+   "path": "vie_Latn_2/train-00064-of-00308.parquet",
+   "size": 219470855,
+   "sha256": "e22588043c534f95f9de9f5a2a67454a9a8e0c793d4d0e419b4bfe8260799013"
+  },
+  {
+   "path": "vie_Latn_2/train-00065-of-00308.parquet",
+   "size": 217539326,
+   "sha256": "eb7dc0b4fe3e277aa05db0ef29fded4bc2c32b759051237154083d55523c955d"
+  },
+  {
+   "path": "vie_Latn_2/train-00066-of-00308.parquet",
+   "size": 219752527,
+   "sha256": "d0ec113b7de16ef7386da3ec0f5f5e2e850b70e0f6b52cbf25808c402c3324e8"
+  },
+  {
+   "path": "vie_Latn_2/train-00067-of-00308.parquet",
+   "size": 223062144,
+   "sha256": "a6bdd959aad161a14b7deddae7481c1f5ad2e1a46a01d57078c10407edd6e172"
+  },
+  {
+   "path": "vie_Latn_2/train-00068-of-00308.parquet",
+   "size": 229055056,
+   "sha256": "18e550d11a54dfaf96da0d929bfe1c11ff4ff89bdbc52e5883969b8778409214"
+  },
+  {
+   "path": "vie_Latn_2/train-00069-of-00308.parquet",
+   "size": 220397755,
+   "sha256": "27cdfca40258b2971db13be17a5df2f8fdf98cabe94989ca0fab6bf32ee00c58"
+  },
+  {
+   "path": "vie_Latn_2/train-00070-of-00308.parquet",
+   "size": 220639917,
+   "sha256": "475f86edf0ea7c7ccd95aee41dfb5c2c1e1b3022c10e8d8ef2df09588f5cea3d"
+  },
+  {
+   "path": "vie_Latn_2/train-00071-of-00308.parquet",
+   "size": 219423977,
+   "sha256": "ae664a0dfc674b9bceda57f6dc9a4d44122074f76d2ec83927fce72fd614976f"
+  },
+  {
+   "path": "vie_Latn_2/train-00072-of-00308.parquet",
+   "size": 217838336,
+   "sha256": "80fffc566828bba41f523f927155d401e15f4ac7d184b2d0886e396813e0cc7f"
+  },
+  {
+   "path": "vie_Latn_2/train-00073-of-00308.parquet",
+   "size": 218886998,
+   "sha256": "62fb9fa7e1e0d2f23253f9fb9a48cd00a158512090619d28d5131feb3ad2511d"
+  },
+  {
+   "path": "vie_Latn_2/train-00074-of-00308.parquet",
+   "size": 218075465,
+   "sha256": "efef57d63aa21b00af3401e5ae0b7a39702370fc5662422dfd76691859a4b1cf"
+  },
+  {
+   "path": "vie_Latn_2/train-00075-of-00308.parquet",
+   "size": 220216562,
+   "sha256": "4b52d8a3de7d131608e9c31a54568b1efd1c2ea0dd257fb52d85495793c16156"
+  },
+  {
+   "path": "vie_Latn_2/train-00076-of-00308.parquet",
+   "size": 219046366,
+   "sha256": "c79adbee6e9d04d1975d61805a59a6ebf5546d55f483046bc45cfcf3e36a6464"
+  },
+  {
+   "path": "vie_Latn_2/train-00077-of-00308.parquet",
+   "size": 217645975,
+   "sha256": "4013c199bcaf11a1c955f0a9a400a7516af52fcc4976f9b8392b226006dda030"
+  },
+  {
+   "path": "vie_Latn_2/train-00078-of-00308.parquet",
+   "size": 220172176,
+   "sha256": "d83726732ee9db0b97003129589adf2aae40df10b8413156d0abac74824e8cc0"
+  },
+  {
+   "path": "vie_Latn_2/train-00079-of-00308.parquet",
+   "size": 218591445,
+   "sha256": "1766542de52e023096400c4936c8aed2c313fc7591e40d3d58665dc91ffbbd94"
+  },
+  {
+   "path": "vie_Latn_2/train-00080-of-00308.parquet",
+   "size": 226222248,
+   "sha256": "0cc310b0e8142a0f5b353712acb8cb7dfaf11972e2d7b7ce920076389c11b0d9"
+  },
+  {
+   "path": "vie_Latn_2/train-00081-of-00308.parquet",
+   "size": 223169088,
+   "sha256": "94e5ab6335a4737ff375d0c08e603d33b9e7ffaeda213613055e92bd3b24240c"
+  },
+  {
+   "path": "vie_Latn_2/train-00082-of-00308.parquet",
+   "size": 218517009,
+   "sha256": "992b22abd3a466a1d7afb42151bb4dbec147ad825b8c8dea05d6522f95332c0a"
+  },
+  {
+   "path": "vie_Latn_2/train-00083-of-00308.parquet",
+   "size": 217469058,
+   "sha256": "184d886d072f285b4d02a7d198236b69a3ce41c21653955426064ca0eeacef36"
+  },
+  {
+   "path": "vie_Latn_2/train-00084-of-00308.parquet",
+   "size": 218998415,
+   "sha256": "c6100c8e6a19433eb297b9c3ecc6cb4c5739e32303bcda9c357562f4ef8a4712"
+  },
+  {
+   "path": "vie_Latn_2/train-00085-of-00308.parquet",
+   "size": 217281350,
+   "sha256": "c709a0fcb165e0c2066d9ba6e0d25de7f2cd4f2102300d8912d99cd70d812d93"
+  },
+  {
+   "path": "vie_Latn_2/train-00086-of-00308.parquet",
+   "size": 219243740,
+   "sha256": "b788a7705fb48d88f1e81fa890d1d5e57d4745586954ec3b56b4141cfce6a67d"
+  },
+  {
+   "path": "vie_Latn_2/train-00087-of-00308.parquet",
+   "size": 217337156,
+   "sha256": "66532a38cb2bf729a7f7ab36dff98a74e34692758a14c555a1c70b96497792ea"
+  },
+  {
+   "path": "vie_Latn_2/train-00088-of-00308.parquet",
+   "size": 220088294,
+   "sha256": "f4b999e76bc5ef37a525cbadf3ccaf3061e8512a6a815d89232958baaf483ef2"
+  },
+  {
+   "path": "vie_Latn_2/train-00089-of-00308.parquet",
+   "size": 219329128,
+   "sha256": "268534927202ba8a2e13bc7972971d4f21321108203ce907777a1e66388a4769"
+  },
+  {
+   "path": "vie_Latn_2/train-00090-of-00308.parquet",
+   "size": 218492713,
+   "sha256": "3884aff3231ec788aaa5468dd95861e05105ea0a419b66bda48601803906dd02"
+  },
+  {
+   "path": "vie_Latn_2/train-00091-of-00308.parquet",
+   "size": 218113289,
+   "sha256": "7eaac4ce5df60d3462ab3437ffb9982f16e197035edc2589f0392ab86160126a"
+  },
+  {
+   "path": "vie_Latn_2/train-00092-of-00308.parquet",
+   "size": 221705687,
+   "sha256": "1b2cccba806dc8988bb0c8c88e8d1bb0d9b906ff89e0f87458e04313b04920fa"
+  },
+  {
+   "path": "vie_Latn_2/train-00093-of-00308.parquet",
+   "size": 226590204,
+   "sha256": "3209512b13b19f0ea1fd8b3981dfd79afd25bfbd05142043db7e8acd6c1d7ee5"
+  },
+  {
+   "path": "vie_Latn_2/train-00094-of-00308.parquet",
+   "size": 219735129,
+   "sha256": "25ca18fb4f735e7da92668bfe5b2d6d602c219e8c8e3054cf1a88f3470c0c5f3"
+  },
+  {
+   "path": "vie_Latn_2/train-00095-of-00308.parquet",
+   "size": 219070543,
+   "sha256": "68818de1286816def9d3f0811fae980953f98e3979ba23822bf8552dff7f216f"
+  },
+  {
+   "path": "vie_Latn_2/train-00096-of-00308.parquet",
+   "size": 215921724,
+   "sha256": "d6a8f7a5d52cd03520bef092da5628da08cb3d586a75e909760effa43a923fc2"
+  },
+  {
+   "path": "vie_Latn_2/train-00097-of-00308.parquet",
+   "size": 218568915,
+   "sha256": "48b7e8dbf7339ff9ec4317e51b2d414316c81f3a7c39cf283b7263192540b7b0"
+  },
+  {
+   "path": "vie_Latn_2/train-00098-of-00308.parquet",
+   "size": 217206555,
+   "sha256": "95c7b1e224730e04e7b081b48755c6806be51002381c4c762d927604c3bf1804"
+  },
+  {
+   "path": "vie_Latn_2/train-00099-of-00308.parquet",
+   "size": 217556847,
+   "sha256": "6bcc0c5ef7edf6a7995096e30d045fefe4a7a542432e6a5be08e2c270e8d7f13"
+  },
+  {
+   "path": "vie_Latn_2/train-00100-of-00308.parquet",
+   "size": 218166142,
+   "sha256": "c905f96684b4d4e498ba2a3a2c8f1546d0d53b7853e5491fbc88258d88d293b6"
+  },
+  {
+   "path": "vie_Latn_2/train-00101-of-00308.parquet",
+   "size": 218142901,
+   "sha256": "d1240979ac7737ae6e9a483bc405ff2a15a9b92280aae7db07865930b96f7119"
+  },
+  {
+   "path": "vie_Latn_2/train-00102-of-00308.parquet",
+   "size": 217941706,
+   "sha256": "ee4824250159757c2ffe6327df52b101d68971e36589ba6361b8bd5af84f9b68"
+  },
+  {
+   "path": "vie_Latn_2/train-00103-of-00308.parquet",
+   "size": 217815488,
+   "sha256": "19bd0e2364bc291c62aa190b0db8fa0a743be74a54c3f961da855a1eddb4a0a2"
+  },
+  {
+   "path": "vie_Latn_2/train-00104-of-00308.parquet",
+   "size": 228939684,
+   "sha256": "f6086a626e88c6de25fdb01d7737f7d2eadf19be932a0158c0d2ed6bd34e802a"
+  },
+  {
+   "path": "vie_Latn_2/train-00105-of-00308.parquet",
+   "size": 220409091,
+   "sha256": "50fce04a0d39084999a5e18a474110aa57a3b61cf5b6138b39de193c489b380b"
+  },
+  {
+   "path": "vie_Latn_2/train-00106-of-00308.parquet",
+   "size": 216296351,
+   "sha256": "effbf0591c781106ba5c0298ec25291d16ccb10a971d3d54afa6102dc9601cf1"
+  },
+  {
+   "path": "vie_Latn_2/train-00107-of-00308.parquet",
+   "size": 217792671,
+   "sha256": "5b60ca9babf57be43ffbdfa83d1424d5df7d508f1aa623acab82d244f213ad0b"
+  },
+  {
+   "path": "vie_Latn_2/train-00108-of-00308.parquet",
+   "size": 218333930,
+   "sha256": "c362a15ea2b498dccff4123c1c3dfaf2f9ddda8e3015d4f1a2bbf526539aa040"
+  },
+  {
+   "path": "vie_Latn_2/train-00109-of-00308.parquet",
+   "size": 216753309,
+   "sha256": "9111a9a2b867b6be06f03188ef6a6948e40a450799f0fdc7e8277bd1d4e79f9b"
+  },
+  {
+   "path": "vie_Latn_2/train-00110-of-00308.parquet",
+   "size": 218054130,
+   "sha256": "18e5bec5a53662ada6f08d884373a5045f807ea5a91c5d5540314e8fe280c4f0"
+  },
+  {
+   "path": "vie_Latn_2/train-00111-of-00308.parquet",
+   "size": 216794324,
+   "sha256": "0424ea44ef09ff736f7c6c885f9622040c319cf3b1822062555728a9edf5906f"
+  },
+  {
+   "path": "vie_Latn_2/train-00112-of-00308.parquet",
+   "size": 216835593,
+   "sha256": "0afe1708677cbfc28eefede0bab4534010ac014ffc2b1f1ffd6d42d67eefa420"
+  },
+  {
+   "path": "vie_Latn_2/train-00113-of-00308.parquet",
+   "size": 215901041,
+   "sha256": "69b51447431f5ae0bb81f85fa9d4a225e51b1a5ae2aba26a21e9649026dd12b3"
+  },
+  {
+   "path": "vie_Latn_2/train-00114-of-00308.parquet",
+   "size": 217982824,
+   "sha256": "6b531623d22cf2ca5d0d1ca28dd43929e34fbc95a254bade937b06d2be9a29ea"
+  },
+  {
+   "path": "vie_Latn_2/train-00115-of-00308.parquet",
+   "size": 222531281,
+   "sha256": "0ab054f1da6dfe34212474b91677d716b38c7da7a626a2c0b71e2844f558027c"
+  },
+  {
+   "path": "vie_Latn_2/train-00116-of-00308.parquet",
+   "size": 233216028,
+   "sha256": "96c7d7abbcea86120f5b0c40c43758f05e37a3f9a0dcac3d416c9e34c7086b46"
+  },
+  {
+   "path": "vie_Latn_2/train-00117-of-00308.parquet",
+   "size": 217517226,
+   "sha256": "6930e5200cc12e14ca66c1554b4f1ec2e9f4c65a1004815755f5f2f3bef77899"
+  },
+  {
+   "path": "vie_Latn_2/train-00118-of-00308.parquet",
+   "size": 218921592,
+   "sha256": "c0c1f1946f10bc379aeb5011513f0ebc24147474ea5b3e5ebbcfcb9f44fc3143"
+  },
+  {
+   "path": "vie_Latn_2/train-00119-of-00308.parquet",
+   "size": 218547443,
+   "sha256": "2f3a35f82e7e622f714642c6b623bf261012682c200ce414d8e0dc342d6759a8"
+  },
+  {
+   "path": "vie_Latn_2/train-00120-of-00308.parquet",
+   "size": 217663778,
+   "sha256": "53d2ec7cf8697c3ec3770c08e25e975778bc899ab32fb98bdf0a421e67dec91c"
+  },
+  {
+   "path": "vie_Latn_2/train-00121-of-00308.parquet",
+   "size": 217787188,
+   "sha256": "7027b522beff3704bd01af3dfbdebdd3474fb55aa7e3322b93abb670a08dbdb1"
+  },
+  {
+   "path": "vie_Latn_2/train-00122-of-00308.parquet",
+   "size": 216184283,
+   "sha256": "71efec3ed9e3e3027cb9be5c6117ff17d08c43a364651c89554e4c00e6546917"
+  },
+  {
+   "path": "vie_Latn_2/train-00123-of-00308.parquet",
+   "size": 215082877,
+   "sha256": "cb6b7756f61b754531bd56c28aac5433e19781baf91187040a3fe19eaa75be08"
+  },
+  {
+   "path": "vie_Latn_2/train-00124-of-00308.parquet",
+   "size": 216633320,
+   "sha256": "a47adfdbe07ce96624887b4cf5cea5d46c0e8ccf0f55e972bec483b09090886e"
+  },
+  {
+   "path": "vie_Latn_2/train-00125-of-00308.parquet",
+   "size": 217068580,
+   "sha256": "5d6e2e087e6ce62a33eb315a7ea2d548a9d891b18f50ae91e896a25d4c786c37"
+  },
+  {
+   "path": "vie_Latn_2/train-00126-of-00308.parquet",
+   "size": 239250436,
+   "sha256": "df1ddc786975f3007e3c0d91884c3a31ba2fc4869090f09d76a77da525451c0d"
+  },
+  {
+   "path": "vie_Latn_2/train-00127-of-00308.parquet",
+   "size": 239530152,
+   "sha256": "56a1f9ae15cc4c273a0b79952e5baf4592b522a16c1748f920bebfa104343549"
+  },
+  {
+   "path": "vie_Latn_2/train-00128-of-00308.parquet",
+   "size": 237984494,
+   "sha256": "8cdcb3eb1f54b6de379d119b470d3499400ff7ca9369d7087ed639b265d62f4f"
+  },
+  {
+   "path": "vie_Latn_2/train-00129-of-00308.parquet",
+   "size": 239948660,
+   "sha256": "79fb63bc9f6a138bea676a6d0a55015d525d3d70f9a49a8048181afb11a6e5d0"
+  },
+  {
+   "path": "vie_Latn_2/train-00130-of-00308.parquet",
+   "size": 238063681,
+   "sha256": "6d5e09d69e88afc29cb900ac24b19b1b73386ac7ba747cf39ee31b3a91b1f68a"
+  },
+  {
+   "path": "vie_Latn_2/train-00131-of-00308.parquet",
+   "size": 241120741,
+   "sha256": "cf27f6d837c506c13bd5100a0d1cd9ce73b8a6128be13c95323177b8503e70c9"
+  },
+  {
+   "path": "vie_Latn_2/train-00132-of-00308.parquet",
+   "size": 239505178,
+   "sha256": "c28acc7f5a9fc466a9eed95a48dfe794dd5c42ad4d361dcf383495adcc16f0fd"
+  },
+  {
+   "path": "vie_Latn_2/train-00133-of-00308.parquet",
+   "size": 238725802,
+   "sha256": "05bf522dc6382cbb23e0cdfa3a006438b1b7c8175c357fefdc3b348a6876330e"
+  },
+  {
+   "path": "vie_Latn_2/train-00134-of-00308.parquet",
+   "size": 237801710,
+   "sha256": "e451b5a02e5eaa7ae7b0a1fbecc72b6f431c50c61c500dc62545e804b3872ea3"
+  },
+  {
+   "path": "vie_Latn_2/train-00135-of-00308.parquet",
+   "size": 239063997,
+   "sha256": "74213aed5538580cf4f6cec92908991bb5a3b955902def942502b7f8ccaf8ca5"
+  },
+  {
+   "path": "vie_Latn_2/train-00136-of-00308.parquet",
+   "size": 237030428,
+   "sha256": "79e8658de3aeafffb01c885291d7cab96678c183e4d8c97ccfcacc9d087fe79b"
+  },
+  {
+   "path": "vie_Latn_2/train-00137-of-00308.parquet",
+   "size": 238349678,
+   "sha256": "112de5f4fb04c29e2d8faea205e845fbb9f0a9afdfd2791b7ed39788b2726248"
+  },
+  {
+   "path": "vie_Latn_2/train-00138-of-00308.parquet",
+   "size": 239075336,
+   "sha256": "59188fa10f5b78fabf82e6fe6bd7f328a86298716a0297fffe4e137afb7a2267"
+  },
+  {
+   "path": "vie_Latn_2/train-00139-of-00308.parquet",
+   "size": 240342851,
+   "sha256": "aa8f598b26e4441c8477e0124ea0322e678549644b28b98e87d4f412e5427cc9"
+  },
+  {
+   "path": "vie_Latn_2/train-00140-of-00308.parquet",
+   "size": 240113149,
+   "sha256": "7fae1fdbc0f3a6b1acf8e7b220a4605311200e044e1e752f39c4762a9e61c1a0"
+  },
+  {
+   "path": "vie_Latn_2/train-00141-of-00308.parquet",
+   "size": 239572774,
+   "sha256": "a07a499978868b256bda7bfb262c6dac4b5e690edc239e8c8206875ecc7d2351"
+  },
+  {
+   "path": "vie_Latn_2/train-00142-of-00308.parquet",
+   "size": 238275926,
+   "sha256": "21c9efe47c1d4506600e370ced1c6eea98d3fac5c7379aca4879b56dc9dfc67c"
+  },
+  {
+   "path": "vie_Latn_2/train-00143-of-00308.parquet",
+   "size": 240846973,
+   "sha256": "0bef7bab54a665c97fd79ca92b2542cd86aeb15ee3cc9ccfb947255c82dbe248"
+  },
+  {
+   "path": "vie_Latn_2/train-00144-of-00308.parquet",
+   "size": 240092731,
+   "sha256": "dfa1a447298574e8bfd3a0df0092d452d0fc50c998cd9edce7d51c6d346e6cf6"
+  },
+  {
+   "path": "vie_Latn_2/train-00145-of-00308.parquet",
+   "size": 236229369,
+   "sha256": "1b6f95878636b1bba44e9bd9f59a3f15c1da2d2e813c3ef8ca0d98f74fc600e9"
+  },
+  {
+   "path": "vie_Latn_2/train-00146-of-00308.parquet",
+   "size": 239170236,
+   "sha256": "4c9445fc96db55eba6554a8c3bffebc9d032f554d65b8169382a8dd7acf72d7c"
+  },
+  {
+   "path": "vie_Latn_2/train-00147-of-00308.parquet",
+   "size": 240582252,
+   "sha256": "97fe3a1e96aab0f1ce04fd0e29853e7168b8eed8f689ea36fba16f5a0d617e69"
+  },
+  {
+   "path": "vie_Latn_2/train-00148-of-00308.parquet",
+   "size": 236010385,
+   "sha256": "a473275635a8536d5a17d0b31dbf5c0908fa735b5ef04837910da3125e0480f2"
+  },
+  {
+   "path": "vie_Latn_2/train-00149-of-00308.parquet",
+   "size": 238114667,
+   "sha256": "8f514b816b959efa0cdf4cc5ebe99a796b217fc3f3e1f8f08c4e66385b60a7b5"
+  },
+  {
+   "path": "vie_Latn_2/train-00150-of-00308.parquet",
+   "size": 241201446,
+   "sha256": "624fbcd55a3402e9ace6f9f1590ee24ffa072ebffa05e77e212b86d6607129df"
+  },
+  {
+   "path": "vie_Latn_2/train-00151-of-00308.parquet",
+   "size": 238106054,
+   "sha256": "eb87ee43dab9ac989ad8cd751b883b185c3ec46e4dcf61816e8abdc08796c8c2"
+  },
+  {
+   "path": "vie_Latn_2/train-00152-of-00308.parquet",
+   "size": 238009302,
+   "sha256": "7abf1e7a7745ee23b01e1e6a1eeba74f96571f324516a4b69b912a7e946d2893"
+  },
+  {
+   "path": "vie_Latn_2/train-00153-of-00308.parquet",
+   "size": 238705660,
+   "sha256": "8c6704afbccf0b7911b75f2443703e87252775afdb759a2e355226204a366295"
+  },
+  {
+   "path": "vie_Latn_2/train-00154-of-00308.parquet",
+   "size": 238050745,
+   "sha256": "e307baf123950f5f437a9130011c1de819ca38009b610ad2ac3f662e63fdab86"
+  },
+  {
+   "path": "vie_Latn_2/train-00155-of-00308.parquet",
+   "size": 238073929,
+   "sha256": "a3afc1bc225c7914faf10c8dd065026d925d2b993963720842acfe00b4cdccbd"
+  },
+  {
+   "path": "vie_Latn_2/train-00156-of-00308.parquet",
+   "size": 238305065,
+   "sha256": "26984150e076f769a8d920523c850b9c6a0dde7ac9ac731750aed6e51453f24f"
+  },
+  {
+   "path": "vie_Latn_2/train-00157-of-00308.parquet",
+   "size": 236601427,
+   "sha256": "426d2ff7f58ead87f21bdcdb53e1d305e6869b65d33a9b6e9651e2e1c57c3111"
+  },
+  {
+   "path": "vie_Latn_2/train-00158-of-00308.parquet",
+   "size": 237291174,
+   "sha256": "a1b1f144c09897003e6e5eda289cebf067921304baf8ed25f8a167cf2689270e"
+  },
+  {
+   "path": "vie_Latn_2/train-00159-of-00308.parquet",
+   "size": 237361693,
+   "sha256": "3ac364170a4e246b9f01be76c708713d883410a6b120ea16dffe5da81f0b2e20"
+  },
+  {
+   "path": "vie_Latn_2/train-00160-of-00308.parquet",
+   "size": 235650930,
+   "sha256": "a5bf9a13127f8ba865fdcdc0b7a98f0b685c985293e44ef6af5a8e85379f6e9d"
+  },
+  {
+   "path": "vie_Latn_2/train-00161-of-00308.parquet",
+   "size": 224310473,
+   "sha256": "1d9479c0cf9c23f6092a992b57574979f72a436d71650a1ce75861e026f5452f"
+  },
+  {
+   "path": "vie_Latn_2/train-00162-of-00308.parquet",
+   "size": 221913805,
+   "sha256": "0eef6476026bf89f2e9d3412c6fd8b9a7d97112f05bee1e60705ef50ec538bb1"
+  },
+  {
+   "path": "vie_Latn_2/train-00163-of-00308.parquet",
+   "size": 231957971,
+   "sha256": "baab0f706868277f815f4891b1817fd23f38a50a2afe8ea4f987a298d8410874"
+  },
+  {
+   "path": "vie_Latn_2/train-00164-of-00308.parquet",
+   "size": 224203358,
+   "sha256": "93ae4710a112775ae91f0f59ef6007fe939723777115308515358977d0861c70"
+  },
+  {
+   "path": "vie_Latn_2/train-00165-of-00308.parquet",
+   "size": 223399260,
+   "sha256": "4a14e387d48d470b80a9d4e10475efdc09d8ef373512a212a8e022ef4d3e14be"
+  },
+  {
+   "path": "vie_Latn_2/train-00166-of-00308.parquet",
+   "size": 226105180,
+   "sha256": "390a013eb38f08c154dee2b00dbea8a8c9c43f89236409527c18172e19f070db"
+  },
+  {
+   "path": "vie_Latn_2/train-00167-of-00308.parquet",
+   "size": 221888571,
+   "sha256": "b98421337029964bf0962c4d12960cd35e043adeed86e07a601b95c29ac493db"
+  },
+  {
+   "path": "vie_Latn_2/train-00168-of-00308.parquet",
+   "size": 236519145,
+   "sha256": "b780bbc1d8da9628c0b1a0edff00a1944df32cc328b3b222b81069d282d443cc"
+  },
+  {
+   "path": "vie_Latn_2/train-00169-of-00308.parquet",
+   "size": 243069435,
+   "sha256": "f221fe99fe0ba1fda189a80fa9ee7fea523e3d1869783dce703d5df210bf7a96"
+  },
+  {
+   "path": "vie_Latn_2/train-00170-of-00308.parquet",
+   "size": 247075079,
+   "sha256": "9012f10211c937d1d7469a98f57e32b24443144cee7313bc88b456fd95d747ff"
+  },
+  {
+   "path": "vie_Latn_2/train-00171-of-00308.parquet",
+   "size": 244422865,
+   "sha256": "e6a6ca28c7b97528c323ffdd39e0556fa24a45821700190adaa7645dcb40451a"
+  },
+  {
+   "path": "vie_Latn_2/train-00172-of-00308.parquet",
+   "size": 228764926,
+   "sha256": "db0d8f9c3493663e010447586aa56b58221686bec877481fe1f68420a586effe"
+  },
+  {
+   "path": "vie_Latn_2/train-00173-of-00308.parquet",
+   "size": 232913714,
+   "sha256": "bd949f237f4fe24d0851539d6d472b901933b86675100e7d72f7013546cb64ec"
+  },
+  {
+   "path": "vie_Latn_2/train-00174-of-00308.parquet",
+   "size": 233293928,
+   "sha256": "ac83e3e92cc4f7c406cffcde53f75528939df9ce5a32f62bf263df716d3af672"
+  },
+  {
+   "path": "vie_Latn_2/train-00175-of-00308.parquet",
+   "size": 233581054,
+   "sha256": "2d581bee4a0d7d02496d43ac31fe839d0aa558d7d76d80de83bf948de45700ed"
+  },
+  {
+   "path": "vie_Latn_2/train-00176-of-00308.parquet",
+   "size": 236157901,
+   "sha256": "345e827354d4e103958458515428df9f90ebc9036d401d74a4ef7a3fcf8f9cf4"
+  },
+  {
+   "path": "vie_Latn_2/train-00177-of-00308.parquet",
+   "size": 241336669,
+   "sha256": "507705ad01d092c48b238b4e4484728c369335e3ec7fd8b87302358005042ed6"
+  },
+  {
+   "path": "vie_Latn_2/train-00178-of-00308.parquet",
+   "size": 237955875,
+   "sha256": "b4785b3f1c797672d7e735d440aedf8ee766428074d6d8b3261ee3b8d012289b"
+  },
+  {
+   "path": "vie_Latn_2/train-00179-of-00308.parquet",
+   "size": 248486739,
+   "sha256": "fe985d2ec5f49ba846a2e1d9aecadc7324639ccdbe0796046b48cc26c03eb3c5"
+  },
+  {
+   "path": "vie_Latn_2/train-00180-of-00308.parquet",
+   "size": 251314768,
+   "sha256": "a09d0bf1c733d1fd5f3148d54e04f23cd6b04c73c61bb1c301421aad344888ff"
+  },
+  {
+   "path": "vie_Latn_2/train-00181-of-00308.parquet",
+   "size": 247958449,
+   "sha256": "ce1371499d1ae564360f611b038a8af510a86279fdf20bbd80dd6366b1684a8a"
+  },
+  {
+   "path": "vie_Latn_2/train-00182-of-00308.parquet",
+   "size": 251968963,
+   "sha256": "21af1ca8a4bdf669d633d9e6697c16fe528fb09e3707434fa30a910a62ddedf7"
+  },
+  {
+   "path": "vie_Latn_2/train-00183-of-00308.parquet",
+   "size": 251029718,
+   "sha256": "1f324f974605af17d18f1283da489fd8ec21cc156d72c042b079325f9922dd94"
+  },
+  {
+   "path": "vie_Latn_2/train-00184-of-00308.parquet",
+   "size": 251335992,
+   "sha256": "c27d732dc2b7cb3ac0e2cf11cab5dde687e93605cd1d1a798d24fcf0f26582e4"
+  },
+  {
+   "path": "vie_Latn_2/train-00185-of-00308.parquet",
+   "size": 248530210,
+   "sha256": "35bb118beb380da297ef4e9fe75ea20e4071d06d4a52b3cadaaf865a60210d64"
+  },
+  {
+   "path": "vie_Latn_2/train-00186-of-00308.parquet",
+   "size": 246385034,
+   "sha256": "07ce61083c1242a123bbd64bd75e5f315c1eaf4d58f9675cf1ec03f0805b1d7c"
+  },
+  {
+   "path": "vie_Latn_2/train-00187-of-00308.parquet",
+   "size": 246548945,
+   "sha256": "2af00698ce201e21354989721b45715baa1bb446da3da3e51b011d2389d86132"
+  },
+  {
+   "path": "vie_Latn_2/train-00188-of-00308.parquet",
+   "size": 244301317,
+   "sha256": "8d1348579d5bd97d493acdb19c9a4f781f83a05aa916d997789647e3bfb7b5ea"
+  },
+  {
+   "path": "vie_Latn_2/train-00189-of-00308.parquet",
+   "size": 244653267,
+   "sha256": "399aa7a488ea3abfd5d817bca68798d3c6ee0148dc03181c24518b35f9815308"
+  },
+  {
+   "path": "vie_Latn_2/train-00190-of-00308.parquet",
+   "size": 254886873,
+   "sha256": "5f2141131afd4d6d53732e98bb39271f5b2390393c4cdd49e50dcba1f34da2f9"
+  },
+  {
+   "path": "vie_Latn_2/train-00191-of-00308.parquet",
+   "size": 256393752,
+   "sha256": "e67164e015c1dd757ba1ba6d084b1b006970d9be8079e19e3f4e4eae26e50eb8"
+  },
+  {
+   "path": "vie_Latn_2/train-00192-of-00308.parquet",
+   "size": 257149280,
+   "sha256": "31c06304642dd911c21d0ef183bcbcdb424943abaed06ca5aa6e0e2466b4252b"
+  },
+  {
+   "path": "vie_Latn_2/train-00193-of-00308.parquet",
+   "size": 257161915,
+   "sha256": "5368e4bb65b6db3726553fe761023a9ee479ba3e9071f32f569a1f0eccd61144"
+  },
+  {
+   "path": "vie_Latn_2/train-00194-of-00308.parquet",
+   "size": 256374580,
+   "sha256": "fc5b298b0858c345bacac171f00855e0bf8b03f01019e3c297a31cd262a145e6"
+  },
+  {
+   "path": "vie_Latn_2/train-00195-of-00308.parquet",
+   "size": 255700896,
+   "sha256": "a837195b9067e1d4d17867a18607fa91ea4f4ed4619886d86e7036104d5ca4a3"
+  },
+  {
+   "path": "vie_Latn_2/train-00196-of-00308.parquet",
+   "size": 258899474,
+   "sha256": "f24e7651b421a88e422ebed5c7269fc4c4e1edab1a538adf2c7ddabf3d90fba3"
+  },
+  {
+   "path": "vie_Latn_2/train-00197-of-00308.parquet",
+   "size": 255969414,
+   "sha256": "c7403cd0e92ab516e4d5569f10b1b9a5a92245880b37af99578e3c3d2fcd09c4"
+  },
+  {
+   "path": "vie_Latn_2/train-00198-of-00308.parquet",
+   "size": 255331516,
+   "sha256": "8aa710d07e695e8129e783c70069e77fb296dabc7ba9d6c1592135b450401129"
+  },
+  {
+   "path": "vie_Latn_2/train-00199-of-00308.parquet",
+   "size": 256069180,
+   "sha256": "c31bdf7dc286faa6d36b96670a943ef2b119757d9791522c6bba122daa1e5b2c"
+  },
+  {
+   "path": "vie_Latn_2/train-00200-of-00308.parquet",
+   "size": 256048332,
+   "sha256": "2232a16ff1dfda1c2f97edc11357c40f01fecb8a7de1863beeb045de57dd2e5e"
+  },
+  {
+   "path": "vie_Latn_2/train-00201-of-00308.parquet",
+   "size": 254996555,
+   "sha256": "01e77690949d6dccd0242f33264b07fede0697b25cbd903e724bbe2e84c424b2"
+  },
+  {
+   "path": "vie_Latn_2/train-00202-of-00308.parquet",
+   "size": 256171414,
+   "sha256": "6ff48c31105374049f67c076c7af5e3edb8c1a02533970b2a8a1a8925500903c"
+  },
+  {
+   "path": "vie_Latn_2/train-00203-of-00308.parquet",
+   "size": 254856564,
+   "sha256": "5f92de9c99af30dad1ed3bbe233ce5ce9b8fd843a9d0c333fef88bc2ba437a49"
+  },
+  {
+   "path": "vie_Latn_2/train-00204-of-00308.parquet",
+   "size": 256790667,
+   "sha256": "b1564a2f20396a890c847542155b662c7cc68684378438ebdcc8eb5b054f2135"
+  },
+  {
+   "path": "vie_Latn_2/train-00205-of-00308.parquet",
+   "size": 253256126,
+   "sha256": "4a062e419dafec09afd0991c372c7c095ab338d674f0ffe2ad1a8c74cb3b1901"
+  },
+  {
+   "path": "vie_Latn_2/train-00206-of-00308.parquet",
+   "size": 256604101,
+   "sha256": "4f9541e02e60409c21ce8f2fcc710c212faaeac8fc4a4dc931657fa1dad00a25"
+  },
+  {
+   "path": "vie_Latn_2/train-00207-of-00308.parquet",
+   "size": 254426405,
+   "sha256": "8dbfec27b6944d599ad6d4d8655757b7c43cbb16e169eb49bcc176f71df329ca"
+  },
+  {
+   "path": "vie_Latn_2/train-00208-of-00308.parquet",
+   "size": 244251038,
+   "sha256": "6c2fcb972b643555908e5cba5f084a4620d551ff42cd6c63befca4582c11b163"
+  },
+  {
+   "path": "vie_Latn_2/train-00209-of-00308.parquet",
+   "size": 251643720,
+   "sha256": "7740922c41c6fb236f12fbeba30e6b17fd1ce48328dbddf352f64e67762a0ba9"
+  },
+  {
+   "path": "vie_Latn_2/train-00210-of-00308.parquet",
+   "size": 254263114,
+   "sha256": "01312f3bf824f82ffafb7bfaeeacc691e9462995c9972f0261998c2ca60f8e80"
+  },
+  {
+   "path": "vie_Latn_2/train-00211-of-00308.parquet",
+   "size": 252843495,
+   "sha256": "a300b48b27a3d2218196bc773e6a3270f267d97b9310d700f3fdfc4aa65f02ac"
+  },
+  {
+   "path": "vie_Latn_2/train-00212-of-00308.parquet",
+   "size": 255765174,
+   "sha256": "d043ebae53f38c0c717e3cf5c00bc9a5950543bca6c7ff8889e33799bffb774c"
+  },
+  {
+   "path": "vie_Latn_2/train-00213-of-00308.parquet",
+   "size": 254726548,
+   "sha256": "258d899e8df389e7e3c3f07da0318798b71ed2010a4b41baab54fe39e28ce989"
+  },
+  {
+   "path": "vie_Latn_2/train-00214-of-00308.parquet",
+   "size": 253658484,
+   "sha256": "5e5d7e4af8ca381814197abdb92da3949d9f87c4635124ea0eb8a836f5ea0a05"
+  },
+  {
+   "path": "vie_Latn_2/train-00215-of-00308.parquet",
+   "size": 255565927,
+   "sha256": "37a7d4a51caedbbbcf923ef523a8be0b665b29aafc06390ec92446af870c7104"
+  },
+  {
+   "path": "vie_Latn_2/train-00216-of-00308.parquet",
+   "size": 253744429,
+   "sha256": "f9e992197be2506216b5429beef12a3a2e786a2315c548b0a8ee2ca5045e4ff6"
+  },
+  {
+   "path": "vie_Latn_2/train-00217-of-00308.parquet",
+   "size": 255043396,
+   "sha256": "d63d4b1ab559bb73a5329f88afbbf53eee3c13fae0ed03c4f781782147764d91"
+  },
+  {
+   "path": "vie_Latn_2/train-00218-of-00308.parquet",
+   "size": 253593316,
+   "sha256": "6a76a9db645bad3fc6e1700400aaa87d3c924cc7feb89055cb5cfc601fa3c963"
+  },
+  {
+   "path": "vie_Latn_2/train-00219-of-00308.parquet",
+   "size": 253948240,
+   "sha256": "23b56fb5d13668f4ebb3102cfa24e5f4937040f96f1e3d76fdc5d22fa3b1fe7f"
+  },
+  {
+   "path": "vie_Latn_2/train-00220-of-00308.parquet",
+   "size": 253483671,
+   "sha256": "15b811d55c5b5a97ea8469d4c8b67751bcd157270f0f249df2b374c754c43eb8"
+  },
+  {
+   "path": "vie_Latn_2/train-00221-of-00308.parquet",
+   "size": 254816295,
+   "sha256": "48aefcdfbb9540b684bf2f4f42212d3cf0d069c60f83100da1398597ff0032ef"
+  },
+  {
+   "path": "vie_Latn_2/train-00222-of-00308.parquet",
+   "size": 252315698,
+   "sha256": "3375537201936928796980b062fe833e638177d59df748cb4cb94f88713ff546"
+  },
+  {
+   "path": "vie_Latn_2/train-00223-of-00308.parquet",
+   "size": 253491277,
+   "sha256": "4e0ac76495c2a4d2d76b862daa42274fdef4e98e8803b93a1c09e97aaf97f918"
+  },
+  {
+   "path": "vie_Latn_2/train-00224-of-00308.parquet",
+   "size": 253961672,
+   "sha256": "98ba9ad681cd3ac5f0f89d8801335a54fa85eaabf391b502a9d6e66c1e380120"
+  },
+  {
+   "path": "vie_Latn_2/train-00225-of-00308.parquet",
+   "size": 252628673,
+   "sha256": "15920baf95d9f239e10f73a6bd34a852b1cde23cf0ca4807b6525805fe174f45"
+  },
+  {
+   "path": "vie_Latn_2/train-00226-of-00308.parquet",
+   "size": 241312062,
+   "sha256": "af2fb32665a52b6ff65741488e4cc6d64df50395ecf09ca5cb2e5169e27979c1"
+  },
+  {
+   "path": "vie_Latn_2/train-00227-of-00308.parquet",
+   "size": 253107041,
+   "sha256": "6200d82ea1ede63ce2fe9e4787b67daba868504ba14add046eeaa6536bc9cf3a"
+  },
+  {
+   "path": "vie_Latn_2/train-00228-of-00308.parquet",
+   "size": 253011748,
+   "sha256": "5833660c7345acd7d4e4b95529e370baa7b32b773b7bc7d061bb32979c86b9a3"
+  },
+  {
+   "path": "vie_Latn_2/train-00229-of-00308.parquet",
+   "size": 253985102,
+   "sha256": "d5fcf7e20d23adf505f3585ec3e86ba385dbc2c64c63e9da5a606704a96035d8"
+  },
+  {
+   "path": "vie_Latn_2/train-00230-of-00308.parquet",
+   "size": 252739351,
+   "sha256": "258a9330d1a1d24c8f729fa61459bf8617e085b5ab4fe8250abf262c324f2c0d"
+  },
+  {
+   "path": "vie_Latn_2/train-00231-of-00308.parquet",
+   "size": 253947559,
+   "sha256": "559028dbeb91f18e3c3959939cf3235ef65df23ece2c66e25680509907447f3d"
+  },
+  {
+   "path": "vie_Latn_2/train-00232-of-00308.parquet",
+   "size": 252870996,
+   "sha256": "dae9f3265bd0874d4579caa2fe9bb07bc3d54da043b36b70e3df10345beb1d89"
+  },
+  {
+   "path": "vie_Latn_2/train-00233-of-00308.parquet",
+   "size": 254063995,
+   "sha256": "38a438c4de539f03ced715cdf5a7ff04fc537829d9285ba9f43060dc464e59be"
+  },
+  {
+   "path": "vie_Latn_2/train-00234-of-00308.parquet",
+   "size": 251331225,
+   "sha256": "38345a0de1bd98f73aab1a2cdf30a0623217e95bf9d7db8a8bcde2204ff6faad"
+  },
+  {
+   "path": "vie_Latn_2/train-00235-of-00308.parquet",
+   "size": 252347293,
+   "sha256": "e583f839a6e129d078f75112c3746a68cf75f814ce12ff2a7047fab8f19bccea"
+  },
+  {
+   "path": "vie_Latn_2/train-00236-of-00308.parquet",
+   "size": 253520095,
+   "sha256": "b9483b79bb99cd48470a0b9a329d07d67db2d79647a047faffdbdd50b69e50cf"
+  },
+  {
+   "path": "vie_Latn_2/train-00237-of-00308.parquet",
+   "size": 252611433,
+   "sha256": "85e7b6ffbadb77f8ddc8fe005a42a610ef9e30236485d7756bbb8a676e938d8f"
+  },
+  {
+   "path": "vie_Latn_2/train-00238-of-00308.parquet",
+   "size": 253023588,
+   "sha256": "3c07b7f3a0aade18d7b24013beadb6287e081e0de552db1c5fb1df91bc392f84"
+  },
+  {
+   "path": "vie_Latn_2/train-00239-of-00308.parquet",
+   "size": 253930189,
+   "sha256": "b07333a3cde9895798f65feea1a5dfa36d6d4f1690013588590b8b8e8f54df96"
+  },
+  {
+   "path": "vie_Latn_2/train-00240-of-00308.parquet",
+   "size": 252325526,
+   "sha256": "cd4707881f7119d5d296e72228697a1b0bf8d695c68e012c79adef95b7aca16f"
+  },
+  {
+   "path": "vie_Latn_2/train-00241-of-00308.parquet",
+   "size": 251641211,
+   "sha256": "e63e21a92d0f52b34c89d7ed0bfa8b0d70e279a56b2937a9e2f5d5128d27ef8a"
+  },
+  {
+   "path": "vie_Latn_2/train-00242-of-00308.parquet",
+   "size": 244473263,
+   "sha256": "ecca6e40985d1530c8b1e341fe2f8200a4ba231e594fdcedda634e11ac305b43"
+  },
+  {
+   "path": "vie_Latn_2/train-00243-of-00308.parquet",
+   "size": 243565189,
+   "sha256": "4ddffd57bbd0c66db7b125dae8f0a4e6cb7319219d6e9c9985f5bf9a4aa1fafc"
+  },
+  {
+   "path": "vie_Latn_2/train-00244-of-00308.parquet",
+   "size": 252740935,
+   "sha256": "c49672104249c2f98ce1c25e8e3e1caf862d404bfd5a4e127c10708df70a2b98"
+  },
+  {
+   "path": "vie_Latn_2/train-00245-of-00308.parquet",
+   "size": 253173836,
+   "sha256": "c334700681dc918b0ba8ea9aa5c515826dda5d24ee73e95aab8cb9d68ccaf9be"
+  },
+  {
+   "path": "vie_Latn_2/train-00246-of-00308.parquet",
+   "size": 251692656,
+   "sha256": "818a2a7e9f9549fe5faa74f04b2b5d8b64674564f09fa54dbc4f139ac0d2e409"
+  },
+  {
+   "path": "vie_Latn_2/train-00247-of-00308.parquet",
+   "size": 251528762,
+   "sha256": "4d5b2a1ebb2b5842c71c8cb949bbde1fa58628a12543b6a17c19f7f988c5a888"
+  },
+  {
+   "path": "vie_Latn_2/train-00248-of-00308.parquet",
+   "size": 250580407,
+   "sha256": "e6a746b74d4db2734a48c8864f49855056b0b7c753e948fb2644b9296a828955"
+  },
+  {
+   "path": "vie_Latn_2/train-00249-of-00308.parquet",
+   "size": 251134606,
+   "sha256": "f96873ce79cb326967efb9ed48ebf457bac4a589c4aa96d5210c568c9e23a124"
+  },
+  {
+   "path": "vie_Latn_2/train-00250-of-00308.parquet",
+   "size": 251919678,
+   "sha256": "d07c50232df32bd5d952eb1252ef6f1e8549bd9fe2213c6a51e5b23c51464287"
+  },
+  {
+   "path": "vie_Latn_2/train-00251-of-00308.parquet",
+   "size": 251329948,
+   "sha256": "ad79412c25b6ce838507bc344bd4db81344bcba0ec03e29d97bd20720e02b0bd"
+  },
+  {
+   "path": "vie_Latn_2/train-00252-of-00308.parquet",
+   "size": 251982361,
+   "sha256": "fdeb10dbabeeb672eb8d8c25330497cf1b8c260aabe58b0678bed11824baba3e"
+  },
+  {
+   "path": "vie_Latn_2/train-00253-of-00308.parquet",
+   "size": 251039957,
+   "sha256": "9dc942775904160851e6edc0217c45b11dca287a541c657d02ab0ed446e3eebe"
+  },
+  {
+   "path": "vie_Latn_2/train-00254-of-00308.parquet",
+   "size": 251610700,
+   "sha256": "b65c2dcd10b8cc2e613a56f65021a5ae896bd31d463bb6624e68796897ffa180"
+  },
+  {
+   "path": "vie_Latn_2/train-00255-of-00308.parquet",
+   "size": 251702457,
+   "sha256": "4d9b30620585e0bf672522ab42097c60e2b3db8cf292ade19ceef2efc0389ec4"
+  },
+  {
+   "path": "vie_Latn_2/train-00256-of-00308.parquet",
+   "size": 249845700,
+   "sha256": "b919611905db9d0c77ac9b06519a812fd17902ca50c563587f25aa0e5e8cde4c"
+  },
+  {
+   "path": "vie_Latn_2/train-00257-of-00308.parquet",
+   "size": 249112900,
+   "sha256": "9d2754f54d9d8dca28f9c899f8ba48e0701dc93d02164b2da6aeffe0a9e6eaf1"
+  },
+  {
+   "path": "vie_Latn_2/train-00258-of-00308.parquet",
+   "size": 247815033,
+   "sha256": "49e9bc2b122b2a877dc1b99b7de3e7c9fe462bee560239dca4733542b015b62e"
+  },
+  {
+   "path": "vie_Latn_2/train-00259-of-00308.parquet",
+   "size": 246449876,
+   "sha256": "b0b25f6e165eddd90d0f21651e305ed16cfc21cbed587f1bf1ce5d179ff9c958"
+  },
+  {
+   "path": "vie_Latn_2/train-00260-of-00308.parquet",
+   "size": 251865660,
+   "sha256": "ffc4f323b2f0cb3912e34a0338d26964c6912f246cfc61b7208156f1a8cf8928"
+  },
+  {
+   "path": "vie_Latn_2/train-00261-of-00308.parquet",
+   "size": 251220610,
+   "sha256": "fead7a1d4ff8e3c9022ffc19f6ebaa16424e11dae3585e9f7a6576718c94e831"
+  },
+  {
+   "path": "vie_Latn_2/train-00262-of-00308.parquet",
+   "size": 249477557,
+   "sha256": "0a62429ca5c70b9ac8295fa8390ae73207379218a7c02958ea36bba2e2946f91"
+  },
+  {
+   "path": "vie_Latn_2/train-00263-of-00308.parquet",
+   "size": 251140619,
+   "sha256": "be39fd9cf856fe51c55e5c4285ff08b2d43867fa81214c63653b10450052883b"
+  },
+  {
+   "path": "vie_Latn_2/train-00264-of-00308.parquet",
+   "size": 250686521,
+   "sha256": "b42286a48a8410a84c0c553d2a5da0e9dc27236aaab45eca3a2f17065836f895"
+  },
+  {
+   "path": "vie_Latn_2/train-00265-of-00308.parquet",
+   "size": 248585501,
+   "sha256": "a7bca8aa0e34821b3e1ca16a9442db6325b66333873cf6bc567827fbfceddd2a"
+  },
+  {
+   "path": "vie_Latn_2/train-00266-of-00308.parquet",
+   "size": 249696265,
+   "sha256": "0138862bd567a0737aefdbdcea9af5fcc65d82f14579043a4c8896b76fca7dee"
+  },
+  {
+   "path": "vie_Latn_2/train-00267-of-00308.parquet",
+   "size": 250399667,
+   "sha256": "16cfb5888ca948313060231c9c5e2f4841629d75b423e882500747db3d486b37"
+  },
+  {
+   "path": "vie_Latn_2/train-00268-of-00308.parquet",
+   "size": 251341186,
+   "sha256": "6a3d56d3fb5f48c1169695837f16b810ee290cbcc78b5642998642aadf0df06c"
+  },
+  {
+   "path": "vie_Latn_2/train-00269-of-00308.parquet",
+   "size": 249042637,
+   "sha256": "b4c32701bdb1059bd695df806a2016d99d74b5778a4e64cbacb667d4cae6b4fe"
+  },
+  {
+   "path": "vie_Latn_2/train-00270-of-00308.parquet",
+   "size": 249973216,
+   "sha256": "ca2ebb33dd27b0008ac6194aeeed6c27ce527186d57a34bd921440ad595da4da"
+  },
+  {
+   "path": "vie_Latn_2/train-00271-of-00308.parquet",
+   "size": 249125406,
+   "sha256": "72007eb92f93ff980acb18fde0de70250b8ed84b4c52803e4f59d41b518b5736"
+  },
+  {
+   "path": "vie_Latn_2/train-00272-of-00308.parquet",
+   "size": 248388743,
+   "sha256": "bf52122cfdeec720d6b819a25d0a9d196032911757f1bce0bad1ed668fca3fac"
+  },
+  {
+   "path": "vie_Latn_2/train-00273-of-00308.parquet",
+   "size": 234648809,
+   "sha256": "173a067fc728e5029b44ca276103de18739f66fa31af160194731ca3695cb639"
+  },
+  {
+   "path": "vie_Latn_2/train-00274-of-00308.parquet",
+   "size": 201506451,
+   "sha256": "f7e427251a7fe710a05db6ce8881995cc1593ff2d0c76e45cdbfc4f7beded079"
+  },
+  {
+   "path": "vie_Latn_2/train-00275-of-00308.parquet",
+   "size": 237397188,
+   "sha256": "0b1e77a87ceb408ceaf9bba8ee0a6d11bc4a46b62f617bf37a387e10ef6bb626"
+  },
+  {
+   "path": "vie_Latn_2/train-00276-of-00308.parquet",
+   "size": 249237633,
+   "sha256": "245d2db52c3c3c1038f6e0feb2698c60bdeaacc14721dc2aad8b8230e370e406"
+  },
+  {
+   "path": "vie_Latn_2/train-00277-of-00308.parquet",
+   "size": 250987833,
+   "sha256": "4474bfb168af10469c0b074a9b7da0324b53fa6d7404f816423fae92b5017f27"
+  },
+  {
+   "path": "vie_Latn_2/train-00278-of-00308.parquet",
+   "size": 250148462,
+   "sha256": "93d55c3a68d531f16c4ae784e01cb74cb593894c6277f6b473cca263cca372f9"
+  },
+  {
+   "path": "vie_Latn_2/train-00279-of-00308.parquet",
+   "size": 251017235,
+   "sha256": "04b0df22100318e05b90d8b63aa2928c1d16bbda424560a395c6a7053fceb7da"
+  },
+  {
+   "path": "vie_Latn_2/train-00280-of-00308.parquet",
+   "size": 248431945,
+   "sha256": "1b3dfb75477138d7bc499aabb01873ae551f95f042bc63a415e915a1d9875d1c"
+  },
+  {
+   "path": "vie_Latn_2/train-00281-of-00308.parquet",
+   "size": 247494285,
+   "sha256": "aad7554ccdd2a9b93d45d33f80d6814e48a117c2bd0b2314e215cbb9cf555131"
+  },
+  {
+   "path": "vie_Latn_2/train-00282-of-00308.parquet",
+   "size": 248841454,
+   "sha256": "f17ca8fee90fa326e93e4084932e47d4b4dd709eeaaed0b9be7337db28ca8bcd"
+  },
+  {
+   "path": "vie_Latn_2/train-00283-of-00308.parquet",
+   "size": 248907085,
+   "sha256": "d66dbaa75772ca9a0f3fff8cd03d2b706d85ae5d6c670842a79b15945332ceb2"
+  },
+  {
+   "path": "vie_Latn_2/train-00284-of-00308.parquet",
+   "size": 249519704,
+   "sha256": "299660493a22b8715ef9274365d6082553a0651ae563173de4c902ec78727320"
+  },
+  {
+   "path": "vie_Latn_2/train-00285-of-00308.parquet",
+   "size": 248783749,
+   "sha256": "886b85e26607a1f4666eb513a25a6f5d958fdd8ddc18bb4ccdccc29accc2050f"
+  },
+  {
+   "path": "vie_Latn_2/train-00286-of-00308.parquet",
+   "size": 248059444,
+   "sha256": "e33ecb8d6d7bc7f5279defe96a28ae2ebb5fb39c49faf234ec54130f8ad62426"
+  },
+  {
+   "path": "vie_Latn_2/train-00287-of-00308.parquet",
+   "size": 250244734,
+   "sha256": "cbbdcbffbc6c4e7e7f0b9d151107753bbf350a85d8de890fed45c58fba55381a"
+  },
+  {
+   "path": "vie_Latn_2/train-00288-of-00308.parquet",
+   "size": 248020293,
+   "sha256": "a54e31c197401938fc237944b28ffbc275d768416683d57048125dd42443ebdc"
+  },
+  {
+   "path": "vie_Latn_2/train-00289-of-00308.parquet",
+   "size": 219498643,
+   "sha256": "0cdc58ab62e51903c2295943a9a81ed1628552b1e9a93e70eb9021e5709223a2"
+  },
+  {
+   "path": "vie_Latn_2/train-00290-of-00308.parquet",
+   "size": 242865202,
+   "sha256": "6d6fa0fab338d032480a1b99debc8e71e364d2254568bc23c5c5d0654382a38c"
+  },
+  {
+   "path": "vie_Latn_2/train-00291-of-00308.parquet",
+   "size": 249025424,
+   "sha256": "0c0001919411accde7c5ba911260cee1a805fcc45e8e54294abebf8f7d045fc0"
+  },
+  {
+   "path": "vie_Latn_2/train-00292-of-00308.parquet",
+   "size": 248273348,
+   "sha256": "bce973c8d8388963ba32cf345e6a7135eea4c883a96ca2a229954ce7703c8acb"
+  },
+  {
+   "path": "vie_Latn_2/train-00293-of-00308.parquet",
+   "size": 249436443,
+   "sha256": "ebbd02f6a3a702af7ac78e20da0f29cd6889f520c869a7c45e83f9b49e0fbc48"
+  },
+  {
+   "path": "vie_Latn_2/train-00294-of-00308.parquet",
+   "size": 248899346,
+   "sha256": "d76bac1e3d6cb26465dad01ad5ad73e2d984125d2a7835c3b58cfa18067fd70b"
+  },
+  {
+   "path": "vie_Latn_2/train-00295-of-00308.parquet",
+   "size": 248288021,
+   "sha256": "55cf92f302ce482cff0f638859e82e47cd11bb1ccbbaafb71cb6a8ad116ead8e"
+  },
+  {
+   "path": "vie_Latn_2/train-00296-of-00308.parquet",
+   "size": 250134445,
+   "sha256": "4af0a358b7de50f1ba525562b9589f58b58a76017764735e61592debf85d1afc"
+  },
+  {
+   "path": "vie_Latn_2/train-00297-of-00308.parquet",
+   "size": 248702049,
+   "sha256": "ae7c28afbefd5da926db75d5a1e09df8a37b2aa98c9ba396281253e277b30cfd"
+  },
+  {
+   "path": "vie_Latn_2/train-00298-of-00308.parquet",
+   "size": 249249215,
+   "sha256": "c0f6cfc47ac210225b8e0762293f5913bfa3b271e01adf3532a131e764ad90c8"
+  },
+  {
+   "path": "vie_Latn_2/train-00299-of-00308.parquet",
+   "size": 248649292,
+   "sha256": "ecf9c71420ffa75b58b06ef82e1c19128f6ea62b3bcaa74c209c0919c5dd0730"
+  },
+  {
+   "path": "vie_Latn_2/train-00300-of-00308.parquet",
+   "size": 248205098,
+   "sha256": "01963b63b7ea2eb756b5038e04b925e18d62d0906833981766c2cf64eab657ee"
+  },
+  {
+   "path": "vie_Latn_2/train-00301-of-00308.parquet",
+   "size": 248843805,
+   "sha256": "916fc07790e227bd0f0e8cc1fc5a5bbaf0d80b1e7d66b63088a47245ae5ac201"
+  },
+  {
+   "path": "vie_Latn_2/train-00302-of-00308.parquet",
+   "size": 250346231,
+   "sha256": "692da2dbc194994cecde4c3c91bb8ee6fb5dfc90cb0aedc73a860a56b99d6043"
+  },
+  {
+   "path": "vie_Latn_2/train-00303-of-00308.parquet",
+   "size": 239941316,
+   "sha256": "d01b2f799f41c952bfbd8bedce2b4c2161cd4b22e0e90972003ab49d4c90439f"
+  },
+  {
+   "path": "vie_Latn_2/train-00304-of-00308.parquet",
+   "size": 234872704,
+   "sha256": "fc2dd79883ef54ac748e486f240fdc1dc670355c01edb69794f38e46b6a49301"
+  },
+  {
+   "path": "vie_Latn_2/train-00305-of-00308.parquet",
+   "size": 249305879,
+   "sha256": "c37c6d935db8c1d4b0713af3f3825c47bb0ea19237c9c6ab23974281ce8381f6"
+  },
+  {
+   "path": "vie_Latn_2/train-00306-of-00308.parquet",
+   "size": 247455123,
+   "sha256": "20e7893f7048a7a18e14155ad19bebc2a7f12c6bed84520d40e2e63bc544a663"
+  },
+  {
+   "path": "vie_Latn_2/train-00307-of-00308.parquet",
+   "size": 248357128,
+   "sha256": "78c7c9797b2906bbc8a21abcbabda40eb522df8516cc98f259c53e208d457006"
+  },
+  {
+   "path": "vie_Latn_3/train-00000-of-00421.parquet",
+   "size": 242345986,
+   "sha256": "2f2a04c3afacb201268530a9c38f730ab37016908168d2e5031681ae646a4fba"
+  },
+  {
+   "path": "vie_Latn_3/train-00001-of-00421.parquet",
+   "size": 242701377,
+   "sha256": "93cfe3ce45a2349521baa426370efd6da2e2f5a7916b8c0948722d183e1687f2"
+  },
+  {
+   "path": "vie_Latn_3/train-00002-of-00421.parquet",
+   "size": 241270239,
+   "sha256": "cca2ffd0fc1d77228c0200cab7858e5f1b87871a59e981300aed38b755537fc7"
+  },
+  {
+   "path": "vie_Latn_3/train-00003-of-00421.parquet",
+   "size": 243468047,
+   "sha256": "c1b9c73a1a89a48e808b89e7485dba08eeb903b5098a9f3d2ebb7b199d0d77d3"
+  },
+  {
+   "path": "vie_Latn_3/train-00004-of-00421.parquet",
+   "size": 243328523,
+   "sha256": "6b79714af6f3a1cd8cafaa8aca2964c1302147f3bdd31c2095cc60802e2fbd6e"
+  },
+  {
+   "path": "vie_Latn_3/train-00005-of-00421.parquet",
+   "size": 244163548,
+   "sha256": "44bdc813f1562e757b09a99d2cc57671ae46181c2fa0039cb23160a4514a3b45"
+  },
+  {
+   "path": "vie_Latn_3/train-00006-of-00421.parquet",
+   "size": 242723684,
+   "sha256": "ecc3e4e145bde4f425dc41f630608fd82da60ebfdafb48aa194b6219c8d60d7c"
+  },
+  {
+   "path": "vie_Latn_3/train-00007-of-00421.parquet",
+   "size": 243532841,
+   "sha256": "f08922acfb1c8ca954d40d8982522418e144d3fac622dd6f4e38d723b30565d3"
+  },
+  {
+   "path": "vie_Latn_3/train-00008-of-00421.parquet",
+   "size": 241705407,
+   "sha256": "2c3f3bb84d6fe4fbd94258e033468c51e1860499ea6c3a59ae1aac83008e9277"
+  },
+  {
+   "path": "vie_Latn_3/train-00009-of-00421.parquet",
+   "size": 242601571,
+   "sha256": "b6b0ca482bf2c79999d0b0cbebad74421e0e4322bb6d20c99c50f29d270c7b89"
+  },
+  {
+   "path": "vie_Latn_3/train-00010-of-00421.parquet",
+   "size": 242964448,
+   "sha256": "d67dd362bd007f961e664204053bebe9037c865db57c1d729a073b2aee158f7a"
+  },
+  {
+   "path": "vie_Latn_3/train-00011-of-00421.parquet",
+   "size": 243174118,
+   "sha256": "8b3f94d38b6bc92a60627b0b887e17407626b06d1568fb7cf1d8b45510cbe41b"
+  },
+  {
+   "path": "vie_Latn_3/train-00012-of-00421.parquet",
+   "size": 242050333,
+   "sha256": "aa8682ccaa48fb0ca85eadeca3efd3ada595c31204c1e88c3b238b0099236290"
+  },
+  {
+   "path": "vie_Latn_3/train-00013-of-00421.parquet",
+   "size": 241274250,
+   "sha256": "dfd2248de2e3df40d531a972cee29c782930af3494a7aafe09f961ce88aa9df2"
+  },
+  {
+   "path": "vie_Latn_3/train-00014-of-00421.parquet",
+   "size": 240623103,
+   "sha256": "e004e5ae225be6bc9011e4e62b6c953f556fa7a6ffa0c765df61652f043d6932"
+  },
+  {
+   "path": "vie_Latn_3/train-00015-of-00421.parquet",
+   "size": 240935544,
+   "sha256": "c903adbc66940aa87afaa229419439299b6dd52109c00c06da540f95b6b2839e"
+  },
+  {
+   "path": "vie_Latn_3/train-00016-of-00421.parquet",
+   "size": 244190592,
+   "sha256": "fc14b2c7dc1b0e7e517342109aed1d80fb0d5e906df7cae1d5ec5f59e4cdce7e"
+  },
+  {
+   "path": "vie_Latn_3/train-00017-of-00421.parquet",
+   "size": 241426609,
+   "sha256": "557aa9fb3dbb22a86a78808f00c71c5393f14e6bdf2d657226434dc890bb0382"
+  },
+  {
+   "path": "vie_Latn_3/train-00018-of-00421.parquet",
+   "size": 244000711,
+   "sha256": "acd88d7f1eb209b23eb58bd619b5b47b5f8040e0675f79e7867fa38adfb71a88"
+  },
+  {
+   "path": "vie_Latn_3/train-00019-of-00421.parquet",
+   "size": 238855276,
+   "sha256": "5a907c190b7801130d209a7e399c572aa0381e1e9125817831e95b6b85f8cf2c"
+  },
+  {
+   "path": "vie_Latn_3/train-00020-of-00421.parquet",
+   "size": 241002608,
+   "sha256": "d98b27f50f86fe619eae8ea80a5068dbd8d44036e2e4ced63d2ea36deb3307e8"
+  },
+  {
+   "path": "vie_Latn_3/train-00021-of-00421.parquet",
+   "size": 239659216,
+   "sha256": "55e102ebad6c1e1b527945e0ff4ca1ce181973ed4f3551216062fbc95325429a"
+  },
+  {
+   "path": "vie_Latn_3/train-00022-of-00421.parquet",
+   "size": 241600238,
+   "sha256": "c981aa36c15007563143c29beff18e2817e5f435e8bb80faec226ae5c2209935"
+  },
+  {
+   "path": "vie_Latn_3/train-00023-of-00421.parquet",
+   "size": 242156942,
+   "sha256": "a36c00ade48a4bedd8ed7cee9ecea0c836f2c8600edb5f4df30d7beb62365feb"
+  },
+  {
+   "path": "vie_Latn_3/train-00024-of-00421.parquet",
+   "size": 242496133,
+   "sha256": "78935c934e78b4f3ebfb16caa617f8e9b9d8cf8057fcbee97f647cda0d488b6d"
+  },
+  {
+   "path": "vie_Latn_3/train-00025-of-00421.parquet",
+   "size": 244244467,
+   "sha256": "2a1e0e1b4535aa29e97c0f4fc83921ee56ce687a3330a917fdd7b073331b6dc7"
+  },
+  {
+   "path": "vie_Latn_3/train-00026-of-00421.parquet",
+   "size": 242237100,
+   "sha256": "1afacae8f3ef50d119686a31607231be7b032cf9ceb6c1c2ae1ee28e43d3a72c"
+  },
+  {
+   "path": "vie_Latn_3/train-00027-of-00421.parquet",
+   "size": 242417814,
+   "sha256": "147c946ee53a7951d07a5fc47321198a62c6aa5d59f80a0856a03ace745ad18c"
+  },
+  {
+   "path": "vie_Latn_3/train-00028-of-00421.parquet",
+   "size": 241933136,
+   "sha256": "3a6874be3c5a85c21ba146088e3b65503b06b17eb9e1c65ed9609aa0954de4a3"
+  },
+  {
+   "path": "vie_Latn_3/train-00029-of-00421.parquet",
+   "size": 240797781,
+   "sha256": "42a1f8bb560e71eca28a7d115f5701aa4ce999cb778e1f31d1b393671f44a357"
+  },
+  {
+   "path": "vie_Latn_3/train-00030-of-00421.parquet",
+   "size": 240401020,
+   "sha256": "4cd3cdfa3853a75e0af661005ccd78efeb5747d9164cd11c7c3eb3505922d78b"
+  },
+  {
+   "path": "vie_Latn_3/train-00031-of-00421.parquet",
+   "size": 239723832,
+   "sha256": "b328c50e171882856d2849d6f72b8c271de8a31d2c340383d243b1b3fa6ce33e"
+  },
+  {
+   "path": "vie_Latn_3/train-00032-of-00421.parquet",
+   "size": 241599916,
+   "sha256": "0e3b119c9bcbfb940e7ab492a168f496b10cc6e30994f08b7b0769646f05801e"
+  },
+  {
+   "path": "vie_Latn_3/train-00033-of-00421.parquet",
+   "size": 241520967,
+   "sha256": "ff34338bfa679760d7a7cfe4a2e6fee450d8645e2543547e38d42ae798f6fe68"
+  },
+  {
+   "path": "vie_Latn_3/train-00034-of-00421.parquet",
+   "size": 241602480,
+   "sha256": "ecba663ad5f1ff63fb6f1c9c2f59ebb593d7936da894571e83d1770a0f20f7ee"
+  },
+  {
+   "path": "vie_Latn_3/train-00035-of-00421.parquet",
+   "size": 240352511,
+   "sha256": "1666b2a2e6df9c114a183cec18eccd18225e0181d9f03b9b7eca40f539430d63"
+  },
+  {
+   "path": "vie_Latn_3/train-00036-of-00421.parquet",
+   "size": 241425150,
+   "sha256": "1474afe021cce5005f3edea3628c8c8433ea71d133cdec64a3491541911e44ff"
+  },
+  {
+   "path": "vie_Latn_3/train-00037-of-00421.parquet",
+   "size": 242196476,
+   "sha256": "a468c44413024e5e13a5f49bee194894f80a247386d607560e36d17b027c20ca"
+  },
+  {
+   "path": "vie_Latn_3/train-00038-of-00421.parquet",
+   "size": 241790161,
+   "sha256": "35365d012d20bc8c3769d7fed7b66dc6a0b504942fbe46fe9b1c63f071539587"
+  },
+  {
+   "path": "vie_Latn_3/train-00039-of-00421.parquet",
+   "size": 240233146,
+   "sha256": "a01347d372c43d232a24147dea07096b218eb2ca86dc05d7159f8b48dbfadb29"
+  },
+  {
+   "path": "vie_Latn_3/train-00040-of-00421.parquet",
+   "size": 239594543,
+   "sha256": "6aef0f08b76e7b8fc4df861460960208a187b4e5f1817dc3d1ec810e123511c1"
+  },
+  {
+   "path": "vie_Latn_3/train-00041-of-00421.parquet",
+   "size": 237591640,
+   "sha256": "3cc702755c1cfb78f9edc6c358d1c94d96aac6ec20852388573986bf935881b7"
+  },
+  {
+   "path": "vie_Latn_3/train-00042-of-00421.parquet",
+   "size": 242533956,
+   "sha256": "71a28fe77e52ed836897acc34c348e93dd58a75d24f5aec2e611f1f2af4cda70"
+  },
+  {
+   "path": "vie_Latn_3/train-00043-of-00421.parquet",
+   "size": 241226157,
+   "sha256": "eb5a7f09e1ff2f2b68ffb6503f366c5309fe0a16793ce72ef2fc6a1c9c6a603b"
+  },
+  {
+   "path": "vie_Latn_3/train-00044-of-00421.parquet",
+   "size": 242371259,
+   "sha256": "18b66d31f8c897a901180210221145fa115ec16463548ec159bae097a1224a14"
+  },
+  {
+   "path": "vie_Latn_3/train-00045-of-00421.parquet",
+   "size": 240209373,
+   "sha256": "f1689a999b4ca844da7fb59f842cfda328bd6af9fcd9099c0fc0b8e06480a848"
+  },
+  {
+   "path": "vie_Latn_3/train-00046-of-00421.parquet",
+   "size": 240860732,
+   "sha256": "622beefab137cfd64b19b359c7b7048f19a3133e99038313118f37e1fab6e458"
+  },
+  {
+   "path": "vie_Latn_3/train-00047-of-00421.parquet",
+   "size": 239694748,
+   "sha256": "e6f919671745456003d3cabab237b6e7be06250bd0bfcee7c5c991d927d297f3"
+  },
+  {
+   "path": "vie_Latn_3/train-00048-of-00421.parquet",
+   "size": 238163809,
+   "sha256": "f52ae0eb4e3bc2999c13963f9e3d84acee0a499973028183195ba6843e5ec297"
+  },
+  {
+   "path": "vie_Latn_3/train-00049-of-00421.parquet",
+   "size": 242360642,
+   "sha256": "5f8b321681545139ff3dfd643e0054aa795ab1edd218e4285d7ad977d40e6bf9"
+  },
+  {
+   "path": "vie_Latn_3/train-00050-of-00421.parquet",
+   "size": 239061357,
+   "sha256": "051a45bada473ed17beffcf894cd5a69008b3dc3ec2e452bcceec8ed6676110c"
+  },
+  {
+   "path": "vie_Latn_3/train-00051-of-00421.parquet",
+   "size": 238990562,
+   "sha256": "c6a5723ea757dc86d58a70986cc3db362aa5d364966f5e3d4f7bb0a9c9c9d3fe"
+  },
+  {
+   "path": "vie_Latn_3/train-00052-of-00421.parquet",
+   "size": 239532533,
+   "sha256": "eb197dc07c27225ff249aae520c4afa42638f37e4f0943d654ce1714c5536287"
+  },
+  {
+   "path": "vie_Latn_3/train-00053-of-00421.parquet",
+   "size": 239754088,
+   "sha256": "d903c42c25f497a87addfab2c8adf855851f74d2777047d4b854fb0f27184423"
+  },
+  {
+   "path": "vie_Latn_3/train-00054-of-00421.parquet",
+   "size": 240337320,
+   "sha256": "06ea41a867b76b22473f979e7ef5b73f77dae871bf74a2e198d74c80c5af5b89"
+  },
+  {
+   "path": "vie_Latn_3/train-00055-of-00421.parquet",
+   "size": 239993897,
+   "sha256": "3dd3fa2072652e45ca091056ad6441a9d81e0f39f3c4ff698338cbb7d1b983bf"
+  },
+  {
+   "path": "vie_Latn_3/train-00056-of-00421.parquet",
+   "size": 241281398,
+   "sha256": "91acbddda329d6134de567abdb60319254673caf71a2bfcd61896cd4d9a378da"
+  },
+  {
+   "path": "vie_Latn_3/train-00057-of-00421.parquet",
+   "size": 239092590,
+   "sha256": "aeba5d156456707a3afa482458ebb43f136a659b607e4d88728850bb110cd6d8"
+  },
+  {
+   "path": "vie_Latn_3/train-00058-of-00421.parquet",
+   "size": 239561776,
+   "sha256": "1063aed4cdba8fb475df87620d2039ae583a4c4dedb1bbcf7fe33e61df29c2d8"
+  },
+  {
+   "path": "vie_Latn_3/train-00059-of-00421.parquet",
+   "size": 240882196,
+   "sha256": "95ab9c4d69e7ec9a4dc1bb6aff7f2cad2e09c6b078d0bd57c6dee932a09987f5"
+  },
+  {
+   "path": "vie_Latn_3/train-00060-of-00421.parquet",
+   "size": 236523777,
+   "sha256": "62f04815670b6dea14b9f44b5ad4f1948572fbf7be953754b3a1b9bd2834c391"
+  },
+  {
+   "path": "vie_Latn_3/train-00061-of-00421.parquet",
+   "size": 239192790,
+   "sha256": "6fb5b3d7e585c6ea2102428e0263a50cfcf8f0c0bc690ebb8050eb079f0fffb7"
+  },
+  {
+   "path": "vie_Latn_3/train-00062-of-00421.parquet",
+   "size": 241087027,
+   "sha256": "90b2a40b0662520ca1a1941577514d4f0f5a85d9df3be25ff133c6b361f893ec"
+  },
+  {
+   "path": "vie_Latn_3/train-00063-of-00421.parquet",
+   "size": 238128143,
+   "sha256": "ae06a65b0c63b11ff57936a7b185b32515354d1fb546999183940cb7216ffafe"
+  },
+  {
+   "path": "vie_Latn_3/train-00064-of-00421.parquet",
+   "size": 239480746,
+   "sha256": "ced019927751330ef2f963c2f0027c24038ba83ce364ec9164c5e3f11b015f62"
+  },
+  {
+   "path": "vie_Latn_3/train-00065-of-00421.parquet",
+   "size": 238708571,
+   "sha256": "306244e9468798e0346566ae83d4e654f02e7c565335a4671c24edbfb1fc0231"
+  },
+  {
+   "path": "vie_Latn_3/train-00066-of-00421.parquet",
+   "size": 239608716,
+   "sha256": "9dd041e39b4871f7253e259cd086eb6e46b6ce16d8a2c7e5fbaadfb41a7e8eb5"
+  },
+  {
+   "path": "vie_Latn_3/train-00067-of-00421.parquet",
+   "size": 240728978,
+   "sha256": "7193df5722ab77e91fd50d84ba4cbff4db7890799b1492b98d2e9b2e2cabc840"
+  },
+  {
+   "path": "vie_Latn_3/train-00068-of-00421.parquet",
+   "size": 239173066,
+   "sha256": "26163018782f3f7307328359d79687f8362c4d4a1f238d4d43ac81223bacc411"
+  },
+  {
+   "path": "vie_Latn_3/train-00069-of-00421.parquet",
+   "size": 238229280,
+   "sha256": "5e2579d5babd9d173f7ee912d6952ceb6741ad24de7601e2579614e230c73d1c"
+  },
+  {
+   "path": "vie_Latn_3/train-00070-of-00421.parquet",
+   "size": 238175012,
+   "sha256": "38cb688996f6f4981651a5aaba46c2c97b44cfa94dd66926636a6cb96d367b0c"
+  },
+  {
+   "path": "vie_Latn_3/train-00071-of-00421.parquet",
+   "size": 237162942,
+   "sha256": "fbb24936592254996dcbcff37ce28979ca8f85aa9d6669c5235deecf859dfdec"
+  },
+  {
+   "path": "vie_Latn_3/train-00072-of-00421.parquet",
+   "size": 240048937,
+   "sha256": "6a6abc1fcd471ed1689330a7f5e0ee9bfb54ffbd3905a06f2104be7dbf134f5c"
+  },
+  {
+   "path": "vie_Latn_3/train-00073-of-00421.parquet",
+   "size": 238231601,
+   "sha256": "342ef2d11de0b23375c98faa97aa3fbdff8ce0c519ef2ce6d08309bec80caafc"
+  },
+  {
+   "path": "vie_Latn_3/train-00074-of-00421.parquet",
+   "size": 239736386,
+   "sha256": "017c2dc735cc6ad370c6c79ca5098a6c88eea5f45be82285acec2703fa008f58"
+  },
+  {
+   "path": "vie_Latn_3/train-00075-of-00421.parquet",
+   "size": 237289277,
+   "sha256": "cbc7586f10c9e373abe58320c2a17cd002aa47ca80e48a9c772de7d7032b0fb2"
+  },
+  {
+   "path": "vie_Latn_3/train-00076-of-00421.parquet",
+   "size": 240643194,
+   "sha256": "f2e681719ecbd2870b612b562f2bf47f0ab62d097c25010434af70902f110508"
+  },
+  {
+   "path": "vie_Latn_3/train-00077-of-00421.parquet",
+   "size": 238647563,
+   "sha256": "c1599e5f2f2ab6cabe871a0a71c20d58a330d3763de35d43d644bf6979a484f2"
+  },
+  {
+   "path": "vie_Latn_3/train-00078-of-00421.parquet",
+   "size": 237705521,
+   "sha256": "f91b6639ca86410885bfe8ae4185e23b1491be44e1012be04fb57a04df6d222d"
+  },
+  {
+   "path": "vie_Latn_3/train-00079-of-00421.parquet",
+   "size": 238921359,
+   "sha256": "ba6a02a84fbc669925b2d83df8635e51a1288254ac21eec7e07e4b5a310827d2"
+  },
+  {
+   "path": "vie_Latn_3/train-00080-of-00421.parquet",
+   "size": 240020966,
+   "sha256": "e887d0e46b0f36a98e854d68d6d70336b284f8544feb9abcd3447ad2047e7194"
+  },
+  {
+   "path": "vie_Latn_3/train-00081-of-00421.parquet",
+   "size": 240199240,
+   "sha256": "931801b6ae96fe894f80c368083a2d2124b94be21b329b871c4b3d5fad05b093"
+  },
+  {
+   "path": "vie_Latn_3/train-00082-of-00421.parquet",
+   "size": 236690160,
+   "sha256": "568edbf0c319acc5de33c2de74f334b0c00d01e0fd35a38139819e0db785ce2c"
+  },
+  {
+   "path": "vie_Latn_3/train-00083-of-00421.parquet",
+   "size": 237867146,
+   "sha256": "6a7fbd48be32181458a3661294098926944d44a0ad306a79c7be44e335702703"
+  },
+  {
+   "path": "vie_Latn_3/train-00084-of-00421.parquet",
+   "size": 239192185,
+   "sha256": "0fdd0d39e1e65c69a7b6616ae0c076973b685a93207d58c2bffb87b0ce93c875"
+  },
+  {
+   "path": "vie_Latn_3/train-00085-of-00421.parquet",
+   "size": 238433924,
+   "sha256": "da1ac456f21967e8171efba46b8f98197ad7e9b3df222414bf855b01fa5d623a"
+  },
+  {
+   "path": "vie_Latn_3/train-00086-of-00421.parquet",
+   "size": 236456247,
+   "sha256": "c8537b22ba6b25bd1674c350f41c1ef8ab6f610370737104165ac5a1c4682cff"
+  },
+  {
+   "path": "vie_Latn_3/train-00087-of-00421.parquet",
+   "size": 237586674,
+   "sha256": "41be89111f2d854f014d5421a83dae1170000d0413b7d23bc45d1ecf49e19ea4"
+  },
+  {
+   "path": "vie_Latn_3/train-00088-of-00421.parquet",
+   "size": 236526646,
+   "sha256": "d18cbb1011b19e96443c952c1317eb1973a4c8f346787f5eed7b7a6add87fba8"
+  },
+  {
+   "path": "vie_Latn_3/train-00089-of-00421.parquet",
+   "size": 236915904,
+   "sha256": "6c202e5c89ac66d3d858c400d771936584b55f3ea9f46551050ff7225554abdb"
+  },
+  {
+   "path": "vie_Latn_3/train-00090-of-00421.parquet",
+   "size": 239538370,
+   "sha256": "a7775cc130619b43af08f9827dc29cfc2edb80902065c2eb1a746e655cd5ae14"
+  },
+  {
+   "path": "vie_Latn_3/train-00091-of-00421.parquet",
+   "size": 236667699,
+   "sha256": "9e226d4e612e2cb301c3d3586786ce456f4491ed5d56cef5f6cc1dfd623e2d42"
+  },
+  {
+   "path": "vie_Latn_3/train-00092-of-00421.parquet",
+   "size": 237716434,
+   "sha256": "695e1c717ad267e06b2a86a31173a169a26f5154bade1a4a0d416afe7d7998ac"
+  },
+  {
+   "path": "vie_Latn_3/train-00093-of-00421.parquet",
+   "size": 236957699,
+   "sha256": "2e11312798dbfb40be714c282a101d52a22f8a2ee43f2d33c4de4eb8e4898ead"
+  },
+  {
+   "path": "vie_Latn_3/train-00094-of-00421.parquet",
+   "size": 237491391,
+   "sha256": "358e067fc36716f23542c1eb80fe1160d3b1744e34db2ff495810b65a67a3931"
+  },
+  {
+   "path": "vie_Latn_3/train-00095-of-00421.parquet",
+   "size": 236111559,
+   "sha256": "2b4b23ccda6b9641568747944187b8029da6312a0d4eba2d628d7e417a551d56"
+  },
+  {
+   "path": "vie_Latn_3/train-00096-of-00421.parquet",
+   "size": 237060218,
+   "sha256": "440f9d1508fd719f961a388dc88658e581d4b58866fe6f614ba595bc88a9ae52"
+  },
+  {
+   "path": "vie_Latn_3/train-00097-of-00421.parquet",
+   "size": 237107559,
+   "sha256": "5c304a3cc2436cc0f244633ca0a6cff328f0e2bcc0181f385b82ce4edf0ef886"
+  },
+  {
+   "path": "vie_Latn_3/train-00098-of-00421.parquet",
+   "size": 239224175,
+   "sha256": "4eab6648178618bac0fae960e902adfbba002726e7ea60334aa41daac15d776f"
+  },
+  {
+   "path": "vie_Latn_3/train-00099-of-00421.parquet",
+   "size": 237098804,
+   "sha256": "d126eee9928f85d1afd5b936a1ef9eaa6585ac2839db16ea368ee4401168854f"
+  },
+  {
+   "path": "vie_Latn_3/train-00100-of-00421.parquet",
+   "size": 238217878,
+   "sha256": "7a085fde538e022a474873fcdd80a97e27a22fa0d61b15d636c4601205629108"
+  },
+  {
+   "path": "vie_Latn_3/train-00101-of-00421.parquet",
+   "size": 237830643,
+   "sha256": "6b612022671376737aa4aaa091f6620dd5369f235c70782c5b420767f2856cda"
+  },
+  {
+   "path": "vie_Latn_3/train-00102-of-00421.parquet",
+   "size": 238447370,
+   "sha256": "c4ea63ef5468b887285ba8e98daf5a459514d7520bdb5615ffba12fe172c7519"
+  },
+  {
+   "path": "vie_Latn_3/train-00103-of-00421.parquet",
+   "size": 236416670,
+   "sha256": "a5478d2e575cf1dec9a503d778cb6c6d4ea7187c50cf335faef177f24f8b77b0"
+  },
+  {
+   "path": "vie_Latn_3/train-00104-of-00421.parquet",
+   "size": 237806819,
+   "sha256": "00dfd08a56e66a0eaf9c86ed3b119142d9e4f3584f5b7fdbaff88ef066dc1b8c"
+  },
+  {
+   "path": "vie_Latn_3/train-00105-of-00421.parquet",
+   "size": 237952521,
+   "sha256": "197c89ac00efe212cfc8ce551a003f48085628301e992f6832de891a67ef978c"
+  },
+  {
+   "path": "vie_Latn_3/train-00106-of-00421.parquet",
+   "size": 235960040,
+   "sha256": "aef8b2f58be5469b76ffbb922900f70d3be6bf497e13d771422918442cbe133e"
+  },
+  {
+   "path": "vie_Latn_3/train-00107-of-00421.parquet",
+   "size": 237766745,
+   "sha256": "14f19521a79b21b79ef03d85d5cc2a40e12838f74cff1ade785082ddc17f5d1d"
+  },
+  {
+   "path": "vie_Latn_3/train-00108-of-00421.parquet",
+   "size": 238690229,
+   "sha256": "c5758b8797a2d0598abff923a5b33ac6fc17908bb83f7c95222201bd6fc6f878"
+  },
+  {
+   "path": "vie_Latn_3/train-00109-of-00421.parquet",
+   "size": 237514268,
+   "sha256": "2eecbd3447a192c428c76fb306d583088e5d7274674ff1fc8527a33cce2f9954"
+  },
+  {
+   "path": "vie_Latn_3/train-00110-of-00421.parquet",
+   "size": 237900279,
+   "sha256": "961bf4dc0d3aaca53d8763644a8513ab7dbe5f9a5312a870aab2cda908ebe3bd"
+  },
+  {
+   "path": "vie_Latn_3/train-00111-of-00421.parquet",
+   "size": 236648737,
+   "sha256": "9ff6b722a71b27317d296c53ef6d1edc4c2057a8f45b81570631c27841f81d54"
+  },
+  {
+   "path": "vie_Latn_3/train-00112-of-00421.parquet",
+   "size": 234097811,
+   "sha256": "7b4c3d94ee85b3758de29e7c9f8e1c3536a6cc241f10f0fffcc639648c5a10cf"
+  },
+  {
+   "path": "vie_Latn_3/train-00113-of-00421.parquet",
+   "size": 234985516,
+   "sha256": "4e2a6aedf98b0c04c7a8134b521a2322d41e82d2642cf08c83a948cf5a88f7fe"
+  },
+  {
+   "path": "vie_Latn_3/train-00114-of-00421.parquet",
+   "size": 238415952,
+   "sha256": "590ca66e925a1e33cd730870160204e877b0477af49321d12b9fbabb97b94286"
+  },
+  {
+   "path": "vie_Latn_3/train-00115-of-00421.parquet",
+   "size": 236547512,
+   "sha256": "364f006e95df20b62c55dfdcda0b4c2a96c30ef002c33deb7d972552a45e5ac8"
+  },
+  {
+   "path": "vie_Latn_3/train-00116-of-00421.parquet",
+   "size": 235227574,
+   "sha256": "8e61271fd088a3128473d24b283711552e53b67a761a79d86ce782b8d8c9071c"
+  },
+  {
+   "path": "vie_Latn_3/train-00117-of-00421.parquet",
+   "size": 236695588,
+   "sha256": "8140edb2bbb60390df85da00d163540ff6ea0a0dffa6e239f61b6c209e8ebfa0"
+  },
+  {
+   "path": "vie_Latn_3/train-00118-of-00421.parquet",
+   "size": 236272052,
+   "sha256": "88e877da201687dd256bb47c448a60196947e8f692c30bb4148bc5f9c57c0ddc"
+  },
+  {
+   "path": "vie_Latn_3/train-00119-of-00421.parquet",
+   "size": 237881322,
+   "sha256": "861ec58d6ac94df6344a5bd0f33af3a134d0673ec95baece47c6d9ca7a5af557"
+  },
+  {
+   "path": "vie_Latn_3/train-00120-of-00421.parquet",
+   "size": 243773887,
+   "sha256": "09e2fd277cba45a5abc9863bd82789b8c93219e15b2b6f7ce781c31291420d8d"
+  },
+  {
+   "path": "vie_Latn_3/train-00121-of-00421.parquet",
+   "size": 246254579,
+   "sha256": "0e37499805588f35cc3446e7507f5f724b7a06cec9691215b762362fec1528d8"
+  },
+  {
+   "path": "vie_Latn_3/train-00122-of-00421.parquet",
+   "size": 245711183,
+   "sha256": "281995496eed8693ee74142ac45043b8b1961bfe7a684387d8051fbdfaddb458"
+  },
+  {
+   "path": "vie_Latn_3/train-00123-of-00421.parquet",
+   "size": 247226255,
+   "sha256": "60fee1cee3c45035607a5604b6a230ea77139c1e2186a2c8f7a8e40d28241483"
+  },
+  {
+   "path": "vie_Latn_3/train-00124-of-00421.parquet",
+   "size": 245256644,
+   "sha256": "59a9de2c11200ae9f866ed11f3598f02cb4bb93f010cbbd0bbfe8369050ae614"
+  },
+  {
+   "path": "vie_Latn_3/train-00125-of-00421.parquet",
+   "size": 247194981,
+   "sha256": "f63aa90713ee053d05b9ccd4270cd9c47f5ea60b5d79cc636e6468ffdf7e6653"
+  },
+  {
+   "path": "vie_Latn_3/train-00126-of-00421.parquet",
+   "size": 246025360,
+   "sha256": "5b0d5c252dc1cb8a6e886bd27bb5c518123eea3146bf0506148111efa3b5833d"
+  },
+  {
+   "path": "vie_Latn_3/train-00127-of-00421.parquet",
+   "size": 246779108,
+   "sha256": "b03269ec48692b910a18e9d3a3474247e7e66ff414cbddda06f95939d176d4a3"
+  },
+  {
+   "path": "vie_Latn_3/train-00128-of-00421.parquet",
+   "size": 244016774,
+   "sha256": "ce05dbce627ae5ddc79ab3bb5615efe8d157d136b331eac2ba54a5478b90a0b9"
+  },
+  {
+   "path": "vie_Latn_3/train-00129-of-00421.parquet",
+   "size": 237139893,
+   "sha256": "25619466fcf5ae435309d85aff2513331c831f39f8051a62f280a2225e9bc3a6"
+  },
+  {
+   "path": "vie_Latn_3/train-00130-of-00421.parquet",
+   "size": 240149412,
+   "sha256": "245faf74fa6a6f16c4c2670d6596c5efc3ed5d58be4cde85f8c30cb804126ead"
+  },
+  {
+   "path": "vie_Latn_3/train-00131-of-00421.parquet",
+   "size": 246260786,
+   "sha256": "57c5e24c00652ec6603f3a8dc820f901dea340e47f4de45165518a8c602e941f"
+  },
+  {
+   "path": "vie_Latn_3/train-00132-of-00421.parquet",
+   "size": 247188128,
+   "sha256": "214aa83c177f57a53f7381a9ab819cc18890203e0be15c1b40b281cf823b7597"
+  },
+  {
+   "path": "vie_Latn_3/train-00133-of-00421.parquet",
+   "size": 247200053,
+   "sha256": "983ada4f8a1e26732d18934a9bd292ae5a6308e0057d863be97e97ede3cfebab"
+  },
+  {
+   "path": "vie_Latn_3/train-00134-of-00421.parquet",
+   "size": 248092463,
+   "sha256": "c39e879cf45c5e455da8543eef43c2d192b3ce480ad477a96cbf4c4d7f7c72ad"
+  },
+  {
+   "path": "vie_Latn_3/train-00135-of-00421.parquet",
+   "size": 246335350,
+   "sha256": "15381b6e94efd07c1427a2a03c7c553284efb73bdad40ce7c1832d8f85e06990"
+  },
+  {
+   "path": "vie_Latn_3/train-00136-of-00421.parquet",
+   "size": 245477560,
+   "sha256": "e010b616381eea0a35ff7067c8aa80681cf1d4568a342dd33444f168719c6fbe"
+  },
+  {
+   "path": "vie_Latn_3/train-00137-of-00421.parquet",
+   "size": 246675102,
+   "sha256": "2c371d4878964fa512ab48a4f2c57d5425ea4cafe5cda9b429a0ae2727b674ce"
+  },
+  {
+   "path": "vie_Latn_3/train-00138-of-00421.parquet",
+   "size": 246871442,
+   "sha256": "c34cd8000fddc0c3e1702af74a16eeb8eec6db30b2250563676137742e8c0386"
+  },
+  {
+   "path": "vie_Latn_3/train-00139-of-00421.parquet",
+   "size": 246804307,
+   "sha256": "a9f84782c931c18c840b1a9f9f258616c41b8b7c6def7cd00b605dccb59c980a"
+  },
+  {
+   "path": "vie_Latn_3/train-00140-of-00421.parquet",
+   "size": 247892712,
+   "sha256": "472b9317e1192eef54c8afea28c9e9215202f8db9666b705da58db75f50cf98e"
+  },
+  {
+   "path": "vie_Latn_3/train-00141-of-00421.parquet",
+   "size": 248535200,
+   "sha256": "90bf3a8450ebd3c6283b1405e4a6b627b4d4a4f74a0b3f6f5e943a21c001ed71"
+  },
+  {
+   "path": "vie_Latn_3/train-00142-of-00421.parquet",
+   "size": 245218404,
+   "sha256": "cb6d7b8f33da6bf0a111beefbe50a00923e7cb1cb163920b996d1dce53e4d085"
+  },
+  {
+   "path": "vie_Latn_3/train-00143-of-00421.parquet",
+   "size": 247732257,
+   "sha256": "97c1107bc01c83fc08058488fa4d2ee59d1e88c608a76459179aeb7e9a391b1b"
+  },
+  {
+   "path": "vie_Latn_3/train-00144-of-00421.parquet",
+   "size": 246628782,
+   "sha256": "fe24f3cfed340d10ed9626809560cea70aaa4b6db633e82c943a36f4b8658990"
+  },
+  {
+   "path": "vie_Latn_3/train-00145-of-00421.parquet",
+   "size": 233819430,
+   "sha256": "c11b4defa1bf70f5c129974905350b0237b836ac271cbf12d5d502ab287bb0b2"
+  },
+  {
+   "path": "vie_Latn_3/train-00146-of-00421.parquet",
+   "size": 241471865,
+   "sha256": "a6002356273517e488eff9c3176b2faea3f70ec507ff2b274310a80166147cf5"
+  },
+  {
+   "path": "vie_Latn_3/train-00147-of-00421.parquet",
+   "size": 246385080,
+   "sha256": "7cf99ad928d78dc26556dff9c42b671070bc241f6e4bdfac2577845e290cb142"
+  },
+  {
+   "path": "vie_Latn_3/train-00148-of-00421.parquet",
+   "size": 248514333,
+   "sha256": "52e20c39be479da15c74bb11c94cb6befc2eddd8e1a80d23ca264a1a5d04574f"
+  },
+  {
+   "path": "vie_Latn_3/train-00149-of-00421.parquet",
+   "size": 246602985,
+   "sha256": "bcbe493b2ce3bb6d07d45f34f7bbf2e0dc9ff7d5e561d82b473060999cf9ab24"
+  },
+  {
+   "path": "vie_Latn_3/train-00150-of-00421.parquet",
+   "size": 246404090,
+   "sha256": "fac60d3851a90369491af784486fc3dc5bd5b07d058fceabc725006599269cb1"
+  },
+  {
+   "path": "vie_Latn_3/train-00151-of-00421.parquet",
+   "size": 247836259,
+   "sha256": "413fcf68fda5c082792266f693d06233c1ee47b7c31fe2ecf8dd917c9d254225"
+  },
+  {
+   "path": "vie_Latn_3/train-00152-of-00421.parquet",
+   "size": 245921268,
+   "sha256": "e8cd45941820e74ac26984e2b7f247f78c104a2b59057545a56ed8fb3d3a0ca5"
+  },
+  {
+   "path": "vie_Latn_3/train-00153-of-00421.parquet",
+   "size": 246594754,
+   "sha256": "7e8d6106ff544d8187596203c2b5c6fbc6d56d381e5b42b98e66a78e43dd2b64"
+  },
+  {
+   "path": "vie_Latn_3/train-00154-of-00421.parquet",
+   "size": 247294619,
+   "sha256": "35e46f3c759fbbe9f050104854a189ccffab449840705df13869bec9e002bfb8"
+  },
+  {
+   "path": "vie_Latn_3/train-00155-of-00421.parquet",
+   "size": 246435550,
+   "sha256": "4fae9b5b7715cea0b0a5afb1b8bd8ed7db6b01b9ff48d0e943136dd4d0b09f94"
+  },
+  {
+   "path": "vie_Latn_3/train-00156-of-00421.parquet",
+   "size": 246904480,
+   "sha256": "9c25598689d148ea65de29797f32b2ddbd4d784bcc43519c412ef8ff404af746"
+  },
+  {
+   "path": "vie_Latn_3/train-00157-of-00421.parquet",
+   "size": 247960518,
+   "sha256": "18e8babdd93a2ad415f8c2e8b92c7c05d7ff7ee0203806ccc9fb54da344c06a8"
+  },
+  {
+   "path": "vie_Latn_3/train-00158-of-00421.parquet",
+   "size": 246635383,
+   "sha256": "ba1c2dce8164161264ca79733c40a3c9b011bf991f747abcda23ea3e919ed50f"
+  },
+  {
+   "path": "vie_Latn_3/train-00159-of-00421.parquet",
+   "size": 245919827,
+   "sha256": "0d4bbce0021ab8470966c44081c1f460e14c9e6f1fd01130c88a5dcd2d411267"
+  },
+  {
+   "path": "vie_Latn_3/train-00160-of-00421.parquet",
+   "size": 238983624,
+   "sha256": "e003471ca114a8b13fcfee2cb4b895fd0fa9f55eedafdbd284d970ada13e96b5"
+  },
+  {
+   "path": "vie_Latn_3/train-00161-of-00421.parquet",
+   "size": 242672062,
+   "sha256": "004f95558f88b850247ba101da263d8310df49516d5b42d038cfb136f9f002dd"
+  },
+  {
+   "path": "vie_Latn_3/train-00162-of-00421.parquet",
+   "size": 247378134,
+   "sha256": "bc1706dcf43d9f4105d0500cbe12e9ad38cea95788c0ead4f672e0a5283dd988"
+  },
+  {
+   "path": "vie_Latn_3/train-00163-of-00421.parquet",
+   "size": 247332842,
+   "sha256": "8f7c2ff1516aaad0741ed6fde0d15f187467e424819b234514734f6d65a06ee0"
+  },
+  {
+   "path": "vie_Latn_3/train-00164-of-00421.parquet",
+   "size": 246154269,
+   "sha256": "fc3ace28da338f01f2b5719b39775a0f5372fc4d88060f0647e97ceb23d06206"
+  },
+  {
+   "path": "vie_Latn_3/train-00165-of-00421.parquet",
+   "size": 245167111,
+   "sha256": "9268aec650c06d179cc4bb0f26959e43df3db6dfe91229bb91af6def29880305"
+  },
+  {
+   "path": "vie_Latn_3/train-00166-of-00421.parquet",
+   "size": 245856685,
+   "sha256": "789d3151c16db146eba3d9c1df16f1c7dff6f6f34493862bed1f07d2436ccb7e"
+  },
+  {
+   "path": "vie_Latn_3/train-00167-of-00421.parquet",
+   "size": 246548547,
+   "sha256": "b5196cecd44435bb5eed6fd790b2d0a6b94ef8b938e33e6bd5b737f826d57dbb"
+  },
+  {
+   "path": "vie_Latn_3/train-00168-of-00421.parquet",
+   "size": 245648985,
+   "sha256": "ef60c790bb2dacdbecb78c3321f69441c381d5f69cafd1ce51c15f9ff53b783c"
+  },
+  {
+   "path": "vie_Latn_3/train-00169-of-00421.parquet",
+   "size": 245703716,
+   "sha256": "669a0b6d38e705d9487adaf4cf08194da6646b9008b20c10650785fdb06cbe30"
+  },
+  {
+   "path": "vie_Latn_3/train-00170-of-00421.parquet",
+   "size": 245093949,
+   "sha256": "d71322dcd6db0482c91058fedc172f476f5d0d05d45362d664cdc86983c4dca3"
+  },
+  {
+   "path": "vie_Latn_3/train-00171-of-00421.parquet",
+   "size": 246597516,
+   "sha256": "0bafdaf1ce0ea35caa8ece7450c9277be3dd14f81af6e045cbcb3a60f1a04a7d"
+  },
+  {
+   "path": "vie_Latn_3/train-00172-of-00421.parquet",
+   "size": 246748645,
+   "sha256": "a3d5bbac129f6fc11c34ca4d590cd1b6e5f6e566127031bdfa64780ef2e93e68"
+  },
+  {
+   "path": "vie_Latn_3/train-00173-of-00421.parquet",
+   "size": 246537200,
+   "sha256": "315cf05903b065b6e4e90d036bf26a13571efcc640d4ac04de9a76fdf42f4119"
+  },
+  {
+   "path": "vie_Latn_3/train-00174-of-00421.parquet",
+   "size": 245801680,
+   "sha256": "1acab8ca27c2f0a6bcda0e84126d62dae7c058b1487aac43d1e257025812c97d"
+  },
+  {
+   "path": "vie_Latn_3/train-00175-of-00421.parquet",
+   "size": 235538314,
+   "sha256": "cbb10f5109c3980fb42542ff30214f713967a85eb78a05ff16d1f4a14a549971"
+  },
+  {
+   "path": "vie_Latn_3/train-00176-of-00421.parquet",
+   "size": 227569795,
+   "sha256": "25b5adba60997a2fc8eed75d9c6d71567025d3da4bdb5940167acb907d4c0b4d"
+  },
+  {
+   "path": "vie_Latn_3/train-00177-of-00421.parquet",
+   "size": 247790594,
+   "sha256": "5764e184a8eb18ca2023d7cbd3d0675384520de4521ea75bcc7e1b09a7a20a0c"
+  },
+  {
+   "path": "vie_Latn_3/train-00178-of-00421.parquet",
+   "size": 245012591,
+   "sha256": "06aa7d6b65f4fc8efdd9ba3aa03071703e1cb16a254e414e6e615ac0f2fe262f"
+  },
+  {
+   "path": "vie_Latn_3/train-00179-of-00421.parquet",
+   "size": 245545056,
+   "sha256": "5fb6e497e38aca7be648a96dbe97281d5740ef2d48cc3bb06f307a76d4e694c2"
+  },
+  {
+   "path": "vie_Latn_3/train-00180-of-00421.parquet",
+   "size": 246409759,
+   "sha256": "7ca3b1ea0106fca990f7b68ec250c309e81b9bddb2e6dcac4faee619c1474cbf"
+  },
+  {
+   "path": "vie_Latn_3/train-00181-of-00421.parquet",
+   "size": 244695089,
+   "sha256": "1a4936f3a8c863d9ea26c39416d016d6bf8e35e7555ce72851edb9758846cc65"
+  },
+  {
+   "path": "vie_Latn_3/train-00182-of-00421.parquet",
+   "size": 247665276,
+   "sha256": "143a0d1a5fcf7938c81f5f95cddf5dccd54e62e6fb2af71510361bc27099f405"
+  },
+  {
+   "path": "vie_Latn_3/train-00183-of-00421.parquet",
+   "size": 246041791,
+   "sha256": "58f16be2d1346dedbbd92f69c315b46b38198b4e67455cbc66b725237ff05e24"
+  },
+  {
+   "path": "vie_Latn_3/train-00184-of-00421.parquet",
+   "size": 246994574,
+   "sha256": "c510793a4ea43891326a7bce6b7049860be86f48d470bb76703ff7cd84e1a8e4"
+  },
+  {
+   "path": "vie_Latn_3/train-00185-of-00421.parquet",
+   "size": 245559387,
+   "sha256": "c6009650e5b75000112729c2a71d5092ac1759a15b520cb7c7f3f2fe7626ac1d"
+  },
+  {
+   "path": "vie_Latn_3/train-00186-of-00421.parquet",
+   "size": 244686908,
+   "sha256": "4ca00b4cba1e398ad5b23bd4bd1a2e1e6ed258bc49acb7e8f89a417fd8f60e30"
+  },
+  {
+   "path": "vie_Latn_3/train-00187-of-00421.parquet",
+   "size": 245797214,
+   "sha256": "cd05893843286add1d8baa27897c8013448df7e44892edb9083558606e36cd5e"
+  },
+  {
+   "path": "vie_Latn_3/train-00188-of-00421.parquet",
+   "size": 245547725,
+   "sha256": "0f543b0d1dbce0cc4525d40be377e1ccd18365820101d2539994abb83a2174cd"
+  },
+  {
+   "path": "vie_Latn_3/train-00189-of-00421.parquet",
+   "size": 245661388,
+   "sha256": "255f3bff072b0ee6352c3ac224bb5fe7e43450e3af787ece3b810041853b29cf"
+  },
+  {
+   "path": "vie_Latn_3/train-00190-of-00421.parquet",
+   "size": 237084637,
+   "sha256": "556a924ca6612a933a58f26caa1ab6b611325364c53ced2de18b3f7d011b85f4"
+  },
+  {
+   "path": "vie_Latn_3/train-00191-of-00421.parquet",
+   "size": 240948481,
+   "sha256": "eaad2e679fb15cc07dba80f85847ba352a6f404a37fbbcbd1e6cffad2b15ed84"
+  },
+  {
+   "path": "vie_Latn_3/train-00192-of-00421.parquet",
+   "size": 247092997,
+   "sha256": "0e3a865acfa5bde19df40212ae5181c27d59a7c1b9c98879dd07d16c96e87d21"
+  },
+  {
+   "path": "vie_Latn_3/train-00193-of-00421.parquet",
+   "size": 245467285,
+   "sha256": "05d6303fdcef5415ab72cc7e1382ca7dce672c07f389acbb2d0cd724f6fc31bf"
+  },
+  {
+   "path": "vie_Latn_3/train-00194-of-00421.parquet",
+   "size": 243952116,
+   "sha256": "cfccf08f7e732f76827de5836ed1fbb353fa257b69419610f19de81d4289a465"
+  },
+  {
+   "path": "vie_Latn_3/train-00195-of-00421.parquet",
+   "size": 247259397,
+   "sha256": "48046d61a28b875e373afe4a5247ab4d1f845015b5e67bb49cbec3beb5474dd6"
+  },
+  {
+   "path": "vie_Latn_3/train-00196-of-00421.parquet",
+   "size": 245718485,
+   "sha256": "e222a4cd7a26ea3cec0ac933f5de199bceb5b28dd8113bded1551030dd865df5"
+  },
+  {
+   "path": "vie_Latn_3/train-00197-of-00421.parquet",
+   "size": 247049836,
+   "sha256": "d553c0f3df4c6a22e28d415ba65449d4e59df43998fbea0b5ca9e1307cb62064"
+  },
+  {
+   "path": "vie_Latn_3/train-00198-of-00421.parquet",
+   "size": 247249014,
+   "sha256": "dd535b2798eceacf49ace8dfc2745f88580fd90c02c8dc6eddd9333704792421"
+  },
+  {
+   "path": "vie_Latn_3/train-00199-of-00421.parquet",
+   "size": 245732612,
+   "sha256": "addf753034b313285a961263430f35523fa7dada082fc59af90bf1ae129f32a4"
+  },
+  {
+   "path": "vie_Latn_3/train-00200-of-00421.parquet",
+   "size": 244231385,
+   "sha256": "3c20ec1240d72c3a585f408b60cbc719294d3c78cbaee1d0d4ae7b08006e3d10"
+  },
+  {
+   "path": "vie_Latn_3/train-00201-of-00421.parquet",
+   "size": 245394490,
+   "sha256": "fe4d42092fdd12d8455e1f946106b65960d0d6b1df010746b25ab9605912a674"
+  },
+  {
+   "path": "vie_Latn_3/train-00202-of-00421.parquet",
+   "size": 247127048,
+   "sha256": "6a5bff20c6cfb5c615d907c1958b3a5704a8c5a1946761b58b4370d2a4514696"
+  },
+  {
+   "path": "vie_Latn_3/train-00203-of-00421.parquet",
+   "size": 245253866,
+   "sha256": "ad30deb696ff352d9ed34d0742b52254f57ec75989b786e2ebf3af1d65c1d5bc"
+  },
+  {
+   "path": "vie_Latn_3/train-00204-of-00421.parquet",
+   "size": 235144324,
+   "sha256": "20f8b809e82c0eecac9f379160d8084dfc7b0c60ced779d2f26804aba858bdc5"
+  },
+  {
+   "path": "vie_Latn_3/train-00205-of-00421.parquet",
+   "size": 240282760,
+   "sha256": "beadc096973dcaaa7d1f2ee274472e88912131003ca9048d97aeb685b4baf964"
+  },
+  {
+   "path": "vie_Latn_3/train-00206-of-00421.parquet",
+   "size": 246033585,
+   "sha256": "54bf74892f856db227ebe7d56439c40079e7aafad4fda21f55c8ca8ec78abfe7"
+  },
+  {
+   "path": "vie_Latn_3/train-00207-of-00421.parquet",
+   "size": 246020811,
+   "sha256": "509f7d799751764f9160634f57403f88e4bbd00f19b6933724f40a5a5dcb26a6"
+  },
+  {
+   "path": "vie_Latn_3/train-00208-of-00421.parquet",
+   "size": 248562068,
+   "sha256": "fdc24a37eafd083e968e3cfefa317501e2f9218b02a045bcadf15d1c9d3197b3"
+  },
+  {
+   "path": "vie_Latn_3/train-00209-of-00421.parquet",
+   "size": 246813218,
+   "sha256": "c485332716dcd3322338d4a964b32aacec50fdc24a6bf9097b74121a57ca181b"
+  },
+  {
+   "path": "vie_Latn_3/train-00210-of-00421.parquet",
+   "size": 245813907,
+   "sha256": "806def766f8bbdebaf828224a48f79f4c91e39d0977061c9215b0e37e8c79f1c"
+  },
+  {
+   "path": "vie_Latn_3/train-00211-of-00421.parquet",
+   "size": 245777914,
+   "sha256": "c6ee705f1639ae00737c7bf5b89a594b4f99f8a9a9b70424bbdc121e7befaf1b"
+  },
+  {
+   "path": "vie_Latn_3/train-00212-of-00421.parquet",
+   "size": 246303252,
+   "sha256": "d09d20e857d4b8a3cf309745b3da1c42924a8217fe0f8de4f4247dd37acaf3b6"
+  },
+  {
+   "path": "vie_Latn_3/train-00213-of-00421.parquet",
+   "size": 247668884,
+   "sha256": "08851b7dcb3101b2e3d906cae64073ac404342031a3d100f54e0d526afca026b"
+  },
+  {
+   "path": "vie_Latn_3/train-00214-of-00421.parquet",
+   "size": 245491471,
+   "sha256": "b93654b1ecc117a36cd5d993062be36c11cb9735dfaa62081343e6d1ccdec810"
+  },
+  {
+   "path": "vie_Latn_3/train-00215-of-00421.parquet",
+   "size": 247057267,
+   "sha256": "a5cee0c61601bd73ecbcb3873b315f84c73587f3bc05a7c38e7accef52e2728d"
+  },
+  {
+   "path": "vie_Latn_3/train-00216-of-00421.parquet",
+   "size": 245280681,
+   "sha256": "02dc942c9e17bbf497b780bab48f30005776265b510d70bcbec0cadb0feba8b9"
+  },
+  {
+   "path": "vie_Latn_3/train-00217-of-00421.parquet",
+   "size": 244982887,
+   "sha256": "3728477d75d9ae512552ea1713514df8b9e2a67337e9a71d2fc6f9b28a7d83cf"
+  },
+  {
+   "path": "vie_Latn_3/train-00218-of-00421.parquet",
+   "size": 234371704,
+   "sha256": "cf7ecec8de88ae41424d91754f72f046f49f234603eff46c44be64e044c47c7c"
+  },
+  {
+   "path": "vie_Latn_3/train-00219-of-00421.parquet",
+   "size": 243814347,
+   "sha256": "1569dfa49a13bf79dae0d1f9f4ca96b0431131f8ed3b3f24fa996d5a1babbf94"
+  },
+  {
+   "path": "vie_Latn_3/train-00220-of-00421.parquet",
+   "size": 246177307,
+   "sha256": "f4fcd12da950d9f094d4fb1befb89e158c514d31523cef2846ba7d1cdbecb468"
+  },
+  {
+   "path": "vie_Latn_3/train-00221-of-00421.parquet",
+   "size": 246356175,
+   "sha256": "76ad6cc78094675a69577ae29a6a333b740c56390f6ee7c81e61ef8c49ca96c6"
+  },
+  {
+   "path": "vie_Latn_3/train-00222-of-00421.parquet",
+   "size": 244860449,
+   "sha256": "8b18179ede64b1852b2c09fd984471066db7e0df209328517efc3ed25e0eb2c8"
+  },
+  {
+   "path": "vie_Latn_3/train-00223-of-00421.parquet",
+   "size": 244657076,
+   "sha256": "32f34877d02aaf671edd317701a7fd85c50c947c7a2d225619d343b3ca6cc51e"
+  },
+  {
+   "path": "vie_Latn_3/train-00224-of-00421.parquet",
+   "size": 246058510,
+   "sha256": "e0b68c6cb86d149a0cdd28d4174d115c2285d8c2bfbe669dd084555bf8e724c8"
+  },
+  {
+   "path": "vie_Latn_3/train-00225-of-00421.parquet",
+   "size": 246629714,
+   "sha256": "25904f379146241e64cb7a8cddc4ae455eeccbeb2ffd2cdde00d6e609ae3458a"
+  },
+  {
+   "path": "vie_Latn_3/train-00226-of-00421.parquet",
+   "size": 247078834,
+   "sha256": "03b4715a7478d9a695833de04fd980153c30b80af69fa239a1baed147dd51be9"
+  },
+  {
+   "path": "vie_Latn_3/train-00227-of-00421.parquet",
+   "size": 246764328,
+   "sha256": "7309d33163a1b2fc32d3c91f756ff90469a5b3af362a493aadc08a71329ababf"
+  },
+  {
+   "path": "vie_Latn_3/train-00228-of-00421.parquet",
+   "size": 245050159,
+   "sha256": "7d2cd33f0f3f699e9b98627e9ffdea757e94c4d27f0e2a4f87dba9e8975eb4a4"
+  },
+  {
+   "path": "vie_Latn_3/train-00229-of-00421.parquet",
+   "size": 246242107,
+   "sha256": "9a3a308f55a93e1ce6cc3ff098748e863ce5e8673e55b6c62d16d0daf53e94df"
+  },
+  {
+   "path": "vie_Latn_3/train-00230-of-00421.parquet",
+   "size": 245746654,
+   "sha256": "c4a5c8b9e509ff118d7555f6ff1ad3db8d5c4f4e553b503e8dfaa7cc68f882f9"
+  },
+  {
+   "path": "vie_Latn_3/train-00231-of-00421.parquet",
+   "size": 232709374,
+   "sha256": "3b4bff0f7d11a99a528cd49fe3b2aabe8d6dfafc2bacbd0729d3eccb7e82c641"
+  },
+  {
+   "path": "vie_Latn_3/train-00232-of-00421.parquet",
+   "size": 243833142,
+   "sha256": "7f030f381b122ea359209f6bf07952fa64def7eb64d85b16e1759f0267523e3b"
+  },
+  {
+   "path": "vie_Latn_3/train-00233-of-00421.parquet",
+   "size": 245497586,
+   "sha256": "90e639d5e4f5a5c0d546100834971393a0bc6bab353297e0579e285f07b24d78"
+  },
+  {
+   "path": "vie_Latn_3/train-00234-of-00421.parquet",
+   "size": 245841094,
+   "sha256": "10528911d17b47ae05190c5aed5c24b1c0614498af7bf90375119d054b55b3b1"
+  },
+  {
+   "path": "vie_Latn_3/train-00235-of-00421.parquet",
+   "size": 246141193,
+   "sha256": "dce743acbff9cc1bcdd4e421b9f71566ca9b4957ff671cca73b8bbf3a4429674"
+  },
+  {
+   "path": "vie_Latn_3/train-00236-of-00421.parquet",
+   "size": 246582614,
+   "sha256": "e3680d78d44371156fb8bfdd0e7fd4130ce6785a287ad7fcbeca077c288b1725"
+  },
+  {
+   "path": "vie_Latn_3/train-00237-of-00421.parquet",
+   "size": 245835696,
+   "sha256": "8909d3e4459157e0af1c7dd80ff0bbf8ed4fd9a9b5411657ef0581adc18a9cee"
+  },
+  {
+   "path": "vie_Latn_3/train-00238-of-00421.parquet",
+   "size": 245345026,
+   "sha256": "140d6add14b9a06887083b75a95461cba0963047ed78186d039e72c1106f4012"
+  },
+  {
+   "path": "vie_Latn_3/train-00239-of-00421.parquet",
+   "size": 245781449,
+   "sha256": "69d486a9e8c025771d45a87b0411555654de7ff919979facaa6ae0891552138e"
+  },
+  {
+   "path": "vie_Latn_3/train-00240-of-00421.parquet",
+   "size": 245642113,
+   "sha256": "dde5934c4ba116fb8dfeaf2f941868d9ba2122b7e647faabda6663ef50469a90"
+  },
+  {
+   "path": "vie_Latn_3/train-00241-of-00421.parquet",
+   "size": 245103948,
+   "sha256": "714102b9139660f905068ee4001d4da700b7352f8cb36d7451d0f677f21a4dd0"
+  },
+  {
+   "path": "vie_Latn_3/train-00242-of-00421.parquet",
+   "size": 244154734,
+   "sha256": "f13e1d2b87b4086c705099fe6f5edbef85e3f16e752ce659ac6a25400bc301e0"
+  },
+  {
+   "path": "vie_Latn_3/train-00243-of-00421.parquet",
+   "size": 245258626,
+   "sha256": "fa87dbe20369f8f259770a38092889d84af5c9852e8760b2ac7a2702ad13c0c2"
+  },
+  {
+   "path": "vie_Latn_3/train-00244-of-00421.parquet",
+   "size": 235061730,
+   "sha256": "cbf0b0b794111f160bd6581f1ebfc64e3fbb47d9ade239a2605fc6669a5167dd"
+  },
+  {
+   "path": "vie_Latn_3/train-00245-of-00421.parquet",
+   "size": 245523540,
+   "sha256": "045e4a4667043404b71d191a469b34b569fe3276e4744f34f436e20461960d77"
+  },
+  {
+   "path": "vie_Latn_3/train-00246-of-00421.parquet",
+   "size": 244801814,
+   "sha256": "74e72349f27f0e6b8d52c0a4b2935746e074817e78b604a5af1c675959cad7e1"
+  },
+  {
+   "path": "vie_Latn_3/train-00247-of-00421.parquet",
+   "size": 236418858,
+   "sha256": "8d590af1ced514f96c511fadd65c8ca1b518bab417102a71656806342faa1c52"
+  },
+  {
+   "path": "vie_Latn_3/train-00248-of-00421.parquet",
+   "size": 230279604,
+   "sha256": "c964efcf97e7724be2218302b4fda8e00b4b9b8ac05999b8b3b5edcb55470b57"
+  },
+  {
+   "path": "vie_Latn_3/train-00249-of-00421.parquet",
+   "size": 230942410,
+   "sha256": "2bf7fb1864f61a49c806e293fdec2981f94d9783dd386397b225236f4413fa11"
+  },
+  {
+   "path": "vie_Latn_3/train-00250-of-00421.parquet",
+   "size": 229615863,
+   "sha256": "91c688ffad73cd79f13b8414e574d758f16ebfdcc5ecf4010e237391155fa079"
+  },
+  {
+   "path": "vie_Latn_3/train-00251-of-00421.parquet",
+   "size": 232222658,
+   "sha256": "5b050e4988dff5504b206e120f1828ab229e93e18cb0f160b3108201be5b7750"
+  },
+  {
+   "path": "vie_Latn_3/train-00252-of-00421.parquet",
+   "size": 230969870,
+   "sha256": "35b8d686d25a975a426001c2eaf5d36755c27eec182a8fd34ce1f93fe0cb39c2"
+  },
+  {
+   "path": "vie_Latn_3/train-00253-of-00421.parquet",
+   "size": 231242897,
+   "sha256": "83f1918218c1446da13dcdfb25e46de661b0b5ff46a7709cd12309fd0af0c570"
+  },
+  {
+   "path": "vie_Latn_3/train-00254-of-00421.parquet",
+   "size": 231628409,
+   "sha256": "a83c9e1d919755ac7a2c9b7814ca15b109fd8df897ee37d2e85c54aea5a90325"
+  },
+  {
+   "path": "vie_Latn_3/train-00255-of-00421.parquet",
+   "size": 229932882,
+   "sha256": "6f4da75c63b15cd1d1e2d4e3d600b1e6f038bfb3815d2481929db160a9d7c503"
+  },
+  {
+   "path": "vie_Latn_3/train-00256-of-00421.parquet",
+   "size": 230807606,
+   "sha256": "f5fbe885416db45a3c21bc79423efbdab73d4f377969469881de6a0348641b4d"
+  },
+  {
+   "path": "vie_Latn_3/train-00257-of-00421.parquet",
+   "size": 229732904,
+   "sha256": "c9a09bf3bc07bb96afd2fcb5defa7d457f9df1af6afc6a12d0e57e0e61e24624"
+  },
+  {
+   "path": "vie_Latn_3/train-00258-of-00421.parquet",
+   "size": 229723484,
+   "sha256": "d0f54681da03a31285550e60b9b261c686d37df053c4315f75732d33e405ddca"
+  },
+  {
+   "path": "vie_Latn_3/train-00259-of-00421.parquet",
+   "size": 230165333,
+   "sha256": "0cae0d994c3d0c98af3fe8cfe867a5f7b7776d2df655a0561f079529e721f242"
+  },
+  {
+   "path": "vie_Latn_3/train-00260-of-00421.parquet",
+   "size": 230344403,
+   "sha256": "b59ab183fb9c7eee03a3a43804a7fca31d99a97948c1a380935fbc2a3775a530"
+  },
+  {
+   "path": "vie_Latn_3/train-00261-of-00421.parquet",
+   "size": 230933099,
+   "sha256": "b9ccd70df080258e42fb237f2ec20306af667faba49b985c415569b219a88ab9"
+  },
+  {
+   "path": "vie_Latn_3/train-00262-of-00421.parquet",
+   "size": 229875609,
+   "sha256": "6b4b26650809a9745b3af38d21119383a7c48eef6d76315473a6a52a60431fed"
+  },
+  {
+   "path": "vie_Latn_3/train-00263-of-00421.parquet",
+   "size": 230958343,
+   "sha256": "3d6889939cdf8c55ab3f46795edf28de999d2493d781d8bb8542d63013fdef81"
+  },
+  {
+   "path": "vie_Latn_3/train-00264-of-00421.parquet",
+   "size": 229672428,
+   "sha256": "ffa995844d3ca3f2507b8a17fe86bc6843832f4c6886f951aa7990d985c107e7"
+  },
+  {
+   "path": "vie_Latn_3/train-00265-of-00421.parquet",
+   "size": 231651216,
+   "sha256": "c7a9e9c7c7a0843b013d9449b17be28bec727a1e4fcdedffb1adc0efefe3898d"
+  },
+  {
+   "path": "vie_Latn_3/train-00266-of-00421.parquet",
+   "size": 231207091,
+   "sha256": "a05c149c3f18d443754fa6c3e8be2d4f7e19e08a1257af4babbff77a9c555e25"
+  },
+  {
+   "path": "vie_Latn_3/train-00267-of-00421.parquet",
+   "size": 231385019,
+   "sha256": "3b95961eb4169e135133c9957f102e783d2615ba2737d2a4749d6342cdaf38de"
+  },
+  {
+   "path": "vie_Latn_3/train-00268-of-00421.parquet",
+   "size": 230713400,
+   "sha256": "6e53edb1672fc34db40fb86001a1fa963e4f9bc62383ee3ca09be86054d8afa5"
+  },
+  {
+   "path": "vie_Latn_3/train-00269-of-00421.parquet",
+   "size": 229628068,
+   "sha256": "5527f5a1eada690da90d732e694c330d51048f16ecf2354d06f3bd24f6564679"
+  },
+  {
+   "path": "vie_Latn_3/train-00270-of-00421.parquet",
+   "size": 230876617,
+   "sha256": "dc9431ee6bf27edc489d26277d84069cfe89643a278b7bed7727ab478fee1702"
+  },
+  {
+   "path": "vie_Latn_3/train-00271-of-00421.parquet",
+   "size": 230537553,
+   "sha256": "1b821df01110b74a03c9e92b94fb1603dc04611b8ccb6cd939d87ceb76c72ddd"
+  },
+  {
+   "path": "vie_Latn_3/train-00272-of-00421.parquet",
+   "size": 230380062,
+   "sha256": "2276285277a96ea04f280c712a93ddbddee96df7f1bd7f0a73c0bb227499022d"
+  },
+  {
+   "path": "vie_Latn_3/train-00273-of-00421.parquet",
+   "size": 230709915,
+   "sha256": "998be7ee638414f17b1c6154c0d0a21e41f360cb8cf692bf28798618f72b8c35"
+  },
+  {
+   "path": "vie_Latn_3/train-00274-of-00421.parquet",
+   "size": 230802410,
+   "sha256": "cd70f3637b162503dfd1ad72c7223415b588a7efd4748c846993165749d14e98"
+  },
+  {
+   "path": "vie_Latn_3/train-00275-of-00421.parquet",
+   "size": 230995011,
+   "sha256": "82c36cb841a392faa4db94134b6cee3f63a9491634739034949622972999980b"
+  },
+  {
+   "path": "vie_Latn_3/train-00276-of-00421.parquet",
+   "size": 230784799,
+   "sha256": "78d1453246c2d8222efcd113bebbdbb2be83e8a913529db5f9f0829025e18cec"
+  },
+  {
+   "path": "vie_Latn_3/train-00277-of-00421.parquet",
+   "size": 230265711,
+   "sha256": "3a9566d5d21a621b4459eb6dd0fe6da7624a36d2b3878ffc09ae04a298424377"
+  },
+  {
+   "path": "vie_Latn_3/train-00278-of-00421.parquet",
+   "size": 230978451,
+   "sha256": "3f8db3796ac4d0709fd5c87dbc07c0e75a9d3514590a1aaf7278cc75a13de0ab"
+  },
+  {
+   "path": "vie_Latn_3/train-00279-of-00421.parquet",
+   "size": 230157547,
+   "sha256": "64b33150baae49c896dfdcdb14359b6e667645eb2d2751374e037ec915e0b4de"
+  },
+  {
+   "path": "vie_Latn_3/train-00280-of-00421.parquet",
+   "size": 230099218,
+   "sha256": "56c2f60469203ebd1996c018569635155775f137954e4f270dd8d3162c171217"
+  },
+  {
+   "path": "vie_Latn_3/train-00281-of-00421.parquet",
+   "size": 229186295,
+   "sha256": "d1d9656168f0a7c607582620e6db682300d1a14b2841bcb86369bfa9c11941f5"
+  },
+  {
+   "path": "vie_Latn_3/train-00282-of-00421.parquet",
+   "size": 231082563,
+   "sha256": "0f54c72e0ea0ee2fd318c5536fe32a20af44ad38863fa75f8604df4b9b59fc04"
+  },
+  {
+   "path": "vie_Latn_3/train-00283-of-00421.parquet",
+   "size": 230886444,
+   "sha256": "35ba8849f34b27ccce606d77114e01a8242a118d6d39fc160cafe5d1d9209f28"
+  },
+  {
+   "path": "vie_Latn_3/train-00284-of-00421.parquet",
+   "size": 229795161,
+   "sha256": "cbf5f2cf9e12f31617440191e829a308e79505b6b40034a00e7b04edcdb051f7"
+  },
+  {
+   "path": "vie_Latn_3/train-00285-of-00421.parquet",
+   "size": 230003616,
+   "sha256": "4af422f550fa78d3084d36084733227f1fb5bd2d2a89dec0c42a08e2545f5ffb"
+  },
+  {
+   "path": "vie_Latn_3/train-00286-of-00421.parquet",
+   "size": 229796661,
+   "sha256": "1153d339e26305068fcbadbeea5361c64b5953e20c2b4f63a9a8b5c6b4fd7bc0"
+  },
+  {
+   "path": "vie_Latn_3/train-00287-of-00421.parquet",
+   "size": 230773254,
+   "sha256": "3ad300f9b81c3441decfc2ed9028d2c31ceca95f09421e043f46f4e300b53fd3"
+  },
+  {
+   "path": "vie_Latn_3/train-00288-of-00421.parquet",
+   "size": 229689762,
+   "sha256": "8235599c558799617c162ce11473a7f50ec7728c5719791b4dbc7057f44d241b"
+  },
+  {
+   "path": "vie_Latn_3/train-00289-of-00421.parquet",
+   "size": 229728536,
+   "sha256": "6f75085c8ed1c8104633f96966d134e7ccb610dacffad9c244ca3733a976bf98"
+  },
+  {
+   "path": "vie_Latn_3/train-00290-of-00421.parquet",
+   "size": 229728380,
+   "sha256": "c62a9695406a948f4e399ad55f90d65aa4ffe17fa447e3ba78430210156d9f4c"
+  },
+  {
+   "path": "vie_Latn_3/train-00291-of-00421.parquet",
+   "size": 229315590,
+   "sha256": "76b8089e0f8e7ef304b017f01c768b6974ba8c52b5734ff307c8f66a1ad6450e"
+  },
+  {
+   "path": "vie_Latn_3/train-00292-of-00421.parquet",
+   "size": 231351227,
+   "sha256": "7115ba6eb1df8b5f195bba420dc32b49e6e44a11697d73b4d976adf4215239dc"
+  },
+  {
+   "path": "vie_Latn_3/train-00293-of-00421.parquet",
+   "size": 232305139,
+   "sha256": "1b8ef592dd6591baa43517df16f575a9d14ddc1bb5f2431ef7423852f975114b"
+  },
+  {
+   "path": "vie_Latn_3/train-00294-of-00421.parquet",
+   "size": 230450980,
+   "sha256": "ad73a1fa53f4fefc13e8ba428379129640ccf7310520ebbac86780bdd6f67967"
+  },
+  {
+   "path": "vie_Latn_3/train-00295-of-00421.parquet",
+   "size": 228348274,
+   "sha256": "6701e05fdbc17e3de61d1ae41ee019d00390b3d935d0f90f79210a8c934fb52e"
+  },
+  {
+   "path": "vie_Latn_3/train-00296-of-00421.parquet",
+   "size": 231975897,
+   "sha256": "88cf5c9701dbae32155b3c60aa27d71a3a8448155e46582e3beba30bfc97dd9d"
+  },
+  {
+   "path": "vie_Latn_3/train-00297-of-00421.parquet",
+   "size": 230838649,
+   "sha256": "6a3c13078d2ad86350a8df1f7bb2e82b8089877746c8ea52af3f89a42b8437a6"
+  },
+  {
+   "path": "vie_Latn_3/train-00298-of-00421.parquet",
+   "size": 229666855,
+   "sha256": "6ace24cebd6c182fa474dedc3b9255acd423c34a211525f45df203320a2e1291"
+  },
+  {
+   "path": "vie_Latn_3/train-00299-of-00421.parquet",
+   "size": 230462986,
+   "sha256": "7fe12e4540ab610cc89310ea501cfab2e83c0a7b3b9993a0b779e2d290499046"
+  },
+  {
+   "path": "vie_Latn_3/train-00300-of-00421.parquet",
+   "size": 229614230,
+   "sha256": "5b612d7ffbdef2886154551beb93e3b083a79b9db3f404bfb85416d85bc02385"
+  },
+  {
+   "path": "vie_Latn_3/train-00301-of-00421.parquet",
+   "size": 230331239,
+   "sha256": "96c42bcd138d5fea27099311b331a73843e8e0acb6def7dfff040d59af798180"
+  },
+  {
+   "path": "vie_Latn_3/train-00302-of-00421.parquet",
+   "size": 229407851,
+   "sha256": "cb30f2ea50b7393fcef5844812dc9c7563ab6b507268945c9a9abf241532056e"
+  },
+  {
+   "path": "vie_Latn_3/train-00303-of-00421.parquet",
+   "size": 228010523,
+   "sha256": "3121631417683ea8fe1dcf8cb1c7de38ebc99d1e8f66c0d2fbacb88471c12ca0"
+  },
+  {
+   "path": "vie_Latn_3/train-00304-of-00421.parquet",
+   "size": 229704542,
+   "sha256": "f4c4188131dfbaf6aec0949aab025689bc818c1e682602d9688593943e667a10"
+  },
+  {
+   "path": "vie_Latn_3/train-00305-of-00421.parquet",
+   "size": 228304590,
+   "sha256": "e3aa1d7c56dc3ab0048bb7ec417c0d552a47a877dcd70a0fc10e410c3f29437f"
+  },
+  {
+   "path": "vie_Latn_3/train-00306-of-00421.parquet",
+   "size": 229831320,
+   "sha256": "604396be24e5b22ba7d2cce234e5ddaf5e8b8d06c96e150db0f19c5d4803ccd2"
+  },
+  {
+   "path": "vie_Latn_3/train-00307-of-00421.parquet",
+   "size": 227739365,
+   "sha256": "e8135d04678aaf2e9d881eb595799b73815b1f0328b363b6f60ade58856fcb55"
+  },
+  {
+   "path": "vie_Latn_3/train-00308-of-00421.parquet",
+   "size": 229168702,
+   "sha256": "f78627f2fe57b9baaea67864ef6fc2a4dd6d13eb4c5a9a1a00c744548462e1af"
+  },
+  {
+   "path": "vie_Latn_3/train-00309-of-00421.parquet",
+   "size": 228784136,
+   "sha256": "c119265acbf44f89ebc7bacf6a3bca919ec3d44db27146bace97adad42362290"
+  },
+  {
+   "path": "vie_Latn_3/train-00310-of-00421.parquet",
+   "size": 229549715,
+   "sha256": "0d0884913a10de52800b2c4448c128bb3e28d46fd37c4db9db0065e77c943fd7"
+  },
+  {
+   "path": "vie_Latn_3/train-00311-of-00421.parquet",
+   "size": 230520658,
+   "sha256": "1465e00389fe8b199047db4dcaa19d016a19862585c88cacf436e11e09097369"
+  },
+  {
+   "path": "vie_Latn_3/train-00312-of-00421.parquet",
+   "size": 230087833,
+   "sha256": "0aeeb79118151ed4526487caea15a948c04a6427085561c038a3d84abbedcff8"
+  },
+  {
+   "path": "vie_Latn_3/train-00313-of-00421.parquet",
+   "size": 229293106,
+   "sha256": "56baba2e7ce85e36ce0d75338d7307ab01972686a0f4d220f350080521721dc3"
+  },
+  {
+   "path": "vie_Latn_3/train-00314-of-00421.parquet",
+   "size": 229819988,
+   "sha256": "286ce12ca0c7c5679e6cc77043aaced0a2ab0d817e3db3c72a2a02c904099610"
+  },
+  {
+   "path": "vie_Latn_3/train-00315-of-00421.parquet",
+   "size": 257071395,
+   "sha256": "dfd7e4cbb6722d6ea497556c548c8b39386d99d02a9dd25bfb9fba844809f682"
+  },
+  {
+   "path": "vie_Latn_3/train-00316-of-00421.parquet",
+   "size": 261191295,
+   "sha256": "af5c64b6d17f5b21e6d97cfae66b6aaea3a0c7e729097ae075d1aa7571a5e1bf"
+  },
+  {
+   "path": "vie_Latn_3/train-00317-of-00421.parquet",
+   "size": 260274996,
+   "sha256": "282580e8c27689a75c17be923d4450d88571a71af14f841b4142f1bf060661f2"
+  },
+  {
+   "path": "vie_Latn_3/train-00318-of-00421.parquet",
+   "size": 259551287,
+   "sha256": "9de9f7ab71233484a677ac59c2866e78b818ae6586242411224237084017415a"
+  },
+  {
+   "path": "vie_Latn_3/train-00319-of-00421.parquet",
+   "size": 259062269,
+   "sha256": "2e0991306689547b2afa7b3eeb3c10e0e16460978bb3656c18057a2b47b6531f"
+  },
+  {
+   "path": "vie_Latn_3/train-00320-of-00421.parquet",
+   "size": 260432008,
+   "sha256": "fab6565c49e6f5057813726968ebc258df5951d69a53500c36c430f5b5b92a94"
+  },
+  {
+   "path": "vie_Latn_3/train-00321-of-00421.parquet",
+   "size": 269447486,
+   "sha256": "addb6f454df2c567aa8369294a9964dc322fbf401956cbe80ecf6023fb035a3b"
+  },
+  {
+   "path": "vie_Latn_3/train-00322-of-00421.parquet",
+   "size": 259447144,
+   "sha256": "4d2391720fa53a614f1dd40f85685e46e0ae74e4a65a9e1c95f665dfa183d5e5"
+  },
+  {
+   "path": "vie_Latn_3/train-00323-of-00421.parquet",
+   "size": 200857903,
+   "sha256": "4cf93d4d74cefe9c44aaee615e49d9589287619ed4df3494531c2cdce68d7474"
+  },
+  {
+   "path": "vie_Latn_3/train-00324-of-00421.parquet",
+   "size": 203127280,
+   "sha256": "826a8e6cf10554ecfda6617b3bb73a899e5018685383545827468fb3174dde2c"
+  },
+  {
+   "path": "vie_Latn_3/train-00325-of-00421.parquet",
+   "size": 202840638,
+   "sha256": "12171318aa61a4ee2bff02c08ab69ad214efbe81cdf36742f082a74b367cd925"
+  },
+  {
+   "path": "vie_Latn_3/train-00326-of-00421.parquet",
+   "size": 200951292,
+   "sha256": "52aab3d0765957fe4516707d33ff4619bde2d834c243bd9d98d70131fc67cfdd"
+  },
+  {
+   "path": "vie_Latn_3/train-00327-of-00421.parquet",
+   "size": 202408645,
+   "sha256": "c473261949edf8a3f711ee59ab83dfef5cdf29c7c05942aebec6c6be646730bf"
+  },
+  {
+   "path": "vie_Latn_3/train-00328-of-00421.parquet",
+   "size": 206320642,
+   "sha256": "067deb737f8e15be19ab44de0c9221a2aa3511476457385b77243333ad9ab032"
+  },
+  {
+   "path": "vie_Latn_3/train-00329-of-00421.parquet",
+   "size": 204221675,
+   "sha256": "bdea3d6b346c2e484f23d44d4da48a26b9b42f1a0ad9c9f6bd74980a04f8c84f"
+  },
+  {
+   "path": "vie_Latn_3/train-00330-of-00421.parquet",
+   "size": 203280379,
+   "sha256": "7d6e9ff13cf16e47115829ba5048786c37b0ccd7296cf5a3df2ab7a4a693e966"
+  },
+  {
+   "path": "vie_Latn_3/train-00331-of-00421.parquet",
+   "size": 253692840,
+   "sha256": "720eb90073b54e2c041670c69b32644a871bd83af70b5a5207664ed88612be20"
+  },
+  {
+   "path": "vie_Latn_3/train-00332-of-00421.parquet",
+   "size": 254446380,
+   "sha256": "96e3c4608982ad441733c9ca7ba5a2dd70ef846574fa30059d85df314f238646"
+  },
+  {
+   "path": "vie_Latn_3/train-00333-of-00421.parquet",
+   "size": 250210365,
+   "sha256": "fca15fc6f4a11350b737734967743d86896a261009c8055122e43a7abd2c19c6"
+  },
+  {
+   "path": "vie_Latn_3/train-00334-of-00421.parquet",
+   "size": 252263296,
+   "sha256": "30e7c1d242c725c30c8f69c1762ab79c09128b1e709d4fb2d0ae871e9c85db99"
+  },
+  {
+   "path": "vie_Latn_3/train-00335-of-00421.parquet",
+   "size": 251083117,
+   "sha256": "f7c172fdae5db221aa6ef6cad7fd614924eda9b885b8fd3b360fee72d4ef4756"
+  },
+  {
+   "path": "vie_Latn_3/train-00336-of-00421.parquet",
+   "size": 249807192,
+   "sha256": "f123709d8e15d09a70313c056fa777f334efbcc156e86f5e04f55b174804f733"
+  },
+  {
+   "path": "vie_Latn_3/train-00337-of-00421.parquet",
+   "size": 251543986,
+   "sha256": "612e3432fa362e5c509180cec646295558c28d5f0e6a465d251bec836398a6bd"
+  },
+  {
+   "path": "vie_Latn_3/train-00338-of-00421.parquet",
+   "size": 256086684,
+   "sha256": "d4ab190fe3485a0f536d977e0c0838aac6ba1ae47fe52cc2827b684d25ec45c2"
+  },
+  {
+   "path": "vie_Latn_3/train-00339-of-00421.parquet",
+   "size": 247449764,
+   "sha256": "7871300f97c185646703fb53cedfff66a3fa58560140cac0583280b5de87ba58"
+  },
+  {
+   "path": "vie_Latn_3/train-00340-of-00421.parquet",
+   "size": 251087416,
+   "sha256": "a042b7b2993eee086c39a6f5418395d62531898ff28a82ccc98920ea1abc0d90"
+  },
+  {
+   "path": "vie_Latn_3/train-00341-of-00421.parquet",
+   "size": 246205198,
+   "sha256": "c1aa7661e0d1ae45563c63067d34f414faa7328ebc48facc8996c98f70692918"
+  },
+  {
+   "path": "vie_Latn_3/train-00342-of-00421.parquet",
+   "size": 246618600,
+   "sha256": "451e43e2f4d0d7e5a12d4d82d610bcb27258b1cbb5e650edc7ad9c36eff0ab22"
+  },
+  {
+   "path": "vie_Latn_3/train-00343-of-00421.parquet",
+   "size": 250147503,
+   "sha256": "dbca059cff285a72d0b51ce97f9e35c454c7255176982dad7e0a46124d1cfc9a"
+  },
+  {
+   "path": "vie_Latn_3/train-00344-of-00421.parquet",
+   "size": 253829574,
+   "sha256": "50271eb47f578a8a9e6712a917f2856e662af7c66b198ee9688b4d209fd43b62"
+  },
+  {
+   "path": "vie_Latn_3/train-00345-of-00421.parquet",
+   "size": 252145019,
+   "sha256": "2b7a457d79bcab9a4e9cd5ce1c9a7493f7faf38b3c002b3cfadfc848671cc081"
+  },
+  {
+   "path": "vie_Latn_3/train-00346-of-00421.parquet",
+   "size": 247568439,
+   "sha256": "98c59b7da02339b067dce43a1b1d14d615b7ab24f82758bec7553feaed84f0fe"
+  },
+  {
+   "path": "vie_Latn_3/train-00347-of-00421.parquet",
+   "size": 254568378,
+   "sha256": "60e90e081ed0d4451905ad59f47d076281caa151fe5b493749e3952c383ed141"
+  },
+  {
+   "path": "vie_Latn_3/train-00348-of-00421.parquet",
+   "size": 249094613,
+   "sha256": "dd8701f1f259814b8b3a96d5e6fbb942a481ca2b98a5ee17b57835de28387b89"
+  },
+  {
+   "path": "vie_Latn_3/train-00349-of-00421.parquet",
+   "size": 239490352,
+   "sha256": "f481db608e96506a1162d08aa36fb44a27a787477b1f9c753728811151bad9ec"
+  },
+  {
+   "path": "vie_Latn_3/train-00350-of-00421.parquet",
+   "size": 228981368,
+   "sha256": "407ba658c5ae8851fe398f74d263729a84083c7e494b8951ee10334b8d9c4ea7"
+  },
+  {
+   "path": "vie_Latn_3/train-00351-of-00421.parquet",
+   "size": 230565937,
+   "sha256": "afc503745d4da7114ae742bfe220a8cc16655f6f633a04ec0829e1a36e2efcf7"
+  },
+  {
+   "path": "vie_Latn_3/train-00352-of-00421.parquet",
+   "size": 225811142,
+   "sha256": "54295ec8ee8fa8dcec7155abd710464bb66070b1c6bbbd6ce35f7655570e3020"
+  },
+  {
+   "path": "vie_Latn_3/train-00353-of-00421.parquet",
+   "size": 227221699,
+   "sha256": "0ebaad6ec797f55b50e631512ce286af5eb84bf8f3f07a70ed17c4ca2e05a6cc"
+  },
+  {
+   "path": "vie_Latn_3/train-00354-of-00421.parquet",
+   "size": 229774562,
+   "sha256": "0c286c047e866222bd160d5186224077f9a9ae1076caa42da0c1f2d83b001d32"
+  },
+  {
+   "path": "vie_Latn_3/train-00355-of-00421.parquet",
+   "size": 232211603,
+   "sha256": "82e91e915d12ee11b5ddb1b4d9e445b5e35a4b801472bf05f25502d5bdc73330"
+  },
+  {
+   "path": "vie_Latn_3/train-00356-of-00421.parquet",
+   "size": 230768632,
+   "sha256": "2191a26a9c2877044bc730449b14b4a29419a9ebef683aff7cdffefb59811314"
+  },
+  {
+   "path": "vie_Latn_3/train-00357-of-00421.parquet",
+   "size": 228311001,
+   "sha256": "99a911ae45fdb918052f963dec82564dfe270c0025369cb6eca1277b060accf6"
+  },
+  {
+   "path": "vie_Latn_3/train-00358-of-00421.parquet",
+   "size": 229730739,
+   "sha256": "a1a65156c39e284f14b6df0955fbe970e08c79a616f556206b46a61af7b9ab46"
+  },
+  {
+   "path": "vie_Latn_3/train-00359-of-00421.parquet",
+   "size": 227072120,
+   "sha256": "8a60178e1ef7261f04400479279d1cfbab4119ccd113884ac7afbba69c61eff8"
+  },
+  {
+   "path": "vie_Latn_3/train-00360-of-00421.parquet",
+   "size": 228191252,
+   "sha256": "19cad9a800d40024c964f513ae96f0bc5d18901b1fa57df79eef1a62c3a7e316"
+  },
+  {
+   "path": "vie_Latn_3/train-00361-of-00421.parquet",
+   "size": 228684163,
+   "sha256": "eb5baf53c4842e27ec98f59c5f8e582896b15c5363df76275fb62a7b46bdab41"
+  },
+  {
+   "path": "vie_Latn_3/train-00362-of-00421.parquet",
+   "size": 230039706,
+   "sha256": "ff9d41e303775d3f075a2a8dabd393bdbdaf8a811ac5b96930d80af4d02b82e9"
+  },
+  {
+   "path": "vie_Latn_3/train-00363-of-00421.parquet",
+   "size": 225336360,
+   "sha256": "c7213c65408c44711b954dadb96577b516d4e221c82c8909414a2e923287be7d"
+  },
+  {
+   "path": "vie_Latn_3/train-00364-of-00421.parquet",
+   "size": 226946810,
+   "sha256": "4acd7417894f119495d6940e6cc75c95fa769f01bfb2bc94b085681ad2b1a897"
+  },
+  {
+   "path": "vie_Latn_3/train-00365-of-00421.parquet",
+   "size": 227512437,
+   "sha256": "add40b31d8003a3f1a104866c2c58f093d9be12e764d6e5cff7ae90592070298"
+  },
+  {
+   "path": "vie_Latn_3/train-00366-of-00421.parquet",
+   "size": 228376836,
+   "sha256": "9cb21dc4b56a28d9a0d907de24b0cca67127c004286b612e99b8a1b56a059555"
+  },
+  {
+   "path": "vie_Latn_3/train-00367-of-00421.parquet",
+   "size": 229855083,
+   "sha256": "0666b9f76dda4fb36d8a75ce90629e480c677a6e153627a6350813e2ba4e440b"
+  },
+  {
+   "path": "vie_Latn_3/train-00368-of-00421.parquet",
+   "size": 227150484,
+   "sha256": "72a1db94ea6b0a3272ed0bb01d34686d795a9edf3aee310e236ebf00e56bdcb1"
+  },
+  {
+   "path": "vie_Latn_3/train-00369-of-00421.parquet",
+   "size": 226972694,
+   "sha256": "62e1d156405aa14d5bd744ee1b77560d6c4ba0f6e43daa9e93bc738eb1442331"
+  },
+  {
+   "path": "vie_Latn_3/train-00370-of-00421.parquet",
+   "size": 228806772,
+   "sha256": "2279a34564ee7ea56db7f7a5292cd60d6d37541ed3d91eae3d1bb6e0a87107da"
+  },
+  {
+   "path": "vie_Latn_3/train-00371-of-00421.parquet",
+   "size": 225916503,
+   "sha256": "47698d89c7a4e3fbfac0dbd4e7186ae1c4366067bd9fca733a442b43e534cc80"
+  },
+  {
+   "path": "vie_Latn_3/train-00372-of-00421.parquet",
+   "size": 227124404,
+   "sha256": "3ce90dd4252c20706827aadc9bab5864eb4cd61487bc68e7a8e24fbebf9bcb70"
+  },
+  {
+   "path": "vie_Latn_3/train-00373-of-00421.parquet",
+   "size": 225352400,
+   "sha256": "c6f0233ef877953defc416be4fddb8558b3d16f9ba2cdbaef5b3d9f2b38049e7"
+  },
+  {
+   "path": "vie_Latn_3/train-00374-of-00421.parquet",
+   "size": 226818087,
+   "sha256": "ca3f20838ed93d26a2c4457b48d4034711d32b58d58a6d05463edf1cf60bf12d"
+  },
+  {
+   "path": "vie_Latn_3/train-00375-of-00421.parquet",
+   "size": 227741073,
+   "sha256": "0099ec1e58f05b1855a2aaaff11a962ade184af55d0c674a865f07f370146288"
+  },
+  {
+   "path": "vie_Latn_3/train-00376-of-00421.parquet",
+   "size": 227060160,
+   "sha256": "074948596283aa38c988b5eb96657e990ddafd235415eda95bac97eb79e9c640"
+  },
+  {
+   "path": "vie_Latn_3/train-00377-of-00421.parquet",
+   "size": 226753434,
+   "sha256": "715522a720a045ad6fcce5d6a954ceae1c6cf0aedfd3bba11b8e80e0ce0a4ae3"
+  },
+  {
+   "path": "vie_Latn_3/train-00378-of-00421.parquet",
+   "size": 228054903,
+   "sha256": "2c31559f3ce0efa359f3d483bc6b565ff1753a265b690c0b9ee573b1a098d4ef"
+  },
+  {
+   "path": "vie_Latn_3/train-00379-of-00421.parquet",
+   "size": 227172772,
+   "sha256": "001b9c5a7c4e31eb865cfea5c1dd891364b5c02bb510773f2bca7258d1cc295e"
+  },
+  {
+   "path": "vie_Latn_3/train-00380-of-00421.parquet",
+   "size": 227588181,
+   "sha256": "14d2fac12ec2b36872e84147a0ff9a7293c6218cce5b78324678d590e6e80605"
+  },
+  {
+   "path": "vie_Latn_3/train-00381-of-00421.parquet",
+   "size": 226008828,
+   "sha256": "e6570865364688638b97a4d8b5819cf608023eae1301401afa96335dc6bfcd33"
+  },
+  {
+   "path": "vie_Latn_3/train-00382-of-00421.parquet",
+   "size": 225125943,
+   "sha256": "f6aa875793741ca0674fc6d66c1191c06eee20e47529891da007d7b91e99d2b5"
+  },
+  {
+   "path": "vie_Latn_3/train-00383-of-00421.parquet",
+   "size": 226460402,
+   "sha256": "0a143aa1df0fcdb82be20e010d0c19b6010a3ac978e3190eab558174a0b58286"
+  },
+  {
+   "path": "vie_Latn_3/train-00384-of-00421.parquet",
+   "size": 228423987,
+   "sha256": "75cf555c1d5ad466206b9dc7deb052c2ce6e24d5f5cc9fb9031428407a4cd380"
+  },
+  {
+   "path": "vie_Latn_3/train-00385-of-00421.parquet",
+   "size": 225164101,
+   "sha256": "bfc463511067f2fdb48f22f1d9189740874ace9c21f5d623bf6b5dfd68530b6b"
+  },
+  {
+   "path": "vie_Latn_3/train-00386-of-00421.parquet",
+   "size": 227033074,
+   "sha256": "b483990973dce49e050ef9b728b115c0b95ec89361264acd8ca19f2555a2b352"
+  },
+  {
+   "path": "vie_Latn_3/train-00387-of-00421.parquet",
+   "size": 227123920,
+   "sha256": "8e8b8ac803489b22a85f0d06a9c1d1a5caaaa7655e7da948fd15db50a678bdc9"
+  },
+  {
+   "path": "vie_Latn_3/train-00388-of-00421.parquet",
+   "size": 224796517,
+   "sha256": "0070334e4cb902de587cd4f74fcfa78d0ab71143c928ded67a168d5fe054b9b5"
+  },
+  {
+   "path": "vie_Latn_3/train-00389-of-00421.parquet",
+   "size": 224825515,
+   "sha256": "3cdf8b1ef95f4bfd2ca51e5b851236e61f1d313ee454b1227226fc46a02ac309"
+  },
+  {
+   "path": "vie_Latn_3/train-00390-of-00421.parquet",
+   "size": 221593850,
+   "sha256": "709ae048ecfe41bc219028f1232a294dae3e363830fb57c0c3181e189bc04d5a"
+  },
+  {
+   "path": "vie_Latn_3/train-00391-of-00421.parquet",
+   "size": 224822915,
+   "sha256": "5b883bb86586adf83472b717682b646b840dfa2952b4d2d49077273b2a13a90b"
+  },
+  {
+   "path": "vie_Latn_3/train-00392-of-00421.parquet",
+   "size": 226966872,
+   "sha256": "d091f6f174ad3353cd49aa3e523eb839a0be743e14acd69fc272fcd9ddd5aebd"
+  },
+  {
+   "path": "vie_Latn_3/train-00393-of-00421.parquet",
+   "size": 224155463,
+   "sha256": "b63c4b60eab6997656c9aea56c846b222a5d365529ee1af438ee4621181bf36b"
+  },
+  {
+   "path": "vie_Latn_3/train-00394-of-00421.parquet",
+   "size": 222885083,
+   "sha256": "90767ebf1c4494c5a65a6b79e5f663453da6988f0c1952f1f077fa311bba1af5"
+  },
+  {
+   "path": "vie_Latn_3/train-00395-of-00421.parquet",
+   "size": 225478888,
+   "sha256": "acb98748f697a44ed33e1553adbd541937fa197f6f1f97780aa2bebe39c25a83"
+  },
+  {
+   "path": "vie_Latn_3/train-00396-of-00421.parquet",
+   "size": 226400773,
+   "sha256": "3dff613f4103faf69a5d7c53fd663cfc07d580dfc65d613e3673a2b87a27131d"
+  },
+  {
+   "path": "vie_Latn_3/train-00397-of-00421.parquet",
+   "size": 219174982,
+   "sha256": "afd7a68bb6651dae957d1b6e40fbfd5043df21b7a32e2bdeedbc5aa54e0af603"
+  },
+  {
+   "path": "vie_Latn_3/train-00398-of-00421.parquet",
+   "size": 224168790,
+   "sha256": "3ddcff61ff120c0c331c55dd7bed63ac1488c8f36f3e3ad0789738c7ef9ceced"
+  },
+  {
+   "path": "vie_Latn_3/train-00399-of-00421.parquet",
+   "size": 223950560,
+   "sha256": "925ea6a3b339ced58e1e1e2d0d77e27783b4b1b2bbe2c78b33f6c9d4aa1d4df9"
+  },
+  {
+   "path": "vie_Latn_3/train-00400-of-00421.parquet",
+   "size": 224453389,
+   "sha256": "f3910f951c5e74b4f64d37dbf5d4540d3543fefc2bc9c7c6bd50cdb03110e3d3"
+  },
+  {
+   "path": "vie_Latn_3/train-00401-of-00421.parquet",
+   "size": 223279837,
+   "sha256": "eeb902087ba34820e9a0797113c70922a330baf85227957b3f7d5b93d0e75781"
+  },
+  {
+   "path": "vie_Latn_3/train-00402-of-00421.parquet",
+   "size": 224151255,
+   "sha256": "e92197e74b892e3a037bc727ddcb8cee269c7b0cc22f08a651382f679633b240"
+  },
+  {
+   "path": "vie_Latn_3/train-00403-of-00421.parquet",
+   "size": 223893554,
+   "sha256": "2abd4a6a511e95a042fc61d9df26609d73c082f61fcac4608e71c90af9172826"
+  },
+  {
+   "path": "vie_Latn_3/train-00404-of-00421.parquet",
+   "size": 223745211,
+   "sha256": "32bec632d084426ced89e0fdf5267facf853492e13781523b05f60ce9a76d860"
+  },
+  {
+   "path": "vie_Latn_3/train-00405-of-00421.parquet",
+   "size": 222278571,
+   "sha256": "58c5c17722fc62ddeaf0dc8c2f57db27eb893763cbea5bdb0b44afb3ce162412"
+  },
+  {
+   "path": "vie_Latn_3/train-00406-of-00421.parquet",
+   "size": 226822385,
+   "sha256": "44506c67a5d1a10d06905cb8e651b9a6b738ae9cb8373a8b6720e4c99fa29fb2"
+  },
+  {
+   "path": "vie_Latn_3/train-00407-of-00421.parquet",
+   "size": 220433482,
+   "sha256": "fc5fbba9f6a76e8e57eae61c187a376de10f244c581b64963e1fa8c24bdbf4c8"
+  },
+  {
+   "path": "vie_Latn_3/train-00408-of-00421.parquet",
+   "size": 223273159,
+   "sha256": "3e366edaa39aaf0fc68be64902effb828c242cdf0e8d8248e9b378422f806aa9"
+  },
+  {
+   "path": "vie_Latn_3/train-00409-of-00421.parquet",
+   "size": 222953526,
+   "sha256": "d4b85bcfe65177f9ac4718abd47d4ab227e306021505eaf10f4dd3f11f92cda9"
+  },
+  {
+   "path": "vie_Latn_3/train-00410-of-00421.parquet",
+   "size": 221036133,
+   "sha256": "527f6a9d267856a71ff6560f812a7d36ffb107e67785b9049ef5cb6e2dda1a7b"
+  },
+  {
+   "path": "vie_Latn_3/train-00411-of-00421.parquet",
+   "size": 223979183,
+   "sha256": "8d2f06406dc1335fc0ae77e85484a9b95d9638df16f1b6e07eb76d3a520a02fd"
+  },
+  {
+   "path": "vie_Latn_3/train-00412-of-00421.parquet",
+   "size": 226121129,
+   "sha256": "35f54ae894546ef64efe97f29eb2150d0cf5156cd2e293823c391adb36fdfc61"
+  },
+  {
+   "path": "vie_Latn_3/train-00413-of-00421.parquet",
+   "size": 222081937,
+   "sha256": "2d61670283cbac236340dd937af4d8baec2964411b5ecb9f24ac3e635c3c3b22"
+  },
+  {
+   "path": "vie_Latn_3/train-00414-of-00421.parquet",
+   "size": 221408280,
+   "sha256": "f4b2b1530a216ac7e13b7d462263cb175ac50d21bd5d392a4d63b9faf61dfa20"
+  },
+  {
+   "path": "vie_Latn_3/train-00415-of-00421.parquet",
+   "size": 226470077,
+   "sha256": "c3b219127f8a89cef2045f978a942415193e99aba3178cb23a16980da1f02f31"
+  },
+  {
+   "path": "vie_Latn_3/train-00416-of-00421.parquet",
+   "size": 223255406,
+   "sha256": "e2e96d740d0bbc95d65955debd2daa22058056bcf3c45ac84f4b093cd42e6558"
+  },
+  {
+   "path": "vie_Latn_3/train-00417-of-00421.parquet",
+   "size": 224114599,
+   "sha256": "6287ca4adab718d158e6935a7707ba25bd22292ca8f91e4329af8cbc2f04a0dd"
+  },
+  {
+   "path": "vie_Latn_3/train-00418-of-00421.parquet",
+   "size": 223713679,
+   "sha256": "7fd26e0ce72f3a374e5686556782d3c3e561b4d57c3bd3e0f6a98801a19515c1"
+  },
+  {
+   "path": "vie_Latn_3/train-00419-of-00421.parquet",
+   "size": 222128668,
+   "sha256": "9ca9f07e620667f3f2d8a0e3730f1deaafdb6f28025b4b9f453311c57e8006eb"
+  },
+  {
+   "path": "vie_Latn_3/train-00420-of-00421.parquet",
+   "size": 223006586,
+   "sha256": "ce9e9a6821cbb5e6849b649e621b031b26c682aa1748ab73d07a99e16a7e3696"
+  },
+  {
+   "path": "vie_Latn_4/train-00000-of-00263.parquet",
+   "size": 251503791,
+   "sha256": "9032ee29119d2f0b4a70b927a1531880643613e041be8d246bc5ff1f8f940387"
+  },
+  {
+   "path": "vie_Latn_4/train-00001-of-00263.parquet",
+   "size": 251523466,
+   "sha256": "52194231ec8b555316e54906a8408ba6d818bfbe2474f84d4c257c4e32b835d1"
+  },
+  {
+   "path": "vie_Latn_4/train-00002-of-00263.parquet",
+   "size": 251449353,
+   "sha256": "750d198e49849f2bc1bc9f6bf08aa0defbfee6aa0154025142357d56a58c9847"
+  },
+  {
+   "path": "vie_Latn_4/train-00003-of-00263.parquet",
+   "size": 248093143,
+   "sha256": "884665ce602ce5a63b201876735c6cb69ebdcc956034b0e6ecb19ab6a031b9c5"
+  },
+  {
+   "path": "vie_Latn_4/train-00004-of-00263.parquet",
+   "size": 254824988,
+   "sha256": "4c8879fd997a7ca49b38320a20690349d18a7d3a03372732b2490f12db4c10cc"
+  },
+  {
+   "path": "vie_Latn_4/train-00005-of-00263.parquet",
+   "size": 249709519,
+   "sha256": "a9decadb73db783b157fa9097eae15bdfb7845b383346af12417ac7fbe73c031"
+  },
+  {
+   "path": "vie_Latn_4/train-00006-of-00263.parquet",
+   "size": 249226631,
+   "sha256": "12db5000999ab9f404100697e3d2170da43830ba319e75d875a8094bc0f283c7"
+  },
+  {
+   "path": "vie_Latn_4/train-00007-of-00263.parquet",
+   "size": 250360577,
+   "sha256": "6bb1b50600b5bfdf76c03e21b62cff1895cc543aa68e4b8f0990556d972b0b8a"
+  },
+  {
+   "path": "vie_Latn_4/train-00008-of-00263.parquet",
+   "size": 252595187,
+   "sha256": "12cf50ccb89b30fc951d7ab58e7b4ab8365cbca34a80aed87f346f521aff740b"
+  },
+  {
+   "path": "vie_Latn_4/train-00009-of-00263.parquet",
+   "size": 245980881,
+   "sha256": "b3a0177ec45f969ce71204909a11b924d42a9cd981b41495e0c0ffb6f8226198"
+  },
+  {
+   "path": "vie_Latn_4/train-00010-of-00263.parquet",
+   "size": 250650587,
+   "sha256": "fe5f5a7d8b2ef26dafb4af769852896a00ec7541d8f83333b5ef681ccda843a2"
+  },
+  {
+   "path": "vie_Latn_4/train-00011-of-00263.parquet",
+   "size": 249733970,
+   "sha256": "902e65f357c1a31ee4241189193f563112d3a335fb9175093aec5ba0f3233a84"
+  },
+  {
+   "path": "vie_Latn_4/train-00012-of-00263.parquet",
+   "size": 248742731,
+   "sha256": "5b9fa7cc2d63f94105af7593d3c792c5554ac364b0f4f12a4fd07da32d065962"
+  },
+  {
+   "path": "vie_Latn_4/train-00013-of-00263.parquet",
+   "size": 249813692,
+   "sha256": "1dbabd89c89419005befad474ea8dd9a2d995cd26e7e5690a9e45abafb490b71"
+  },
+  {
+   "path": "vie_Latn_4/train-00014-of-00263.parquet",
+   "size": 248348788,
+   "sha256": "4499205e71d8e7103b7bf741d0820ab8537bec95442a784fefa31d35993919f5"
+  },
+  {
+   "path": "vie_Latn_4/train-00015-of-00263.parquet",
+   "size": 247029642,
+   "sha256": "2634dd2c01d7f3a06a4878bf5a322311c2f10fad26ebdc5cf3b1a7d041c9609a"
+  },
+  {
+   "path": "vie_Latn_4/train-00016-of-00263.parquet",
+   "size": 244429941,
+   "sha256": "93f3b4a26a80e193f56af00739b358d28fffd22fa248fe500190ff538a27a51d"
+  },
+  {
+   "path": "vie_Latn_4/train-00017-of-00263.parquet",
+   "size": 249056564,
+   "sha256": "6fea4d047549502bcef64b459667bf6837d1c2eef89c9c095072f65114cb0cd1"
+  },
+  {
+   "path": "vie_Latn_4/train-00018-of-00263.parquet",
+   "size": 249719702,
+   "sha256": "260821799ca3978528f0ae2b9404092f33028b3fd065ad0927ec2b842b92ad08"
+  },
+  {
+   "path": "vie_Latn_4/train-00019-of-00263.parquet",
+   "size": 244638273,
+   "sha256": "9e55e8d3f13435d4d63d4b2e2753d8037b6a070dc1619ad2b3f274c23f369e8c"
+  },
+  {
+   "path": "vie_Latn_4/train-00020-of-00263.parquet",
+   "size": 248989708,
+   "sha256": "f3c58e4ea2a919f6a11d22de8c0917da61f957825597d8914d57a081de8f5204"
+  },
+  {
+   "path": "vie_Latn_4/train-00021-of-00263.parquet",
+   "size": 245110355,
+   "sha256": "f45f814365b80e469efce63babde7a39cb7856e2cd152448fb8a8c6bd89efec3"
+  },
+  {
+   "path": "vie_Latn_4/train-00022-of-00263.parquet",
+   "size": 246925747,
+   "sha256": "e5f38471b934a2782bff635367a32599632c968bb623ea26143b6072fb38c7f8"
+  },
+  {
+   "path": "vie_Latn_4/train-00023-of-00263.parquet",
+   "size": 248631777,
+   "sha256": "d2b0f8a72e3a698b3174b6e141a6e2cc9c8cd13cbf2797e8c86b36326dfac1e0"
+  },
+  {
+   "path": "vie_Latn_4/train-00024-of-00263.parquet",
+   "size": 248127773,
+   "sha256": "606cbafb02d66472768844884f5fcb2cd9eb7ba272c7ec5475ea33a9ba9522e4"
+  },
+  {
+   "path": "vie_Latn_4/train-00025-of-00263.parquet",
+   "size": 246570379,
+   "sha256": "47bc836e29cc1d5e13f6b63f7fa8f32e421cce3ba3ca364256a344415717a932"
+  },
+  {
+   "path": "vie_Latn_4/train-00026-of-00263.parquet",
+   "size": 247752882,
+   "sha256": "b0f5cc3c2bf56bc935e1b547f0d49412dc56809845c7d12f4d172d9a24e62e87"
+  },
+  {
+   "path": "vie_Latn_4/train-00027-of-00263.parquet",
+   "size": 242875489,
+   "sha256": "b0535da636b66d281e94f7fdb90541f2137aa791ac1219d0e0dcfc4bb44f1786"
+  },
+  {
+   "path": "vie_Latn_4/train-00028-of-00263.parquet",
+   "size": 245025372,
+   "sha256": "34ae9b7bc3cb8fd4f8a1d573e99d37bb87a596b4a90e36c90a1a2ab79a9d9cd8"
+  },
+  {
+   "path": "vie_Latn_4/train-00029-of-00263.parquet",
+   "size": 245327968,
+   "sha256": "5485324da3a5be62e4e85725ed7075d4519387ff289feaa9edd9c232ff2b84ee"
+  },
+  {
+   "path": "vie_Latn_4/train-00030-of-00263.parquet",
+   "size": 244951928,
+   "sha256": "5dd344a6a3a2728ef0117ef266fc64eca39bd053d75ebb9f1646d8426b272273"
+  },
+  {
+   "path": "vie_Latn_4/train-00031-of-00263.parquet",
+   "size": 243695719,
+   "sha256": "f5b88872af2f96f137a79ab6c3ad58fe3b217f424edcfbeb110858b9cce268bf"
+  },
+  {
+   "path": "vie_Latn_4/train-00032-of-00263.parquet",
+   "size": 245280500,
+   "sha256": "066e173a4db09dafb105876eba0052641ebfa9191912e284f822b78ea38d1b8d"
+  },
+  {
+   "path": "vie_Latn_4/train-00033-of-00263.parquet",
+   "size": 244956546,
+   "sha256": "f361c6b6391ff7f7987559810d456e1ed66440a761e656fa022be94273d38624"
+  },
+  {
+   "path": "vie_Latn_4/train-00034-of-00263.parquet",
+   "size": 241555361,
+   "sha256": "9f9ebcf00812a7da190990ce6fff6a1870436a58636398f96183aa6c9cca76d8"
+  },
+  {
+   "path": "vie_Latn_4/train-00035-of-00263.parquet",
+   "size": 243272003,
+   "sha256": "f271d72c6583d44125dadbd929283a09a651630d1689e3bfd3d48ca5b5714b01"
+  },
+  {
+   "path": "vie_Latn_4/train-00036-of-00263.parquet",
+   "size": 243595272,
+   "sha256": "6373119847d875ce2fbe933a21f6460e9f7e243263cba5e9d5602af72b187952"
+  },
+  {
+   "path": "vie_Latn_4/train-00037-of-00263.parquet",
+   "size": 243834896,
+   "sha256": "1683136d38722a212e133d0e36cde411ee128c4d290e1c87bfe94b44f81286ae"
+  },
+  {
+   "path": "vie_Latn_4/train-00038-of-00263.parquet",
+   "size": 241674200,
+   "sha256": "84525e8d69e7e4e999985236c9fe37920e31e8309657f24e20f05262e33940cd"
+  },
+  {
+   "path": "vie_Latn_4/train-00039-of-00263.parquet",
+   "size": 243431521,
+   "sha256": "dfe53974b42794b0a0bc21fc13f1c249b6c40afc7f7b55a3e0b66ecd8b7bb66e"
+  },
+  {
+   "path": "vie_Latn_4/train-00040-of-00263.parquet",
+   "size": 245417664,
+   "sha256": "ce4ee6845d2c49ceffe99e1e7859c877caa51a5f241a14f2362f832983ce301f"
+  },
+  {
+   "path": "vie_Latn_4/train-00041-of-00263.parquet",
+   "size": 242988375,
+   "sha256": "afa54bc47eca70e4c6d216715bbe04a02687b06924d29192be232c9a8790578d"
+  },
+  {
+   "path": "vie_Latn_4/train-00042-of-00263.parquet",
+   "size": 243235688,
+   "sha256": "81d4d89a48fcdcb71ffa79063c14e251e2ec175d77d3e183e6c470807520cfec"
+  },
+  {
+   "path": "vie_Latn_4/train-00043-of-00263.parquet",
+   "size": 240045777,
+   "sha256": "457db75980fe91cbd1c2f4318675e74559e1fc850088fce12618d329ed0b90e3"
+  },
+  {
+   "path": "vie_Latn_4/train-00044-of-00263.parquet",
+   "size": 239588102,
+   "sha256": "75d22587cf6f1145613f1195a5e922967b80ce6ce704afde2f348299e5b1cb26"
+  },
+  {
+   "path": "vie_Latn_4/train-00045-of-00263.parquet",
+   "size": 243112715,
+   "sha256": "f1c5aaefd1bd47293b8b0c2634823bd1db90d8f3e6871c0bf18a7939b79be713"
+  },
+  {
+   "path": "vie_Latn_4/train-00046-of-00263.parquet",
+   "size": 242155002,
+   "sha256": "3684605a15c7956e22fad4be088b7dbbbd0d3eb6e8c9221c5aee22be10d9ab79"
+  },
+  {
+   "path": "vie_Latn_4/train-00047-of-00263.parquet",
+   "size": 242417595,
+   "sha256": "1ea69643d47b731e50fdc8d43a36321d9eeb3b974dd357359c501f6c7dbebb7f"
+  },
+  {
+   "path": "vie_Latn_4/train-00048-of-00263.parquet",
+   "size": 239268983,
+   "sha256": "61695e50eb4266fa2fd2c93a3edd897de33300f56a4e5ad03ae7473e22f3f213"
+  },
+  {
+   "path": "vie_Latn_4/train-00049-of-00263.parquet",
+   "size": 242451539,
+   "sha256": "9d8e1ef0ef29aa6c364fc9c2de2dfd4bbb093bea30420beb8dcd7020a1180183"
+  },
+  {
+   "path": "vie_Latn_4/train-00050-of-00263.parquet",
+   "size": 241239781,
+   "sha256": "7972ffd3c480981d65b1d97994305f79669a08982f86a6980153cbbf6841b0ae"
+  },
+  {
+   "path": "vie_Latn_4/train-00051-of-00263.parquet",
+   "size": 239013885,
+   "sha256": "c4d46ca6eaf52e550db416013a3916bbcfed724d18c9c98023d526a2c62042fa"
+  },
+  {
+   "path": "vie_Latn_4/train-00052-of-00263.parquet",
+   "size": 240256698,
+   "sha256": "2d5adc675967e28644d46ded1047da3c7acff74b99c730f8831732c59be2443f"
+  },
+  {
+   "path": "vie_Latn_4/train-00053-of-00263.parquet",
+   "size": 239672859,
+   "sha256": "9ee36b225afeb559ae33c63b20a15e2f99e6e1c03f1463c622b4ee4328343e85"
+  },
+  {
+   "path": "vie_Latn_4/train-00054-of-00263.parquet",
+   "size": 241389399,
+   "sha256": "88e9ef85e1c2b267c8e374c337c93fd72f35da349bb3c3066ae411ac93c9e4dd"
+  },
+  {
+   "path": "vie_Latn_4/train-00055-of-00263.parquet",
+   "size": 240324902,
+   "sha256": "b7e90729b67080975fa18473393444053ec47a7ec4ce327fdb2ce6af145b7b29"
+  },
+  {
+   "path": "vie_Latn_4/train-00056-of-00263.parquet",
+   "size": 239592508,
+   "sha256": "cad6f0add139379561cf2ac786486dd24e90f64960b3f749a122270988f478f3"
+  },
+  {
+   "path": "vie_Latn_4/train-00057-of-00263.parquet",
+   "size": 239655269,
+   "sha256": "edc13a95282ff11528be41eec54fb91331643f00d3c7a571e24e06100d3a1303"
+  },
+  {
+   "path": "vie_Latn_4/train-00058-of-00263.parquet",
+   "size": 240109491,
+   "sha256": "b278e702abdfe81ea6a53e071b628759c2c371aee8b8b48001e71a008f2a91a8"
+  },
+  {
+   "path": "vie_Latn_4/train-00059-of-00263.parquet",
+   "size": 240272389,
+   "sha256": "60a5ba5d55ddc371c54fef420251f9c869614c28b61ec217a480bea3fe9aaab0"
+  },
+  {
+   "path": "vie_Latn_4/train-00060-of-00263.parquet",
+   "size": 241208834,
+   "sha256": "4aca206f60bf381d4e260cc9b01a7e11f63605aaf42438a86eb52b2cdbfd0a90"
+  },
+  {
+   "path": "vie_Latn_4/train-00061-of-00263.parquet",
+   "size": 240832751,
+   "sha256": "a15e67a90e5fca028fa89114738304e6fce478357fe995982024ee4bcb62d5cd"
+  },
+  {
+   "path": "vie_Latn_4/train-00062-of-00263.parquet",
+   "size": 242567414,
+   "sha256": "00090b86cb585feafcc5ec978ce2e868c3944a104c3f7f0a6d80a34b42de0f38"
+  },
+  {
+   "path": "vie_Latn_4/train-00063-of-00263.parquet",
+   "size": 240898672,
+   "sha256": "a1bcbd2d2d0671f143d2c0cf406fc8bceac36ad2a897df360503ea1a4b226d50"
+  },
+  {
+   "path": "vie_Latn_4/train-00064-of-00263.parquet",
+   "size": 237058540,
+   "sha256": "a9c7bf7a41015c6d2810961ef97966a8be6bb4fa89190b5c8d277cb67a791512"
+  },
+  {
+   "path": "vie_Latn_4/train-00065-of-00263.parquet",
+   "size": 237190054,
+   "sha256": "885e7c68cb9e128047b633ab28d4f2d453d5990e61a04b8be1f3da9b3cf608fc"
+  },
+  {
+   "path": "vie_Latn_4/train-00066-of-00263.parquet",
+   "size": 239559575,
+   "sha256": "c17a3b1673d0b7c94d3eccb6dc02b898ad61f3fab4202455a999e0205e9ab091"
+  },
+  {
+   "path": "vie_Latn_4/train-00067-of-00263.parquet",
+   "size": 239264189,
+   "sha256": "0ba217f61a8bf9e720eb2bd7607f0d9ed962896dfff3cf3d3de3da4d6eb1b1ae"
+  },
+  {
+   "path": "vie_Latn_4/train-00068-of-00263.parquet",
+   "size": 237184011,
+   "sha256": "470285f378b671c5c575c34c20f4d12d8cf6556ef69c46702da4101c64baef94"
+  },
+  {
+   "path": "vie_Latn_4/train-00069-of-00263.parquet",
+   "size": 238698940,
+   "sha256": "79c27762b2f0a7eda50cbf8e5edf19ed616f76e1c3a616e95834679abfd80908"
+  },
+  {
+   "path": "vie_Latn_4/train-00070-of-00263.parquet",
+   "size": 240932541,
+   "sha256": "27eb10d343a279126175ea2cadc5009d66c198dcbb83b15e2c4e98a15a97c185"
+  },
+  {
+   "path": "vie_Latn_4/train-00071-of-00263.parquet",
+   "size": 242211788,
+   "sha256": "9a64ce322ba5ad429c4d541c336446b506dc4f8134a1e6f903f6b813d68c0396"
+  },
+  {
+   "path": "vie_Latn_4/train-00072-of-00263.parquet",
+   "size": 261255716,
+   "sha256": "4b26313422538132ec5cc156e1ebc188d15e1b5659d7748120d97b41dea41173"
+  },
+  {
+   "path": "vie_Latn_4/train-00073-of-00263.parquet",
+   "size": 259012518,
+   "sha256": "98d4c200de2ac4d989e1051d7c4d358008576435ab646d1644fc0985ff988827"
+  },
+  {
+   "path": "vie_Latn_4/train-00074-of-00263.parquet",
+   "size": 264117758,
+   "sha256": "c509bb153d29db7bcd9a3c45cb04cfd954e53e85e27b4b1494d9127b96d0705f"
+  },
+  {
+   "path": "vie_Latn_4/train-00075-of-00263.parquet",
+   "size": 258928066,
+   "sha256": "473ec1bd27f1e454c72e723e44d268c3af435e944bebd4453c101e272d915b48"
+  },
+  {
+   "path": "vie_Latn_4/train-00076-of-00263.parquet",
+   "size": 255680994,
+   "sha256": "b641b4eccecc116eec591b7b11ecafa48e3a8c8f7fae65ef084afa0cde430d2e"
+  },
+  {
+   "path": "vie_Latn_4/train-00077-of-00263.parquet",
+   "size": 252135834,
+   "sha256": "a24f8d7955813b985fc9d8c158b8cc6539d391a7a9c4c3b5f71a0b9d8ab382a6"
+  },
+  {
+   "path": "vie_Latn_4/train-00078-of-00263.parquet",
+   "size": 252647044,
+   "sha256": "5b68f2de0638953ef2a9e6843b1c97bdf5deeb20ce2c0da26c26e458fb75e8b5"
+  },
+  {
+   "path": "vie_Latn_4/train-00079-of-00263.parquet",
+   "size": 254994491,
+   "sha256": "b0ea64920db16fc13266082e58af6cdf55e279d7139709ff0cd1bc15c773c491"
+  },
+  {
+   "path": "vie_Latn_4/train-00080-of-00263.parquet",
+   "size": 252211599,
+   "sha256": "f52061f9da97b233de8fac8680cf99a3c3f8add23764510910f998915d658333"
+  },
+  {
+   "path": "vie_Latn_4/train-00081-of-00263.parquet",
+   "size": 249868059,
+   "sha256": "205efbba471bc05fe17ece7d1a97181d582644fd858f7df356c395ddfdfec41c"
+  },
+  {
+   "path": "vie_Latn_4/train-00082-of-00263.parquet",
+   "size": 246776710,
+   "sha256": "31a63e3679873df39f2de031700fb98c425d3dbce9026529330fdbc652fa6e33"
+  },
+  {
+   "path": "vie_Latn_4/train-00083-of-00263.parquet",
+   "size": 247789079,
+   "sha256": "da471b26bcca32e6d3044b13b3857fa3a2887c98027e9e69878a0257a19c2f68"
+  },
+  {
+   "path": "vie_Latn_4/train-00084-of-00263.parquet",
+   "size": 244026508,
+   "sha256": "dd6708be5c63897644e9ff08e0f7af73801fb23761736ded49e85dcd418d90f3"
+  },
+  {
+   "path": "vie_Latn_4/train-00085-of-00263.parquet",
+   "size": 243640895,
+   "sha256": "b30f23496ebb1a8173df6e8b1cd5c1085e8f08626de1d8f838a53b40c3a88c2d"
+  },
+  {
+   "path": "vie_Latn_4/train-00086-of-00263.parquet",
+   "size": 240458108,
+   "sha256": "3fd111af4dab8cd2f7c467abaa2d4c127b13004508921dad3213708df8bf9b68"
+  },
+  {
+   "path": "vie_Latn_4/train-00087-of-00263.parquet",
+   "size": 241338572,
+   "sha256": "7990f7d732768d2acf269571b79ffef3dfe25cd6cb4454e913f0cb1c244a05f7"
+  },
+  {
+   "path": "vie_Latn_4/train-00088-of-00263.parquet",
+   "size": 239746375,
+   "sha256": "f2318255be163ef90179f0c3f838c15e8aa7577a62607edc5c7c1139f24d855f"
+  },
+  {
+   "path": "vie_Latn_4/train-00089-of-00263.parquet",
+   "size": 244206880,
+   "sha256": "3d07fe960995d455bb813fd2ad344e66da257beb2beee8f9162f1dbc37529483"
+  },
+  {
+   "path": "vie_Latn_4/train-00090-of-00263.parquet",
+   "size": 238992830,
+   "sha256": "09701c6ec614d3536d648eb459508d4ec3cbb5b68976bc60dc33e4699138bf4d"
+  },
+  {
+   "path": "vie_Latn_4/train-00091-of-00263.parquet",
+   "size": 239595176,
+   "sha256": "10b1d4bf47f0d492994e6dc6ff6605872666c6e7daf145f3a223b2e4d39f5053"
+  },
+  {
+   "path": "vie_Latn_4/train-00092-of-00263.parquet",
+   "size": 238836565,
+   "sha256": "b956db91e47e4e9d51dee648e85d77809e72b9339925607b80184e575131d5db"
+  },
+  {
+   "path": "vie_Latn_4/train-00093-of-00263.parquet",
+   "size": 238567105,
+   "sha256": "75630f7911ddf2bb605fab892c66e6b05b2cfe4d90847223a2314a06aff887e9"
+  },
+  {
+   "path": "vie_Latn_4/train-00094-of-00263.parquet",
+   "size": 236739493,
+   "sha256": "9365b573967860b011e88a3fbca318a4aa78887d49652bac604856ed78e1b4c3"
+  },
+  {
+   "path": "vie_Latn_4/train-00095-of-00263.parquet",
+   "size": 236293140,
+   "sha256": "d1f8f105e6105161fad71a9e2a5be0de522a2c33a1565606b8b69367d4781340"
+  },
+  {
+   "path": "vie_Latn_4/train-00096-of-00263.parquet",
+   "size": 235383693,
+   "sha256": "7f3015ae828e756f4319a644abdfc8029564f0c6bbb1ca1ab2ddf198fca44784"
+  },
+  {
+   "path": "vie_Latn_4/train-00097-of-00263.parquet",
+   "size": 231457742,
+   "sha256": "9f8af97cf5c6b69654d101dde7c060b2cc35a42ae67c8f3c19387155f951b187"
+  },
+  {
+   "path": "vie_Latn_4/train-00098-of-00263.parquet",
+   "size": 235500039,
+   "sha256": "c8de8ccaa23fad2f42f1992e3bbdf66bca5952b02f3e19a35b4640ac130116c1"
+  },
+  {
+   "path": "vie_Latn_4/train-00099-of-00263.parquet",
+   "size": 233594445,
+   "sha256": "de4304fe3d687eadd1bcdcc9537025cf5c2548bb1ad399880894559394c83187"
+  },
+  {
+   "path": "vie_Latn_4/train-00100-of-00263.parquet",
+   "size": 232750542,
+   "sha256": "a545f8edd066d338573dc9f6bbdde390ec7535fbdd60b58d548a26b392447971"
+  },
+  {
+   "path": "vie_Latn_4/train-00101-of-00263.parquet",
+   "size": 234841141,
+   "sha256": "22d34ce9ab2ac8bf4f0e2e1d7beb07d3be3841500add5bc29a21d301bb2b864d"
+  },
+  {
+   "path": "vie_Latn_4/train-00102-of-00263.parquet",
+   "size": 230538083,
+   "sha256": "ca8f51054da6f1e4f858a91d4e9d0f0a8e854f150ce456a52f33ba45ca9bbf71"
+  },
+  {
+   "path": "vie_Latn_4/train-00103-of-00263.parquet",
+   "size": 231208956,
+   "sha256": "be78f25a1ae2a23f0734c8d33e322a375e806ccb2729b962db563571a5e56e19"
+  },
+  {
+   "path": "vie_Latn_4/train-00104-of-00263.parquet",
+   "size": 233125831,
+   "sha256": "04fe69ba9a9cb4cfd4ad220b93710990d82ee07482cbe88185ae7700f6e1aa21"
+  },
+  {
+   "path": "vie_Latn_4/train-00105-of-00263.parquet",
+   "size": 229880600,
+   "sha256": "3fc5dc90ebca03e2ebda81369ce9737d6e84605c55f1b9b9bf68753121ea56e1"
+  },
+  {
+   "path": "vie_Latn_4/train-00106-of-00263.parquet",
+   "size": 228722512,
+   "sha256": "be067d518ab9f01fc277903e03c71a7709975bd25c825b037bf18460e6d471ef"
+  },
+  {
+   "path": "vie_Latn_4/train-00107-of-00263.parquet",
+   "size": 228456429,
+   "sha256": "d467c3d737d51cd5c304eeeb6df1294f551135c4f8a8bff9738671ab5a6c8ee8"
+  },
+  {
+   "path": "vie_Latn_4/train-00108-of-00263.parquet",
+   "size": 231398412,
+   "sha256": "deee662ff6bd1ae78caa7a1f70013b9597c7ec84222587bbda22185d0e305e08"
+  },
+  {
+   "path": "vie_Latn_4/train-00109-of-00263.parquet",
+   "size": 227276836,
+   "sha256": "3378ca5738c710a3fda1e27fcab2359d30f44229021f0001e36239aedaebb735"
+  },
+  {
+   "path": "vie_Latn_4/train-00110-of-00263.parquet",
+   "size": 229048342,
+   "sha256": "fc8bbe618f0ddfc8f3388c5f437b54a1f33ff313a52285b65ca0b12603a554b2"
+  },
+  {
+   "path": "vie_Latn_4/train-00111-of-00263.parquet",
+   "size": 225788351,
+   "sha256": "b88f85cc32f55e31b457ae6f51bfde4d6a02616d95954606837e7c35f4c0b936"
+  },
+  {
+   "path": "vie_Latn_4/train-00112-of-00263.parquet",
+   "size": 228655627,
+   "sha256": "013e987e39161d3da7d706fb9d9d2311e4a50c33dbd2718a8f1f5ce770a1d54c"
+  },
+  {
+   "path": "vie_Latn_4/train-00113-of-00263.parquet",
+   "size": 229674989,
+   "sha256": "d63f4817f5fdc32a7e6d82d75cd8a195cb4397baf6a0bc6fd066d2bd8a139571"
+  },
+  {
+   "path": "vie_Latn_4/train-00114-of-00263.parquet",
+   "size": 228193004,
+   "sha256": "c0c8e5372c2a221c7d8cd2e21dcd7f5e845de650f606c527a7b74f9a08c76c50"
+  },
+  {
+   "path": "vie_Latn_4/train-00115-of-00263.parquet",
+   "size": 228624400,
+   "sha256": "fdc665c922dd9ae382ce5b4cda783e20adc6432a635acba9cbf121f14729a2f3"
+  },
+  {
+   "path": "vie_Latn_4/train-00116-of-00263.parquet",
+   "size": 227307494,
+   "sha256": "90e4cee19183dbb39d10c91c9865efe0480049a5b4052afcb098df72e3a8526f"
+  },
+  {
+   "path": "vie_Latn_4/train-00117-of-00263.parquet",
+   "size": 227132788,
+   "sha256": "e6e6daa6f06a5e54e12566168d5693cee449cb0eb9ea65f6197fd4649babbc00"
+  },
+  {
+   "path": "vie_Latn_4/train-00118-of-00263.parquet",
+   "size": 225618509,
+   "sha256": "943d20e7bed5fb8ee8be74372f7751f74a730c92825bf1e8bd2f85be8b2a3d23"
+  },
+  {
+   "path": "vie_Latn_4/train-00119-of-00263.parquet",
+   "size": 224320388,
+   "sha256": "204ec23826a765a3a3c07f6429b67825013ea13116c76236840984f5da16800b"
+  },
+  {
+   "path": "vie_Latn_4/train-00120-of-00263.parquet",
+   "size": 224953078,
+   "sha256": "170a879f4de6cbe191a6d02a1ede32744606524742015df6c9527e35f7ac1d0f"
+  },
+  {
+   "path": "vie_Latn_4/train-00121-of-00263.parquet",
+   "size": 225800816,
+   "sha256": "6c08192ebec1f1151cf2165c8dc22dd0e54c05ee9a62b20e58b1f30fb0ec32a6"
+  },
+  {
+   "path": "vie_Latn_4/train-00122-of-00263.parquet",
+   "size": 223818879,
+   "sha256": "845b06a8720433ea157ddab675ee3bf95e1cc25407dd6260f658c7d49e006cf5"
+  },
+  {
+   "path": "vie_Latn_4/train-00123-of-00263.parquet",
+   "size": 224260754,
+   "sha256": "85f3b55e9d829d653244d8e1408b1630641177f3c7f909c6cc0a4cf3219a43aa"
+  },
+  {
+   "path": "vie_Latn_4/train-00124-of-00263.parquet",
+   "size": 225805627,
+   "sha256": "929bfacee536530f1e00d3b87a886e1d20b483b1a784ae7c40b2dbf2bcbf85df"
+  },
+  {
+   "path": "vie_Latn_4/train-00125-of-00263.parquet",
+   "size": 221507825,
+   "sha256": "5408827617f194fe6d249a5fe72f1f3bf706d23397726a527343540090e1b504"
+  },
+  {
+   "path": "vie_Latn_4/train-00126-of-00263.parquet",
+   "size": 222996755,
+   "sha256": "76e495eb64d09ed8fe39d9205f96c680c3c03b2590535d5aa8d496042a73d650"
+  },
+  {
+   "path": "vie_Latn_4/train-00127-of-00263.parquet",
+   "size": 222205813,
+   "sha256": "a0eb330ffc42733d757b9ae788175db88713abab2972d1e3eb1a27b0fba278d8"
+  },
+  {
+   "path": "vie_Latn_4/train-00128-of-00263.parquet",
+   "size": 221343890,
+   "sha256": "ad918d410e4e852c39d20fe21af6ba37e2d127e247c26fe830d10e04734b1c86"
+  },
+  {
+   "path": "vie_Latn_4/train-00129-of-00263.parquet",
+   "size": 222547861,
+   "sha256": "8ee49eaf3817be998111e4169858f05a33e3613f02b5d0d9d0e077fef3482a5a"
+  },
+  {
+   "path": "vie_Latn_4/train-00130-of-00263.parquet",
+   "size": 218623653,
+   "sha256": "a625e391371a2ccab88abd6c4c7c5c303f18d39c430811a6719dcf50637c47fe"
+  },
+  {
+   "path": "vie_Latn_4/train-00131-of-00263.parquet",
+   "size": 221815407,
+   "sha256": "71d079e9828d39f6c66caf3a133b531f137993ab3f41a23d8eac78b83c8157c3"
+  },
+  {
+   "path": "vie_Latn_4/train-00132-of-00263.parquet",
+   "size": 221330561,
+   "sha256": "b5cec780b8545fedccd5d4c6e622915c2f19bf261e6b1cb2da386ec857af6e12"
+  },
+  {
+   "path": "vie_Latn_4/train-00133-of-00263.parquet",
+   "size": 221009430,
+   "sha256": "3ababa6572b1e41b3778acb40ba4e9e34605f34798e23fb9f00bb263695442ca"
+  },
+  {
+   "path": "vie_Latn_4/train-00134-of-00263.parquet",
+   "size": 219900862,
+   "sha256": "856ccdc738ed56fba794e2e6496a95679d9adb0315e530e230c58488c135a2e0"
+  },
+  {
+   "path": "vie_Latn_4/train-00135-of-00263.parquet",
+   "size": 222844402,
+   "sha256": "23650a8c369097279f3e3ea59c351a17b1c3da11a7995c9d41f0c72478b0f1f3"
+  },
+  {
+   "path": "vie_Latn_4/train-00136-of-00263.parquet",
+   "size": 219972802,
+   "sha256": "81fec2826527e611323392940a3d0f118d7738987a1514341827af5607ab14de"
+  },
+  {
+   "path": "vie_Latn_4/train-00137-of-00263.parquet",
+   "size": 221057757,
+   "sha256": "29a874fafc6ea69e69fd75589d3a8f97c1e5c2aa7b59102353494678fa1e6aeb"
+  },
+  {
+   "path": "vie_Latn_4/train-00138-of-00263.parquet",
+   "size": 223448823,
+   "sha256": "7a13a450893f55dc9acbabcf3919c71491e4d1810cbb29aff3f4d29274daf5d1"
+  },
+  {
+   "path": "vie_Latn_4/train-00139-of-00263.parquet",
+   "size": 219984121,
+   "sha256": "7caf44a53819489f7b8a86730afb289c2ab0c677f7c2595c558f12d5e14203ce"
+  },
+  {
+   "path": "vie_Latn_4/train-00140-of-00263.parquet",
+   "size": 217078156,
+   "sha256": "64bb805a9078c2f0934e55ab58d62f31d80e1f071402976f2023d67b49545563"
+  },
+  {
+   "path": "vie_Latn_4/train-00141-of-00263.parquet",
+   "size": 217793181,
+   "sha256": "1b6e9961fb3771fc785074c51a7b3b0d6cbb050b40f66c33f0db46655944efbe"
+  },
+  {
+   "path": "vie_Latn_4/train-00142-of-00263.parquet",
+   "size": 218118602,
+   "sha256": "67a611695a67545edb29614a97a77b5b007ec53b409e296b1264e7a8bc77ef65"
+  },
+  {
+   "path": "vie_Latn_4/train-00143-of-00263.parquet",
+   "size": 218162031,
+   "sha256": "d9d19c463e7d386ae8508e7fa3ad4319c17adbd11b158dade57c22aecf70c4f0"
+  },
+  {
+   "path": "vie_Latn_4/train-00144-of-00263.parquet",
+   "size": 220054880,
+   "sha256": "28162f4d7a8994a31b3bb5be043b246cd3b5e0627a4096c0d523184f39d72d5d"
+  },
+  {
+   "path": "vie_Latn_4/train-00145-of-00263.parquet",
+   "size": 218111605,
+   "sha256": "1502c53d63d5ce428f0bf9933e12216f63e4747657385c495db90a24ac157b8c"
+  },
+  {
+   "path": "vie_Latn_4/train-00146-of-00263.parquet",
+   "size": 219641085,
+   "sha256": "3629bfc6f08b00369ee66fa7f51a4afbeac0138e356f1ec1028927ec559567bd"
+  },
+  {
+   "path": "vie_Latn_4/train-00147-of-00263.parquet",
+   "size": 217269175,
+   "sha256": "68f29598881fa23d0ee26a7eb342df81e13a389b3ed18c4554a5d227450b32f9"
+  },
+  {
+   "path": "vie_Latn_4/train-00148-of-00263.parquet",
+   "size": 243399703,
+   "sha256": "98e775f4f7951faffec1498172a4f0261855bbdbc51d472532214728002dbb00"
+  },
+  {
+   "path": "vie_Latn_4/train-00149-of-00263.parquet",
+   "size": 252166246,
+   "sha256": "26b57254f3a702f90ba488b1c7e45132a98880560b62532babc2af12484b8690"
+  },
+  {
+   "path": "vie_Latn_4/train-00150-of-00263.parquet",
+   "size": 257064081,
+   "sha256": "b8f9d2100a058d8e89477e3df03a210aa85c070148d589bc3b95ad54f8ec4c29"
+  },
+  {
+   "path": "vie_Latn_4/train-00151-of-00263.parquet",
+   "size": 252338027,
+   "sha256": "3baa9cd412b841fd8a34a3ec9b49f0b2bad344fee81ee5832123f30f59b9481e"
+  },
+  {
+   "path": "vie_Latn_4/train-00152-of-00263.parquet",
+   "size": 256699581,
+   "sha256": "1162e882f9440e4617cfdb8b320ee39bda025a9807bb622abbf38aee605f4fcd"
+  },
+  {
+   "path": "vie_Latn_4/train-00153-of-00263.parquet",
+   "size": 255500412,
+   "sha256": "2d847ddb8d520d40b3f699166e30551b3a69aa79f89d65880b00d660e9ad9cbd"
+  },
+  {
+   "path": "vie_Latn_4/train-00154-of-00263.parquet",
+   "size": 253621915,
+   "sha256": "11d7699de3f84c66c9eb5d9a7ce3d9ca5e1a11249d8a3bc0ca3f604fbafd2476"
+  },
+  {
+   "path": "vie_Latn_4/train-00155-of-00263.parquet",
+   "size": 258822454,
+   "sha256": "1cfecf32db3be17bc45cd8c1d3f6b9ee60d2d8e13f9eba496f681d56ed392c52"
+  },
+  {
+   "path": "vie_Latn_4/train-00156-of-00263.parquet",
+   "size": 256651513,
+   "sha256": "471dcd9f9060b7870395859c389d95df1aa30d26b44c40ef1076607996250793"
+  },
+  {
+   "path": "vie_Latn_4/train-00157-of-00263.parquet",
+   "size": 254122549,
+   "sha256": "082c46d50ddf7e8ddc91f157c5329208ec004f6d305ac942e1c79ea91c554464"
+  },
+  {
+   "path": "vie_Latn_4/train-00158-of-00263.parquet",
+   "size": 257115699,
+   "sha256": "d26d26f195f0782275ee8c418bb51f2ee83f35a60c8d4b2c125d61950b183479"
+  },
+  {
+   "path": "vie_Latn_4/train-00159-of-00263.parquet",
+   "size": 256069080,
+   "sha256": "7a6abe713370b52d36f7e2852e50419344834ae9b0d6269319c516a2d8a8727b"
+  },
+  {
+   "path": "vie_Latn_4/train-00160-of-00263.parquet",
+   "size": 257623160,
+   "sha256": "3662ea696b093f227998a8872f05e777bea1ad7c60c6aac72faa9a467ae9eb73"
+  },
+  {
+   "path": "vie_Latn_4/train-00161-of-00263.parquet",
+   "size": 256535819,
+   "sha256": "8c29903415dda84e8868f276ba4498beedb1dd7cbf2ecfac5d0485a5fd5385ba"
+  },
+  {
+   "path": "vie_Latn_4/train-00162-of-00263.parquet",
+   "size": 257510942,
+   "sha256": "0cff1ea297854ba73530c745ef17f5a08c5c24f7c0f5b8e5b030652b2d3343b9"
+  },
+  {
+   "path": "vie_Latn_4/train-00163-of-00263.parquet",
+   "size": 257283136,
+   "sha256": "a8418b384d917062dc67c633090fe68d4c745bcca36e9ca577f9d92944e8b300"
+  },
+  {
+   "path": "vie_Latn_4/train-00164-of-00263.parquet",
+   "size": 255525914,
+   "sha256": "b759ff8139111d08f6ef75f0eb4a2ca16aa61f840b5d1771369b9bcf9057872b"
+  },
+  {
+   "path": "vie_Latn_4/train-00165-of-00263.parquet",
+   "size": 258463325,
+   "sha256": "21d0db529bd1af9252ffc9f38f5d9872aa90e7522cbe6949c5777e50b7babb4c"
+  },
+  {
+   "path": "vie_Latn_4/train-00166-of-00263.parquet",
+   "size": 257149197,
+   "sha256": "8cd4a96f0dc57544b11ca2421a758b2816e80c82ccbe54a7295f3274d286687b"
+  },
+  {
+   "path": "vie_Latn_4/train-00167-of-00263.parquet",
+   "size": 251918183,
+   "sha256": "e2e52b5376e2e4890bb2325a3d5f198fb7d0adde5520e1983c884495b61676fe"
+  },
+  {
+   "path": "vie_Latn_4/train-00168-of-00263.parquet",
+   "size": 256710698,
+   "sha256": "64ea5078e92d53255cb6cf7a3622028367d890c1c8a6916194b911b70c215485"
+  },
+  {
+   "path": "vie_Latn_4/train-00169-of-00263.parquet",
+   "size": 253074683,
+   "sha256": "be55cd97beb726d659633c465a00d22967e8b5ec4dbbcecd955144f31e18d61f"
+  },
+  {
+   "path": "vie_Latn_4/train-00170-of-00263.parquet",
+   "size": 256213168,
+   "sha256": "070c8f38646d4238d721fd5a1f6ff689d2664acb2e9af45cd95002c75a810e45"
+  },
+  {
+   "path": "vie_Latn_4/train-00171-of-00263.parquet",
+   "size": 254125668,
+   "sha256": "84830961f432a24f0f87b7429f3e3d531bad481b563828747a03da8e0e57f65c"
+  },
+  {
+   "path": "vie_Latn_4/train-00172-of-00263.parquet",
+   "size": 256570965,
+   "sha256": "e17b50c140a71780fe71624e7a439a8a5ca19a8bf25610669359db69d9097909"
+  },
+  {
+   "path": "vie_Latn_4/train-00173-of-00263.parquet",
+   "size": 255726578,
+   "sha256": "a2613e4f917cef05207b369d691748bb39a740f6b6effd691b155394446e884c"
+  },
+  {
+   "path": "vie_Latn_4/train-00174-of-00263.parquet",
+   "size": 256419690,
+   "sha256": "590301e8b8b0374b915676b4fa27a17d0f9315dfaec06835d53208494a7ef838"
+  },
+  {
+   "path": "vie_Latn_4/train-00175-of-00263.parquet",
+   "size": 257541788,
+   "sha256": "32f2638106d443861f1948400d0e2248ae29b1326e30672c9a1b3e7b50ffd61e"
+  },
+  {
+   "path": "vie_Latn_4/train-00176-of-00263.parquet",
+   "size": 257327233,
+   "sha256": "369e32d4ddd173b69b3973f0702d3de03da395caa3628afa390d7ceaafded003"
+  },
+  {
+   "path": "vie_Latn_4/train-00177-of-00263.parquet",
+   "size": 257425246,
+   "sha256": "ac8af558d3bd74ff315171007bb7576be5d3a163e1a34635ce1651da790a2485"
+  },
+  {
+   "path": "vie_Latn_4/train-00178-of-00263.parquet",
+   "size": 257888805,
+   "sha256": "2077a01c1d35bd115822da8032dbcb920c7a0503e9ee31848864227c1680c373"
+  },
+  {
+   "path": "vie_Latn_4/train-00179-of-00263.parquet",
+   "size": 253940133,
+   "sha256": "6a19a56d28efa0804fba90c272afd98d6a3f70a558ddecb0060bfd89aff6f56b"
+  },
+  {
+   "path": "vie_Latn_4/train-00180-of-00263.parquet",
+   "size": 256916031,
+   "sha256": "07be161f3aa366d155a896625710d3a2cf7d7d3c7c85387131d4990ed8d7df5b"
+  },
+  {
+   "path": "vie_Latn_4/train-00181-of-00263.parquet",
+   "size": 256603092,
+   "sha256": "b27898f05e13928fd5fac989c73419855705df374922e3dd565e0a6c0b504b68"
+  },
+  {
+   "path": "vie_Latn_4/train-00182-of-00263.parquet",
+   "size": 252926288,
+   "sha256": "6cb1c5a05328e63853afd04221e4141ce9ae5c61d481ad7f15f6e06bfac8f2c2"
+  },
+  {
+   "path": "vie_Latn_4/train-00183-of-00263.parquet",
+   "size": 254718304,
+   "sha256": "a6874afba58da0ac494ca5d99acd50f38defc3ebddc9c6482081d919f5479f8c"
+  },
+  {
+   "path": "vie_Latn_4/train-00184-of-00263.parquet",
+   "size": 254687294,
+   "sha256": "87d8c0c2bf5e5f788d93adc31704b1f672c538c6c89daac04d03a2392232ba53"
+  },
+  {
+   "path": "vie_Latn_4/train-00185-of-00263.parquet",
+   "size": 256403657,
+   "sha256": "24c99fd2913afc179188548ef0ab293fbf3972dee4993638b43766b81a5db731"
+  },
+  {
+   "path": "vie_Latn_4/train-00186-of-00263.parquet",
+   "size": 254648513,
+   "sha256": "7ed4accd39acb319028d5a8c765e3687a16dbdf66b8bdf52adbaebefa930de9a"
+  },
+  {
+   "path": "vie_Latn_4/train-00187-of-00263.parquet",
+   "size": 254612899,
+   "sha256": "91e6d3e720aa1c60224f4984e8a5880497a035e5f256b3e6ee11dfb17fdcb592"
+  },
+  {
+   "path": "vie_Latn_4/train-00188-of-00263.parquet",
+   "size": 252851537,
+   "sha256": "0b345c044f36ecdce2fe0d66bf43d122b2fd95c9ded316ddca4ae15a4be6e049"
+  },
+  {
+   "path": "vie_Latn_4/train-00189-of-00263.parquet",
+   "size": 253853310,
+   "sha256": "e0c04cf886079c62a6f40069a563455075059427038c5984f14298066bdec3ba"
+  },
+  {
+   "path": "vie_Latn_4/train-00190-of-00263.parquet",
+   "size": 252781698,
+   "sha256": "ad684869c745380902693d02c43e12128088b04117c378a9849ff44cf39c0f76"
+  },
+  {
+   "path": "vie_Latn_4/train-00191-of-00263.parquet",
+   "size": 255092994,
+   "sha256": "9939a3f6cca8eb0d0347abb30755f2a1b49d617752f37125afc4bd367cb5181a"
+  },
+  {
+   "path": "vie_Latn_4/train-00192-of-00263.parquet",
+   "size": 257609232,
+   "sha256": "060c184ffd2f11a5987ec42beb71a6b5f5fa57d86a6723d99c0b62aa42a95835"
+  },
+  {
+   "path": "vie_Latn_4/train-00193-of-00263.parquet",
+   "size": 253117990,
+   "sha256": "e8db43ed6e3b6f0b27248592f4fb58cf1a15ee374494e4fcd4780288c0d3bdb8"
+  },
+  {
+   "path": "vie_Latn_4/train-00194-of-00263.parquet",
+   "size": 256217021,
+   "sha256": "6cb033ec39db3c97b5fd1e0b5bbeee3154012c9e6d1d1d1b0efe6855e00de302"
+  },
+  {
+   "path": "vie_Latn_4/train-00195-of-00263.parquet",
+   "size": 256372483,
+   "sha256": "c0b0a8c1015312a7995697e70d921f9adbacf102d51987be3509b4f4da95af20"
+  },
+  {
+   "path": "vie_Latn_4/train-00196-of-00263.parquet",
+   "size": 253650732,
+   "sha256": "b0a0b309c965ac72ab27734535df3304b355155939cdb4cad7a3c080b622e75b"
+  },
+  {
+   "path": "vie_Latn_4/train-00197-of-00263.parquet",
+   "size": 253636851,
+   "sha256": "bf417c9f9799e56b71044f3c36ccc24db494bcb996ef0d00e9a1e7cf82334dc3"
+  },
+  {
+   "path": "vie_Latn_4/train-00198-of-00263.parquet",
+   "size": 250317547,
+   "sha256": "f30213242a71fe035a3f62f8057c08c8f0a60a698ff9cb3bb7e679a99fa2cfe3"
+  },
+  {
+   "path": "vie_Latn_4/train-00199-of-00263.parquet",
+   "size": 256001064,
+   "sha256": "82832609ee3af86f65063dc71f7b227c27fd7fca11f6562e6fe461d40524a3d8"
+  },
+  {
+   "path": "vie_Latn_4/train-00200-of-00263.parquet",
+   "size": 251242710,
+   "sha256": "204024b5204487b12143ca9e278662aed456336a9c8b4e663d0e0678f8ff62b7"
+  },
+  {
+   "path": "vie_Latn_4/train-00201-of-00263.parquet",
+   "size": 252458681,
+   "sha256": "3afc474c2c1d524a699ea6de85098b718c45b2bd9703368ab93e189c4876f351"
+  },
+  {
+   "path": "vie_Latn_4/train-00202-of-00263.parquet",
+   "size": 255108375,
+   "sha256": "97773ad65394ce96118eef556f855710b704d3f087309bbc1c8b332a26e5304b"
+  },
+  {
+   "path": "vie_Latn_4/train-00203-of-00263.parquet",
+   "size": 255047145,
+   "sha256": "3cb0ba2f3e6dab9e6a74ffaf93ae5b141e85bee21d8b448b0345353edfaa25b9"
+  },
+  {
+   "path": "vie_Latn_4/train-00204-of-00263.parquet",
+   "size": 254637753,
+   "sha256": "b6633dde884057b38a5606860bf954c679156142f4bc17f894d9ade136e6dedc"
+  },
+  {
+   "path": "vie_Latn_4/train-00205-of-00263.parquet",
+   "size": 254444201,
+   "sha256": "8a26763b7e815df88d21014ef426088ce781bd3516f048e3ea0141fd42285642"
+  },
+  {
+   "path": "vie_Latn_4/train-00206-of-00263.parquet",
+   "size": 251040894,
+   "sha256": "221bf893a26576ee2c7043186d3481babe572492f76201840b3732db06347d02"
+  },
+  {
+   "path": "vie_Latn_4/train-00207-of-00263.parquet",
+   "size": 251002210,
+   "sha256": "d771fa1a54299117e856616ddd9b4119ddf55df2c9a069197e8a14055efaf786"
+  },
+  {
+   "path": "vie_Latn_4/train-00208-of-00263.parquet",
+   "size": 254437918,
+   "sha256": "e2b75c978b26a5dd31d4615061f0eac9c597ef83814317ff8e7f26109eaa6dd6"
+  },
+  {
+   "path": "vie_Latn_4/train-00209-of-00263.parquet",
+   "size": 252485583,
+   "sha256": "7154af3e4a416977231ccb15f27978307756afc5e5b945293fc537d5562670ca"
+  },
+  {
+   "path": "vie_Latn_4/train-00210-of-00263.parquet",
+   "size": 221994775,
+   "sha256": "1414b7d527deb1116090895bc7037ef850e26d1a19d8f70f2f84569a9a33cfcf"
+  },
+  {
+   "path": "vie_Latn_4/train-00211-of-00263.parquet",
+   "size": 208491214,
+   "sha256": "d0f99ea05961cc264cf186d6224ea552eeb68f5028ef276a05959c628c15f683"
+  },
+  {
+   "path": "vie_Latn_4/train-00212-of-00263.parquet",
+   "size": 210627352,
+   "sha256": "5ca4f9728254d27b6982d267c7f55b2cd967742377f7976dded5d258042a9ab3"
+  },
+  {
+   "path": "vie_Latn_4/train-00213-of-00263.parquet",
+   "size": 206946877,
+   "sha256": "716a8b88ec1b1e160d41f0f3badc004ccf96918f5aabd52856cf5db231a88971"
+  },
+  {
+   "path": "vie_Latn_4/train-00214-of-00263.parquet",
+   "size": 212020284,
+   "sha256": "188c9c7cc2a2732e6159cc5988ca19aef7de369bd3d82deee1fc72b9e5222e58"
+  },
+  {
+   "path": "vie_Latn_4/train-00215-of-00263.parquet",
+   "size": 212204141,
+   "sha256": "d77d64eda9d2b75cfabeea39e9cc1cff34ef097b15d8730543d7278d3e38ae4d"
+  },
+  {
+   "path": "vie_Latn_4/train-00216-of-00263.parquet",
+   "size": 211804213,
+   "sha256": "42f301cc42556827bc7d68f713f91989b93a21c32714a19419e34d61acec03c6"
+  },
+  {
+   "path": "vie_Latn_4/train-00217-of-00263.parquet",
+   "size": 215650198,
+   "sha256": "ccfdc2a849ed8c2f21872a7ec4ea59d5bba31793865eb70648b130ae927009d7"
+  },
+  {
+   "path": "vie_Latn_4/train-00218-of-00263.parquet",
+   "size": 212507852,
+   "sha256": "bae61eeed523f6327c2bd90547b3ce93459ca0e5c0123449c973cbc613756389"
+  },
+  {
+   "path": "vie_Latn_4/train-00219-of-00263.parquet",
+   "size": 210668383,
+   "sha256": "783229077a900dcd8c6adfa3c95516cddeb620caa921b611d4eb6c93c059294e"
+  },
+  {
+   "path": "vie_Latn_4/train-00220-of-00263.parquet",
+   "size": 214841178,
+   "sha256": "bfb712b36244fa2050bd5555ee53a905b5cdef6f81937d31a88ce8883a7b061f"
+  },
+  {
+   "path": "vie_Latn_4/train-00221-of-00263.parquet",
+   "size": 213387924,
+   "sha256": "809555c7c904127fd2b01f0a9ca1a2aa7bdd98628753fee502e6e90f0b680c6b"
+  },
+  {
+   "path": "vie_Latn_4/train-00222-of-00263.parquet",
+   "size": 209885031,
+   "sha256": "387692f087351f7924c7c7ff7fc5be8e3a178326b5e164f079a4554482fc3d82"
+  },
+  {
+   "path": "vie_Latn_4/train-00223-of-00263.parquet",
+   "size": 213471690,
+   "sha256": "011f23767f7928e721bede556d1a1dffb231afbf91aa5e3bdaa89dd8a931f717"
+  },
+  {
+   "path": "vie_Latn_4/train-00224-of-00263.parquet",
+   "size": 212054395,
+   "sha256": "ec0ac2e76817685bf859193058e4eb64886ab44decb44b6bf4059dc7dbbb85c2"
+  },
+  {
+   "path": "vie_Latn_4/train-00225-of-00263.parquet",
+   "size": 215976902,
+   "sha256": "4a8a01c3f2471482e0ff90c86da276c63cc0cb8f369972883ef1a4e4ace48c6f"
+  },
+  {
+   "path": "vie_Latn_4/train-00226-of-00263.parquet",
+   "size": 212819708,
+   "sha256": "17b1ad8c975e8a2cd6dd8ec7f0ed88ab92ae9307bc828123e06c9113f6b8057e"
+  },
+  {
+   "path": "vie_Latn_4/train-00227-of-00263.parquet",
+   "size": 210610804,
+   "sha256": "729e79a77ab68970a474655b1a561743d14fb464aa3a7730a84a084cfdac579b"
+  },
+  {
+   "path": "vie_Latn_4/train-00228-of-00263.parquet",
+   "size": 211069857,
+   "sha256": "7d81c0141781ab0544269436443f07ece05976f7ea7adc16ea3870cb8065c841"
+  },
+  {
+   "path": "vie_Latn_4/train-00229-of-00263.parquet",
+   "size": 212995143,
+   "sha256": "cb29f46849883fc1adf6be137b08ac92c9dd5003ed63e22e32940416a900197b"
+  },
+  {
+   "path": "vie_Latn_4/train-00230-of-00263.parquet",
+   "size": 210914147,
+   "sha256": "43d74945ac093b9782de2d51421d7153f1fc73dc01fdbe0be69348a246e4e98b"
+  },
+  {
+   "path": "vie_Latn_4/train-00231-of-00263.parquet",
+   "size": 211475793,
+   "sha256": "6eb1a8df96218c68d042570566c3379df2d2c5da84e6ad1fbbe430c6c1d8e759"
+  },
+  {
+   "path": "vie_Latn_4/train-00232-of-00263.parquet",
+   "size": 215966272,
+   "sha256": "c904634a966779395683596b57521421456d1ed3e99203724b309dc5ae6104d0"
+  },
+  {
+   "path": "vie_Latn_4/train-00233-of-00263.parquet",
+   "size": 213350700,
+   "sha256": "b1e6caf9ac36d06cc775b2a09db33d4f2da93274379e9fe3ac27e0fe723cc83f"
+  },
+  {
+   "path": "vie_Latn_4/train-00234-of-00263.parquet",
+   "size": 211895700,
+   "sha256": "437af6310004b947552dfba9fe60a716f0221a3ea4f07d97f5a825934ffbf649"
+  },
+  {
+   "path": "vie_Latn_4/train-00235-of-00263.parquet",
+   "size": 209095642,
+   "sha256": "38d78a7bb07692a7df76664f140a0cbba5a699cb8dd693a4e200111d311da732"
+  },
+  {
+   "path": "vie_Latn_4/train-00236-of-00263.parquet",
+   "size": 208878017,
+   "sha256": "e4b322e024a360a8388ca32002c1cbd988b80632e6dc2b6e9e848af983a86af4"
+  },
+  {
+   "path": "vie_Latn_4/train-00237-of-00263.parquet",
+   "size": 211165008,
+   "sha256": "d864d31e4a67d29492486e4c1d08b5aed4f23e52e7ac717761b3d843baf5c6a0"
+  },
+  {
+   "path": "vie_Latn_4/train-00238-of-00263.parquet",
+   "size": 209470298,
+   "sha256": "9110e19e58c6865a8518cc8997d5927497e3b4e583c1e1eeb83a6fc0e9d8e2d5"
+  },
+  {
+   "path": "vie_Latn_4/train-00239-of-00263.parquet",
+   "size": 212707513,
+   "sha256": "16ceed5fa2cdad061923382019c1df78ea0b66af482804b4f0dc78e39f349824"
+  },
+  {
+   "path": "vie_Latn_4/train-00240-of-00263.parquet",
+   "size": 209684066,
+   "sha256": "c722bc85836fee8f54fee87973fd424b019d528c60018439e1eba78af8a347e8"
+  },
+  {
+   "path": "vie_Latn_4/train-00241-of-00263.parquet",
+   "size": 210347048,
+   "sha256": "3297629bdddb316142c0a3bbbd8cd872844e7414718985bd7be3451adc13c116"
+  },
+  {
+   "path": "vie_Latn_4/train-00242-of-00263.parquet",
+   "size": 213608763,
+   "sha256": "f0c1274814f3826f515c4d2b1c4458df7fa338665457bcb83689870561965455"
+  },
+  {
+   "path": "vie_Latn_4/train-00243-of-00263.parquet",
+   "size": 212622076,
+   "sha256": "5bb339765e0dc2281ca1ef55683fa31545e68f038056d7ee2608166009d188f2"
+  },
+  {
+   "path": "vie_Latn_4/train-00244-of-00263.parquet",
+   "size": 212536687,
+   "sha256": "5e460589c56c4b98a31c7b9cad1a5367d6694436c235d94ff579bc1bc8e76064"
+  },
+  {
+   "path": "vie_Latn_4/train-00245-of-00263.parquet",
+   "size": 212707455,
+   "sha256": "20c369660e5ecd850c10fcaa2a69936de83a93b4a39cb6ba5dc138af4f99423d"
+  },
+  {
+   "path": "vie_Latn_4/train-00246-of-00263.parquet",
+   "size": 213596448,
+   "sha256": "334320dfe94b18de716f905f9bc144fd4c2a40cc015e5f3f69f4a00c2ad9ee7b"
+  },
+  {
+   "path": "vie_Latn_4/train-00247-of-00263.parquet",
+   "size": 210025672,
+   "sha256": "9c404afbfb848d371437bcc39e1b42fe878c6a165b7581c4b95c0e6294eeac97"
+  },
+  {
+   "path": "vie_Latn_4/train-00248-of-00263.parquet",
+   "size": 210908145,
+   "sha256": "33ce3d1ebe4a00a0c1251bec89b72d349e7a1584a036a430c0f17d1fa653bf45"
+  },
+  {
+   "path": "vie_Latn_4/train-00249-of-00263.parquet",
+   "size": 210866571,
+   "sha256": "810627e01e723953fc4ab38b1efb3224a6c45d121a5aab1dcc2aaeb70b8495f8"
+  },
+  {
+   "path": "vie_Latn_4/train-00250-of-00263.parquet",
+   "size": 210886729,
+   "sha256": "62de31b5463450a10db54e449915e6a52c157f78f267c664fb2d34e9b7ab72e7"
+  },
+  {
+   "path": "vie_Latn_4/train-00251-of-00263.parquet",
+   "size": 213111354,
+   "sha256": "7f449ee97f8ffd78c90efeac1de7b4d88c791bc1f0881acb55385fd1f6db052b"
+  },
+  {
+   "path": "vie_Latn_4/train-00252-of-00263.parquet",
+   "size": 212610773,
+   "sha256": "8c57c5e23b256f6b1ba6f495a0171d6d24c303df45b281cf1e02184e71a643f5"
+  },
+  {
+   "path": "vie_Latn_4/train-00253-of-00263.parquet",
+   "size": 209298109,
+   "sha256": "c93dcac93dea7d19258c1080912c79bd321d83d3a16cafd7edfb743c13dbd3cd"
+  },
+  {
+   "path": "vie_Latn_4/train-00254-of-00263.parquet",
+   "size": 210340208,
+   "sha256": "758266bc445ca7c65ff1d5d158a7e3309c92bce122dc584d62d24fa51397d380"
+  },
+  {
+   "path": "vie_Latn_4/train-00255-of-00263.parquet",
+   "size": 211776205,
+   "sha256": "4afdc1a55abe9306e935d983a74aacdce15c74af0bf06f3f9ecce2ab35c90734"
+  },
+  {
+   "path": "vie_Latn_4/train-00256-of-00263.parquet",
+   "size": 210929801,
+   "sha256": "0d9fcacfacf2d70e85da6527793ad59a1690c93c89f28d23b857fe5223aedf07"
+  },
+  {
+   "path": "vie_Latn_4/train-00257-of-00263.parquet",
+   "size": 213389746,
+   "sha256": "3b7cea1204d43ea63d0f80d0c7c86c8001e07506e64a4ae2e8d81ee236ef4873"
+  },
+  {
+   "path": "vie_Latn_4/train-00258-of-00263.parquet",
+   "size": 210860059,
+   "sha256": "62ddec9efaf6949fd5fcf18639e5b73fdc297f41a2d20cbc8332b5f2caf38480"
+  },
+  {
+   "path": "vie_Latn_4/train-00259-of-00263.parquet",
+   "size": 213128145,
+   "sha256": "1d1dd665fb1c164820b3a48698ca94ee0ff37a42c57bf27bf59f7821bcdfeacc"
+  },
+  {
+   "path": "vie_Latn_4/train-00260-of-00263.parquet",
+   "size": 212574590,
+   "sha256": "b8599c5a5abfd6ec44de1ebf0e111b4eaaab45c3eb21e6f8183f20bb5eca9f3c"
+  },
+  {
+   "path": "vie_Latn_4/train-00261-of-00263.parquet",
+   "size": 213064556,
+   "sha256": "8693d8e110a890a991cfcf64c888a30b52475bd2524b5f763398164a51003c92"
+  },
+  {
+   "path": "vie_Latn_4/train-00262-of-00263.parquet",
+   "size": 209939758,
+   "sha256": "9bc5a9fbb9cc4a19d4ffaa234c987344a263bb61ca2d83e85a456315e167ddcd"
+  },
+  {
+   "path": "vie_Latn_5/train-00000-of-00050.parquet",
+   "size": 236854880,
+   "sha256": "414a279031eef844919d17e8d34e6b9c599091e1692c6861d6e439e06e5ae5c6"
+  },
+  {
+   "path": "vie_Latn_5/train-00001-of-00050.parquet",
+   "size": 236201912,
+   "sha256": "cde1a3dbdea4a8c5ecb0b2a20d940446810e19cd9dd63cf6800c923327463f27"
+  },
+  {
+   "path": "vie_Latn_5/train-00002-of-00050.parquet",
+   "size": 236227329,
+   "sha256": "481580217d0cf39c60d282785789cb0e67984dab4d4902e358daa0e4ae791e2c"
+  },
+  {
+   "path": "vie_Latn_5/train-00003-of-00050.parquet",
+   "size": 241367245,
+   "sha256": "e07bae218b70ee3a6f365e6386af011f0326aaab1d1b3a668b7f483274801bbb"
+  },
+  {
+   "path": "vie_Latn_5/train-00004-of-00050.parquet",
+   "size": 236447056,
+   "sha256": "f969c50973c839cf10e481e251bb30ce77c18527ad07d05b0ed201d12a71fc2c"
+  },
+  {
+   "path": "vie_Latn_5/train-00005-of-00050.parquet",
+   "size": 240182962,
+   "sha256": "eba8f5c6655466cd83478a3f5a8f917cf67d52fceb4cb128e52da692d973a297"
+  },
+  {
+   "path": "vie_Latn_5/train-00006-of-00050.parquet",
+   "size": 234025520,
+   "sha256": "c46e5f14c78600316451c9f88e8db80ba255f823d9c54df0e3dd64ff4dea0a8b"
+  },
+  {
+   "path": "vie_Latn_5/train-00007-of-00050.parquet",
+   "size": 239498027,
+   "sha256": "3c83c0d42835e1138aa9a8cffb1e3129100458beaa18242f6f33fcde7c535646"
+  },
+  {
+   "path": "vie_Latn_5/train-00008-of-00050.parquet",
+   "size": 235812247,
+   "sha256": "8f145bd996c94e9b445751453a05300e5e82e915bbc2ccdbb151978ba28774ca"
+  },
+  {
+   "path": "vie_Latn_5/train-00009-of-00050.parquet",
+   "size": 233506238,
+   "sha256": "9ba9ada9bd5004ef0b561ce26809acf35f593773ecc40953fbbcf51da1982ccd"
+  },
+  {
+   "path": "vie_Latn_5/train-00010-of-00050.parquet",
+   "size": 238704617,
+   "sha256": "77d97f9deb16f6e79dd51a60e1081a48da417d8bebb2293eacc639230ba8fe98"
+  },
+  {
+   "path": "vie_Latn_5/train-00011-of-00050.parquet",
+   "size": 241988428,
+   "sha256": "55306730df5bc0ba9e76eae4f9cac767050c4154bdcdc187369a012407455dab"
+  },
+  {
+   "path": "vie_Latn_5/train-00012-of-00050.parquet",
+   "size": 247722857,
+   "sha256": "bb937ef06ceea2dd5f6ccdc625597d93a738f6415039f5c1875d5de0afdc80dd"
+  },
+  {
+   "path": "vie_Latn_5/train-00013-of-00050.parquet",
+   "size": 238975470,
+   "sha256": "913d27be419d1f7bae8c294db9b24888cf22780275071a95ab695d2ac62d6429"
+  },
+  {
+   "path": "vie_Latn_5/train-00014-of-00050.parquet",
+   "size": 242602401,
+   "sha256": "bdbc2ee5ee4619f9e8a77b4b2235cb0bb226824d60adb3b79ce69564e2f6867d"
+  },
+  {
+   "path": "vie_Latn_5/train-00015-of-00050.parquet",
+   "size": 241902194,
+   "sha256": "1a9aaf64dbb3b4092aa8d3369fd19e787b61ea1291c7751d915618255dffacc5"
+  },
+  {
+   "path": "vie_Latn_5/train-00016-of-00050.parquet",
+   "size": 240731522,
+   "sha256": "81b738e8ec5124b5a37459c5e1f8b013f65d6ec71f1e6719200c7798597dab6b"
+  },
+  {
+   "path": "vie_Latn_5/train-00017-of-00050.parquet",
+   "size": 243456722,
+   "sha256": "e52c4adb7cb0b0c0c299d3291f2d05d84cee6e5fbe4a5b09f24e6b26d649dcab"
+  },
+  {
+   "path": "vie_Latn_5/train-00018-of-00050.parquet",
+   "size": 244903038,
+   "sha256": "320baaadcdf414849ff854e179b4a9cbdb1abf814b1b984453b2702526c224d6"
+  },
+  {
+   "path": "vie_Latn_5/train-00019-of-00050.parquet",
+   "size": 240611212,
+   "sha256": "89c6634b150a8f91ff0d1af975e1473d7c9ff41b878ce315b08630269f085d89"
+  },
+  {
+   "path": "vie_Latn_5/train-00020-of-00050.parquet",
+   "size": 239676619,
+   "sha256": "7160fdf93ccd084f42ed200c52a67f7252df0e6046c7b28a1d0437d2fb7d6e88"
+  },
+  {
+   "path": "vie_Latn_5/train-00021-of-00050.parquet",
+   "size": 235493225,
+   "sha256": "e4b4b94df7cef376f601e741eb57bb96d27c1b44a70da10d55cfe928ef0eb01b"
+  },
+  {
+   "path": "vie_Latn_5/train-00022-of-00050.parquet",
+   "size": 237181556,
+   "sha256": "6c5535de0e2961050534a3f5e0214d15bf8c24c99a43291120d075b8627e040c"
+  },
+  {
+   "path": "vie_Latn_5/train-00023-of-00050.parquet",
+   "size": 238723449,
+   "sha256": "c339c07c1dab563fca9c4940b6b55cc3aa7d04ccb3a6d147816ab0cc0840cc56"
+  },
+  {
+   "path": "vie_Latn_5/train-00024-of-00050.parquet",
+   "size": 242044430,
+   "sha256": "631acb64a750e47d1fe6ffaed8a37a7a0db9a3031e00dbaf6c6fb4af455a8c9b"
+  },
+  {
+   "path": "vie_Latn_5/train-00025-of-00050.parquet",
+   "size": 234288803,
+   "sha256": "3d32917bf1e8466f7f4f3710101a06fdaeb2bccbcb694a13b88617fd869a0aea"
+  },
+  {
+   "path": "vie_Latn_5/train-00026-of-00050.parquet",
+   "size": 223103314,
+   "sha256": "4aabed52b8081283dd5156d0e56dc98d6882aeb46be62f9b53c892dd4eebad32"
+  },
+  {
+   "path": "vie_Latn_5/train-00027-of-00050.parquet",
+   "size": 212312424,
+   "sha256": "5c6dbaa15da85e8ccb4ccd05257b7ed727f22ec79e7a6b466537b08a7b302763"
+  },
+  {
+   "path": "vie_Latn_5/train-00028-of-00050.parquet",
+   "size": 221917734,
+   "sha256": "1501ffc34ca6b3ca6a295ec54f86ac03b57915a51d79627083da4c88fcaae9ef"
+  },
+  {
+   "path": "vie_Latn_5/train-00029-of-00050.parquet",
+   "size": 223378868,
+   "sha256": "cbda4fc38c8c50cc2eba93b678f8d0abe6c8f21f68ae3f7707d419b20226d27a"
+  },
+  {
+   "path": "vie_Latn_5/train-00030-of-00050.parquet",
+   "size": 224142430,
+   "sha256": "cf83adbd16ebf1336a23a92f754f7cc45b8517a7bcdc3b143793c26c2fb28ab4"
+  },
+  {
+   "path": "vie_Latn_5/train-00031-of-00050.parquet",
+   "size": 225623829,
+   "sha256": "5677840a1ce310b5212d7512b9ebb4b0f0b9258641ea151110116a5d3ee982dc"
+  },
+  {
+   "path": "vie_Latn_5/train-00032-of-00050.parquet",
+   "size": 222954152,
+   "sha256": "ea4e7561831ee3f12e298daecd46e2a92f9567478dc70507a671d74414ded2f6"
+  },
+  {
+   "path": "vie_Latn_5/train-00033-of-00050.parquet",
+   "size": 226437860,
+   "sha256": "3c7ec8e40daec5ddb03d204dabde9ad7653b7333358bab4a6af67e094b8b1260"
+  },
+  {
+   "path": "vie_Latn_5/train-00034-of-00050.parquet",
+   "size": 228266599,
+   "sha256": "483fe7312d875cf6ca55ff03fb1ab80c71a1a50bcd9e102d1a0c9000958140ff"
+  },
+  {
+   "path": "vie_Latn_5/train-00035-of-00050.parquet",
+   "size": 229914465,
+   "sha256": "3a844fac1a8c8723ce803df4cc83f2b141efc6e6c12c30bde448073bb2bda679"
+  },
+  {
+   "path": "vie_Latn_5/train-00036-of-00050.parquet",
+   "size": 225235726,
+   "sha256": "49ff2003934775655090ec3e0d804966229f67570d4c8c58c7f28d6a9f9c7323"
+  },
+  {
+   "path": "vie_Latn_5/train-00037-of-00050.parquet",
+   "size": 230453741,
+   "sha256": "90aafc82f3029a867dc5036248df16592c5d4f945a34e510e8e9f70c6277576e"
+  },
+  {
+   "path": "vie_Latn_5/train-00038-of-00050.parquet",
+   "size": 233741187,
+   "sha256": "3e53587c8eda84081e1d22fab78db2f092cf620f193a8fa7d4c641e6d837031c"
+  },
+  {
+   "path": "vie_Latn_5/train-00039-of-00050.parquet",
+   "size": 229666557,
+   "sha256": "ed071a5e465abe12c30ffc32f661e06e9d4c057e3855d24af73c4e89033801fd"
+  },
+  {
+   "path": "vie_Latn_5/train-00040-of-00050.parquet",
+   "size": 225715057,
+   "sha256": "0a60e9772a6a2879559ae4c9bf243b5a44d72187f85a4d437cf466a4658b4756"
+  },
+  {
+   "path": "vie_Latn_5/train-00041-of-00050.parquet",
+   "size": 227433022,
+   "sha256": "8eeb84eed638aa657b7f4b839e2ce946971d9be538c3934e8a1ea4eab8d5fe65"
+  },
+  {
+   "path": "vie_Latn_5/train-00042-of-00050.parquet",
+   "size": 234761510,
+   "sha256": "e9e25250d2549961c6f7aac6c1a6e1dd9fc7ff9ef7bfb2a59a731d422ab1a44e"
+  },
+  {
+   "path": "vie_Latn_5/train-00043-of-00050.parquet",
+   "size": 240688750,
+   "sha256": "25f110728182e0ac586b2522035d357601fe88ed07f24e9d0c946ba7453cf6fd"
+  },
+  {
+   "path": "vie_Latn_5/train-00044-of-00050.parquet",
+   "size": 233156453,
+   "sha256": "5820fdb7fed97cc87367f5acc8db7a5529f18e5a77f42539d85d9aa4bcd6c486"
+  },
+  {
+   "path": "vie_Latn_5/train-00045-of-00050.parquet",
+   "size": 233723991,
+   "sha256": "32f70130bc06b17d896696787ef219f1c2e23f07d7adde97d1e349a19af138b0"
+  },
+  {
+   "path": "vie_Latn_5/train-00046-of-00050.parquet",
+   "size": 228436362,
+   "sha256": "b2cd7dfef48f43e97121c1be18d5deb8d733c899fa9d7e82f8e4c982d1a4aa9a"
+  },
+  {
+   "path": "vie_Latn_5/train-00047-of-00050.parquet",
+   "size": 237614660,
+   "sha256": "95e607ca07a0680a5cb898a7e6a1b6dd6e6c154d8096b8727f506ca6f3689060"
+  },
+  {
+   "path": "vie_Latn_5/train-00048-of-00050.parquet",
+   "size": 239335400,
+   "sha256": "d5780fe48d6c3d495d7402adc86ced3c15b0870471febc63ed88a7bfa569bb3c"
+  },
+  {
+   "path": "vie_Latn_5/train-00049-of-00050.parquet",
+   "size": 225961893,
+   "sha256": "d015bc81b4c5b7bfa7cf21e9f499d76ae2cb57196e1652005999b966733a49b7"
+  }
+ ]
+}

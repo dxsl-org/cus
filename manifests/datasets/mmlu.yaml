@@ -1,0 +1,9 @@
+name: mmlu
+repo: cais/mmlu
+revision: c30699e8356da336a370243923dbaf21066bb9fe
+allow_patterns: ["all/*"]
+purpose: eval
+wave: 1
+license: mit
+usage_scope: blocked
+notes: Mốc đa ngôn ngữ/tiếng Anh. Không lấy auxiliary_train để train; toàn bộ đưa vào danh sách khử nhiễm.

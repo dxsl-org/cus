@@ -1,0 +1,21 @@
+source_id: vannghequandoi_com_vn
+adapter: listing
+rps: 0.5
+concurrency: 2
+params:
+  start_urls:
+    - "https://vannghequandoi.com.vn/binh-luan-van-nghe"
+    - "https://vannghequandoi.com.vn/binh-luan-van-nghe/phe-binh-van-nghe"
+    - "https://vannghequandoi.com.vn/binh-luan-van-nghe/diem-sach"
+    - "https://vannghequandoi.com.vn/binh-luan-van-nghe/dien-dan-van-nghe"
+    - "https://vannghequandoi.com.vn/binh-luan-van-nghe/trao-doi"
+    - "https://vannghequandoi.com.vn/van-xuoi"
+    - "https://vannghequandoi.com.vn/van-xuoi/tac-gia-tac-pham"
+    - "https://vannghequandoi.com.vn/van-xuoi/but-ki-phong-su"
+    - "https://vannghequandoi.com.vn/tho"
+    - "https://vannghequandoi.com.vn/van-hoc-nuoc-ngoai/phe-binh-van-hoc"
+    - "https://vannghequandoi.com.vn/vnqd-ket-noi/tu-lieu-vnqd"
+    - "https://vannghequandoi.com.vn/cua-so-van-nghe"
+    - "https://vannghequandoi.com.vn/ong-kinh-nha-van"
+  follow: '^$'
+  include: '^https://vannghequandoi\.com\.vn/[^?#]+_\d+\.html$'

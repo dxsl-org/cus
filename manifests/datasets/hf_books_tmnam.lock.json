@@ -1,0 +1,55 @@
+{
+ "name": "hf_books_tmnam",
+ "repo": "tmnam20/Vietnamese-Books-dedup",
+ "revision": "23edfecef664d265e49aa44edd847b8604264a0d",
+ "downloaded_at": "2026-11-20T01:11:25+00:00",
+ "local_dir": "raw/open_datasets/hf_books_tmnam",
+ "bytes": 1922216396,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 463,
+   "sha256": null
+  },
+  {
+   "path": "data/train-00000-of-00008-bf797173422ad04a.parquet",
+   "size": 290821786,
+   "sha256": "06fbd1aad0910b3e88032a1aa67de21af1b4fb28c7c4859a492979c23759f2c5"
+  },
+  {
+   "path": "data/train-00001-of-00008-347ade4f59319b68.parquet",
+   "size": 315671704,
+   "sha256": "44e0266995b5cb8a25dddf904c298baa423da11059fe9d7c76fae98b03d1e541"
+  },
+  {
+   "path": "data/train-00002-of-00008-98371fa880df4291.parquet",
+   "size": 232038799,
+   "sha256": "21f56bc69dc0a3c77bedca3b9f1558a24219bf965c988ff0176930574f9e961e"
+  },
+  {
+   "path": "data/train-00003-of-00008-2832317fb76c21af.parquet",
+   "size": 198213255,
+   "sha256": "07f3b7f2d9a2021e9a73b8e74d705cf9053bcdb1a4ae4d5e00e4ef0d8b1eab29"
+  },
+  {
+   "path": "data/train-00004-of-00008-9ff503f45c973b28.parquet",
+   "size": 215638335,
+   "sha256": "ebb4f799e1481bb96410fbf5b9074ca8cba55c1a087ad57cdc834cdcedfb3dec"
+  },
+  {
+   "path": "data/train-00005-of-00008-553cfe4cb002ddc0.parquet",
+   "size": 214639147,
+   "sha256": "ab41e343213ee6608d65193e5b2efe047db25868e887f70f4a4ee9a3a24bd617"
+  },
+  {
+   "path": "data/train-00006-of-00008-76b34f3977ac87de.parquet",
+   "size": 227904593,
+   "sha256": "a8fa87bdd9f5bde7f74cfe03aec00a7f60a9776f49729ff837a5918d3d9f4776"
+  },
+  {
+   "path": "data/train-00007-of-00008-3794a870d3644bad.parquet",
+   "size": 227288314,
+   "sha256": "c13b58fb479ff4424f70b01c255dbfd5fa03dcf3e0a92e79d8430754a23045f8"
+  }
+ ]
+}

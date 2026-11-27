@@ -1,0 +1,9 @@
+source_id: webketoan_com
+# XenForo 2.3 with ID-prefixed URLs (/threads/123-slug/), which the xenforo adapter does not
+# match (it expects slug.123). Use the sitemap adapter on thread URLs; each thread page = one doc.
+adapter: sitemap
+rps: 0.5
+concurrency: 2
+params:
+  sitemaps: ["https://webketoan.com/sitemap.php"]
+  include: '^https://webketoan\.com/threads/\d+-[^/?#]+/?$'

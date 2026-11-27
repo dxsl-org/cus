@@ -1,0 +1,20 @@
+{
+ "name": "sft_orca_dpo_vi",
+ "repo": "5CD-AI/Vietnamese-Intel-orca_dpo_pairs-gg-translated",
+ "revision": "e49ea6f9f46370fac2188091392a6f4657bda3c9",
+ "downloaded_at": "2026-11-20T02:26:33+00:00",
+ "local_dir": "raw/open_datasets/sft_orca_dpo_vi",
+ "bytes": 84731102,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 69,
+   "sha256": null
+  },
+  {
+   "path": "orca_rlhf_vi.json",
+   "size": 84731033,
+   "sha256": "3d820d2d51d5c237db661a2bb3d5dcec4ec3bc384975adb8806930431c0fe879"
+  }
+ ]
+}

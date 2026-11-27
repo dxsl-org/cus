@@ -1,0 +1,9 @@
+name: hf_phapdien_tmquan
+repo: tmquan/phapdien-moj-gov-vn
+revision: a1b6860c821b7142ffe2385178af4e4bb6f86aff
+allow_patterns: ["documents-*.parquet", "README.md", "analytics.json"]
+purpose: pretrain
+wave: 2
+license: vn-not-protected
+usage_scope: train_ok
+notes: ~66.000 điều luật từ Bộ Pháp điển Quốc gia (chỉ lấy documents, bỏ embeddings). Export qua pipeline.ingest.legal_open_export.

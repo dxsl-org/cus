@@ -1,0 +1,9 @@
+name: sft_uit_vihsd
+repo: ura-hcmut/UIT-ViHSD
+revision: 16c4f67cf509d4f9f36ca5b63c5503c7c8830557
+allow_patterns: ["*.csv", "README.md"]
+purpose: sft
+wave: 2
+license: unknown
+usage_scope: train_ok
+notes: "[SFT] UIT-ViHSD: Phát hiện ngôn từ thù ghét/độc hại (CLEAN/OFFENSIVE/HATE) cho guardrail."

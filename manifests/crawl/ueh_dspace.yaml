@@ -1,0 +1,6 @@
+source_id: ueh_dspace
+adapter: oai_pmh
+rps: 0.5
+concurrency: 1
+params:
+  endpoint: "https://digital.lib.ueh.edu.vn/oai/request"

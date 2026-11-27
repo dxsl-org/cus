@@ -1,0 +1,25 @@
+{
+ "name": "hf_news_namsyntax",
+ "repo": "NamSyntax/vietnamese-news-classification",
+ "revision": "b6ee76ee6ec15190c4c644ab102b29be5b082c1b",
+ "downloaded_at": "2026-11-19T21:42:02+00:00",
+ "local_dir": "raw/open_datasets/hf_news_namsyntax",
+ "bytes": 401119463,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 2618,
+   "sha256": null
+  },
+  {
+   "path": "data/train-00000-of-00002.parquet",
+   "size": 209303057,
+   "sha256": "9017e996ce591b7849e89e1fc07c226707264abee5a669b20e2dafff80c047a6"
+  },
+  {
+   "path": "data/train-00001-of-00002.parquet",
+   "size": 191813788,
+   "sha256": "2651c5261481c8a1176d37607c1f69cd34d2e6317417ed0b56aa6226251d1361"
+  }
+ ]
+}

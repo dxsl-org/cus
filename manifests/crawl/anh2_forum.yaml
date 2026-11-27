@@ -1,0 +1,9 @@
+source_id: anh2_forum
+# "Diễn đàn anh2" (≤2005, theo anh nhớ). Wayback có anh2.com (2003) và anh2.net (2004);
+# chưa xác minh nội dung vì web.archive.org đang trả 429 lúc thêm (2026-11-14).
+adapter: wayback
+rps: 0.1
+max_attempts: 10
+params:
+  url_patterns: ["anh2.com/*", "anh2.net/*"]
+  to: "20081231"

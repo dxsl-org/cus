@@ -1,0 +1,24 @@
+# Data never lives in git: corpora, raw WARC, books, exports.
+/data/
+*.db
+*.db-shm
+*.db-wal
+*.parquet
+*.warc.gz
+
+# Plans and agent artifacts stay local.
+/.agents/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Legacy crawler state, logs, scratch, secrets
+Craw-Web-Data/dataset/
+Craw-Web-Data/logs/
+Craw-Web-Data/tmp/
+Craw-Web-Data/progress_*.json
+Craw-Web-Data/scraped_*.json
+Craw-Web-Data/*cookies*.json

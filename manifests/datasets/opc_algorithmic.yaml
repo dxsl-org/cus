@@ -1,0 +1,11 @@
+name: opc_algorithmic
+repo: OpenCoder-LLM/opc-annealing-corpus
+revision: 078e4bc1d39725cccc18514d2e3278a3fe191110
+allow_patterns: ["algorithmic_corpus/[1-7].jsonl", "README.md"]
+purpose: pretrain
+wave: 2
+license: odc-by
+usage_scope: train_ok
+notes: "Bài thuật toán kèm lời giải Python (cấu trúc dữ liệu, giải thuật) từ corpus annealing của OpenCoder: file 1–7 là Python (0,46 GB); các ngôn ngữ khác ở file 8–54 chờ ổ 20 TB. Định dạng jsonl: open_dataset_export chưa đọc được, cần thêm reader trước khi chuyển canonical."
+default_crawl_time: "2024-11-01T00:00:00"
+fields: {text: text, meta: [type, lang]}

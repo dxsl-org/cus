@@ -1,0 +1,655 @@
+{
+ "name": "finemath_3plus",
+ "repo": "HuggingFaceTB/finemath",
+ "revision": "e92b25a616738fe95dc186b64dfb19f9c8525594",
+ "downloaded_at": "2026-11-22T05:59:19+00:00",
+ "local_dir": "raw/open_datasets/finemath_3plus",
+ "bytes": 65039209347,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 12402,
+   "sha256": null
+  },
+  {
+   "path": "finemath-3plus/train-00000-of-00128.parquet",
+   "size": 507607173,
+   "sha256": "a4f0e7e96b4f6af4a1b597c2fc4a42ec9a997c64ab7da96760c40582a0ac27a5"
+  },
+  {
+   "path": "finemath-3plus/train-00001-of-00128.parquet",
+   "size": 508028702,
+   "sha256": "bd85f5ae60cb8bcb2860cadf4e5b91098c6507ea2c38bbee6600f068f2b912ab"
+  },
+  {
+   "path": "finemath-3plus/train-00002-of-00128.parquet",
+   "size": 510782025,
+   "sha256": "16b5f961b88bc250d813f6f90d5db604e4956130087653b720550020ad48a7d3"
+  },
+  {
+   "path": "finemath-3plus/train-00003-of-00128.parquet",
+   "size": 510710993,
+   "sha256": "db1c6a70847bd76a926073260d047abf768c908bec4123321333c44e58c4c6ba"
+  },
+  {
+   "path": "finemath-3plus/train-00004-of-00128.parquet",
+   "size": 506975908,
+   "sha256": "a778005c8e1f1f0bc476ea1129b4eb4bb21c56aed9d7d30e8b6bfb9445d35f95"
+  },
+  {
+   "path": "finemath-3plus/train-00005-of-00128.parquet",
+   "size": 506751723,
+   "sha256": "56cc1b3f4545c831298923982d7cea915bc968f726fa202d2c456b06f0566b54"
+  },
+  {
+   "path": "finemath-3plus/train-00006-of-00128.parquet",
+   "size": 511957204,
+   "sha256": "32573c77791d2cccf86efff9b1aec0c5e52a7b7492bbb7fec5fd08fef119b075"
+  },
+  {
+   "path": "finemath-3plus/train-00007-of-00128.parquet",
+   "size": 506421083,
+   "sha256": "705076af7adc07231bc3d0417a75e15c54a7a7b39a62d1c4c9989d5c7e1ec999"
+  },
+  {
+   "path": "finemath-3plus/train-00008-of-00128.parquet",
+   "size": 506115361,
+   "sha256": "1dd5d9b57c83e5afe3cb038a8a1842c0913dd67cd806ca92338a4153548f4b35"
+  },
+  {
+   "path": "finemath-3plus/train-00009-of-00128.parquet",
+   "size": 509655554,
+   "sha256": "9ff2002c93e1c4014690d2301d77786f06b4c56b1a47dc2a2e5eeb6d642e0bc2"
+  },
+  {
+   "path": "finemath-3plus/train-00010-of-00128.parquet",
+   "size": 506226925,
+   "sha256": "a214ccf700ca2de0f5d51320bc1398636c4cc84b46274a0b765c725a868b78df"
+  },
+  {
+   "path": "finemath-3plus/train-00011-of-00128.parquet",
+   "size": 510112231,
+   "sha256": "1e8b7cfa2ef37e0b00fb68222267f4ae1adb84bc7bcc811d0761ee3d039086ba"
+  },
+  {
+   "path": "finemath-3plus/train-00012-of-00128.parquet",
+   "size": 509502362,
+   "sha256": "ad9f9e812e710a856620455bd75a06d5f26af634b48c3cf5b174aea13f0955e7"
+  },
+  {
+   "path": "finemath-3plus/train-00013-of-00128.parquet",
+   "size": 514287322,
+   "sha256": "625bf144f38818b28d16005222d9f61a130107c6c5656f1e87ff098d4b925968"
+  },
+  {
+   "path": "finemath-3plus/train-00014-of-00128.parquet",
+   "size": 507521347,
+   "sha256": "86d39b4d8068ca77be32a677ef9e6a71294c0a083544cc661f4ab0a80e0fa902"
+  },
+  {
+   "path": "finemath-3plus/train-00015-of-00128.parquet",
+   "size": 506164566,
+   "sha256": "33ae19c0aaa7470ed074722dad6544dd9ac2e75acb0f48e7084ad2757e0fde51"
+  },
+  {
+   "path": "finemath-3plus/train-00016-of-00128.parquet",
+   "size": 511761680,
+   "sha256": "92e1227ddb5e6755fd77c514cc50af83fed0cd773c8132fc3e8a42763cf5a2a6"
+  },
+  {
+   "path": "finemath-3plus/train-00017-of-00128.parquet",
+   "size": 510687478,
+   "sha256": "2b6367495804969d38055d1c19390250d1d5bb45b761802ee2bc621a077f04b9"
+  },
+  {
+   "path": "finemath-3plus/train-00018-of-00128.parquet",
+   "size": 506371948,
+   "sha256": "37acddedfdf4719ca26e0975514e78cb56c1faabfa5a1658afc3645136c10279"
+  },
+  {
+   "path": "finemath-3plus/train-00019-of-00128.parquet",
+   "size": 504981890,
+   "sha256": "d8aa9d91aba04776d7a860db4d0f086e86b5431454a5a3a7977ecb2ebd0a1e49"
+  },
+  {
+   "path": "finemath-3plus/train-00020-of-00128.parquet",
+   "size": 507447794,
+   "sha256": "544d655084dc638fa37fbaeb695297b8f51b30358b8ea174de0583c231e1cf8e"
+  },
+  {
+   "path": "finemath-3plus/train-00021-of-00128.parquet",
+   "size": 505634882,
+   "sha256": "cc991c82a2adf3da84087f2af4e653e85e73be9082ad9e3e69ceaf8b958031f5"
+  },
+  {
+   "path": "finemath-3plus/train-00022-of-00128.parquet",
+   "size": 508625085,
+   "sha256": "f5844a9cade60b07b757e096c6a93854a115bac92f294d7218ddb1dffe42018e"
+  },
+  {
+   "path": "finemath-3plus/train-00023-of-00128.parquet",
+   "size": 510162971,
+   "sha256": "292129b953df9692100d4cbba39ba06463df25ecd7c626e9a80c66734fbf3fdb"
+  },
+  {
+   "path": "finemath-3plus/train-00024-of-00128.parquet",
+   "size": 507761712,
+   "sha256": "5f4108775b92cfd3a6335138be84f009ab72ba95f75c49e1d43c135070f97629"
+  },
+  {
+   "path": "finemath-3plus/train-00025-of-00128.parquet",
+   "size": 508388654,
+   "sha256": "3a34f11cf685740d09f7615c224ed9ad221f72ed8db8e6b1f09879853817a561"
+  },
+  {
+   "path": "finemath-3plus/train-00026-of-00128.parquet",
+   "size": 508135460,
+   "sha256": "8b831bd7e672ae0ab87fb919bb97f33130e1e36bba5d2210096926277b97f083"
+  },
+  {
+   "path": "finemath-3plus/train-00027-of-00128.parquet",
+   "size": 505409240,
+   "sha256": "4a39b4c8eb017149c26fede2924b6feff4139760c52860eecd8486a2a7052007"
+  },
+  {
+   "path": "finemath-3plus/train-00028-of-00128.parquet",
+   "size": 503053872,
+   "sha256": "4d4794392e512671cf2d385dcd552fa33099ed8d7f9d047daf8d84b6b9ae73ce"
+  },
+  {
+   "path": "finemath-3plus/train-00029-of-00128.parquet",
+   "size": 505575767,
+   "sha256": "26f5aa2bf3b8e067659fcf6d4efa314b524a03a36d8af66d76efd109380b5382"
+  },
+  {
+   "path": "finemath-3plus/train-00030-of-00128.parquet",
+   "size": 506996627,
+   "sha256": "1d31fe6d522120f444f865545e81547131d15dc6c1c570e5d5a15e1cefa06096"
+  },
+  {
+   "path": "finemath-3plus/train-00031-of-00128.parquet",
+   "size": 512322023,
+   "sha256": "637ed12accf2446ad3eeed15a7702cac789fcbbfb92745d52a0b756fd542d40d"
+  },
+  {
+   "path": "finemath-3plus/train-00032-of-00128.parquet",
+   "size": 503115333,
+   "sha256": "ccee4ee43f1c8acffd7bafdf1cf4a887d1bda923fa68eec2f34bc82fc69e0a99"
+  },
+  {
+   "path": "finemath-3plus/train-00033-of-00128.parquet",
+   "size": 505174522,
+   "sha256": "d9caf9858931584795b88716a788aae17a5a1b652f500077dc0aae64d6790a8e"
+  },
+  {
+   "path": "finemath-3plus/train-00034-of-00128.parquet",
+   "size": 508205092,
+   "sha256": "ecf55534d36547198210d584f623eb0ef1a0ce5cf494d138b547ddf571c8838c"
+  },
+  {
+   "path": "finemath-3plus/train-00035-of-00128.parquet",
+   "size": 505640974,
+   "sha256": "433f22f011af63d5e149439ac322bf6a975a436e73c481521e883be0bb8c8739"
+  },
+  {
+   "path": "finemath-3plus/train-00036-of-00128.parquet",
+   "size": 509331460,
+   "sha256": "4cd53ba6787553666a48541d0c0a157e6aaf3f06b9335cf76675b4ca1c998fd8"
+  },
+  {
+   "path": "finemath-3plus/train-00037-of-00128.parquet",
+   "size": 513958236,
+   "sha256": "9f3e3e696b5a022e3bda4fa38041adbbd1752cd618c7a23ddb6cf05f6affde5c"
+  },
+  {
+   "path": "finemath-3plus/train-00038-of-00128.parquet",
+   "size": 501844842,
+   "sha256": "f0ad8dc33b9842e606b3fddf2c5307178b80872ae261a693974c7d9f88b5ab30"
+  },
+  {
+   "path": "finemath-3plus/train-00039-of-00128.parquet",
+   "size": 508982152,
+   "sha256": "eb885afe1b2ab1c580ca862d9507476603788ab1ebadf1de4cb491ef31473bda"
+  },
+  {
+   "path": "finemath-3plus/train-00040-of-00128.parquet",
+   "size": 513922008,
+   "sha256": "ed975e742c3bc1cbdad2492ecadc52f810d259889a481c4abb9550ec795bd0ed"
+  },
+  {
+   "path": "finemath-3plus/train-00041-of-00128.parquet",
+   "size": 511723118,
+   "sha256": "1bfa0fd346fcb1af7a07489e1fd9412cee3645c2e47686c19540c9073b9cda43"
+  },
+  {
+   "path": "finemath-3plus/train-00042-of-00128.parquet",
+   "size": 508901026,
+   "sha256": "53de6cab2f3c8712997bf599bc21b469ad43c949b5fb10720c9690abd1897e27"
+  },
+  {
+   "path": "finemath-3plus/train-00043-of-00128.parquet",
+   "size": 506058299,
+   "sha256": "fd1c551de35630132d997d5efa29ee6be563f1e07554997800106db13f3f8453"
+  },
+  {
+   "path": "finemath-3plus/train-00044-of-00128.parquet",
+   "size": 504587829,
+   "sha256": "05f78dc6f840c8e361cedc0f255c496d85ca7f9237a8da4b9932bea9026cdf3a"
+  },
+  {
+   "path": "finemath-3plus/train-00045-of-00128.parquet",
+   "size": 502367259,
+   "sha256": "9a913da418db11a8e821b588e0e2a28ed8370db79ce9beaae1865a26db806e20"
+  },
+  {
+   "path": "finemath-3plus/train-00046-of-00128.parquet",
+   "size": 502737277,
+   "sha256": "8a8d70ebc3c965146fbc1c965936ce5068eb22844de624fd74e8b95b9df04dc5"
+  },
+  {
+   "path": "finemath-3plus/train-00047-of-00128.parquet",
+   "size": 510788265,
+   "sha256": "b7ccb99130ae6fa225523fcafc0fe9e83604aac982698a9b484a8b4004de699c"
+  },
+  {
+   "path": "finemath-3plus/train-00048-of-00128.parquet",
+   "size": 501754465,
+   "sha256": "d8b872f4d38cbdb42215fc46ca7be23a7f5f684beab0592d6677df7aa4a2774f"
+  },
+  {
+   "path": "finemath-3plus/train-00049-of-00128.parquet",
+   "size": 512828261,
+   "sha256": "e4988be706b71d2eea81a21ba7d54892245f1b230fbce6f036856a75ad9e319d"
+  },
+  {
+   "path": "finemath-3plus/train-00050-of-00128.parquet",
+   "size": 506698065,
+   "sha256": "fb5ecb9b18fdc88404743e1d51ddec8d273d13387de9569f1affad2d91c85229"
+  },
+  {
+   "path": "finemath-3plus/train-00051-of-00128.parquet",
+   "size": 504921224,
+   "sha256": "97bea439b5baeebad17dd4e8c5cade5d9c31db8333245b2a7aa576017b01866d"
+  },
+  {
+   "path": "finemath-3plus/train-00052-of-00128.parquet",
+   "size": 504832807,
+   "sha256": "37c31adba65520626ceb261270ba190771f2bebc581d01c9b12379d4eb8d3648"
+  },
+  {
+   "path": "finemath-3plus/train-00053-of-00128.parquet",
+   "size": 509227959,
+   "sha256": "36c469a7a4d1944d51f6dd33e7d21f82fe90498d4420bc867f4cd44e0561cd9e"
+  },
+  {
+   "path": "finemath-3plus/train-00054-of-00128.parquet",
+   "size": 511579268,
+   "sha256": "7890c1c5dc33948f5bd9586743fab8dd9856734416fe661abfbf19ba70e9842e"
+  },
+  {
+   "path": "finemath-3plus/train-00055-of-00128.parquet",
+   "size": 513804618,
+   "sha256": "15133978f7a45f015558af514eaecb25ea3a5734a06b98022349ee179f9c7ed6"
+  },
+  {
+   "path": "finemath-3plus/train-00056-of-00128.parquet",
+   "size": 501920872,
+   "sha256": "aba90176482dd762756db58adf08f2230597398d659b83bd74e9ea31104e6d5d"
+  },
+  {
+   "path": "finemath-3plus/train-00057-of-00128.parquet",
+   "size": 508597553,
+   "sha256": "5b37162b4f5627141525150bc4f53347fdc9b60b49b3b8793b4b5adf41e72996"
+  },
+  {
+   "path": "finemath-3plus/train-00058-of-00128.parquet",
+   "size": 502823598,
+   "sha256": "e043bfb39ccf15a16072900d06b0d136eff5c2b9240982a9f492cae601d44b85"
+  },
+  {
+   "path": "finemath-3plus/train-00059-of-00128.parquet",
+   "size": 508517860,
+   "sha256": "b8c8181c5eb90c8990fdf6ae750be48c825f8275e8bdbaf964f0d52f9b5496b6"
+  },
+  {
+   "path": "finemath-3plus/train-00060-of-00128.parquet",
+   "size": 509875747,
+   "sha256": "bd3cd83485035de35b23e98c75937794c74d3cbaeddfee4bf4c1d1a065b05f53"
+  },
+  {
+   "path": "finemath-3plus/train-00061-of-00128.parquet",
+   "size": 503219567,
+   "sha256": "c75dc53a48b038ab0249f4ec5b785e08fd14ea0bcfa1de21b06a029253b2a2ab"
+  },
+  {
+   "path": "finemath-3plus/train-00062-of-00128.parquet",
+   "size": 506852545,
+   "sha256": "9a22f9379c48c8c0629eaa904fe9e4ee3c2fe24b870965029343a0e67f548852"
+  },
+  {
+   "path": "finemath-3plus/train-00063-of-00128.parquet",
+   "size": 512129742,
+   "sha256": "0fbd7645a555edb15126fc11121665483491dc2fb5ff55e678fc03282d65077a"
+  },
+  {
+   "path": "finemath-3plus/train-00064-of-00128.parquet",
+   "size": 515986744,
+   "sha256": "ada28972e0beb1d04f46db5b89ebfd077f0bdb573e1ae212aa4b8f78f90e94e1"
+  },
+  {
+   "path": "finemath-3plus/train-00065-of-00128.parquet",
+   "size": 515380586,
+   "sha256": "3d1d961daa969cf0c823deec5cd4b44f10f7e3b9f17465d7ff7869896baf07b6"
+  },
+  {
+   "path": "finemath-3plus/train-00066-of-00128.parquet",
+   "size": 504012139,
+   "sha256": "ac271f45a4468cb3d239303bdc13dd0c4735e1550d0d5ae7648bcbe4ee486d4f"
+  },
+  {
+   "path": "finemath-3plus/train-00067-of-00128.parquet",
+   "size": 508158044,
+   "sha256": "b5a3336c1a9b05beac4a4603d844b4350a90ed59635d51ee806ff60aea2b705f"
+  },
+  {
+   "path": "finemath-3plus/train-00068-of-00128.parquet",
+   "size": 501780032,
+   "sha256": "e8c1a50fa3f8270c831198d75e338d5170764bd9089e3e34bc9ea743082200de"
+  },
+  {
+   "path": "finemath-3plus/train-00069-of-00128.parquet",
+   "size": 510801064,
+   "sha256": "d31a18ff4f7383c9c50cc0c5ebe7b92b6382ac2006b90679e174115aad5655cc"
+  },
+  {
+   "path": "finemath-3plus/train-00070-of-00128.parquet",
+   "size": 507144150,
+   "sha256": "b11ee199cbfbb335a997d3f8557d03badbfb61780f9009c0dca674dfca923363"
+  },
+  {
+   "path": "finemath-3plus/train-00071-of-00128.parquet",
+   "size": 508001215,
+   "sha256": "969e92df1aabe9d3de27e6f6a523e3285d3f4888452e0552e874bdef35dfc328"
+  },
+  {
+   "path": "finemath-3plus/train-00072-of-00128.parquet",
+   "size": 510737678,
+   "sha256": "7cf6f01586beaacfe052d7a3bf46d95389d18d855969af0fb430faafed8c103a"
+  },
+  {
+   "path": "finemath-3plus/train-00073-of-00128.parquet",
+   "size": 504529200,
+   "sha256": "5197868634d389430109377e5ba4267164850705c2f134bfeba069edfd1f35f4"
+  },
+  {
+   "path": "finemath-3plus/train-00074-of-00128.parquet",
+   "size": 511759554,
+   "sha256": "404eeb678736be10855b98914bfcc0343f8ddcfb3ca1570246b4a82eefe3e4c4"
+  },
+  {
+   "path": "finemath-3plus/train-00075-of-00128.parquet",
+   "size": 508783841,
+   "sha256": "ae7eaf03062cbf9302718e8875882928cb2cb6bc17e247ef708e439a5b910908"
+  },
+  {
+   "path": "finemath-3plus/train-00076-of-00128.parquet",
+   "size": 503424134,
+   "sha256": "03d33b84787967448c8ec3e8e0139d9b8d045d0b8dc62027e05c2536c0e477aa"
+  },
+  {
+   "path": "finemath-3plus/train-00077-of-00128.parquet",
+   "size": 510663476,
+   "sha256": "d9c80c60875b2452514e55f41ee8ffccc635b819fe96c58c9516140672d022a7"
+  },
+  {
+   "path": "finemath-3plus/train-00078-of-00128.parquet",
+   "size": 506203867,
+   "sha256": "8f705b4c5d065385dd9944e8d7d8beb735b160c7c7308eef1e4b13688b9c447b"
+  },
+  {
+   "path": "finemath-3plus/train-00079-of-00128.parquet",
+   "size": 503565837,
+   "sha256": "d32acfcaf9f2760c0ebd3198a9912010fa5790a2e7b475172ea0602dc30fbd6e"
+  },
+  {
+   "path": "finemath-3plus/train-00080-of-00128.parquet",
+   "size": 508428148,
+   "sha256": "089528d7caf1a1037ba4eb000a591c3b2b959c201a56cb8ab91853a035a63af4"
+  },
+  {
+   "path": "finemath-3plus/train-00081-of-00128.parquet",
+   "size": 511094374,
+   "sha256": "32014ae0d4d2321900eaf950e111d7a2749b422f2f34e9c86b234096674717c2"
+  },
+  {
+   "path": "finemath-3plus/train-00082-of-00128.parquet",
+   "size": 509319346,
+   "sha256": "17ae2d39e024f29c0f153f91c4c0a7b623f9a8a84b11f75c1b5385d568e611f4"
+  },
+  {
+   "path": "finemath-3plus/train-00083-of-00128.parquet",
+   "size": 500161843,
+   "sha256": "a8c9826aa8e2cd5442e639d927fdfde11c80aafa0b75a5c0edd5d06e39c14d96"
+  },
+  {
+   "path": "finemath-3plus/train-00084-of-00128.parquet",
+   "size": 509391921,
+   "sha256": "71d1d0412cefce7633140708b990f75b303e5dcd4265e7205282e13ee09241a0"
+  },
+  {
+   "path": "finemath-3plus/train-00085-of-00128.parquet",
+   "size": 509058220,
+   "sha256": "06bf698810ce884eb203680461cd9ce0917ae1a083bbaea93b24c2aee15af461"
+  },
+  {
+   "path": "finemath-3plus/train-00086-of-00128.parquet",
+   "size": 506580183,
+   "sha256": "bacc506102ff523a4f55816a704b6ba586c8988da914895195ee17c856d8c561"
+  },
+  {
+   "path": "finemath-3plus/train-00087-of-00128.parquet",
+   "size": 510713692,
+   "sha256": "d16528ad10dd6a19ac69e98224a5391ac5f3552ee3308463e378f9307213b2a9"
+  },
+  {
+   "path": "finemath-3plus/train-00088-of-00128.parquet",
+   "size": 509308150,
+   "sha256": "6b9d8e3871b62c65e34e71ea2467d0f5671c7764246032440e9e0e3c2e9ced0b"
+  },
+  {
+   "path": "finemath-3plus/train-00089-of-00128.parquet",
+   "size": 511595850,
+   "sha256": "5077f33c77637ff38e1858eb39160d45a1ee97918ad63d7323a54b952bae04f6"
+  },
+  {
+   "path": "finemath-3plus/train-00090-of-00128.parquet",
+   "size": 508250699,
+   "sha256": "8cd8261ed4f442e95b5b6b7bd56de190cbab8d569a91d69dcf9069c3c1132278"
+  },
+  {
+   "path": "finemath-3plus/train-00091-of-00128.parquet",
+   "size": 510783581,
+   "sha256": "70fd17f66ae66bf4f18febc8ffb575518611f5cbed5680afd9d401e95ede35aa"
+  },
+  {
+   "path": "finemath-3plus/train-00092-of-00128.parquet",
+   "size": 512255244,
+   "sha256": "d617ee1857455d8abcb4339c9afc86a4311dfc0b33a72dd46a2e89c30561bf2f"
+  },
+  {
+   "path": "finemath-3plus/train-00093-of-00128.parquet",
+   "size": 504347740,
+   "sha256": "80f64bb341970b23a09f78b732386afe8b51df38654abb1b3eec063179ae3729"
+  },
+  {
+   "path": "finemath-3plus/train-00094-of-00128.parquet",
+   "size": 507545798,
+   "sha256": "9fdf8eb59cdfbcd65b96af5bc435a8bf3ac140d05680629ecede587192c04cff"
+  },
+  {
+   "path": "finemath-3plus/train-00095-of-00128.parquet",
+   "size": 508994780,
+   "sha256": "3cb954b8021270c4e849b99ef2069ae5831b3b1c2d738439a74990eb5c515a77"
+  },
+  {
+   "path": "finemath-3plus/train-00096-of-00128.parquet",
+   "size": 509062125,
+   "sha256": "41ee6bacc8e3a46a9f6c49e5800fcba541f0d89752f3887be5019661065ec512"
+  },
+  {
+   "path": "finemath-3plus/train-00097-of-00128.parquet",
+   "size": 509798272,
+   "sha256": "ffc1b5e24c8aead4c1f0b705dbbd8a9b0da2619003ab9cd8aca7017ef99b2729"
+  },
+  {
+   "path": "finemath-3plus/train-00098-of-00128.parquet",
+   "size": 509974819,
+   "sha256": "e377267221920f5f2c567a29944930b05e26ccf3a7c16d09313f6b3ef6fe75cc"
+  },
+  {
+   "path": "finemath-3plus/train-00099-of-00128.parquet",
+   "size": 511955659,
+   "sha256": "74146cfd7f78b8b519c31e281f58d9a3fdb1525d6405bb38a90773009d2e9110"
+  },
+  {
+   "path": "finemath-3plus/train-00100-of-00128.parquet",
+   "size": 506978894,
+   "sha256": "98d8da23b07ae067bdabaf7a7940ed08ed62d9312bcbcb86f1e085050990b83e"
+  },
+  {
+   "path": "finemath-3plus/train-00101-of-00128.parquet",
+   "size": 499795078,
+   "sha256": "cc5b19e50e172c5fd95b748c851c9ab794deff89d86d244da2046832c0bca1ed"
+  },
+  {
+   "path": "finemath-3plus/train-00102-of-00128.parquet",
+   "size": 506113144,
+   "sha256": "f7f8950b98e849f6e4592838a5a3cf699d632e49e11714f8bc2ca746190f1e55"
+  },
+  {
+   "path": "finemath-3plus/train-00103-of-00128.parquet",
+   "size": 515186720,
+   "sha256": "8fddb46be4491a9bb81af548b69ae121912df8989d82e6def34d593aaa42e4d6"
+  },
+  {
+   "path": "finemath-3plus/train-00104-of-00128.parquet",
+   "size": 508878479,
+   "sha256": "ac7ca6df68047fc87542911908e57741eaa3eb18245a9ae946271beb09b30d0b"
+  },
+  {
+   "path": "finemath-3plus/train-00105-of-00128.parquet",
+   "size": 508605161,
+   "sha256": "e7df50b3935049246df780871ee6ebdbca8fdd80cd32b908f8cbbfa9ad361eb3"
+  },
+  {
+   "path": "finemath-3plus/train-00106-of-00128.parquet",
+   "size": 505567778,
+   "sha256": "1eb3e16ecf24358b3f242a2295e08fdbba7bef2e5c12510871e7df6e85c1e91f"
+  },
+  {
+   "path": "finemath-3plus/train-00107-of-00128.parquet",
+   "size": 503679176,
+   "sha256": "51db0cb1f91c74af39c02716b73b573afe668b1608fd3f9a143082980f7a9b14"
+  },
+  {
+   "path": "finemath-3plus/train-00108-of-00128.parquet",
+   "size": 507940948,
+   "sha256": "60369a74900a99d3f8f27673937b8a1e7cde416fcb9293dad85c041df8a2556e"
+  },
+  {
+   "path": "finemath-3plus/train-00109-of-00128.parquet",
+   "size": 514443995,
+   "sha256": "dbb2fbf8d3127edeff8837e815724c365a93b1d28c2b3d1ab3a58d68dd8ac774"
+  },
+  {
+   "path": "finemath-3plus/train-00110-of-00128.parquet",
+   "size": 509537692,
+   "sha256": "c8e268deeab45f752b45af93caac02adc55cc55d1e54f1313c7c9075d521efd5"
+  },
+  {
+   "path": "finemath-3plus/train-00111-of-00128.parquet",
+   "size": 510344870,
+   "sha256": "b134679adb7cd05f627e4714384231fdb7aeecc36018dfb2cfe6df2889609af3"
+  },
+  {
+   "path": "finemath-3plus/train-00112-of-00128.parquet",
+   "size": 508740642,
+   "sha256": "eb215104378c275be3ef650d98b813829a02cfb6f71e906ed326fc325f75af7a"
+  },
+  {
+   "path": "finemath-3plus/train-00113-of-00128.parquet",
+   "size": 509608209,
+   "sha256": "bc3a5fbafc40a62eea2937e8820fa1a446b7d11f3b8cba195c9ba97df461b9a3"
+  },
+  {
+   "path": "finemath-3plus/train-00114-of-00128.parquet",
+   "size": 508335929,
+   "sha256": "cdad81ed40c2fcb4ea5a63d1e4bb11035d2730c42ab1312e6eeebbfed288c920"
+  },
+  {
+   "path": "finemath-3plus/train-00115-of-00128.parquet",
+   "size": 511250364,
+   "sha256": "3d82fb7e61034748a913972366892335909fe16fc84735c0e013172986d37d38"
+  },
+  {
+   "path": "finemath-3plus/train-00116-of-00128.parquet",
+   "size": 505136089,
+   "sha256": "7e355b5e5cee5b31f10ef810d3d5bcf31991cde068960c2bb7359f52b13251b8"
+  },
+  {
+   "path": "finemath-3plus/train-00117-of-00128.parquet",
+   "size": 507893216,
+   "sha256": "83c85fde5ce75e168359b3d3212418bf4bb9c23e3c87208b600d24ac5ad2bb6c"
+  },
+  {
+   "path": "finemath-3plus/train-00118-of-00128.parquet",
+   "size": 504148254,
+   "sha256": "f6935dcf321481a3bb9267bf07232bfcf2e7bff16d2c591064f2291b2f5c0896"
+  },
+  {
+   "path": "finemath-3plus/train-00119-of-00128.parquet",
+   "size": 507688128,
+   "sha256": "14ebd9a607b998da170c6d8088a2564673a06ec82bd1b3840fe616b4388a2d80"
+  },
+  {
+   "path": "finemath-3plus/train-00120-of-00128.parquet",
+   "size": 507811337,
+   "sha256": "6e581cc979cf1d687c9ba6c627320b11755f47c993d7395d0494cda892364846"
+  },
+  {
+   "path": "finemath-3plus/train-00121-of-00128.parquet",
+   "size": 508581927,
+   "sha256": "f33f1e601bf819d237abc20266540320a7cf0a8360fda2b071c4acac2abf11b7"
+  },
+  {
+   "path": "finemath-3plus/train-00122-of-00128.parquet",
+   "size": 506184632,
+   "sha256": "3c5edcd7581c04351c2da94b392ca1c9987104ea2a50f5fbca27ad4b90c325b8"
+  },
+  {
+   "path": "finemath-3plus/train-00123-of-00128.parquet",
+   "size": 512022565,
+   "sha256": "28a4605cd624e2a8707c5e3acc7dca0e6ab27367615be2fa82ffa38a9b1cd5e0"
+  },
+  {
+   "path": "finemath-3plus/train-00124-of-00128.parquet",
+   "size": 510783212,
+   "sha256": "50a062052d098c6cf73e7b45129336302472d6249ccbaaee46f5a350c07ebac3"
+  },
+  {
+   "path": "finemath-3plus/train-00125-of-00128.parquet",
+   "size": 507403399,
+   "sha256": "7d010cc8ddc3faf0aca4611043312f2701c63dacf0b485509801a31f38dacba9"
+  },
+  {
+   "path": "finemath-3plus/train-00126-of-00128.parquet",
+   "size": 508991175,
+   "sha256": "dd3cf8479ae53a23728d9e3ec5d49faa649be2ec54a7b1fecca1dbb82d2b0333"
+  },
+  {
+   "path": "finemath-3plus/train-00127-of-00128.parquet",
+   "size": 508934522,
+   "sha256": "c5542b7ae0ce5309c757a733586d5e507f4d1dc2e8ea461073d3a0385d027a30"
+  }
+ ]
+}

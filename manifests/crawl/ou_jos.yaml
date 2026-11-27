@@ -1,0 +1,6 @@
+source_id: ou_jos
+adapter: oai_pmh
+rps: 0.5
+concurrency: 1
+params:
+  endpoint: "https://journalofscience.ou.edu.vn/index.php/index/oai"

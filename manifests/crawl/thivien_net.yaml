@@ -1,0 +1,7 @@
+source_id: thivien_net
+adapter: sitemap
+rps: 0.5
+concurrency: 2
+params:
+  sitemaps: ["https://www.thivien.net/_sitemapidx.xml"]
+  include: '^https://www\.thivien\.net/(?!poem-\d+/member-)[^?#]+/poem-[A-Za-z0-9_-]+$'

@@ -1,0 +1,30 @@
+{
+ "name": "sft_uit_vihsd",
+ "repo": "ura-hcmut/UIT-ViHSD",
+ "revision": "16c4f67cf509d4f9f36ca5b63c5503c7c8830557",
+ "downloaded_at": "2026-11-20T02:26:36+00:00",
+ "local_dir": "raw/open_datasets/sft_uit_vihsd",
+ "bytes": 2241877,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 274,
+   "sha256": null
+  },
+  {
+   "path": "ViHSD_test.csv",
+   "size": 442399,
+   "sha256": null
+  },
+  {
+   "path": "ViHSD_train.csv",
+   "size": 1622378,
+   "sha256": null
+  },
+  {
+   "path": "ViHSD_validation.csv",
+   "size": 176826,
+   "sha256": null
+  }
+ ]
+}

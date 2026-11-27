@@ -1,0 +1,13 @@
+name: hf_corpus_tiennv
+repo: tiennv/vietnamese-corpus
+revision: 2cb9dc80ba0f4394ff1e9e7d72c82068cdbf4f88
+allow_patterns: ["data/train-*", "README.md"]
+purpose: pretrain
+wave: 2
+license: unknown
+usage_scope: train_ok
+notes: "19,23M đoạn văn tiếng Việt sạch tổng hợp từ báo chí và đời sống từ tiennv (~4,2 GB parquet, 25 file)."
+default_crawl_time: "2024-01-01T00:00:00"
+fields:
+  id: null
+  text: text

@@ -1,0 +1,14 @@
+name: hf_lit_moa
+repo: moa/Chinese-Vietnamese-literature
+revision: e24a1c862f03466ef35f345ee34661e1b4e4b6e6
+allow_patterns: ["dataset_zh_vi.parquet", "README.md"]
+purpose: pretrain
+wave: 2
+license: cc-by-sa-4.0
+usage_scope: train_ok
+notes: "396.307 đoạn văn học cổ điển (Tam Quốc, Tây Du Ký, Hồng Lâu Mộng) gióng hàng song ngữ Trung-Việt do dịch giả con người dịch chuẩn."
+default_crawl_time: "2024-01-01T00:00:00"
+fields:
+  id: null
+  text: vi
+  meta: [zh]

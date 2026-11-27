@@ -1,0 +1,90 @@
+{
+ "name": "hf_news_tiennv",
+ "repo": "tiennv/vietnamese-news",
+ "revision": "9e8bcf16206e744ea76b1c5271a908fb4bd3a45a",
+ "downloaded_at": "2026-11-20T01:04:29+00:00",
+ "local_dir": "raw/open_datasets/hf_news_tiennv",
+ "bytes": 15141328397,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 459,
+   "sha256": null
+  },
+  {
+   "path": "data/train-00000-of-00015-34b2a17d2693d331.parquet",
+   "size": 1009063428,
+   "sha256": "12c187d3ae159285509c7e0e7616462bbd76ee6538bbb4f3d5b1dd88a63e709e"
+  },
+  {
+   "path": "data/train-00001-of-00015-955200f16a15b649.parquet",
+   "size": 1009441249,
+   "sha256": "0111c2b8885daac686dd3c39cd3cdfced5d2dc6c9a0fd57c405b83ea36f0d371"
+  },
+  {
+   "path": "data/train-00002-of-00015-1e648e6de7dd94d0.parquet",
+   "size": 1009476617,
+   "sha256": "abb5672ee844e930472f2e7eba936f557d519fd711b80642257c31a05556c995"
+  },
+  {
+   "path": "data/train-00003-of-00015-fc6ab5b67326277d.parquet",
+   "size": 1009425306,
+   "sha256": "1c2bf3f6517c79fb45ca4c223a804fca29f929568d8d171c9d975a38e1e3627d"
+  },
+  {
+   "path": "data/train-00004-of-00015-08ffde5112204d45.parquet",
+   "size": 1009751429,
+   "sha256": "f165e1edeca02b85c0c609460efa9335c69e5ac65851e456318cacad0ecd8c3d"
+  },
+  {
+   "path": "data/train-00005-of-00015-fce106aa0e6cd17b.parquet",
+   "size": 1009681752,
+   "sha256": "fb98297d48a30c0b35c3814410c7c4a2b8f727f643d0b2de9797f7cb24e8a578"
+  },
+  {
+   "path": "data/train-00006-of-00015-0361105fde3673ba.parquet",
+   "size": 1009406191,
+   "sha256": "9da251738c0188cbd3466e47ee28a7414205c2fdf7d24410e9b0a122793f79e1"
+  },
+  {
+   "path": "data/train-00007-of-00015-26e4df75764da7f7.parquet",
+   "size": 1009295900,
+   "sha256": "76234e5a3e5c999de470c3fd155bff749d7e249a9ac58d16defbf879d09bba9f"
+  },
+  {
+   "path": "data/train-00008-of-00015-6cdd34585979c93a.parquet",
+   "size": 1009470628,
+   "sha256": "c9d3f3a80f239a8f1a5da124cc6e20cf5bfe8290a0c7651b13c0a2d66fa545de"
+  },
+  {
+   "path": "data/train-00009-of-00015-e4f845d571e55b48.parquet",
+   "size": 1009586917,
+   "sha256": "e0ce1f2ff0291329f54d4d2db8e96bb51cf6af54c6551eb41cff5c319d1f6c42"
+  },
+  {
+   "path": "data/train-00010-of-00015-4b0f89c941cec94a.parquet",
+   "size": 1009187045,
+   "sha256": "a646a4278473ecec130cb789870fa5684b68301dc01ab628e05dc3201bc5c8a7"
+  },
+  {
+   "path": "data/train-00011-of-00015-0aeb3b23497d1fc8.parquet",
+   "size": 1009528839,
+   "sha256": "63ff16466f1f77c72eacbb2b07bd348e1d7bb442c21f2adde1795a378e040270"
+  },
+  {
+   "path": "data/train-00012-of-00015-c27428dbd8d40eda.parquet",
+   "size": 1009373393,
+   "sha256": "df969048b0f09b2c3de000373ed25874c3c2235d898675982b06ccb663a72495"
+  },
+  {
+   "path": "data/train-00013-of-00015-e97258a686024f0b.parquet",
+   "size": 1009292022,
+   "sha256": "2e20f5f01d50ab0880183f4714ed20e49c20ca9fab27a85c2004c07bc1f90818"
+  },
+  {
+   "path": "data/train-00014-of-00015-df702b4ec1d770a0.parquet",
+   "size": 1009347222,
+   "sha256": "85e3e3703802d86ff2f1b092118e5e131747ee582730800bf7be7b482194bd57"
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+source_id: ctu_jos
+adapter: oai_pmh
+rps: 0.5
+concurrency: 1
+params:
+  endpoint: "https://ctujsvn.ctu.edu.vn/index.php/ctujsvn/oai"

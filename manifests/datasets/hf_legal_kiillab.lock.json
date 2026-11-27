@@ -1,0 +1,55 @@
+{
+ "name": "hf_legal_kiillab",
+ "repo": "kiil-lab/vietnamese-law-corpus",
+ "revision": "0325cacb1c6ca0c9bb3bd414cb4585b5bae19f10",
+ "downloaded_at": "2026-11-20T01:49:41+00:00",
+ "local_dir": "raw/open_datasets/hf_legal_kiillab",
+ "bytes": 1376117967,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 323,
+   "sha256": null
+  },
+  {
+   "path": "data/train-00000-of-00008.parquet",
+   "size": 192180906,
+   "sha256": "7f82deb1f86824e3e81e4c2e18d71c3b5c5296489badb07eef93b1565f8ea469"
+  },
+  {
+   "path": "data/train-00001-of-00008.parquet",
+   "size": 171881459,
+   "sha256": "ea80cdbd7c74436abe5f386a6e0884e9908ed0e003464006196b0bb07f8bbb77"
+  },
+  {
+   "path": "data/train-00002-of-00008.parquet",
+   "size": 140279197,
+   "sha256": "f5016954804bbf0998785317c26031dde4ef5349570b2ce0c6d27886ebc81ddb"
+  },
+  {
+   "path": "data/train-00003-of-00008.parquet",
+   "size": 147873419,
+   "sha256": "64eb85aa9480fdc9477c638b819b91b3fba0784ac5a92bf3e4e8251ec7bbb982"
+  },
+  {
+   "path": "data/train-00004-of-00008.parquet",
+   "size": 212830009,
+   "sha256": "a3fccf0032dba5fbfde9a6df06aa4ca852c05db5931a99e6871f179a9621fec0"
+  },
+  {
+   "path": "data/train-00005-of-00008.parquet",
+   "size": 187390502,
+   "sha256": "201d16e9390b27f6c8627487f1a56189dabe3f95e9e304c1f29ac21c7c90abbd"
+  },
+  {
+   "path": "data/train-00006-of-00008.parquet",
+   "size": 158661528,
+   "sha256": "4d5e16b81f5ee8fc2a567359c6e5f624757eaf01b2bc261ed82422c0808d05f8"
+  },
+  {
+   "path": "data/train-00007-of-00008.parquet",
+   "size": 165020624,
+   "sha256": "03524ae0e69660e5c6fb145e44818a72d7d63731d0bb0e0e5bf16ff0d24665d0"
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+source_id: tapchiyhocvietnam_vn
+adapter: oai_pmh
+rps: 0.5
+concurrency: 1
+params:
+  endpoint: "https://tapchiyhocvietnam.vn/index.php/vmj/oai"

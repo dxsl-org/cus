@@ -1,0 +1,11 @@
+source_id: caphesach_wordpress_com
+# WordPress.com: sitemap.xml keeps only the newest 1000 posts, public-api.wordpress.com
+# robots.txt disallows all, site-local /wp-json is 404, plain clients get a JS challenge.
+# -> walk monthly archives /YYYY/MM/page/N/ with a Chrome TLS fingerprint.
+adapter: listing
+client: impersonate
+rps: 0.5
+params:
+  month_archive: {pattern: "https://caphesach.wordpress.com/{yyyy}/{mm}/", from: "2008-01"}
+  follow: '/\d{4}/\d{2}/page/\d+/$'
+  include: '/\d{4}/\d{2}/\d{2}/[^/]+/$'

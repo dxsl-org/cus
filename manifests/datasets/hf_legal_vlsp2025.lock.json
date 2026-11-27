@@ -1,0 +1,135 @@
+{
+ "name": "hf_legal_vlsp2025",
+ "repo": "VLSP2025-LegalSML/legal-pretrain",
+ "revision": "e30b20a9c504cd48be4da16e1ebc276cbee75a9b",
+ "downloaded_at": "2026-11-19T08:51:35+00:00",
+ "local_dir": "raw/open_datasets/hf_legal_vlsp2025",
+ "bytes": 1795332929,
+ "files": [
+  {
+   "path": "README.md",
+   "size": 3270,
+   "sha256": null
+  },
+  {
+   "path": "data/train-00000-of-00024.parquet",
+   "size": 92142887,
+   "sha256": "711a2e4ee62506af8967ee12e20d6d580b025f3e112e88808c8792f7bdb3bbbf"
+  },
+  {
+   "path": "data/train-00001-of-00024.parquet",
+   "size": 71422983,
+   "sha256": "7df8c9be2b65d216192f2227324fd659827ac5818d79fec378db8564652a31c6"
+  },
+  {
+   "path": "data/train-00002-of-00024.parquet",
+   "size": 56572446,
+   "sha256": "26e606a6137491f73ae8e3e97a86d3c33fab2aefd438c961ab9d280866b44e84"
+  },
+  {
+   "path": "data/train-00003-of-00024.parquet",
+   "size": 76924318,
+   "sha256": "d984a2f005cd898fadb26cb44ae63ef6d7432b3688492486f09531ecd4ddb2f8"
+  },
+  {
+   "path": "data/train-00004-of-00024.parquet",
+   "size": 67340205,
+   "sha256": "e145a1f39c869f990de4492bc193fa4b86edd03a62cf0c4f1028f6e33f5f3a63"
+  },
+  {
+   "path": "data/train-00005-of-00024.parquet",
+   "size": 93786543,
+   "sha256": "aba8a4052881f0aebf6009263a13b92a7ec7a7a769f2bab4c99c163376ec8795"
+  },
+  {
+   "path": "data/train-00006-of-00024.parquet",
+   "size": 76080115,
+   "sha256": "86a86d6281e88c3064c62d0a86d234d2b80200651ff38e36864a662cf51754d3"
+  },
+  {
+   "path": "data/train-00007-of-00024.parquet",
+   "size": 49813392,
+   "sha256": "ed8986fdb56bcd56ad6824900b5ae22900e5b360a9fc3b8c5eae4a1ef95e56d8"
+  },
+  {
+   "path": "data/train-00008-of-00024.parquet",
+   "size": 86722777,
+   "sha256": "cee1dae2c2c66f496f8ffabd2b0fa537a05dc1dfb94a338512b295e9741bf67e"
+  },
+  {
+   "path": "data/train-00009-of-00024.parquet",
+   "size": 96854197,
+   "sha256": "dc778735800b3f386016bf86632ec7e46d0e8447835af6acc695cbe199a6a226"
+  },
+  {
+   "path": "data/train-00010-of-00024.parquet",
+   "size": 75443670,
+   "sha256": "21fbb557cca8640e91bed7812c5fc2aca48d842284f50e857a80b05d549145f9"
+  },
+  {
+   "path": "data/train-00011-of-00024.parquet",
+   "size": 56454367,
+   "sha256": "fc005b2d5d3672fbc2062440a7004cc0213b36f77923e44f574cd796f983720c"
+  },
+  {
+   "path": "data/train-00012-of-00024.parquet",
+   "size": 57404914,
+   "sha256": "0dab28bd1a3ead015fcc6674153a8cc5768a7597f9975e7bb36063f4d66ff0c4"
+  },
+  {
+   "path": "data/train-00013-of-00024.parquet",
+   "size": 64064755,
+   "sha256": "a72c49881b5438d9366fd79ee25527cf2a5798720c095fb3bf3c1e49b8ad8dc4"
+  },
+  {
+   "path": "data/train-00014-of-00024.parquet",
+   "size": 74777625,
+   "sha256": "6a405e01686ae5829b40058390effa08bba274616cac29f5c49cfaf615fc5398"
+  },
+  {
+   "path": "data/train-00015-of-00024.parquet",
+   "size": 60711595,
+   "sha256": "8f65cbfaa999a7aa8c102f33077888f7de4fb1d162202fc327a4716322637edd"
+  },
+  {
+   "path": "data/train-00016-of-00024.parquet",
+   "size": 52915008,
+   "sha256": "69e223895dceda0259f3ae35bc7802b3d451ebfced83289da167dd7ca8c8aac0"
+  },
+  {
+   "path": "data/train-00017-of-00024.parquet",
+   "size": 62404160,
+   "sha256": "07daf90f45a2afd38d051952a80e45e76dcb8c8fa873961d7f2a39a62272447e"
+  },
+  {
+   "path": "data/train-00018-of-00024.parquet",
+   "size": 71989792,
+   "sha256": "cf5166bef6479e82ae12b107fa4d3878b01623bc9e1ae513fb7012a2d8ca5420"
+  },
+  {
+   "path": "data/train-00019-of-00024.parquet",
+   "size": 102923009,
+   "sha256": "d3b77706c614aa7bdc10a8c17c7a80279bdd35fc1be6fc06f7e8e9459a6ded6b"
+  },
+  {
+   "path": "data/train-00020-of-00024.parquet",
+   "size": 79511316,
+   "sha256": "2ba1df5dd26de42311ff6fa21cf20a5bfc228d425e0e19a9d11fa5288e7eacc8"
+  },
+  {
+   "path": "data/train-00021-of-00024.parquet",
+   "size": 82429072,
+   "sha256": "1ddbd03da63adb126428089f59051643c263c55d7b0399f99ea785c4805d720c"
+  },
+  {
+   "path": "data/train-00022-of-00024.parquet",
+   "size": 84230964,
+   "sha256": "49c3f0f891f3408e4e918a86a41c08cbcf59d9f5775555f5bc7b6b1e422a1b06"
+  },
+  {
+   "path": "data/train-00023-of-00024.parquet",
+   "size": 102409549,
+   "sha256": "76db2509492ec77452521a6544f9ba74c8bfbecfa63cb549475ccd01b40fedee"
+  }
+ ]
+}

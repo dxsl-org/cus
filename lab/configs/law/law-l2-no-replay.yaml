@@ -1,0 +1,12 @@
+# Phase 17 step 6, L2: L1 without replay (law only): how much general ability is forgotten.
+model: {d_model: 768, n_layers: 12, n_heads: 12, n_kv_heads: 4}
+train:
+  name: law-l2-no-replay
+  init_from: dense-m
+  mix: {law: 1.0}
+  total_tokens: 3.0e8
+  batch_tokens: 524288
+  micro_batch: 8
+  lr: 6.0e-4
+  warmup_steps: 50
+  eval_every: 100

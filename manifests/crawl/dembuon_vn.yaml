@@ -1,0 +1,6 @@
+source_id: dembuon_vn
+adapter: xenforo
+rps: 1.0
+params:
+  base: "https://dembuon.vn"
+  forums: ["/forums/"]

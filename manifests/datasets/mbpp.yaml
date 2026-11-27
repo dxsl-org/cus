@@ -1,0 +1,9 @@
+name: mbpp
+repo: google-research-datasets/mbpp
+revision: 4bb6404fdc6cacfda99d4ac4205087b89d32030c
+allow_patterns: ["full/*", "sanitized/*", "README.md"]
+purpose: eval
+wave: 1
+license: cc-by-4.0
+usage_scope: blocked
+notes: Code. Phase 11 sẽ dịch đề sang tiếng Việt.
