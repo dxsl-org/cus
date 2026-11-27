@@ -100,6 +100,9 @@ Toàn bộ lệnh, kể cả pipeline dữ liệu và crawler: [docs/ingest-runb
 
 - **Corpus train của lab:** 4,73B token tiếng Việt, 9 domain (web, tin tức, luật, văn học, tham khảo, forum, y tế, văn hoá – lịch sử, giáo dục). Corpus đã khử trùng lặp, và đã khử nhiễm với mọi bộ eval đã đóng băng. Schema: [docs/data-contract.md](docs/data-contract.md).
 - **`evalset-v2`:** 18.984 câu, gồm `vn_facts` (1.077 câu dữ kiện Việt Nam, đã kiểm chứng), Global-MMLU tiếng Việt (14.042 câu), cùng các nhóm đa ngôn ngữ, kiến thức Việt Nam, đọc hiểu, code, ngôn ngữ, luật và toán. Chấm theo cloze (so log-likelihood của nội dung đáp án), nên dùng được cả với model nền nhỏ.
+- **Công bố trên Hugging Face:**
+  - [DXSL/cus-vi-open](https://huggingface.co/datasets/DXSL/cus-vi-open): khoảng 397 nghìn tài liệu (2,25 GB văn bản) có license mở do pipeline này làm ra: văn bản quy phạm pháp luật từ vbpl.vn, Wikipedia và các dự án Wikimedia tiếng Việt khác, VNOI Wiki. Đã che thông tin cá nhân và khử nhiễm eval. Phần báo, diễn đàn, sách có bản quyền chỉ dùng nội bộ.
+  - [DXSL/cus-eval-public](https://huggingface.co/datasets/DXSL/cus-eval-public): các câu eval không thuộc holdout, từ nguồn có license mở (Global-MMLU, HumanEval, MBPP), đúng định dạng harness chấm. Các câu tự soạn (`vn_facts`, luật, toán, ngôn ngữ) là holdout, không công bố.
 
 ## Nhật ký thí nghiệm
 
